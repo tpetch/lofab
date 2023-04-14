@@ -1,0 +1,29 @@
+2023-03-30 23:11:39,369 : INFO : root : Loading config.
+2023-03-30 23:11:39,779 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/config_spec.mpf_cache
+2023-03-30 23:11:39,779 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-03-30 23:11:39,779 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tpetch/Documents/trashland_3/config/config.yaml
+2023-03-30 23:11:39,779 : INFO : ConfigProcessor : Loading config from file /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
+2023-03-30 23:11:39,850 : INFO : ConfigProcessor : Loading config: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2023-03-30 23:11:39,851 : INFO : ConfigProcessor : Loading config from file /Users/tpetch/Documents/trashland_3/config/config.yaml.
+2023-03-30 23:11:39,981 : INFO : ConfigProcessor : Loading config: /Users/tpetch/Documents/trashland_3/config/config.yaml
+2023-03-30 23:11:39,984 : INFO : ConfigProcessor : Config file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/28c67afebeedf0bcd540f5dc9898a885.mpf_cache
+2023-03-30 23:11:40,057 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/0c88cc6e742c1d6ff62a4ddd2bb23fa0.mpf_cache
+2023-03-30 23:11:40,057 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/d3948d842c6309f14ab557c3c72320d0.mpf_cache
+2023-03-30 23:11:40,058 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.1.dev4
+2023-03-30 23:11:40,058 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2023-03-30-23-11-39-mpf-Tanners-MacBook-Pro-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-03-30 23:11:40,058 : INFO : Machine : MPF path: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf
+2023-03-30 23:11:40,058 : INFO : Machine : Machine path: /Users/tpetch/Documents/trashland_3
+2023-03-30 23:11:40,058 : INFO : Machine : Platform: darwin
+2023-03-30 23:11:40,058 : INFO : Machine : Python executable location: /Users/tpetch/.local/pipx/venvs/mpf/bin/python
+2023-03-30 23:11:40,058 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-03-30 23:11:40,072 : INFO : Machine : Initialise MPF.
+2023-03-30 23:11:40,169 : INFO : [NET] : Trying to connect to /dev/tty.usbmodem14101 at 921600bps
+2023-03-30 23:11:40,175 : INFO : [NET] : Connected to /dev/tty.usbmodem14101 at 921600bps
+2023-03-30 23:11:45,350 : INFO : Machine : Starting the main run loop.
+2023-03-30 23:11:45,351 : INFO : Machine : Shutting down...
+2023-03-30 23:11:45,351 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-03-30 23:11:45,686 : WARNING : [NET] : Serial connection is not open. Cannot send message: b'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                '
+2023-03-30 23:11:45,686 : WARNING : [NET] : Serial connection is not open. Cannot send message: b'\r'
+2023-03-30 23:11:46,186 : WARNING : [NET] : Serial connection is not open. Cannot send message: b'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                '
+2023-03-30 23:11:46,186 : WARNING : [NET] : Serial connection is not open. Cannot send message: b'\r'
+2023-03-30 23:11:46,456 : INFO : root : MPF run loop ended.

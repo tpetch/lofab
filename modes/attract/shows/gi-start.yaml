@@ -1,0 +1,10 @@
+#show_version=5
+
+    - lights:
+       gi: green-f1s
+       insert: yellow-f1s
+      duration: 2s
+    - lights:
+       gi: yellow-f1s
+       insert: green-f1s
+      duration: 2s

@@ -1,0 +1,1281 @@
+#config_version=5
+
+  
+hardware:
+  platform: fast
+
+playfields:
+  playfield:
+    default_source_device: bd_plunger
+    tags: default
+    
+widget_styles:
+  text_default:
+    font_size: 21
+    color: red
+    
+displays:
+  window:
+    width: 1280
+    height: 390
+    
+window:
+    width: 1280
+    height: 390
+    resizable: false
+    fullscreen: true
+    borderless: true
+    source_display: window
+    
+slides:
+  welcome_slide:
+    widgets:
+      - type: text
+        text: PINBALL BY TPETCH
+        color: green
+        
+slide_player:
+  init_done: welcome_slide
+
+modes:
+  - attract
+  - start_ball_save
+
+shows:
+
+    
+
+
+fast:
+  net:
+    port: /dev/tty.usbmodem141401
+    controller: neuron
+    io_loop:
+      b_cabinet:
+        model: FP-I/O-0804
+        order: 1
+      b_mini_lower:
+        model: FP-I/O-0804
+        order: 2
+      b_lower_third:
+        model: FP-I/O-3208
+        order: 3
+      b_middle:
+        model: FP-I/O-1616
+        order: 4
+      b_back:
+        model: FP-I/O-3208
+        order: 5
+        
+  exp:
+    port: /dev/tty.usbmodem141403
+    boards: 
+      pf:
+        model: FP-EXP-0081
+
+
+
+
+    
+lights:
+
+# Chain 1 - Rear Left
+
+  l_gi_1:
+    number: pf-1-1
+    tags: gi
+  l_gi_2:
+    number: pf-1-2
+    tags: gi
+  l_gi_3:
+    number: pf-1-3
+    tags: gi
+  l_gi_4:
+    number: pf-1-4
+    tags: gi
+  l_outlane_left:
+    number: pf-1-5
+    tags: insert
+  l_lower_interchange:
+    number: pf-1-6
+    tags: insert
+  l_inlane_left:
+    number: pf-1-7
+    tags: insert
+  l_gi_5:
+    number: pf-1-8
+    tags: gi
+  l_gi_6:
+    number: pf-1-9
+    tags: gi
+  l_gi_7:
+    number: pf-1-10
+    tags: gi
+  l_gi_8:
+    number: pf-1-11
+    tags: gi
+  l_gi_9:
+    number: pf-1-12
+    tags: gi
+  l_gi_10:
+    number: pf-1-13
+    tags: gi
+  l_multiball_complete_1:
+    number: pf-1-14
+    tags: insert
+  l_multiball_complete_2:
+    number: pf-1-15
+    tags: insert
+  l_multiball_complete_3:
+    number: pf-1-16
+    tags: insert
+  l_multiball_wizard:
+    number: pf-1-17
+    tags: insert
+  l_ramp_left_character:
+    number: pf-1-18
+    tags: insert
+  l_orbit_left_character:
+    number: pf-1-19
+    tags: insert
+  l_orbit_left_arrow_top:
+    number: pf-1-20
+    tags: insert
+  l_orbit_left_arrow_bot:
+    number: pf-1-21
+    tags: insert
+  l_orbit_left_jackpot:
+    number: pf-1-22
+    tags: insert
+  l_ramp_left_start_mode:
+    number: pf-1-23
+    tags: insert
+  l_ramp_left_jackpot:
+    number: pf-1-24
+    tags: insert
+  l_ramp_left_arrow_bot:
+    number: pf-1-25
+    tags: insert
+  l_ramp_left_arrow_top:
+    number: pf-1-26
+    tags: insert
+  l_gi_11:
+    number: pf-1-27
+    tags: gi
+  l_gi_12:
+    number: pf-1-28
+    tags: gi
+  l_gi_13:
+    number: pf-1-29
+    tags: gi
+  l_drop_mid_left:
+    number: pf-1-30
+    tags: insert
+  l_drop_mid_center:
+    number: pf-1-31
+    tags: insert
+  l_drop_mid_right:
+    number: pf-1-32
+    tags: insert
+
+# Chain 2 - Rear Right
+
+  l_orbit_center_character:
+    number: pf-2-1
+    tags: insert
+  l_orbit_right_character:
+    number: pf-2-2
+    tags: insert
+  l_orbit_right_jackpot:
+    number: pf-2-3
+    tags: insert
+  l_orbit_right_arrow_top:
+    number: pf-2-4
+    tags: insert
+  l_orbit_right_orbit_bot:
+    number: pf-2-5
+    tags: insert
+  l_orbit_center_jackpot:
+    number: pf-2-6
+    tags: insert
+  l_orbit_center_arrow_bot:
+    number: pf-2-7
+    tags: insert
+  l_orbit_center_arrow_top:
+    number: pf-2-8
+    tags: insert
+  l_gi_14:
+    number: pf-2-9
+    tags: gi
+  l_gi_15:
+    number: pf-2-10
+    tags: gi
+  l_rollover_right_1:
+    number: pf-2-11
+    tags: insert
+  l_rollover_right_2:
+    number: pf-2-12
+    tags: insert
+  l_rollover_right_3:
+    number: pf-2-13
+    tags: insert
+  l_rollover_right_4:
+    number: pf-2-14
+    tags: insert
+  l_rollover_left_1:
+    number: pf-2-15
+    tags: insert
+  l_rollover_left_2:
+    number: pf-2-16
+    tags: insert
+  l_rollover_left_3:
+    number: pf-2-17
+    tags: insert
+  l_rollover_left_4:
+    number: pf-2-18
+    tags: insert
+  l_gi_16:
+    number: pf-2-19
+    tags: gi
+  l_gi_17:
+    number: pf-2-20
+    tags: gi
+  l_gi_18:
+    number: pf-2-21
+    tags: gi
+  l_shot_right_arrow_top:
+    number: pf-2-22
+    tags: insert
+  l_shot_right_arrow_bot:
+    number: pf-2-23
+    tags: insert
+  l_shot_right_jackpot:
+    number: pf-2-24
+    tags: insert
+  l_shot_right_start_mode:
+    number: pf-2-25
+    tags: insert
+  l_mystery:
+    number: pf-2-26
+    tags: insert
+  l_drop_right_right:
+    number: pf-2-27
+    tags: insert
+  l_drop_right_left:
+    number: pf-2-28
+    tags: insert
+  l_gi_19:
+    number: pf-2-29
+    tags: gi
+  l_gi_20:
+    number: pf-2-30
+    tags: gi
+  l_gi_21:
+    number: pf-2-31
+    tags: gi
+  l_gi_22:
+    number: pf-2-32
+    tags: gi
+   
+# Chain 3 - Character 2
+
+  l_mini_wizard_1:
+    number: pf-3-1
+    tags: insert
+  l_final_wizard:
+    number: pf-3-2
+    tags: insert
+  l_mini_wizard_2:
+    number: pf-3-3
+    tags: insert
+  l_character_2_mode_1_1:
+    number: pf-3-4
+    tags: insert
+  l_character_2_mode_1_2:
+    number: pf-3-5
+    tags: insert
+  l_character_2_mode_1_3:
+    number: pf-3-6
+    tags: insert
+  l_character_2_mode_1_4:
+    number: pf-3-7
+    tags: insert
+  l_character_2_mode_1_5:
+    number: pf-3-8
+    tags: insert
+  l_character_2_mode_2_5:
+    number: pf-3-9
+    tags: insert
+  l_character_2_mode_2_4:
+    number: pf-3-10
+    tags: insert
+  l_character_2_mode_2_3:
+    number: pf-3-11
+    tags: insert
+  l_character_2_mode_2_2:
+    number: pf-3-12
+    tags: insert
+  l_character_2_mode_2_1:
+    number: pf-3-13
+    tags: insert
+  l_character_2_main-9:
+    number: pf-3-14
+    tags: insert
+  l_character_2_main-7:
+    number: pf-3-15
+    tags: insert
+  l_character_2_main-6:
+    number: pf-3-16
+    tags: insert
+  l_character_2_main-8:
+    number: pf-3-17
+    tags: insert
+  l_character_2_main-1:
+    number: pf-3-18
+    tags: insert
+  l_character_2_main-3:
+    number: pf-3-19
+    tags: insert
+  l_character_2_main-5:
+    number: pf-3-20
+    tags: insert
+  l_character_2_main-4:
+    number: pf-3-21
+    tags: insert
+  l_character_2_main-2:
+    number: pf-3-22
+    tags: insert
+  l_gi_24:
+    number: pf-3-23
+    tags: insert
+  l_gi_25:
+    number: pf-3-24
+    tags: insert
+  l_outlane_right:
+    number: pf-3-25
+    tags: insert
+  l_inlane_right:
+    number: pf-3-26
+    tags: insert
+  l_gi_27:
+    number: pf-3-27
+    tags: insert
+  l_gi_28:
+    number: pf-3-28
+    tags: insert
+  l_gi_29:
+    number: pf-3-29
+    tags: insert
+  l_gi_30:
+    number: pf-3-30
+    tags: insert
+    
+# Chain 4 - Character 4
+
+  l_character_4_mode_1_1:
+    number: pf-4-1
+    tags: insert
+  l_character_4_mode_1_2:
+    number: pf-4-2
+  l_character_4_mode_1_3:
+    number: pf-4-3
+  l_character_4_mode_1_4:
+    number: pf-4-4
+  l_character_4_mode_1_5:
+    number: pf-4-5
+    tags: insert
+  l_character_4_mode_2_5:
+    number: pf-4-6
+    tags: insert
+  l_character_4_mode_2_4:
+    number: pf-4-7
+  l_character_4_mode_2_3:
+    number: pf-4-8
+  l_character_4_mode_2_2:
+    number: pf-4-9
+  l_character_4_mode_2_1:
+    number: pf-4-10
+    tags: insert
+  l_character_4_main-9:
+    number: pf-4-11
+    tags: insert
+  l_character_4_main-7:
+    number: pf-4-12
+  l_character_4_main-6:
+    number: pf-4-13
+  l_character_4_main-8:
+    number: pf-4-14
+  l_character_4_main-1:
+    number: pf-4-15
+    tags: insert
+  l_character_4_main-3:
+    number: pf-4-16
+  l_character_4_main-5:
+    number: pf-4-17
+    tags: insert
+  l_character_4_main-4:
+    number: pf-4-18
+  l_character_4_main-2:
+    number: pf-4-19
+  l_l_target_far:
+    number: pf-4-20
+    tags: insert
+  l_l_trough_interchange:
+    number: pf-4-21
+    tags: insert
+  l_l_target_large:
+    number: pf-4-22
+    tags: insert
+  l_l_d:
+    number: pf-4-23
+    tags: insert
+  l_l_n:
+    number: pf-4-24
+    tags: insert
+  l_l_a:
+    number: pf-4-25
+    tags: insert
+  l_l_l:
+    number: pf-4-26
+    tags: insert
+  l_l_target_right:
+    number: pf-4-27
+    tags: insert
+  l_l_rollover_1:
+    number: pf-4-28
+    tags: insert
+  l_l_rollover_2:
+    number: pf-4-29
+    tags: insert
+  l_l_rollover_3:
+    number: pf-4-30
+    tags: insert
+  l_l_rollover_4:
+    number: pf-4-31
+    tags: insert
+  l_l_target_left:
+    number: pf-4-32
+    tags: insert
+
+    
+# Chain 5 - Character 1
+
+  l_character_1_mode_2_5:
+    number: pf-5-1
+    tags: insert
+  l_character_1_mode_2_4:
+    number: pf-5-2
+  l_character_1_mode_2_3:
+    number: pf-5-3
+  l_character_1_mode_2_2:
+    number: pf-5-4
+  l_character_1_mode_2_1:
+    number: pf-5-5
+    tags: insert
+  l_character_1_mode_1_1:
+    number: pf-5-6
+    tags: insert
+  l_character_1_mode_1_2:
+    number: pf-5-7
+  l_character_1_mode_1_3:
+    number: pf-5-8
+  l_character_1_mode_1_4:
+    number: pf-5-9
+  l_character_1_mode_1_5:
+    number: pf-5-10
+    tags: insert
+  l_character_1_main-1:
+    number: pf-5-11
+    tags: insert
+  l_character_1_main-3:
+    number: pf-5-12
+  l_character_1_main-4:
+    number: pf-5-13
+  l_character_1_main-2:
+    number: pf-5-14
+  l_character_1_main-9:
+    number: pf-5-15
+    tags: insert
+  l_character_1_main-7:
+    number: pf-5-16
+  l_character_1_main-5:
+    number: pf-5-17
+    tags: insert
+  l_character_1_main-6:
+    number: pf-5-18
+  l_character_1_main-8:
+    number: pf-5-19
+    
+    
+# Chain 6 - Character 3
+
+  l_character_3_mode_2_5:
+    number: pf-6-1
+    tags: insert
+  l_character_3_mode_2_4:
+    number: pf-6-2
+  l_character_3_mode_2_3:
+    number: pf-6-3
+  l_character_3_mode_2_2:
+    number: pf-6-4
+  l_character_3_mode_2_1:
+    number: pf-6-5
+    tags: insert
+  l_character_3_mode_1_1:
+    number: pf-6-6
+    tags: insert
+  l_character_3_mode_1_2:
+    number: pf-6-7
+  l_character_3_mode_1_3:
+    number: pf-6-8
+  l_character_3_mode_1_4:
+    number: pf-6-9
+  l_character_3_mode_1_5:
+    number: pf-6-10
+    tags: insert
+  l_character_3_main-1:
+    number: pf-6-11
+    tags: insert
+  l_character_3_main-3:
+    number: pf-6-12
+  l_character_3_main-4:
+    number: pf-6-13
+  l_character_3_main-2:
+    number: pf-6-14
+  l_character_3_main-9:
+    number: pf-6-15
+    tags: insert
+  l_character_3_main-7:
+    number: pf-6-16
+  l_character_3_main-5:
+    number: pf-6-17
+    tags: insert
+  l_character_3_main-6:
+    number: pf-6-18
+  l_character_3_main-8:
+    number: pf-6-19
+  l_shoot_again:
+    number: pf-6-20
+
+    
+
+  
+    
+
+
+  
+
+
+
+# Chain - Backboard Main
+
+  l_b_character:
+    number: pf-7-1
+    tags: insert
+  l_b_start_mode:
+    number: pf-7-2
+    tags: insert
+  l_b_shot_arrow_bot:
+    number: pf-7-3
+    tags: insert
+  l_b_shot_arrow_top:
+    number: pf-7-4
+    tags: insert
+  l_b_lock_arrow:
+    number: pf-7-5
+    tags: insert
+  l_b_lock_circle:
+    number: pf-7-6
+    tags: insert
+  l_b_left_target:
+    number: pf-7-7
+    tags: insert
+  l_b_right_target:
+    number: pf-7-8
+    tags: insert
+  l_b_rollover_misc_1:
+    number: pf-7-9
+    tags: insert
+  l_b_rollover_misc_2:
+    number: pf-7-10
+    tags: insert
+  l_b_rollover_misc_3:
+    number: pf-7-11
+    tags: insert
+  l_b_rollover_misc_4:
+    number: pf-7-12
+    tags: insert
+  l_b_loop_1:
+    number: pf-7-13
+    tags: insert
+  l_b_rollover_loop_1:
+    number: pf-7-14
+    tags: insert
+  l_b_rollover_loop_2:
+    number: pf-7-15
+    tags: insert
+  l_b_rollover_loop_3:
+    number: pf-7-16
+    tags: insert
+  l_b_rollover_loop_4:
+    number: pf-7-17
+    tags: insert
+  l_b_loop_2:
+    number: pf-7-18
+    tags: insert
+  l_b_loop_3:
+    number: pf-7-19
+    tags: insert
+  l_b_loop_4:
+    number: pf-7-20
+    tags: insert
+  l_b_loop_5:
+    number: pf-7-21
+    tags: insert
+  l_b_interchange_circle:
+    number: pf-7-22
+    tags: insert
+  l_b_interchange_arrow:
+    number: pf-7-23
+    tags: insert
+  l_b_gi_1:
+    number: pf-7-24
+    tags: gi
+  l_b_gi_2:
+    number: pf-7-25
+    tags: gi
+  l_b_rollover_interchange_1:
+    number: pf-7-26
+    tags: insert
+  l_b_rollover_interchange_2:
+    number: pf-7-27
+    tags: insert
+  l_b_rollover_interchange_3:
+    number: pf-7-28
+    tags: insert
+  l_b_rollover_interchange_4:
+    number: pf-7-29
+    tags: insert
+  l_b_gi_3:
+    number: pf-7-30
+    tags: gi
+  l_b_gi_4:
+    number: pf-7-31
+    tags: gi
+  l_b_gi_5:
+    number: pf-7-32
+    tags: gi
+    
+# Chain - Upper Mini
+
+  l_b_upper_interchange:
+    number: pf-8-1
+    tags: insert
+  l_u_rollover_1:
+    number: pf-8-2
+    tags: insert
+  l_u_rollover_2:
+    number: pf-8-3
+    tags: insert
+  l_u_rollover_3:
+    number: pf-8-4
+    tags: insert
+  l_u_rollover_4:
+    number: pf-8-5
+    tags: insert
+  l_u_t:
+    number: pf-8-6
+    tags: insert
+  l_u_r:
+    number: pf-8-7
+    tags: insert
+  l_u_a:
+    number: pf-8-8
+    tags: insert
+  l_u_s:
+    number: pf-8-9
+    tags: insert
+  l_u_h:
+    number: pf-8-10
+    tags: insert
+  l_u_double:
+    number: pf-8-11
+    tags: insert
+  l_u_lane_left:
+    number: pf-8-12
+    tags: insert
+  l_u_lane_right:
+    number: pf-8-13
+    tags: insert
+
+
+
+    
+
+        
+        
+ 
+  
+  
+  
+
+  
+
+switches:
+
+# Board 0 - Cabinet Board
+
+  s_left_flipper_1:
+    number: b_cabinet-2
+    tags: left_flipper
+  s_left_flipper_2:
+    number: b_cabinet-3
+  s_right_flipper_1:
+    number: b_cabinet-0
+    tags: right_flipper
+  s_right_flipper_2:
+    number: b_cabinet-1
+  s_tilt:
+    number: b_cabinet-5
+    tags: tilt_warning
+  s_launch:
+    number: b_cabinet-4
+    tags:
+  s_start:
+    number: b_cabinet-6
+    tags: start
+    
+    
+# Board 1 - Lower Mini PLayfield
+
+
+  s_l_target_large:
+    number: b_mini_lower-4
+    tags: playfield_active
+  s_l_target_far:
+    number: b_mini_lower-3
+    tags: playfield_active
+  s_l_target_left:
+    number: b_mini_lower-1
+    tags: playfield_active
+  s_l_target_right:
+    number: b_mini_lower-2
+    tags: playfield_active
+  s_l_rollover:
+    number: b_mini_lower-5
+    tags: playfield_active
+  s_l_vuk:
+    number: b_mini_lower-0
+    
+    
+# Board 2 - Lower Third
+
+  s_inlane_left:
+    number: b_lower_third-0
+    tags: playfield_active
+    type: 'NC'
+  s_inlane_right:
+    number: b_lower_third-2
+    tags: playfield_active
+    type: 'NC'
+  s_outlane_left:
+    number: b_lower_third-1
+    tags: playfield_active
+    type: 'NC'
+  s_outlane_right:
+    number: b_lower_third-3
+    tags: playfield_active
+    type: 'NC'
+  
+  s_trough_jam:
+    number: b_lower_third-14
+    type: 'NC'
+  s_trough_1:
+    number: b_lower_third-13
+    type: 'NC'
+  s_trough_2:
+    number: b_lower_third-12
+    type: 'NC'
+  s_trough_3:
+    number: b_lower_third-11
+    type: 'NC'
+  s_trough_4:
+    number: b_lower_third-10
+    type: 'NC'
+  s_trough_5:
+    number: b_lower_third-9
+    type: 'NC'
+  s_trough_6:
+    number: b_lower_third-8
+    type: 'NC'
+    
+  s_autolauncher:
+    number: b_lower_third-16
+    
+  s_flip_right_eos:
+    number: b_lower_third-26
+    type: 'NC'
+  s_flip_left_eos:
+    number: b_lower_third-25
+    type: 'NC'
+  s_flip_left_top_eos:
+    number: b_lower_third-24
+    type: 'NC'
+
+# Board 3 - Middle
+
+  s_sling_right:
+    number: b_middle-0
+  s_sling_left:
+    number: b_middle-2
+  s_pop_lower:
+    number: b_middle-1
+  s_pop_left:
+    number: b_middle-3
+  s_drop_scoop:
+    number: b_middle-4
+    type: 'NC'
+  s_drop_mid_left:
+    number: b_middle-5
+  s_drop_mid_center:
+    number: b_middle-6
+  s_drop_mid_right:
+    number: b_middle-7
+    
+  s_vuk_right:
+    number: b_middle-8
+    type: 'NC'  
+  s_drop_right_right:
+    number: b_middle-9
+  s_drop_right_left:
+    number: b_middle-10
+  s_drop_single:
+    number: b_middle-11
+  s_rollover_right:
+    number: b_middle-12
+  s_rollover_left:
+    number: b_middle-14
+  s_pop_right:
+    number: b_middle-13
+
+    
+    
+# Board 4 - Back + Upper
+
+  s_vuk_back:
+    number: b_back-2
+    type: 'NC'
+  s_b_rollover_loop:
+    number: b_back-3
+  s_b_rollover_misc:
+    number: b_back-4
+  s_b_eos:
+    number: b_back-0
+    type: 'NC'
+  s_b_pop:
+    number: b_back-1
+  s_b_target_right:
+    number: b_back-6
+  s_b_target_left:
+    number: b_back-7
+  s_b_rollover_interchange:
+    number: b_back-5
+    
+  s_lock_1:
+    number: b_back-24
+    type: 'NC'
+  s_lock_2:
+    number: b_back-25
+    type: 'NC'
+  s_lock_3:
+    number: b_back-26
+    type: 'NC'
+    
+  s_u_rollover:
+    number: b_back-8
+  s_u_target:
+    number: b_back-9
+  s_u_lane_r:
+    number: b_back-10
+  s_u_lane_l:
+    number: b_back-11
+
+  
+    
+coils:
+
+# Board 1 - Cabinet
+
+  c_shaker:
+    number: b_cabinet-0
+    default_pulse_ms: 1
+    default_hold_power: 0.125
+
+# Board 2 - Lower Mini
+
+  c_l_top_flipper:
+    number: b_mini_lower-2
+    allow_enable: true
+    default_pulse_ms: 40
+    default_hold_power: 0.9
+  c_l_bot_flipper:
+    number: b_mini_lower-1
+    allow_enable: true
+    default_pulse_ms: 20
+    
+  c_l_vuk:
+    number: b_mini_lower-0
+    default_pulse_ms: 120
+    default_pulse_power: 1
+
+# Board 3 - Lower Third
+
+  c_flipper_left:
+    number: b_lower_third-2
+    default_pulse_ms: 50
+  c_flipper_left_hold:
+    number: b_lower_third-3
+    allow_enable: true
+    default_hold_power: 0.9
+    
+  c_flipper_right:
+    number: b_lower_third-5
+    default_pulse_ms: 90
+    default_pulse_power: 1
+  c_flipper_right_hold:
+    number: b_lower_third-4
+    allow_enable: true
+    default_hold_power: 0.9
+    
+  c_flipper_left_top:
+    number: b_lower_third-1
+    default_pulse_ms: 40
+  c_flipper_left_top_hold:
+    number: b_lower_third-0
+    allow_enable: true
+    default_hold_power: 0.9
+    
+  c_autolauncher:
+    number: b_lower_third-7
+    default_pulse_ms: 18
+    default_pulse_power: 0.9
+    
+  c_trough:
+    number: b_mini_lower-3
+    default_pulse_ms: 20
+    default_pulse_power: 0.8
+
+# Board 4 - Main
+
+  c_pop_left:
+    number: b_middle-5
+
+  c_pop_right:
+    number: b_middle-10
+
+  c_pop_lower:
+    number: b_middle-0
+    default_pulse_power: 0.8
+   
+
+   
+  c_drop_right:
+    number: b_middle-14
+    default_pulse_ms: 60
+    default_pulse_power: 0.7
+  c_drop_right_knockdown:
+    number: b_middle-15
+    default_pulse_power: 0.4
+
+
+  c_drop_mid:
+    number: b_middle-8
+    default_pulse_ms: 50
+    default_pulse_power: 0.7
+  c_drop_mid_knockdown:
+    number: b_middle-9
+    default_pulse_power: 0.4
+    default_pulse_ms: 40
+   
+  c_drop_scoop:
+    number: b_middle-6
+    default_pulse_ms: 50
+    default_pulse_power: 0.7
+  c_drop_scoop_knockdown:
+    number: b_middle-7
+    default_pulse_power: 0.25
+    default_pulse_ms: 40
+   
+
+
+  c_drop_single:
+    number: b_middle-12
+    default_pulse_ms: 30
+    default_pulse_power: 0.9
+  c_drop_single_knockdown:
+    number: b_middle-11
+    default_pulse_power: 0.25
+    default_pulse_ms: 20
+    
+  c_vuk_right:
+    number: b_middle-13
+   
+  c_post_inlane:
+    number: b_middle-2
+    allow_enable: true
+  c_post_outlane:
+    number: b_middle-3
+    allow_enable: true
+   
+  c_left_sling:
+    number: b_middle-4
+    default_pulse_ms: 20
+    default_pulse_power: 0.9
+  c_right_sling:
+    number: b_middle-1
+    default_pulse_ms: 20
+    default_pulse_power: 0.9
+
+# Board 5 - Back + Upper
+
+  c_vuk_back:
+   number: b_back-5
+   default_pulse_ms: 40
+   default_pulse_power: 1
+
+
+  c_b_flipper:
+    number: b_back-3
+    default_pulse_power: 1
+    default_pulse_ms: 20
+    default_hold_power: 0.1
+  c_b_flipper_hold:
+    number: b_back-4
+    allow_enable: true
+    default_hold_power: 0.9
+    
+  c_b_lock:
+    number: b_back-1
+    allow_enable: true
+    default_pulse_power: 0.7
+    default_pulse_ms: 100
+    
+  c_b_pop:
+    number: b_back-2
+    default_pulse_ms: 20
+    
+  c_u_flipper:
+    number: b_back-0
+    default_hold_power: 0.9
+    
+drop_targets:
+    d_drop_single:
+      switch: s_drop_single
+      knockdown_coil: c_drop_single_knockdown
+      
+
+
+      
+
+    mid_right:
+      switch: s_drop_mid_right
+
+    mid_mid:
+      switch: s_drop_mid_center
+
+    mid_left:
+      switch: s_drop_mid_left
+
+      
+    right_right:
+      switch: s_drop_right_right
+    right_left:
+      switch: s_drop_right_left
+
+      
+drop_target_banks:
+
+    single_main:
+      drop_targets: d_drop_single
+      reset_coil: c_drop_single
+      reset_events: ball_started
+     #   balldevice_bd_top_vuk_eject_success: 0.25s
+      #  s_pop_right_hit: 0.25s
+       # ball_started: 0s
+      #reset_on_complete: 1s
+      
+
+      
+      
+    mid:
+      drop_targets:  mid_left, mid_right, mid_mid
+      reset_coil: c_drop_mid
+      reset_events: ball_started
+      
+     
+    right:
+      drop_targets: right_right, right_left
+      reset_coil: c_drop_right
+      reset_events: ball_started
+    
+flippers:
+
+
+    
+  f_left:
+    main_coil: c_flipper_left
+    
+    activation_switch: s_left_flipper_1
+    hold_coil: c_flipper_left_hold
+    eos_switch: s_flip_left_eos
+    use_eos: true
+    repulse_on_eos_open: true
+    eos_active_ms_before_repulse: 500
+    enable_events: ball_started
+
+    
+    
+
+    
+  f_left_top:
+    main_coil: c_flipper_left_top
+    hold_coil: c_flipper_left_top_hold
+    activation_switch: s_left_flipper_1
+    eos_switch: s_flip_left_top_eos
+    use_eos: true
+    repulse_on_eos_open: true
+    eos_active_ms_before_repulse: 500
+    enable_events: ball_started
+
+    
+
+    
+  f_right:
+    main_coil: c_flipper_right
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_right_flipper_1
+    eos_switch: s_flip_right_eos
+    use_eos: true
+    repulse_on_eos_open: true
+    eos_active_ms_before_repulse: 500
+    enable_events: ball_started
+
+    
+    
+    
+    
+  f_l_top:
+    main_coil: c_l_top_flipper
+    activation_switch: s_left_flipper_1
+    enable_events: ball_started
+
+    
+  f_l_bot:
+    main_coil: c_l_bot_flipper
+    activation_switch: s_right_flipper_1
+    enable_events: ball_started
+
+    
+
+    
+    
+  f_u_flipper:
+    main_coil: c_u_flipper
+    activation_switch: s_left_flipper_1
+    enable_events: ball_started
+
+
+
+    
+    
+  f_b_flipper:
+    main_coil: c_b_flipper
+    hold_coil: c_b_flipper_hold
+
+    eos_switch: s_b_eos
+
+    activation_switch: s_right_flipper_1
+    enable_events: ball_started
+
+ 
+    
+    
+ball_devices:
+
+  bd_vuk_back:
+    ball_switches: s_vuk_back
+    eject_coil: c_vuk_back
+    eject_timeouts: 2s
+    
+  bd_vuk_right:
+    ball_switches: s_vuk_right
+    eject_coil: c_vuk_right
+    eject_timeouts: 2s
+    
+  bd_b_lock:
+    ball_switches: s_lock_1, s_lock_1, s_lock_1
+    eject_coil: c_b_lock
+    eject_timeouts: 2s
+    
+  bd_vuk_bot:
+    ball_switches: s_l_vuk
+    eject_coil: c_l_vuk
+    eject_timeouts: 2s
+    
+  bd_trough:
+    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_jam
+    eject_coil: c_trough
+    tags: trough, home, drain
+    jam_switch: s_trough_jam
+    eject_coil_jam_pulse: 25ms
+    eject_targets: bd_plunger
+    debug: true
+    
+  bd_plunger:
+    ball_switches: s_autolauncher
+    eject_coil: c_autolauncher
+    player_controlled_eject_event: s_launch_active
+    eject_targets: bd_vuk_back
+    eject_timeouts: 1s
+
+
+    
+#  bd_b_hold:
+    
+    
+    
+autofire_coils:
+    
+  ac_lsling:
+    coil: c_left_sling
+    switch: s_sling_left
+    
+    
+  ac_rsling:
+    coil: c_right_sling
+    switch: s_sling_right
+    
+    
+    
+    
+  ac_pop_lower:
+    coil: c_pop_lower
+    switch: s_pop_lower
+    
+    
+    
+  ac_pop_right:
+    coil: c_pop_right
+    switch: s_pop_right
+    
+    
+    
+  ac_pop_left:
+    coil: c_pop_left
+    switch: s_pop_left
+    
+  ac_pop_back:
+    coil: c_b_pop
+    switch: s_b_pop
+
+  

@@ -1,0 +1,130 @@
+2023-04-01 18:08:53,149 : INFO : root : Loading config.
+2023-04-01 18:08:53,548 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/config_spec.mpf_cache
+2023-04-01 18:08:53,549 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-01 18:08:53,549 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/28c67afebeedf0bcd540f5dc9898a885.mpf_cache
+2023-04-01 18:08:53,623 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/03cea1619b79a61f4f0eef3c59cdaa46.mpf_cache
+2023-04-01 18:08:53,623 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/d3948d842c6309f14ab557c3c72320d0.mpf_cache
+2023-04-01 18:08:53,624 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/03cea1619b79a61f4f0eef3c59cdaa46.mpf_cache
+2023-04-01 18:08:53,625 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/1a491952b1b86d65aa143eb7204b9608.mpf_cache
+2023-04-01 18:08:53,626 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/a37a2141962f60258a07880b3484644a.mpf_cache
+2023-04-01 18:08:53,626 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/1abbb484e5c2eb8b7dba517683fc6f83.mpf_cache
+2023-04-01 18:08:53,627 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.1.dev4
+2023-04-01 18:08:53,627 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2023-04-01-18-08-53-mpf-Tanners-MacBook-Pro-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-01 18:08:53,627 : INFO : Machine : MPF path: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf
+2023-04-01 18:08:53,627 : INFO : Machine : Machine path: /Users/tpetch/Documents/trashland_3
+2023-04-01 18:08:53,627 : INFO : Machine : Platform: darwin
+2023-04-01 18:08:53,627 : INFO : Machine : Python executable location: /Users/tpetch/.local/pipx/venvs/mpf/bin/python
+2023-04-01 18:08:53,627 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-04-01 18:08:53,635 : INFO : Machine : Initialise MPF.
+2023-04-01 18:08:53,712 : INFO : [NET] : Trying to connect to /dev/tty.usbmodem141401 at 921600bps
+2023-04-01 18:08:53,718 : INFO : [NET] : Connected to /dev/tty.usbmodem141401 at 921600bps
+2023-04-01 18:08:53,730 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.06
+2023-04-01 18:08:53,730 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '02.06', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,730 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-2000', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,733 : INFO : [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-04-01 18:08:53,734 : INFO : [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-04-01 18:08:53,735 : INFO : [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-04-01 18:08:53,737 : INFO : [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.09, Switches: 16, Drivers: 16
+2023-04-01 18:08:53,738 : INFO : [NET] : Registered I/O Board 4: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-04-01 18:08:53,740 : INFO : [EXP] : Trying to connect to /dev/tty.usbmodem141403 at 921600bps
+2023-04-01 18:08:53,745 : INFO : [EXP] : Connected to /dev/tty.usbmodem141403 at 921600bps
+2023-04-01 18:08:53,751 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,785 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,785 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,785 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.1.dev4', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,785 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.1.dev4, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,786 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,796 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-10.16-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,797 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,797 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '22.2.0', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,797 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 22.2.0: Fri Nov 11 02:08:47 PST 2022; root:xnu-8792.61.2~4/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,797 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2023-04-01 18:08:53,797 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-04-01 18:08:53,798 : ERROR : asyncio : Exception in callback <function Util.raise_exceptions at 0x7fa4e7b0ce50>
+handle: <Handle Util.raise_exceptions>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/utility_functions.py", line 767, in raise_exceptions
+    future.result()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 303, in _socket_reader
+    self.parse_raw_bytes(resp)
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 281, in parse_raw_bytes
+    self.message_processors[msg_header](msg[3:])
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/net_neuron.py", line 190, in _process_switch_closed
+    self.machine.switch_controller.process_switch_by_num(state=1,
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+AssertionError: Got early switch change for switch ('02', 0) to state 1. platform: <Platform.FAST>
+2023-04-01 18:08:53,872 : INFO : EventManager : Event: ======'drop_target_bank_single_main_up'====== Args={}
+2023-04-01 18:08:53,872 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2023-04-01 18:08:53,872 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2023-04-01 18:08:53,872 : INFO : Machine : Starting the main run loop.
+2023-04-01 18:08:53,873 : INFO : Machine : Shutting down...
+2023-04-01 18:08:53,873 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-01 18:08:53,874 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-04-01 18:08:54,876 : ERROR : [NET] : Message Timeout: The serial message SA: did not receive a response.
+2023-04-01 18:08:54,877 : ERROR : asyncio : Exception in callback functools.partial(<function EventManager._async_handler_done at 0x7fa4e822d430>, <QueuedEvent>)
+handle: <Handle functools.partial(<function EventManager._async_handler_done at 0x7fa4e822d430>, <QueuedEvent>)>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/locks.py", line 226, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 490, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 233, in send_query
+    await asyncio.wait_for(self.query_done.wait(), timeout=1)  # TODO make configurable?
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 492, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/events.py", line 121, in _async_handler_done
+    future.result()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/switch_controller.py", line 84, in _initialize_switches
+    await self.update_switches_from_hw()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/switch_controller.py", line 109, in update_switches_from_hw
+    switch_states = await platform.get_hw_switch_states()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/fast.py", line 266, in get_hw_switch_states
+    await self.serial_connections['net'].send_query('SA:', 'SA:')
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 239, in send_query
+    self.machine.shutdown()  # TODO make this optional? Continue without?
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/machine.py", line 759, in shutdown
+    self._platform_stop()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/machine.py", line 809, in _platform_stop
+    hardware_platform.stop()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/fast.py", line 147, in stop
+    self.machine.clock.loop.run_until_complete(asyncio.sleep(.1))
+  File "uvloop/loop.pyx", line 1511, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1504, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1377, in uvloop.loop.Loop.run_forever
+  File "uvloop/loop.pyx", line 518, in uvloop.loop.Loop._run
+RuntimeError: this event loop is already running.
+2023-04-01 18:08:54,984 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/machine.py", line 797, in _run_loop
+    raise self._exception['exception']
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/utility_functions.py", line 767, in raise_exceptions
+    future.result()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 303, in _socket_reader
+    self.parse_raw_bytes(resp)
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 281, in parse_raw_bytes
+    self.message_processors[msg_header](msg[3:])
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/net_neuron.py", line 190, in _process_switch_closed
+    self.machine.switch_controller.process_switch_by_num(state=1,
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+AssertionError: Got early switch change for switch ('02', 0) to state 1. platform: <Platform.FAST>
+2023-04-01 18:08:58,435 : INFO : root : MPF run loop ended.

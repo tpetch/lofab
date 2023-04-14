@@ -1,0 +1,178 @@
+2023-04-01 14:48:29,115 : INFO : root : Loading config.
+2023-04-01 14:48:29,537 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/config_spec.mpf_cache
+2023-04-01 14:48:29,538 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-01 14:48:29,538 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/28c67afebeedf0bcd540f5dc9898a885.mpf_cache
+2023-04-01 14:48:29,625 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/03cea1619b79a61f4f0eef3c59cdaa46.mpf_cache
+2023-04-01 14:48:29,626 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/d3948d842c6309f14ab557c3c72320d0.mpf_cache
+2023-04-01 14:48:29,626 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/03cea1619b79a61f4f0eef3c59cdaa46.mpf_cache
+2023-04-01 14:48:29,627 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/1a491952b1b86d65aa143eb7204b9608.mpf_cache
+2023-04-01 14:48:29,629 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/a37a2141962f60258a07880b3484644a.mpf_cache
+2023-04-01 14:48:29,629 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/1abbb484e5c2eb8b7dba517683fc6f83.mpf_cache
+2023-04-01 14:48:29,630 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.1.dev4
+2023-04-01 14:48:29,630 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2023-04-01-14-48-29-mpf-Tanners-MacBook-Pro-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-01 14:48:29,630 : INFO : Machine : MPF path: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf
+2023-04-01 14:48:29,630 : INFO : Machine : Machine path: /Users/tpetch/Documents/trashland_3
+2023-04-01 14:48:29,630 : INFO : Machine : Platform: darwin
+2023-04-01 14:48:29,630 : INFO : Machine : Python executable location: /Users/tpetch/.local/pipx/venvs/mpf/bin/python
+2023-04-01 14:48:29,630 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-04-01 14:48:29,639 : INFO : Machine : Initialise MPF.
+2023-04-01 14:48:29,730 : INFO : [NET] : Trying to connect to /dev/tty.usbmodem141401 at 921600bps
+2023-04-01 14:48:29,735 : INFO : [NET] : Connected to /dev/tty.usbmodem141401 at 921600bps
+2023-04-01 14:48:29,748 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.06
+2023-04-01 14:48:29,749 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '02.06', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,749 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-2000', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,751 : INFO : [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-04-01 14:48:29,752 : INFO : [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-04-01 14:48:29,754 : INFO : [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-04-01 14:48:29,755 : INFO : [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.09, Switches: 16, Drivers: 16
+2023-04-01 14:48:29,757 : INFO : [NET] : Registered I/O Board 4: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-04-01 14:48:29,759 : INFO : [EXP] : Trying to connect to /dev/tty.usbmodem141403 at 921600bps
+2023-04-01 14:48:29,764 : INFO : [EXP] : Connected to /dev/tty.usbmodem141403 at 921600bps
+2023-04-01 14:48:29,770 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,814 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,814 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,814 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.1.dev4', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,814 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.1.dev4, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,814 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,827 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-10.16-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,828 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,828 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '22.2.0', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,828 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 22.2.0: Fri Nov 11 02:08:47 PST 2022; root:xnu-8792.61.2~4/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,828 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,828 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-04-01 14:48:29,906 : INFO : EventManager : Event: ======'drop_target_bank_single_main_up'====== Args={}
+2023-04-01 14:48:29,906 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2023-04-01 14:48:29,906 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2023-04-01 14:48:29,907 : ERROR : asyncio : Exception in callback <function Util.raise_exceptions at 0x7fcd0a53be50>
+handle: <Handle Util.raise_exceptions>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/utility_functions.py", line 767, in raise_exceptions
+    future.result()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 303, in _socket_reader
+    self.parse_raw_bytes(resp)
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 281, in parse_raw_bytes
+    self.message_processors[msg_header](msg[3:])
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/net_neuron.py", line 190, in _process_switch_closed
+    self.machine.switch_controller.process_switch_by_num(state=1,
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+AssertionError: Got early switch change for switch ('05', 0) to state 1. platform: <Platform.FAST>
+2023-04-01 14:48:29,911 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-04-01 14:48:29,912 : INFO : Machine : Starting the main run loop.
+2023-04-01 14:48:29,912 : INFO : Machine : Shutting down...
+2023-04-01 14:48:29,912 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-01 14:48:29,913 : INFO : SwitchController : Found active switch: (('03', 0), <Platform.FAST>) <switch.s_left_flipper_2>
+2023-04-01 14:48:29,913 : INFO : SwitchController : Found active switch: (('1D', 0), <Platform.FAST>) <switch.s_trough_1>
+2023-04-01 14:48:29,914 : INFO : SwitchController : Found active switch: (('1C', 0), <Platform.FAST>) <switch.s_trough_2>
+2023-04-01 14:48:29,914 : INFO : SwitchController : Found active switch: (('1B', 0), <Platform.FAST>) <switch.s_trough_3>
+2023-04-01 14:48:29,914 : INFO : SwitchController : Found active switch: (('1A', 0), <Platform.FAST>) <switch.s_trough_4>
+2023-04-01 14:48:29,914 : INFO : SwitchController : Found active switch: (('34', 0), <Platform.FAST>) <switch.s_drop_scoop>
+2023-04-01 14:48:29,914 : INFO : SwitchController : Found active switch: (('36', 0), <Platform.FAST>) <switch.s_drop_mid_center>
+2023-04-01 14:48:29,914 : INFO : SwitchController : Found active switch: (('37', 0), <Platform.FAST>) <switch.s_drop_mid_right>
+2023-04-01 14:48:29,921 : INFO : ball_device.bd_vuk_back : BCH: Initial count: 0
+2023-04-01 14:48:29,922 : INFO : ball_device.bd_vuk_back : State: idle
+2023-04-01 14:48:29,922 : INFO : ball_device.bd_vuk_right : BCH: Initial count: 0
+2023-04-01 14:48:29,922 : INFO : ball_device.bd_vuk_right : State: idle
+2023-04-01 14:48:29,923 : INFO : ball_device.bd_b_lock : BCH: Initial count: 0
+2023-04-01 14:48:29,923 : INFO : ball_device.bd_b_lock : State: idle
+2023-04-01 14:48:29,924 : INFO : ball_device.bd_vuk_bot : BCH: Initial count: 0
+2023-04-01 14:48:29,924 : INFO : ball_device.bd_vuk_bot : State: idle
+2023-04-01 14:48:29,924 : INFO : ball_device.bd_trough : BCH: Initial count: 4
+2023-04-01 14:48:29,925 : INFO : ball_device.bd_trough : State: idle
+2023-04-01 14:48:29,925 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2023-04-01 14:48:29,925 : INFO : ball_device.bd_plunger : State: idle
+2023-04-01 14:48:29,942 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-04-01 14:48:29,947 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-04-01 14:48:29,948 : INFO : EventManager : Event: ======'drop_target_mid_right_down'====== Args={'device': <drop_target.mid_right>}
+2023-04-01 14:48:29,948 : INFO : EventManager : Event: ======'drop_target_bank_mid_mixed'====== Args={'prev_value': <DropTargetBankState.UP: 'up'>, 'down': 1}
+2023-04-01 14:48:29,948 : INFO : EventManager : Event: ======'drop_target_mid_mid_down'====== Args={'device': <drop_target.mid_mid>}
+2023-04-01 14:48:29,948 : INFO : EventManager : Event: ======'drop_target_bank_mid_mixed'====== Args={'prev_value': <DropTargetBankState.MIXED: 'mixed'>, 'down': 2}
+2023-04-01 14:48:29,949 : INFO : BallController : Initial balls found: 4
+2023-04-01 14:48:29,951 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,951 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 47, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,951 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0.0, 'top': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'total': 14}, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,951 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 190, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,951 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 720, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,951 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_pop'====== Args={'value': 117, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,952 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_interchange'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,952 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_loop'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,952 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_misc'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,952 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_left'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,953 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_right'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,953 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_center'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,953 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,953 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,954 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,954 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,954 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_scoop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,954 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,954 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 6484, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,954 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 360, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,954 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 622, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,955 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_left'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,955 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_right'====== Args={'value': 16, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,956 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_rollover'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,956 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_far'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,956 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_large'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,957 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_left'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,957 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_right'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,957 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_vuk'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,958 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 194, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,958 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 446, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,958 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_2'====== Args={'value': 541, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,958 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_1'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,959 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_2'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,959 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,959 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_left'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,960 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_right'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,960 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,960 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 125, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 549, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 1118, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,961 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 1078, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,962 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,962 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 481, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,962 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,962 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,963 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,963 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 707, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,963 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,964 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 115, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,964 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 109, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,964 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 108, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,965 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 86, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,965 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 77, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,965 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 108, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,966 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_l'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,966 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_r'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,966 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_rollover'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,967 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_target'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,967 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 146, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,967 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 14:48:29,968 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-04-01 14:48:29,968 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2023-04-01 14:48:29,969 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2023-04-01 14:48:29,969 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2023-04-01 14:48:29,969 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2023-04-01 14:48:29,970 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2023-04-01 14:48:29,970 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2023-04-01 14:48:29,971 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2023-04-01 14:48:29,971 : INFO : Mode.attract : Will not start because machine is shutting down.
+2023-04-01 14:48:31,025 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/machine.py", line 797, in _run_loop
+    raise self._exception['exception']
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/utility_functions.py", line 767, in raise_exceptions
+    future.result()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 303, in _socket_reader
+    self.parse_raw_bytes(resp)
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 281, in parse_raw_bytes
+    self.message_processors[msg_header](msg[3:])
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/net_neuron.py", line 190, in _process_switch_closed
+    self.machine.switch_controller.process_switch_by_num(state=1,
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+AssertionError: Got early switch change for switch ('05', 0) to state 1. platform: <Platform.FAST>
+2023-04-01 14:48:33,987 : INFO : root : MPF run loop ended.

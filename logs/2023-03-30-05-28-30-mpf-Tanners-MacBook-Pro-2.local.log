@@ -1,0 +1,283 @@
+2023-03-30 05:28:30,302 : INFO : root : Loading config.
+2023-03-30 05:28:30,709 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/config_spec.mpf_cache
+2023-03-30 05:28:30,709 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-03-30 05:28:30,709 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/28c67afebeedf0bcd540f5dc9898a885.mpf_cache
+2023-03-30 05:28:30,796 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/0c88cc6e742c1d6ff62a4ddd2bb23fa0.mpf_cache
+2023-03-30 05:28:30,797 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/d3948d842c6309f14ab557c3c72320d0.mpf_cache
+2023-03-30 05:28:30,797 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.1.dev4
+2023-03-30 05:28:30,797 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2023-03-30-05-28-30-mpf-Tanners-MacBook-Pro-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-03-30 05:28:30,798 : INFO : Machine : MPF path: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf
+2023-03-30 05:28:30,798 : INFO : Machine : Machine path: /Users/tpetch/Documents/trashland_3
+2023-03-30 05:28:30,798 : INFO : Machine : Platform: darwin
+2023-03-30 05:28:30,798 : INFO : Machine : Python executable location: /Users/tpetch/.local/pipx/venvs/mpf/bin/python
+2023-03-30 05:28:30,798 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-03-30 05:28:30,805 : INFO : Machine : Initialise MPF.
+2023-03-30 05:28:30,891 : INFO : [NET] : Trying to connect to /dev/tty.usbmodem14101 at 921600bps
+2023-03-30 05:28:30,897 : INFO : [NET] : Connected to /dev/tty.usbmodem14101 at 921600bps
+2023-03-30 05:28:30,910 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.06
+2023-03-30 05:28:30,910 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '02.06', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,910 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-2000', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,913 : INFO : [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-03-30 05:28:30,914 : INFO : [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-03-30 05:28:30,915 : INFO : [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-03-30 05:28:30,917 : INFO : [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.09, Switches: 16, Drivers: 16
+2023-03-30 05:28:30,918 : INFO : [NET] : Registered I/O Board 4: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-03-30 05:28:30,920 : INFO : [EXP] : Trying to connect to /dev/tty.usbmodem14103 at 921600bps
+2023-03-30 05:28:30,925 : INFO : [EXP] : Connected to /dev/tty.usbmodem14103 at 921600bps
+2023-03-30 05:28:30,930 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,972 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,972 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.1.dev4', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,972 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.1.dev4, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,972 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,992 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-10.16-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,992 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,992 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '22.2.0', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,992 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 22.2.0: Fri Nov 11 02:08:47 PST 2022; root:xnu-8792.61.2~4/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,992 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2023-03-30 05:28:30,992 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-03-30 05:28:31,070 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-03-30 05:28:31,071 : INFO : SwitchController : Found active switch: (('10', 0), <Platform.FAST>) <switch.s_inlane_left>
+2023-03-30 05:28:31,071 : INFO : SwitchController : Found active switch: (('12', 0), <Platform.FAST>) <switch.s_inlane_right>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('11', 0), <Platform.FAST>) <switch.s_outlane_left>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('13', 0), <Platform.FAST>) <switch.s_outlane_right>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('1D', 0), <Platform.FAST>) <switch.s_trough_1>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('35', 0), <Platform.FAST>) <switch.s_drop_mid_left>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('36', 0), <Platform.FAST>) <switch.s_drop_mid_center>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('37', 0), <Platform.FAST>) <switch.s_drop_mid_right>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('39', 0), <Platform.FAST>) <switch.s_drop_right_right>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('3A', 0), <Platform.FAST>) <switch.s_drop_right_left>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('3C', 0), <Platform.FAST>) <switch.s_rollover_right>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('3E', 0), <Platform.FAST>) <switch.s_rollover_left>
+2023-03-30 05:28:31,072 : INFO : SwitchController : Found active switch: (('45', 0), <Platform.FAST>) <switch.s_b_rollover_interchange>
+2023-03-30 05:28:31,078 : INFO : ball_device.bd_vuk_back : BCH: Initial count: 0
+2023-03-30 05:28:31,079 : INFO : ball_device.bd_vuk_back : State: idle
+2023-03-30 05:28:31,079 : INFO : ball_device.bd_vuk_right : BCH: Initial count: 0
+2023-03-30 05:28:31,080 : INFO : ball_device.bd_vuk_right : State: idle
+2023-03-30 05:28:31,080 : INFO : ball_device.bd_vuk_bot : BCH: Initial count: 0
+2023-03-30 05:28:31,080 : INFO : ball_device.bd_vuk_bot : State: idle
+2023-03-30 05:28:31,081 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2023-03-30 05:28:31,081 : INFO : ball_device.bd_trough : State: idle
+2023-03-30 05:28:31,082 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2023-03-30 05:28:31,082 : INFO : ball_device.bd_plunger : State: idle
+2023-03-30 05:28:31,099 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-03-30 05:28:31,103 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-03-30 05:28:31,103 : INFO : BallController : Initial balls found: 1
+2023-03-30 05:28:31,105 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,105 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,105 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,106 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,106 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 134, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,106 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_pop'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,106 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_interchange'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,106 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_loop'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,106 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_misc'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,106 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_left'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,106 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_right'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,107 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_center'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,107 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,107 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,107 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,107 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,107 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_scoop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,107 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,107 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 936, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,108 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 61, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,108 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 135, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,108 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,108 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,108 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,108 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_far'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,109 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_large'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,109 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,109 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,109 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_vuk'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,109 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,109 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 69, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,110 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_2'====== Args={'value': 121, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,110 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_1'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,110 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_2'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,110 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,110 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,110 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,111 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,111 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,111 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,112 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 151, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,112 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 538, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,112 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,112 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 455, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,112 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,113 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,113 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,113 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,113 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,113 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,114 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,114 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,114 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,114 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,115 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,115 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,115 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-03-30 05:28:31,129 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-03-30 05:28:31,129 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2023-03-30 05:28:31,130 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2023-03-30 05:28:31,130 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2023-03-30 05:28:31,131 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2023-03-30 05:28:31,132 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2023-03-30 05:28:31,132 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2023-03-30 05:28:31,133 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2023-03-30 05:28:31,133 : INFO : Mode.attract : Started. Priority: 10
+2023-03-30 05:28:31,133 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-03-30 05:28:31,133 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2023-03-30 05:28:31,133 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2023-03-30 05:28:31,134 : INFO : Machine : Starting the main run loop.
+2023-03-30 05:28:36,746 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:28:37,022 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:28:37,022 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:28:37,022 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:28:37,022 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:28:37,894 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:28:38,206 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:28:38,206 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:28:38,206 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:28:38,206 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:28:38,567 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:28:38,849 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:28:38,849 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:28:38,849 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:28:38,849 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:28:39,779 : INFO : BcpServer : New client connected.
+2023-03-30 05:28:54,320 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:28:54,398 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:28:54,398 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:28:54,398 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:28:54,398 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:28:54,773 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:28:54,829 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:28:54,829 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:28:54,829 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:28:54,829 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:28:55,581 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:28:55,629 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:28:55,629 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:28:55,630 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:28:55,630 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:28:55,887 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:28:55,948 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:28:55,948 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:28:55,949 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:28:55,949 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:28:56,793 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:28:56,847 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:28:56,848 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:28:56,848 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:28:56,848 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:29:54,585 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:29:54,623 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:29:54,623 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:29:54,624 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:29:54,624 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:29:57,325 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:29:57,450 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:29:57,450 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:29:57,451 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:29:57,451 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:29:58,309 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:29:58,411 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:29:58,411 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:29:58,412 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:29:58,412 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:29:59,472 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:29:59,595 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:29:59,595 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:29:59,596 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:29:59,596 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:29:59,782 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:29:59,865 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:29:59,865 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:29:59,866 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:29:59,866 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:30:00,137 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:30:00,165 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:30:00,165 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:30:00,166 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:30:00,166 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:07,838 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:31:07,905 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:31:07,905 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:07,906 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:07,906 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:08,623 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:31:08,695 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:31:08,696 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:08,696 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:08,696 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:11,367 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:31:11,595 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:31:11,596 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:11,596 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:11,596 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:11,721 : INFO : SwitchController : <<<<<<< 's_outlane_left' inactive >>>>>>>
+2023-03-30 05:31:11,879 : INFO : SwitchController : <<<<<<< 's_outlane_left' active >>>>>>>
+2023-03-30 05:31:11,879 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:11,880 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:11,880 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:19,533 : INFO : SwitchController : <<<<<<< 's_inlane_left' inactive >>>>>>>
+2023-03-30 05:31:19,590 : INFO : SwitchController : <<<<<<< 's_inlane_left' active >>>>>>>
+2023-03-30 05:31:19,590 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:19,591 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:19,591 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:23,545 : INFO : SwitchController : <<<<<<< 's_inlane_left' inactive >>>>>>>
+2023-03-30 05:31:25,615 : INFO : SwitchController : <<<<<<< 's_inlane_left' active >>>>>>>
+2023-03-30 05:31:25,616 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:25,616 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:25,616 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:26,744 : INFO : SwitchController : <<<<<<< 's_inlane_left' inactive >>>>>>>
+2023-03-30 05:31:26,803 : INFO : SwitchController : <<<<<<< 's_inlane_left' active >>>>>>>
+2023-03-30 05:31:26,804 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:26,804 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:26,804 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:27,085 : INFO : SwitchController : <<<<<<< 's_inlane_left' inactive >>>>>>>
+2023-03-30 05:31:27,182 : INFO : SwitchController : <<<<<<< 's_inlane_left' active >>>>>>>
+2023-03-30 05:31:27,183 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:27,183 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:27,184 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:27,482 : INFO : SwitchController : <<<<<<< 's_inlane_left' inactive >>>>>>>
+2023-03-30 05:31:27,532 : INFO : SwitchController : <<<<<<< 's_inlane_left' active >>>>>>>
+2023-03-30 05:31:27,532 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:27,532 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:27,533 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:27,782 : INFO : SwitchController : <<<<<<< 's_inlane_left' inactive >>>>>>>
+2023-03-30 05:31:27,834 : INFO : SwitchController : <<<<<<< 's_inlane_left' active >>>>>>>
+2023-03-30 05:31:27,834 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:27,834 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:27,834 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:54,545 : INFO : SwitchController : <<<<<<< 's_outlane_right' inactive >>>>>>>
+2023-03-30 05:31:54,919 : INFO : SwitchController : <<<<<<< 's_outlane_right' active >>>>>>>
+2023-03-30 05:31:54,919 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:54,919 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:54,920 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:55,305 : INFO : SwitchController : <<<<<<< 's_outlane_right' inactive >>>>>>>
+2023-03-30 05:31:55,686 : INFO : SwitchController : <<<<<<< 's_outlane_right' active >>>>>>>
+2023-03-30 05:31:55,686 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:55,687 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:55,687 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:31:56,001 : INFO : SwitchController : <<<<<<< 's_outlane_right' inactive >>>>>>>
+2023-03-30 05:31:56,236 : INFO : SwitchController : <<<<<<< 's_outlane_right' active >>>>>>>
+2023-03-30 05:31:56,236 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:31:56,237 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:31:56,237 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:32:03,543 : INFO : SwitchController : <<<<<<< 's_inlane_right' inactive >>>>>>>
+2023-03-30 05:32:03,816 : INFO : SwitchController : <<<<<<< 's_inlane_right' active >>>>>>>
+2023-03-30 05:32:03,816 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:32:03,816 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:32:03,816 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 05:32:04,453 : INFO : SwitchController : <<<<<<< 's_inlane_right' inactive >>>>>>>
+2023-03-30 05:32:04,527 : INFO : SwitchController : <<<<<<< 's_inlane_right' active >>>>>>>
+2023-03-30 05:32:04,527 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2023-03-30 05:32:04,528 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-03-30 05:32:04,528 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-03-30 06:26:24,791 : INFO : Machine : Shutting down...
+2023-03-30 06:26:24,793 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-03-30 06:26:24,901 : INFO : root : MPF run loop ended.

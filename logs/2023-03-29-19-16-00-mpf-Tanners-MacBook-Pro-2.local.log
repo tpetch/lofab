@@ -1,0 +1,127 @@
+2023-03-29 19:16:00,858 : INFO : root : Loading config.
+2023-03-29 19:16:00,860 : DEBUG : YAML File Interface : Loading file: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/config_spec.yaml
+2023-03-29 19:16:01,290 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/config_spec.mpf_cache
+2023-03-29 19:16:01,290 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-03-29 19:16:01,291 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tpetch/Documents/trashland_3/config/config.yaml
+2023-03-29 19:16:01,291 : INFO : ConfigProcessor : Loading config from file /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
+2023-03-29 19:16:01,291 : DEBUG : YAML File Interface : Loading file: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2023-03-29 19:16:01,367 : INFO : ConfigProcessor : Loading config: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2023-03-29 19:16:01,368 : INFO : ConfigProcessor : Loading config from file /Users/tpetch/Documents/trashland_3/config/config.yaml.
+2023-03-29 19:16:01,368 : DEBUG : YAML File Interface : Loading file: /Users/tpetch/Documents/trashland_3/config/config.yaml
+2023-03-29 19:16:01,510 : INFO : ConfigProcessor : Loading config: /Users/tpetch/Documents/trashland_3/config/config.yaml
+2023-03-29 19:16:01,512 : INFO : ConfigProcessor : Config file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/28c67afebeedf0bcd540f5dc9898a885.mpf_cache
+2023-03-29 19:16:01,576 : DEBUG : YamlMultifileConfigLoader : Loading mode attract from /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/modes/attract/config/attract.yaml
+2023-03-29 19:16:01,577 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/0c88cc6e742c1d6ff62a4ddd2bb23fa0.mpf_cache
+2023-03-29 19:16:01,577 : DEBUG : YamlMultifileConfigLoader : Loading mode game from /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/modes/game/config/game.yaml
+2023-03-29 19:16:01,577 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/d3948d842c6309f14ab557c3c72320d0.mpf_cache
+2023-03-29 19:16:01,578 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.1.dev3
+2023-03-29 19:16:01,578 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2023-03-29-19-16-00-mpf-Tanners-MacBook-Pro-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 10, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-03-29 19:16:01,578 : INFO : Machine : MPF path: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf
+2023-03-29 19:16:01,578 : INFO : Machine : Machine path: /Users/tpetch/Documents/trashland_3
+2023-03-29 19:16:01,578 : INFO : Machine : Platform: darwin
+2023-03-29 19:16:01,578 : INFO : Machine : Python executable location: /Users/tpetch/.local/pipx/venvs/mpf/bin/python
+2023-03-29 19:16:01,578 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-03-29 19:16:01,584 : INFO : Machine : Initialise MPF.
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,634 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Cloning: Test
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,635 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,636 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,636 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,636 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,636 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,637 : DEBUG : asciimatics.widgets : Updating: None
+2023-03-29 19:16:01,662 : INFO : [NET] : Trying to connect to /dev/tty.usbmodem14101 at 921600bps
+2023-03-29 19:16:01,669 : INFO : [NET] : Connected to /dev/tty.usbmodem14101 at 921600bps
+2023-03-29 19:16:01,669 : DEBUG : [NET] : Could not enable low latency mode for ['/dev/tty.usbmodem14101']. Low latency not supported on this platform
+2023-03-29 19:16:01,682 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.06
+2023-03-29 19:16:01,682 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '02.06', 'prev_value': None, 'change': True}
+2023-03-29 19:16:01,682 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-2000', 'prev_value': None, 'change': True}
+2023-03-29 19:16:01,684 : INFO : [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-03-29 19:16:01,686 : INFO : [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-03-29 19:16:01,687 : INFO : [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-03-29 19:16:01,689 : INFO : [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.09, Switches: 16, Drivers: 16
+2023-03-29 19:16:01,690 : INFO : [NET] : Registered I/O Board 4: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-03-29 19:16:01,692 : INFO : [EXP] : Trying to connect to /dev/tty.usbmodem14103 at 921600bps
+2023-03-29 19:16:01,696 : INFO : [EXP] : Connected to /dev/tty.usbmodem14103 at 921600bps
+2023-03-29 19:16:01,696 : DEBUG : [EXP] : Could not enable low latency mode for ['/dev/tty.usbmodem14103']. Low latency not supported on this platform
+2023-03-29 19:16:01,696 : INFO : [EXP] : >>>> b'\r\r\r\r'
+2023-03-29 19:16:01,697 : DEBUG : [EXP] : Creating FAST Expansion Board "pf" (FP-EXP-0081 ID 0)
+2023-03-29 19:16:01,697 : DEBUG : [EXP] : Creating FAST Breakout Board 0 on FP-EXP-0081 "pf"
+2023-03-29 19:16:01,697 : INFO : [EXP] : >>>> b'ID@84:\r'
+2023-03-29 19:16:01,697 : INFO : [EXP] : <<<< b'XX:F\rXX:F\rXX:F\rX'
+2023-03-29 19:16:01,698 : INFO : [EXP] : <<<< b'X:F\r'
+2023-03-29 19:16:01,698 : INFO : [EXP] : <<<< b'ID:'
+2023-03-29 19:16:01,698 : INFO : [EXP] : <<<< b'EXP FP-EXP-0081  '
+2023-03-29 19:16:01,698 : INFO : [EXP] : <<<< b'0.8\r'
+2023-03-29 19:16:01,698 : INFO : [EXP] : >>>> b'ID@840:\r'
+2023-03-29 19:16:01,699 : INFO : [EXP] : <<<< b'I'
+2023-03-29 19:16:01,699 : INFO : [EXP] : <<<< b'D:\x00\x00\x00\x00\x00\x00\x00'
+2023-03-29 19:16:01,699 : INFO : [EXP] : <<<< b'\x00\x00\x00\x00\x00\x00\x00\x00\x00 0.0\r'
+2023-03-29 19:16:01,699 : ERROR : asyncio : Exception in callback <function Util.raise_exceptions at 0x7fefff30ce50>
+handle: <Handle Util.raise_exceptions>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/utility_functions.py", line 767, in raise_exceptions
+    future.result()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 295, in _socket_reader
+    self.parse_raw_bytes(resp)
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 273, in parse_raw_bytes
+    self.message_processors[msg_header](msg[3:])
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/exp.py", line 87, in _process_id
+    self.exp_boards_by_address[self.active_board[:2]].verify_hardware(msg, self.active_board)
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/fast_exp_board.py", line 73, in verify_hardware
+    proc, product_id, firmware_version = id_string.split()
+ValueError: not enough values to unpack (expected 3, got 2)
+2023-03-29 19:16:01,702 : INFO : Machine : Starting the main run loop.
+2023-03-29 19:16:01,703 : INFO : Machine : Shutting down...
+2023-03-29 19:16:01,703 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-03-29 19:16:01,704 : INFO : [EXP] : >>>> b'BR@84:\r'
+2023-03-29 19:16:01,704 : INFO : [EXP] : >>>> b'BR@84:\r'
+2023-03-29 19:16:01,804 : DEBUG : [NET] : Stop called on serial connection NET
+2023-03-29 19:16:01,806 : DEBUG : [EXP] : Stop called on serial connection EXP
+2023-03-29 19:16:02,808 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/machine.py", line 797, in _run_loop
+    raise self._exception['exception']
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/utility_functions.py", line 767, in raise_exceptions
+    future.result()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 295, in _socket_reader
+    self.parse_raw_bytes(resp)
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 273, in parse_raw_bytes
+    self.message_processors[msg_header](msg[3:])
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/exp.py", line 87, in _process_id
+    self.exp_boards_by_address[self.active_board[:2]].verify_hardware(msg, self.active_board)
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/fast_exp_board.py", line 73, in verify_hardware
+    proc, product_id, firmware_version = id_string.split()
+ValueError: not enough values to unpack (expected 3, got 2)
+2023-03-29 21:07:08,191 : INFO : root : MPF run loop ended.

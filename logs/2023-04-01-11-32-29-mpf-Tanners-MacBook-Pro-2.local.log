@@ -1,0 +1,1860 @@
+2023-04-01 11:32:29,934 : INFO : root : Loading config.
+2023-04-01 11:32:30,335 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/config_spec.mpf_cache
+2023-04-01 11:32:30,335 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-01 11:32:30,335 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tpetch/Documents/trashland_3/config/config.yaml
+2023-04-01 11:32:30,336 : INFO : ConfigProcessor : Loading config from file /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
+2023-04-01 11:32:30,407 : INFO : ConfigProcessor : Loading config: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2023-04-01 11:32:30,408 : INFO : ConfigProcessor : Loading config from file /Users/tpetch/Documents/trashland_3/config/config.yaml.
+2023-04-01 11:32:30,546 : INFO : ConfigProcessor : Loading config: /Users/tpetch/Documents/trashland_3/config/config.yaml
+2023-04-01 11:32:30,549 : INFO : ConfigProcessor : Config file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/28c67afebeedf0bcd540f5dc9898a885.mpf_cache
+2023-04-01 11:32:30,621 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/03cea1619b79a61f4f0eef3c59cdaa46.mpf_cache
+2023-04-01 11:32:30,622 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/d3948d842c6309f14ab557c3c72320d0.mpf_cache
+2023-04-01 11:32:30,622 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/a37a2141962f60258a07880b3484644a.mpf_cache
+2023-04-01 11:32:30,623 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.1.dev4
+2023-04-01 11:32:30,623 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2023-04-01-11-32-29-mpf-Tanners-MacBook-Pro-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-01 11:32:30,623 : INFO : Machine : MPF path: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf
+2023-04-01 11:32:30,623 : INFO : Machine : Machine path: /Users/tpetch/Documents/trashland_3
+2023-04-01 11:32:30,623 : INFO : Machine : Platform: darwin
+2023-04-01 11:32:30,623 : INFO : Machine : Python executable location: /Users/tpetch/.local/pipx/venvs/mpf/bin/python
+2023-04-01 11:32:30,623 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-04-01 11:32:30,636 : INFO : Machine : Initialise MPF.
+2023-04-01 11:32:30,723 : INFO : [NET] : Trying to connect to /dev/tty.usbmodem141401 at 921600bps
+2023-04-01 11:32:30,730 : INFO : [NET] : Connected to /dev/tty.usbmodem141401 at 921600bps
+2023-04-01 11:32:30,743 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.06
+2023-04-01 11:32:30,744 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '02.06', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,744 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-2000', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,746 : INFO : [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-04-01 11:32:30,748 : INFO : [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-04-01 11:32:30,749 : INFO : [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-04-01 11:32:30,750 : INFO : [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.09, Switches: 16, Drivers: 16
+2023-04-01 11:32:30,752 : INFO : [NET] : Registered I/O Board 4: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-04-01 11:32:30,754 : INFO : [EXP] : Trying to connect to /dev/tty.usbmodem141403 at 921600bps
+2023-04-01 11:32:30,758 : INFO : [EXP] : Connected to /dev/tty.usbmodem141403 at 921600bps
+2023-04-01 11:32:30,764 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,801 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,801 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.1.dev4', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,801 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.1.dev4, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,801 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,813 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-10.16-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,814 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,814 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '22.2.0', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,814 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 22.2.0: Fri Nov 11 02:08:47 PST 2022; root:xnu-8792.61.2~4/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,814 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,814 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-04-01 11:32:30,885 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-04-01 11:32:30,886 : INFO : SwitchController : Found active switch: (('1D', 0), <Platform.FAST>) <switch.s_trough_1>
+2023-04-01 11:32:30,886 : INFO : SwitchController : Found active switch: (('1C', 0), <Platform.FAST>) <switch.s_trough_2>
+2023-04-01 11:32:30,886 : INFO : SwitchController : Found active switch: (('1B', 0), <Platform.FAST>) <switch.s_trough_3>
+2023-04-01 11:32:30,886 : INFO : SwitchController : Found active switch: (('1A', 0), <Platform.FAST>) <switch.s_trough_4>
+2023-04-01 11:32:30,886 : INFO : SwitchController : Found active switch: (('19', 0), <Platform.FAST>) <switch.s_trough_5>
+2023-04-01 11:32:30,886 : INFO : SwitchController : Found active switch: (('34', 0), <Platform.FAST>) <switch.s_drop_scoop>
+2023-04-01 11:32:30,886 : INFO : SwitchController : Found active switch: (('35', 0), <Platform.FAST>) <switch.s_drop_mid_left>
+2023-04-01 11:32:30,886 : INFO : SwitchController : Found active switch: (('36', 0), <Platform.FAST>) <switch.s_drop_mid_center>
+2023-04-01 11:32:30,886 : INFO : SwitchController : Found active switch: (('37', 0), <Platform.FAST>) <switch.s_drop_mid_right>
+2023-04-01 11:32:30,892 : INFO : ball_device.bd_vuk_back : BCH: Initial count: 0
+2023-04-01 11:32:30,892 : INFO : ball_device.bd_vuk_back : State: idle
+2023-04-01 11:32:30,893 : INFO : ball_device.bd_vuk_right : BCH: Initial count: 0
+2023-04-01 11:32:30,893 : INFO : ball_device.bd_vuk_right : State: idle
+2023-04-01 11:32:30,893 : INFO : ball_device.bd_b_lock : BCH: Initial count: 0
+2023-04-01 11:32:30,894 : INFO : ball_device.bd_b_lock : State: idle
+2023-04-01 11:32:30,894 : INFO : ball_device.bd_vuk_bot : BCH: Initial count: 0
+2023-04-01 11:32:30,895 : INFO : ball_device.bd_vuk_bot : State: idle
+2023-04-01 11:32:30,895 : INFO : ball_device.bd_trough : BCH: Initial count: 5
+2023-04-01 11:32:30,895 : INFO : ball_device.bd_trough : State: idle
+2023-04-01 11:32:30,896 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2023-04-01 11:32:30,896 : INFO : ball_device.bd_plunger : State: idle
+2023-04-01 11:32:30,910 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-04-01 11:32:30,916 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-04-01 11:32:30,917 : INFO : BallController : Initial balls found: 5
+2023-04-01 11:32:30,920 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,920 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,920 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,920 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,920 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 139, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,920 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_pop'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,921 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_interchange'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,921 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_loop'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,921 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_misc'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,921 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_left'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,921 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_right'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,921 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_center'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,921 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,921 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,921 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,922 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,922 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_scoop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,922 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,922 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 997, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,922 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 61, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,922 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 140, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,922 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,922 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_far'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_large'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,923 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_vuk'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,924 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,924 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 73, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,924 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_2'====== Args={'value': 121, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,924 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_1'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,924 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_2'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,924 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,924 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,925 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,925 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,925 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,925 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,925 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 178, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,926 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 541, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,926 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,926 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 480, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,926 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,927 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,927 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,927 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,927 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,927 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,928 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,928 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,928 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,928 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,928 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,929 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,929 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,929 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_rollover'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,929 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_target'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,930 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,930 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 11:32:30,946 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-04-01 11:32:30,947 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2023-04-01 11:32:30,947 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2023-04-01 11:32:30,948 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2023-04-01 11:32:30,948 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2023-04-01 11:32:30,950 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2023-04-01 11:32:30,950 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2023-04-01 11:32:30,951 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2023-04-01 11:32:30,951 : INFO : Mode.attract : Started. Priority: 10
+2023-04-01 11:32:30,951 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-04-01 11:32:30,951 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2023-04-01 11:32:30,951 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2023-04-01 11:32:30,952 : INFO : Machine : Starting the main run loop.
+2023-04-01 11:32:34,723 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:32:34,743 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:34,743 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:34,743 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:34,743 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:32:34,744 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:32:34,764 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:34,787 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:32:34,792 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:34,811 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:32:34,833 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:34,916 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:32:34,947 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:34,966 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:32:35,040 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:32:35,082 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:35,085 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:35,086 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:35,088 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:35,102 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:35,102 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:35,102 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:35,132 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:35,136 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:36,678 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:32:37,179 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:32:37,179 : INFO : ball_device.bd_plunger : Received unexpected ball
+2023-04-01 11:32:37,179 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2023-04-01 11:32:37,180 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2023-04-01 11:32:37,180 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2023-04-01 11:32:37,180 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2023-04-01 11:32:37,180 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2023-04-01 11:32:37,180 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-04-01 11:32:37,180 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2023-04-01 11:32:37,180 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 6
+2023-04-01 11:32:37,180 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2023-04-01 11:32:37,180 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:32:37,181 : INFO : ball_device.bd_plunger : Ejecting 1 unexpected balls using path deque([<ball_device.bd_plunger>, <ball_device.bd_vuk_back>, <playfield.playfield>])
+2023-04-01 11:32:37,181 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:32:37,181 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:32:37,181 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:32:37,182 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:32:37,182 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:32:37,183 : INFO : ball_device.bd_vuk_back : State: waiting_for_ball
+2023-04-01 11:32:37,183 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:32:37,183 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:32:37,183 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:32:37,184 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:32:37,184 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:32:37,211 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:32:37,212 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:37,212 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:32:37,212 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:32:37,212 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:32:37,214 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:37,217 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:37,220 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:37,232 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:37,232 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:37,238 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:37,240 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:38,378 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:38,380 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:38,382 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:32:38,400 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:32:38,580 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:32:39,215 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-04-01 11:32:39,215 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_vuk_back>
+2023-04-01 11:32:39,215 : INFO : BcpServer : New client connected.
+2023-04-01 11:32:39,217 : INFO : ball_device.bd_plunger : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:32:39,217 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_vuk_back>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2023-04-01 11:32:39,217 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:32:39,218 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-04-01 11:32:39,218 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:32:39,218 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:32:39,219 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-04-01 11:32:39,230 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:32:39,230 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:32:39,258 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:32:39,259 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:32:39,259 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:32:39,259 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:32:39,261 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:39,263 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:39,265 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:39,267 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:39,278 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:39,278 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:39,279 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:39,280 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:39,299 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:39,299 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:40,525 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:40,527 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:40,529 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:40,531 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:40,712 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:32:41,259 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-04-01 11:32:41,259 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_vuk_back>
+2023-04-01 11:32:41,260 : INFO : ball_device.bd_plunger : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:32:41,260 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_vuk_back>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2023-04-01 11:32:41,261 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:32:41,261 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 2}
+2023-04-01 11:32:41,262 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:32:41,263 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:32:41,263 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 2}
+2023-04-01 11:32:41,263 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:32:41,264 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:32:41,291 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:32:41,292 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:32:41,292 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:32:41,292 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:32:41,297 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:41,299 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:41,312 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:41,312 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:41,313 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:41,313 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:41,318 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:41,320 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:42,004 : INFO : SwitchController : <<<<<<< 's_vuk_back' active >>>>>>>
+2023-04-01 11:32:42,506 : INFO : ball_device.bd_vuk_back : Received ball from <ball_device.bd_plunger>
+2023-04-01 11:32:42,506 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 11:32:42,507 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 11:32:42,507 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:32:42,507 : INFO : ball_device.bd_plunger : Got eject confirm
+2023-04-01 11:32:42,507 : INFO : ball_device.bd_plunger : Eject successful
+2023-04-01 11:32:42,507 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>}
+2023-04-01 11:32:42,508 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:32:42,508 : INFO : ball_device.bd_plunger : State: idle
+2023-04-01 11:32:42,508 : INFO : ball_device.bd_vuk_back : State: waiting_for_target_ready
+2023-04-01 11:32:42,508 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:32:42,509 : INFO : ball_device.bd_vuk_back : State: ejecting
+2023-04-01 11:32:42,509 : INFO : ball_device.bd_vuk_back : Ejecting ball to <playfield.playfield>
+2023-04-01 11:32:42,509 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:32:42,510 : INFO : ball_device.bd_vuk_back : Wait for ball to leave device
+2023-04-01 11:32:42,510 : INFO : coil.c_vuk_back : Pulsing Driver for 40ms (1.0 pulse_power)
+2023-04-01 11:32:42,570 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:42,572 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:42,575 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:42,591 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:42,591 : INFO : SwitchController : <<<<<<< 's_vuk_back' inactive >>>>>>>
+2023-04-01 11:32:42,592 : INFO : ball_device.bd_vuk_back : State: ball_left
+2023-04-01 11:32:42,592 : INFO : ball_device.bd_vuk_back : Ball left
+2023-04-01 11:32:42,592 : INFO : ball_device.bd_vuk_back : Wait for confirm with timeout 2.0
+2023-04-01 11:32:42,945 : INFO : SwitchController : <<<<<<< 's_vuk_back' active >>>>>>>
+2023-04-01 11:32:44,593 : INFO : ball_device.bd_vuk_back : State: failed_confirm
+2023-04-01 11:32:44,593 : INFO : ball_device.bd_vuk_back : Got timeout (2.0s) before confirm from <playfield.playfield>
+2023-04-01 11:32:44,694 : INFO : ball_device.bd_vuk_back : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:32:44,694 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2023-04-01 11:32:44,695 : INFO : ball_device.bd_vuk_back : State: waiting_for_target_ready
+2023-04-01 11:32:44,695 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-04-01 11:32:44,696 : INFO : ball_device.bd_vuk_back : State: ejecting
+2023-04-01 11:32:44,696 : INFO : ball_device.bd_vuk_back : Ejecting ball to <playfield.playfield>
+2023-04-01 11:32:44,696 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-04-01 11:32:44,697 : INFO : ball_device.bd_vuk_back : Wait for ball to leave device
+2023-04-01 11:32:44,697 : INFO : coil.c_vuk_back : Pulsing Driver for 40ms (1.0 pulse_power)
+2023-04-01 11:32:44,755 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:44,757 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:44,760 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:44,763 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:44,776 : INFO : SwitchController : <<<<<<< 's_vuk_back' inactive >>>>>>>
+2023-04-01 11:32:44,776 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:44,776 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:44,777 : INFO : ball_device.bd_vuk_back : State: ball_left
+2023-04-01 11:32:44,777 : INFO : ball_device.bd_vuk_back : Ball left
+2023-04-01 11:32:44,777 : INFO : ball_device.bd_vuk_back : Wait for confirm with timeout 2.0
+2023-04-01 11:32:45,072 : INFO : SwitchController : <<<<<<< 's_vuk_back' active >>>>>>>
+2023-04-01 11:32:46,778 : INFO : ball_device.bd_vuk_back : State: failed_confirm
+2023-04-01 11:32:46,779 : INFO : ball_device.bd_vuk_back : Got timeout (2.0s) before confirm from <playfield.playfield>
+2023-04-01 11:32:46,879 : INFO : ball_device.bd_vuk_back : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:32:46,879 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2023-04-01 11:32:46,880 : INFO : ball_device.bd_vuk_back : State: waiting_for_target_ready
+2023-04-01 11:32:46,880 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 2}
+2023-04-01 11:32:46,881 : INFO : ball_device.bd_vuk_back : State: ejecting
+2023-04-01 11:32:46,882 : INFO : ball_device.bd_vuk_back : Ejecting ball to <playfield.playfield>
+2023-04-01 11:32:46,882 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 2}
+2023-04-01 11:32:46,883 : INFO : ball_device.bd_vuk_back : Wait for ball to leave device
+2023-04-01 11:32:46,883 : INFO : coil.c_vuk_back : Pulsing Driver for 40ms (1.0 pulse_power)
+2023-04-01 11:32:46,954 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:46,954 : INFO : SwitchController : <<<<<<< 's_vuk_back' inactive >>>>>>>
+2023-04-01 11:32:46,955 : INFO : ball_device.bd_vuk_back : State: ball_left
+2023-04-01 11:32:46,955 : INFO : ball_device.bd_vuk_back : Ball left
+2023-04-01 11:32:46,955 : INFO : ball_device.bd_vuk_back : Wait for confirm with timeout 2.0
+2023-04-01 11:32:46,955 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:46,958 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:46,960 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:46,973 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:46,973 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:46,974 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:46,976 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:46,979 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:46,981 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:47,558 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:32:47,577 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:47,577 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:47,578 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:32:47,579 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:32:47,581 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:47,598 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:47,598 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:47,598 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:47,598 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:47,599 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:32:47,600 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:47,602 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:47,604 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:47,626 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:48,024 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:32:48,151 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:48,171 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:32:48,172 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:32:48,174 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:32:48,262 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:32:48,309 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 11:32:48,955 : INFO : ball_device.bd_vuk_back : State: failed_confirm
+2023-04-01 11:32:48,956 : INFO : ball_device.bd_vuk_back : Got timeout (2.0s) before confirm from <playfield.playfield>
+2023-04-01 11:32:49,056 : INFO : ball_device.bd_vuk_back : Confirming eject because target is playfield and ball did not return.
+2023-04-01 11:32:49,057 : INFO : ball_device.bd_vuk_back : Eject successful
+2023-04-01 11:32:49,057 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2023-04-01 11:32:49,057 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-04-01 11:32:49,057 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2023-04-01 11:32:49,058 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:32:49,058 : INFO : ball_device.bd_vuk_back : State: idle
+2023-04-01 11:32:49,795 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:49,799 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:49,803 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:49,805 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:49,878 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:49,881 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:51,184 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:51,190 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:51,205 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:51,205 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:51,226 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:51,228 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:52,698 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:32:53,198 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:32:53,198 : INFO : ball_device.bd_plunger : Received unexpected ball
+2023-04-01 11:32:53,198 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2023-04-01 11:32:53,199 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2023-04-01 11:32:53,199 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2023-04-01 11:32:53,200 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:32:53,200 : INFO : ball_device.bd_plunger : Ejecting 1 unexpected balls using path deque([<ball_device.bd_plunger>, <ball_device.bd_vuk_back>, <playfield.playfield>])
+2023-04-01 11:32:53,201 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:32:53,201 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:32:53,201 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:32:53,202 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:32:53,202 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:32:53,202 : INFO : ball_device.bd_vuk_back : State: waiting_for_ball
+2023-04-01 11:32:53,202 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:32:53,203 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:32:53,203 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:32:53,203 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:32:53,203 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:32:53,232 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:32:53,232 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:32:53,232 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:32:53,232 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:32:53,239 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:53,241 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:53,251 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:53,252 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:53,252 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:53,252 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:53,254 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:53,256 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:54,024 : INFO : SwitchController : <<<<<<< 's_vuk_back' active >>>>>>>
+2023-04-01 11:32:54,526 : INFO : ball_device.bd_vuk_back : Received ball from <ball_device.bd_plunger>
+2023-04-01 11:32:54,526 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 11:32:54,527 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 11:32:54,527 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:32:54,528 : INFO : ball_device.bd_plunger : Got eject confirm
+2023-04-01 11:32:54,528 : INFO : ball_device.bd_plunger : Eject successful
+2023-04-01 11:32:54,528 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>}
+2023-04-01 11:32:54,528 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:32:54,528 : INFO : ball_device.bd_plunger : State: idle
+2023-04-01 11:32:54,529 : INFO : ball_device.bd_vuk_back : State: waiting_for_target_ready
+2023-04-01 11:32:54,529 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:32:54,529 : INFO : ball_device.bd_vuk_back : State: ejecting
+2023-04-01 11:32:54,530 : INFO : ball_device.bd_vuk_back : Ejecting ball to <playfield.playfield>
+2023-04-01 11:32:54,530 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:32:54,531 : INFO : ball_device.bd_vuk_back : Wait for ball to leave device
+2023-04-01 11:32:54,531 : INFO : coil.c_vuk_back : Pulsing Driver for 40ms (1.0 pulse_power)
+2023-04-01 11:32:54,594 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:54,599 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:54,603 : INFO : SwitchController : <<<<<<< 's_vuk_back' inactive >>>>>>>
+2023-04-01 11:32:54,603 : INFO : ball_device.bd_vuk_back : State: ball_left
+2023-04-01 11:32:54,604 : INFO : ball_device.bd_vuk_back : Ball left
+2023-04-01 11:32:54,604 : INFO : ball_device.bd_vuk_back : Wait for confirm with timeout 2.0
+2023-04-01 11:32:54,844 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:32:54,864 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:32:54,864 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:54,864 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:54,864 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:32:54,867 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:54,871 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:32:54,885 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:54,885 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:54,891 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:54,905 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:54,905 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:54,906 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:54,906 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:54,913 : INFO : SwitchController : <<<<<<< 's_vuk_back' active >>>>>>>
+2023-04-01 11:32:54,929 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:54,931 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:54,991 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:55,010 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:32:55,011 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:55,047 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:32:55,136 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:32:55,157 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 11:32:56,604 : INFO : ball_device.bd_vuk_back : State: failed_confirm
+2023-04-01 11:32:56,605 : INFO : ball_device.bd_vuk_back : Got timeout (2.0s) before confirm from <playfield.playfield>
+2023-04-01 11:32:56,714 : INFO : ball_device.bd_vuk_back : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:32:56,714 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2023-04-01 11:32:56,715 : INFO : ball_device.bd_vuk_back : State: waiting_for_target_ready
+2023-04-01 11:32:56,715 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-04-01 11:32:56,715 : INFO : ball_device.bd_vuk_back : State: ejecting
+2023-04-01 11:32:56,715 : INFO : ball_device.bd_vuk_back : Ejecting ball to <playfield.playfield>
+2023-04-01 11:32:56,715 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-04-01 11:32:56,716 : INFO : ball_device.bd_vuk_back : Wait for ball to leave device
+2023-04-01 11:32:56,716 : INFO : coil.c_vuk_back : Pulsing Driver for 40ms (1.0 pulse_power)
+2023-04-01 11:32:56,752 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:32:56,788 : INFO : SwitchController : <<<<<<< 's_vuk_back' inactive >>>>>>>
+2023-04-01 11:32:56,789 : INFO : ball_device.bd_vuk_back : State: ball_left
+2023-04-01 11:32:56,789 : INFO : ball_device.bd_vuk_back : Ball left
+2023-04-01 11:32:56,789 : INFO : ball_device.bd_vuk_back : Wait for confirm with timeout 2.0
+2023-04-01 11:32:56,889 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 11:32:57,069 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:32:57,079 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:32:57,090 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:32:57,091 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:57,099 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:57,110 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:57,110 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:57,113 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:57,114 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:58,532 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:32:58,553 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:32:58,554 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:32:58,629 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:32:58,776 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:32:58,796 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:32:58,796 : INFO : ball_device.bd_vuk_back : State: failed_confirm
+2023-04-01 11:32:58,796 : INFO : ball_device.bd_vuk_back : Got timeout (2.0s) before confirm from <playfield.playfield>
+2023-04-01 11:32:58,799 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:58,817 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:58,817 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:58,817 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:58,819 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:58,821 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:58,897 : INFO : ball_device.bd_vuk_back : Confirming eject because target is playfield and ball did not return.
+2023-04-01 11:32:58,898 : INFO : ball_device.bd_vuk_back : Eject successful
+2023-04-01 11:32:58,898 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2023-04-01 11:32:58,898 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-04-01 11:32:58,898 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2023-04-01 11:32:58,899 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:32:58,899 : INFO : ball_device.bd_vuk_back : State: idle
+2023-04-01 11:32:59,268 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:32:59,268 : INFO : SwitchController : <<<<<<< 's_b_pop' active >>>>>>>
+2023-04-01 11:32:59,270 : INFO : SwitchController : <<<<<<< 's_b_pop' inactive >>>>>>>
+2023-04-01 11:32:59,273 : INFO : SwitchController : <<<<<<< 's_b_pop' active >>>>>>>
+2023-04-01 11:32:59,274 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:59,288 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:32:59,289 : INFO : SwitchController : <<<<<<< 's_b_pop' inactive >>>>>>>
+2023-04-01 11:32:59,295 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:32:59,309 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:32:59,309 : INFO : SwitchController : <<<<<<< 's_b_pop' active >>>>>>>
+2023-04-01 11:32:59,309 : INFO : SwitchController : <<<<<<< 's_b_pop' inactive >>>>>>>
+2023-04-01 11:32:59,377 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:32:59,633 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:32:59,653 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:59,653 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:59,653 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:32:59,654 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:32:59,656 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:59,659 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:59,674 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:59,674 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:59,674 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:59,674 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:59,675 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:59,676 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:59,679 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:59,694 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:32:59,694 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:32:59,736 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:32:59,745 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:32:59,757 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:32:59,757 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:32:59,757 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:32:59,844 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:32:59,988 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 11:33:00,015 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:33:01,228 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:01,231 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:01,234 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:01,236 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:01,310 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:01,313 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,071 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:04,093 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:04,093 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,094 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:04,138 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:04,230 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:04,256 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:04,283 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:04,364 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:04,399 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:04,399 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,402 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,406 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,408 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,419 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:04,420 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:04,440 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:04,529 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:04,550 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:04,570 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:04,645 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:04,681 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,684 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,702 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,702 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,703 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,703 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,703 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,796 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:04,818 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,818 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 11:33:04,818 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,818 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:33:04,818 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:33:04,818 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:33:04,819 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,822 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,825 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,838 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,839 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,839 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,842 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,844 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,847 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,858 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,859 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:04,859 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:04,896 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:04,918 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:04,992 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:33:05,018 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 11:33:05,055 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:05,060 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:05,062 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:05,063 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:33:05,076 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:33:05,084 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:05,097 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:05,190 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:05,194 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:05,197 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:05,211 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:05,211 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:05,288 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:33:05,338 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 11:33:05,344 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:33:05,465 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:05,487 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:05,487 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:05,490 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:05,516 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:05,520 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:05,610 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:05,632 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:05,714 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:05,722 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:05,737 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:05,737 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:05,837 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:05,857 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:05,936 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:05,975 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:05,981 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:05,983 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:06,960 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 11:33:08,569 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 11:33:09,021 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:09,041 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:09,041 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:09,066 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:09,134 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:09,167 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:09,248 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:09,285 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:09,287 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:09,290 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:09,293 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:09,295 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:09,348 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:09,350 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:09,368 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:09,368 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:09,552 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:09,573 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:09,573 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:09,573 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:09,574 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:09,582 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:09,607 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:09,628 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:09,699 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:09,738 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:09,746 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:09,748 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:09,789 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:09,810 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:09,811 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:09,811 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:09,811 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:09,819 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:09,846 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:09,871 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:09,873 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:09,875 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:10,000 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:10,001 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:10,003 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:10,005 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:10,007 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:10,009 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:10,057 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:10,059 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:10,301 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:10,323 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:10,323 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:10,323 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:10,325 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:10,357 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:10,393 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:10,413 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:10,483 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:10,527 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:10,529 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:10,531 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:11,576 : INFO : SwitchController : <<<<<<< 's_u_lane_r' active >>>>>>>
+2023-04-01 11:33:11,693 : INFO : SwitchController : <<<<<<< 's_u_lane_r' inactive >>>>>>>
+2023-04-01 11:33:12,698 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:12,700 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:13,527 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:13,535 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:13,548 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:13,551 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:13,551 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:13,698 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:13,713 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:13,734 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 11:33:13,742 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 11:33:13,743 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:13,754 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 11:33:13,754 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:13,754 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 11:33:13,761 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 11:33:13,763 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 11:33:13,780 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:13,786 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 11:33:13,801 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 11:33:13,802 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:13,803 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:13,811 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 11:33:13,829 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 11:33:13,891 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:13,896 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:13,930 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:13,957 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:14,037 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:14,084 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:14,087 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:14,089 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:14,107 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2023-04-01 11:33:14,126 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:14,127 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2023-04-01 11:33:14,135 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:14,149 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2023-04-01 11:33:14,152 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2023-04-01 11:33:14,153 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:14,156 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:14,169 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:14,171 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:14,273 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2023-04-01 11:33:14,275 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2023-04-01 11:33:14,279 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2023-04-01 11:33:14,282 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:14,293 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:14,293 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:14,293 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:14,293 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:14,298 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2023-04-01 11:33:14,300 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:14,312 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:14,313 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:14,313 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:14,313 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:15,143 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:15,145 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:15,149 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:15,164 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:33:15,169 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:15,172 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:33:15,185 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:15,185 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:15,187 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:15,189 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:15,781 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:15,870 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:33:15,871 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:15,875 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:15,910 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:15,913 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:16,128 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:16,149 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:16,150 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:16,150 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:16,150 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:16,150 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:16,159 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:16,229 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:16,268 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:16,291 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:16,373 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:16,415 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:16,419 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:16,423 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:17,556 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2023-04-01 11:33:17,577 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2023-04-01 11:33:17,578 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:17,599 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:17,599 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:17,599 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:17,757 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2023-04-01 11:33:17,777 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2023-04-01 11:33:17,780 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:17,783 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:17,785 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:17,808 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:19,209 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:19,231 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:19,231 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:19,231 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:19,232 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:19,260 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:19,356 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:19,382 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:19,385 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:19,387 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:19,390 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:19,402 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:19,435 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:19,437 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:19,462 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:19,484 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:20,434 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:20,454 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:20,455 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:20,455 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:20,455 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:20,455 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:20,457 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:20,475 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:20,475 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:20,546 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:20,550 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:20,569 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:20,589 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2023-04-01 11:33:20,591 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2023-04-01 11:33:20,652 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:20,689 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:20,691 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:20,694 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:20,697 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:20,708 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:20,745 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:20,747 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:21,853 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:21,872 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:21,873 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:21,873 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:21,874 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:21,875 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:33:21,892 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:21,892 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:21,893 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:33:21,893 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:21,896 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:21,900 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:21,912 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:21,912 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:21,912 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:22,295 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:22,383 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:22,385 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:22,521 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:33:22,620 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:22,643 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:22,643 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:22,643 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:33:22,644 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:22,646 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:22,651 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:22,664 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:22,671 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:22,688 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:22,766 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:33:22,841 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:22,843 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:22,846 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:22,848 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:22,877 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:22,879 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,130 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:23,150 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:33:23,151 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,171 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,171 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,171 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,171 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,171 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,173 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,176 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,180 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,191 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,191 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,192 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,255 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:23,291 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,293 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,340 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,341 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,346 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:33:23,367 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 11:33:23,688 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:23,691 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:23,695 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:23,710 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,710 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,711 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:33:23,711 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,714 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,715 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:33:23,716 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,731 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,732 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,735 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:23,737 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:23,740 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:24,352 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:24,442 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:33:24,462 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 11:33:24,641 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:24,647 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:24,650 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:24,661 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:24,661 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:24,662 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:24,662 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:24,663 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:24,669 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:24,681 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:24,782 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:24,806 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:24,862 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:24,872 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:24,884 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:24,910 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:24,992 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:25,027 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:25,029 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:25,032 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:25,035 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:25,046 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:26,264 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2023-04-01 11:33:26,286 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2023-04-01 11:33:26,287 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2023-04-01 11:33:26,290 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:26,293 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:26,294 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2023-04-01 11:33:26,295 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:26,306 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:26,328 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:26,335 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:26,458 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2023-04-01 11:33:26,478 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2023-04-01 11:33:26,478 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:26,480 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:26,483 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:26,485 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:26,513 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:26,515 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:27,584 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:33:27,605 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:27,606 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:27,613 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:27,615 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:33:27,664 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:33:27,673 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:33:27,684 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:27,764 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:33:27,801 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:27,803 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:27,821 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:27,822 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:27,822 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:27,822 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:27,822 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:27,861 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:27,863 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:28,382 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:28,384 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:29,033 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:29,054 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:33:29,054 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:33:29,055 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:29,060 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:29,062 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:29,063 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:29,074 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:29,074 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:29,101 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:33:29,194 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:33:29,302 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 11:33:29,322 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 11:33:29,328 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 11:33:29,342 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 11:33:29,593 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2023-04-01 11:33:29,615 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2023-04-01 11:33:29,615 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:29,615 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:29,617 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:29,619 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:29,640 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2023-04-01 11:33:29,643 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2023-04-01 11:33:29,660 : INFO : SwitchController : <<<<<<< 's_sling_left' active >>>>>>>
+2023-04-01 11:33:29,660 : INFO : SwitchController : <<<<<<< 's_sling_left' inactive >>>>>>>
+2023-04-01 11:33:29,693 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:29,695 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:37,720 : INFO : SwitchController : <<<<<<< 's_trough_jam' active >>>>>>>
+2023-04-01 11:33:37,743 : INFO : SwitchController : <<<<<<< 's_trough_jam' inactive >>>>>>>
+2023-04-01 11:33:37,892 : INFO : SwitchController : <<<<<<< 's_trough_3' inactive >>>>>>>
+2023-04-01 11:33:37,893 : INFO : SwitchController : <<<<<<< 's_trough_4' inactive >>>>>>>
+2023-04-01 11:33:37,914 : INFO : SwitchController : <<<<<<< 's_trough_2' inactive >>>>>>>
+2023-04-01 11:33:37,914 : INFO : SwitchController : <<<<<<< 's_trough_5' inactive >>>>>>>
+2023-04-01 11:33:38,017 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:33:38,038 : INFO : SwitchController : <<<<<<< 's_trough_2' active >>>>>>>
+2023-04-01 11:33:38,038 : INFO : SwitchController : <<<<<<< 's_trough_3' active >>>>>>>
+2023-04-01 11:33:38,038 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2023-04-01 11:33:38,518 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:33:38,518 : INFO : ball_device.bd_plunger : Received unexpected ball
+2023-04-01 11:33:38,518 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2023-04-01 11:33:38,518 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2023-04-01 11:33:38,519 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2023-04-01 11:33:38,519 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:33:38,520 : INFO : ball_device.bd_plunger : Ejecting 1 unexpected balls using path deque([<ball_device.bd_plunger>, <ball_device.bd_vuk_back>, <playfield.playfield>])
+2023-04-01 11:33:38,520 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:33:38,520 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:33:38,520 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:33:38,521 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:33:38,521 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:33:38,522 : INFO : ball_device.bd_vuk_back : State: waiting_for_ball
+2023-04-01 11:33:38,522 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:33:38,522 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:33:38,522 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:33:38,523 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:33:38,523 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:33:38,551 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:33:38,551 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:38,552 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:33:38,552 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:33:38,552 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:33:38,555 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:38,558 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:38,560 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:38,572 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:38,572 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:38,573 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:38,573 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:38,573 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:38,576 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:38,579 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:38,581 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:38,592 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:38,592 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:38,592 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:38,592 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:39,714 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:39,715 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:39,718 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:33:39,736 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:33:39,736 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:39,736 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:39,962 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:33:40,553 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-04-01 11:33:40,553 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_vuk_back>
+2023-04-01 11:33:40,554 : INFO : ball_device.bd_plunger : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:33:40,554 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_vuk_back>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2023-04-01 11:33:40,555 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:33:40,555 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-04-01 11:33:40,556 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:33:40,556 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:33:40,556 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-04-01 11:33:40,557 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:33:40,557 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:33:40,585 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:33:40,585 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:33:40,586 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:33:40,586 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:33:40,592 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:40,594 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:40,606 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:40,606 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:40,606 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:40,606 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:40,626 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:40,627 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:42,462 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:42,464 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:42,468 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:42,471 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:42,586 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-04-01 11:33:42,587 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_vuk_back>
+2023-04-01 11:33:43,540 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 4}
+2023-04-01 11:33:43,540 : WARNING : ball_device.bd_trough : Ball disappeared while idle. This should not normally happen.
+2023-04-01 11:33:43,540 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-04-01 11:33:43,540 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2023-04-01 11:33:43,541 : INFO : ball_device.bd_trough : 1 ball(s) missing from device. Mechanical eject? False
+2023-04-01 11:33:43,541 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_missing'====== Args={'balls': 1}
+2023-04-01 11:33:43,541 : INFO : EventManager : Event: ======'balldevice_ball_missing'====== Args={'balls': 1, 'name': 'bd_trough'}
+2023-04-01 11:33:44,404 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:33:44,906 : INFO : ball_device.bd_plunger : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:33:44,906 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_vuk_back>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2023-04-01 11:33:44,907 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:33:44,907 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 2}
+2023-04-01 11:33:44,908 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:33:44,908 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:33:44,908 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 2}
+2023-04-01 11:33:44,909 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:33:44,909 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:33:44,937 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:33:44,937 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:44,938 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:33:44,938 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:33:44,938 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:33:44,941 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:44,944 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:44,946 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:44,957 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:44,958 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:44,958 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:44,958 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:44,960 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:44,962 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:44,985 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:44,987 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:45,805 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:45,808 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:46,939 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-04-01 11:33:46,939 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_vuk_back>
+2023-04-01 11:33:55,201 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:33:55,702 : INFO : ball_device.bd_plunger : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:33:55,702 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_vuk_back>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2023-04-01 11:33:55,703 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:33:55,703 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 3}
+2023-04-01 11:33:55,714 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:33:55,715 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:33:55,715 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 3}
+2023-04-01 11:33:55,716 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:33:55,716 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:33:55,743 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:33:55,743 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:55,744 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:33:55,744 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:33:55,744 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:33:55,747 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:55,749 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:55,751 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:55,764 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:55,764 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:55,770 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:55,773 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:55,786 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:55,786 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:55,786 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:55,786 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:56,867 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:33:56,872 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:33:56,872 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:56,874 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:56,889 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:33:56,889 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:33:56,892 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:56,894 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:57,123 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:33:57,745 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-04-01 11:33:57,746 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_vuk_back>
+2023-04-01 11:33:57,746 : INFO : ball_device.bd_plunger : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:33:57,746 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_vuk_back>, 'balls': 1, 'retry': True, 'num_attempts': 4}
+2023-04-01 11:33:57,747 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:33:57,747 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 4}
+2023-04-01 11:33:57,748 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:33:57,748 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:33:57,748 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 4}
+2023-04-01 11:33:57,749 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:33:57,749 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:33:57,777 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:33:57,778 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:33:57,779 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:33:57,779 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:33:57,779 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:57,781 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:57,784 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:57,786 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:57,798 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:57,798 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:57,798 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:57,799 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:57,819 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:57,819 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:57,827 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:57,829 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:58,434 : INFO : SwitchController : <<<<<<< 's_vuk_back' active >>>>>>>
+2023-04-01 11:33:58,935 : INFO : ball_device.bd_vuk_back : Received ball from <ball_device.bd_plunger>
+2023-04-01 11:33:58,935 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 11:33:58,935 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 11:33:58,936 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:33:58,936 : INFO : ball_device.bd_plunger : Got eject confirm
+2023-04-01 11:33:58,936 : INFO : ball_device.bd_plunger : Eject successful
+2023-04-01 11:33:58,936 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>}
+2023-04-01 11:33:58,937 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:33:58,937 : INFO : ball_device.bd_plunger : State: idle
+2023-04-01 11:33:58,937 : INFO : ball_device.bd_vuk_back : State: waiting_for_target_ready
+2023-04-01 11:33:58,937 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:33:58,938 : INFO : ball_device.bd_vuk_back : State: ejecting
+2023-04-01 11:33:58,938 : INFO : ball_device.bd_vuk_back : Ejecting ball to <playfield.playfield>
+2023-04-01 11:33:58,938 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:33:58,939 : INFO : ball_device.bd_vuk_back : Wait for ball to leave device
+2023-04-01 11:33:58,939 : INFO : coil.c_vuk_back : Pulsing Driver for 40ms (1.0 pulse_power)
+2023-04-01 11:33:59,010 : INFO : SwitchController : <<<<<<< 's_vuk_back' inactive >>>>>>>
+2023-04-01 11:33:59,011 : INFO : ball_device.bd_vuk_back : State: ball_left
+2023-04-01 11:33:59,011 : INFO : ball_device.bd_vuk_back : Ball left
+2023-04-01 11:33:59,011 : INFO : ball_device.bd_vuk_back : Wait for confirm with timeout 2.0
+2023-04-01 11:33:59,336 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:33:59,357 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:33:59,358 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:59,366 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:59,377 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:59,377 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:59,377 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:59,377 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:59,379 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:33:59,381 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:33:59,483 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:33:59,487 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:00,390 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:00,461 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:00,483 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:00,486 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:00,488 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:00,504 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:00,504 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:00,586 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:34:00,779 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:00,800 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:34:00,800 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:00,805 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:00,807 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:00,819 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:00,819 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:00,820 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:00,822 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:00,823 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:00,824 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:00,978 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:01,012 : INFO : ball_device.bd_vuk_back : State: failed_confirm
+2023-04-01 11:34:01,013 : INFO : ball_device.bd_vuk_back : Got timeout (2.0s) before confirm from <playfield.playfield>
+2023-04-01 11:34:01,112 : INFO : ball_device.bd_vuk_back : Confirming eject because target is playfield and ball did not return.
+2023-04-01 11:34:01,112 : INFO : ball_device.bd_vuk_back : Eject successful
+2023-04-01 11:34:01,112 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2023-04-01 11:34:01,113 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-04-01 11:34:01,113 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 2, 'change': 1}
+2023-04-01 11:34:01,113 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:34:01,114 : INFO : ball_device.bd_vuk_back : State: idle
+2023-04-01 11:34:01,365 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:01,367 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:01,371 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:01,460 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:34:01,502 : INFO : SwitchController : <<<<<<< 's_b_pop' active >>>>>>>
+2023-04-01 11:34:01,523 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 11:34:01,523 : INFO : SwitchController : <<<<<<< 's_b_pop' inactive >>>>>>>
+2023-04-01 11:34:01,543 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 11:34:01,826 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:01,833 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:01,847 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:01,847 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:01,847 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:34:01,848 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:01,848 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:01,857 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:01,869 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:01,869 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:01,870 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:01,873 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:01,900 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:01,907 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:02,013 : INFO : SwitchController : <<<<<<< 's_b_pop' active >>>>>>>
+2023-04-01 11:34:02,019 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:02,034 : INFO : SwitchController : <<<<<<< 's_b_pop' inactive >>>>>>>
+2023-04-01 11:34:02,110 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:34:02,293 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:02,314 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:34:02,316 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:02,334 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:02,334 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:02,334 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:02,337 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:02,339 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:02,733 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:02,824 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:34:02,982 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:03,003 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:34:03,005 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:03,009 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:03,023 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:03,025 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:03,029 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:03,052 : INFO : SwitchController : <<<<<<< 's_b_rollover_misc' active >>>>>>>
+2023-04-01 11:34:03,072 : INFO : SwitchController : <<<<<<< 's_b_rollover_misc' inactive >>>>>>>
+2023-04-01 11:34:03,496 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:03,520 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:03,521 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:03,525 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:03,609 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:34:03,635 : INFO : SwitchController : <<<<<<< 's_b_pop' active >>>>>>>
+2023-04-01 11:34:03,655 : INFO : SwitchController : <<<<<<< 's_b_pop' inactive >>>>>>>
+2023-04-01 11:34:03,847 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:03,868 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:34:03,870 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:03,874 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:03,877 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:03,889 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:03,889 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:03,889 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:03,890 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:03,890 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:03,892 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:04,317 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:04,339 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:04,343 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:04,345 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:04,432 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:34:04,468 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:04,488 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:34:04,489 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:04,494 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:04,496 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:04,508 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:04,508 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:04,509 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:04,511 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:04,514 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:04,574 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:04,764 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:04,771 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:04,785 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:04,785 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:04,788 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:04,791 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:04,863 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:04,887 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:05,009 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:05,030 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:05,056 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:34:05,281 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:05,302 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:34:05,302 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:05,322 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:05,322 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:05,322 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:05,323 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:05,323 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:05,323 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:05,327 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:05,823 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:05,826 : INFO : SwitchController : <<<<<<< 's_b_pop' active >>>>>>>
+2023-04-01 11:34:05,844 : INFO : SwitchController : <<<<<<< 's_b_pop' inactive >>>>>>>
+2023-04-01 11:34:05,914 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:34:07,211 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:07,213 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:07,292 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:07,294 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:09,414 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:34:09,916 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:34:09,916 : INFO : ball_device.bd_plunger : Received unexpected ball
+2023-04-01 11:34:09,916 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2023-04-01 11:34:09,916 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2023-04-01 11:34:09,916 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': -1}
+2023-04-01 11:34:09,917 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:34:09,918 : INFO : ball_device.bd_plunger : Ejecting 1 unexpected balls using path deque([<ball_device.bd_plunger>, <ball_device.bd_vuk_back>, <playfield.playfield>])
+2023-04-01 11:34:09,918 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:34:09,918 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:34:09,918 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:34:09,919 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:34:09,919 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:34:09,919 : INFO : ball_device.bd_vuk_back : State: waiting_for_ball
+2023-04-01 11:34:09,920 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:34:09,920 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:34:09,920 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:34:09,921 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:34:09,921 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:34:09,948 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:34:09,949 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:34:09,949 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:34:09,949 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:34:09,954 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:09,956 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:09,969 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:09,969 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:09,969 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:09,969 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:09,970 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:09,972 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:09,975 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:09,977 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:09,989 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:09,989 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:09,989 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:09,989 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:11,595 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:11,601 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:11,949 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-04-01 11:34:11,950 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_vuk_back>
+2023-04-01 11:34:12,888 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:34:13,389 : INFO : ball_device.bd_plunger : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:34:13,389 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_vuk_back>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2023-04-01 11:34:13,390 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:34:13,390 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-04-01 11:34:13,390 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:34:13,391 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:34:13,391 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 1}
+2023-04-01 11:34:13,391 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:34:13,391 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:34:13,418 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:34:13,418 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:13,419 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:34:13,419 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:34:13,419 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:34:13,421 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:13,425 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:13,427 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:13,438 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:13,438 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:13,438 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:13,439 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:13,441 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:13,443 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:13,446 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:13,458 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:13,458 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:13,458 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:13,478 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:13,479 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:13,479 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:13,479 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:13,481 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:13,483 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:14,180 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:14,200 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:15,420 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-04-01 11:34:15,420 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_vuk_back>
+2023-04-01 11:34:15,515 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2023-04-01 11:34:15,537 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2023-04-01 11:34:15,538 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:15,540 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:15,542 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:15,545 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:15,547 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:15,559 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:15,559 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:15,559 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:15,559 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:15,561 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:15,564 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:15,566 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:17,295 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:34:17,796 : INFO : ball_device.bd_plunger : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:34:17,796 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_vuk_back>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2023-04-01 11:34:17,797 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:34:17,797 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 2}
+2023-04-01 11:34:17,798 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:34:17,798 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:34:17,798 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 2}
+2023-04-01 11:34:17,799 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:34:17,799 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:34:17,827 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:34:17,827 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:17,827 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:34:17,828 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:34:17,828 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:34:17,831 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:17,833 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:17,835 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:17,847 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:17,847 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:17,854 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:17,856 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:18,986 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:34:19,007 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:34:19,829 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-04-01 11:34:19,829 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_vuk_back>
+2023-04-01 11:34:21,965 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:34:22,465 : INFO : ball_device.bd_plunger : Got unknown balls. Assuming a ball returned.
+2023-04-01 11:34:22,465 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_vuk_back>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2023-04-01 11:34:22,466 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:34:22,466 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 3}
+2023-04-01 11:34:22,467 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:34:22,467 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:34:22,467 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 3}
+2023-04-01 11:34:22,468 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:34:22,468 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:34:22,496 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:34:22,496 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:22,496 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:34:22,497 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:34:22,497 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:34:22,500 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:22,503 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:22,505 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:22,516 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:22,517 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:23,300 : INFO : SwitchController : <<<<<<< 's_vuk_back' active >>>>>>>
+2023-04-01 11:34:23,801 : INFO : ball_device.bd_vuk_back : Received ball from <ball_device.bd_plunger>
+2023-04-01 11:34:23,801 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 11:34:23,802 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 11:34:23,802 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:34:23,802 : INFO : ball_device.bd_plunger : Got eject confirm
+2023-04-01 11:34:23,802 : INFO : ball_device.bd_plunger : Eject successful
+2023-04-01 11:34:23,803 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>}
+2023-04-01 11:34:23,803 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:34:23,803 : INFO : ball_device.bd_plunger : State: idle
+2023-04-01 11:34:23,803 : INFO : ball_device.bd_vuk_back : State: waiting_for_target_ready
+2023-04-01 11:34:23,803 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:34:23,804 : INFO : ball_device.bd_vuk_back : State: ejecting
+2023-04-01 11:34:23,804 : INFO : ball_device.bd_vuk_back : Ejecting ball to <playfield.playfield>
+2023-04-01 11:34:23,804 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:34:23,805 : INFO : ball_device.bd_vuk_back : Wait for ball to leave device
+2023-04-01 11:34:23,805 : INFO : coil.c_vuk_back : Pulsing Driver for 40ms (1.0 pulse_power)
+2023-04-01 11:34:23,877 : INFO : SwitchController : <<<<<<< 's_vuk_back' inactive >>>>>>>
+2023-04-01 11:34:23,878 : INFO : ball_device.bd_vuk_back : State: ball_left
+2023-04-01 11:34:23,878 : INFO : ball_device.bd_vuk_back : Ball left
+2023-04-01 11:34:23,878 : INFO : ball_device.bd_vuk_back : Wait for confirm with timeout 2.0
+2023-04-01 11:34:24,143 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:24,162 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:34:24,163 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:24,169 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:24,171 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:24,183 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:24,183 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:24,183 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:24,183 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:24,184 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:24,186 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:24,189 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:24,203 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:24,206 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:25,117 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:25,142 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:25,147 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:25,236 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:34:25,412 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:25,433 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:34:25,434 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:25,441 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:34:25,455 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:25,456 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:25,458 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:25,879 : INFO : ball_device.bd_vuk_back : State: failed_confirm
+2023-04-01 11:34:25,880 : INFO : ball_device.bd_vuk_back : Got timeout (2.0s) before confirm from <playfield.playfield>
+2023-04-01 11:34:25,981 : INFO : ball_device.bd_vuk_back : Confirming eject because target is playfield and ball did not return.
+2023-04-01 11:34:25,981 : INFO : ball_device.bd_vuk_back : Eject successful
+2023-04-01 11:34:25,981 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2023-04-01 11:34:25,982 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-04-01 11:34:25,982 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 2, 'change': 1}
+2023-04-01 11:34:25,982 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:34:25,982 : INFO : ball_device.bd_vuk_back : State: idle
+2023-04-01 11:34:26,117 : INFO : SwitchController : <<<<<<< 's_b_pop' active >>>>>>>
+2023-04-01 11:34:26,138 : INFO : SwitchController : <<<<<<< 's_b_pop' inactive >>>>>>>
+2023-04-01 11:34:26,204 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:34:26,225 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:26,230 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:34:26,232 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:34:26,316 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:34:27,818 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:34:27,820 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:34:31,553 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 11:34:33,441 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 11:34:36,784 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 11:34:38,995 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 11:35:02,401 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:35:02,902 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:35:02,903 : INFO : ball_device.bd_plunger : Received unexpected ball
+2023-04-01 11:35:02,903 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2023-04-01 11:35:02,903 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2023-04-01 11:35:02,903 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': -1}
+2023-04-01 11:35:02,904 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:35:02,905 : INFO : ball_device.bd_plunger : Ejecting 1 unexpected balls using path deque([<ball_device.bd_plunger>, <ball_device.bd_vuk_back>, <playfield.playfield>])
+2023-04-01 11:35:02,905 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:35:02,905 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:35:02,905 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:35:02,906 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:35:02,906 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:35:02,906 : INFO : ball_device.bd_vuk_back : State: waiting_for_ball
+2023-04-01 11:35:02,907 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:35:02,907 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:35:02,907 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:35:02,908 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:35:02,908 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:35:02,936 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:35:02,937 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:35:02,937 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:35:02,937 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:35:02,938 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:02,940 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:02,943 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:02,945 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:02,957 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:02,957 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:03,611 : INFO : SwitchController : <<<<<<< 's_vuk_back' active >>>>>>>
+2023-04-01 11:35:04,111 : INFO : ball_device.bd_vuk_back : Received ball from <ball_device.bd_plunger>
+2023-04-01 11:35:04,112 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 11:35:04,112 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 11:35:04,112 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:35:04,113 : INFO : ball_device.bd_plunger : Got eject confirm
+2023-04-01 11:35:04,113 : INFO : ball_device.bd_plunger : Eject successful
+2023-04-01 11:35:04,113 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>}
+2023-04-01 11:35:04,113 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:35:04,114 : INFO : ball_device.bd_plunger : State: idle
+2023-04-01 11:35:04,114 : INFO : ball_device.bd_vuk_back : State: waiting_for_target_ready
+2023-04-01 11:35:04,114 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:35:04,115 : INFO : ball_device.bd_vuk_back : State: ejecting
+2023-04-01 11:35:04,115 : INFO : ball_device.bd_vuk_back : Ejecting ball to <playfield.playfield>
+2023-04-01 11:35:04,115 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:35:04,116 : INFO : ball_device.bd_vuk_back : Wait for ball to leave device
+2023-04-01 11:35:04,116 : INFO : coil.c_vuk_back : Pulsing Driver for 40ms (1.0 pulse_power)
+2023-04-01 11:35:04,187 : INFO : SwitchController : <<<<<<< 's_vuk_back' inactive >>>>>>>
+2023-04-01 11:35:04,187 : INFO : ball_device.bd_vuk_back : State: ball_left
+2023-04-01 11:35:04,188 : INFO : ball_device.bd_vuk_back : Ball left
+2023-04-01 11:35:04,188 : INFO : ball_device.bd_vuk_back : Wait for confirm with timeout 2.0
+2023-04-01 11:35:04,502 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:35:04,524 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:04,525 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:04,525 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:35:04,525 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:04,528 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:04,531 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:04,533 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:04,544 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:04,544 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:04,545 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:04,545 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:04,546 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:04,548 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:04,986 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:35:05,006 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:35:05,007 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:35:05,094 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:35:05,294 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:35:05,315 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:35:05,316 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:05,324 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:05,336 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:05,336 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:05,336 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:35:05,336 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:05,337 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:05,337 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:05,340 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:05,357 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:35:05,770 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 11:35:05,824 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 11:35:05,832 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:35:05,844 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:35:05,845 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:35:05,930 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:35:06,053 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:35:06,056 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:35:06,073 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:35:06,073 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 11:35:06,074 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:06,092 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:06,096 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:06,098 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:06,112 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:06,113 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:06,141 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:35:06,144 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 11:35:06,146 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 11:35:06,189 : INFO : ball_device.bd_vuk_back : State: failed_confirm
+2023-04-01 11:35:06,189 : INFO : ball_device.bd_vuk_back : Got timeout (2.0s) before confirm from <playfield.playfield>
+2023-04-01 11:35:06,235 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 11:35:06,290 : INFO : ball_device.bd_vuk_back : Confirming eject because target is playfield and ball did not return.
+2023-04-01 11:35:06,291 : INFO : ball_device.bd_vuk_back : Eject successful
+2023-04-01 11:35:06,291 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2023-04-01 11:35:06,291 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-04-01 11:35:06,291 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 2, 'change': 1}
+2023-04-01 11:35:06,292 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:35:06,292 : INFO : ball_device.bd_vuk_back : State: idle
+2023-04-01 11:35:07,499 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:07,504 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:11,336 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:35:11,837 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 11:35:11,838 : INFO : ball_device.bd_plunger : Received unexpected ball
+2023-04-01 11:35:11,838 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2023-04-01 11:35:11,838 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2023-04-01 11:35:11,838 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': -1}
+2023-04-01 11:35:11,839 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:35:11,839 : INFO : ball_device.bd_plunger : Ejecting 1 unexpected balls using path deque([<ball_device.bd_plunger>, <ball_device.bd_vuk_back>, <playfield.playfield>])
+2023-04-01 11:35:11,840 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:35:11,840 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:35:11,840 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_plunger>}
+2023-04-01 11:35:11,841 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 11:35:11,841 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:35:11,841 : INFO : ball_device.bd_vuk_back : State: waiting_for_ball
+2023-04-01 11:35:11,842 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 11:35:11,842 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 11:35:11,842 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2023-04-01 11:35:11,842 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 11:35:11,842 : INFO : coil.c_autolauncher : Pulsing Driver for 20ms (0.9 pulse_power)
+2023-04-01 11:35:11,871 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:35:11,871 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:11,872 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 11:35:11,872 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 11:35:11,872 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 2.0
+2023-04-01 11:35:11,875 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:11,878 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:11,880 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:11,892 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:11,892 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:11,892 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:11,892 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:11,910 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:11,911 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:11,911 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:11,911 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:13,064 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:13,066 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:13,169 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 11:35:13,189 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:13,190 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:13,195 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 11:35:13,873 : INFO : ball_device.bd_plunger : State: failed_confirm
+2023-04-01 11:35:13,873 : INFO : ball_device.bd_plunger : Got timeout (2.0s) before confirm from <ball_device.bd_vuk_back>
+2023-04-01 11:35:17,343 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:17,346 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:17,351 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:17,364 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:17,365 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:17,365 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:17,371 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:17,373 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:17,878 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:35:17,880 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:35:18,113 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2023-04-01 11:35:18,206 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2023-04-01 11:35:18,270 : INFO : SwitchController : <<<<<<< 's_trough_5' active >>>>>>>
+2023-04-01 11:35:18,771 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 5}
+2023-04-01 11:35:18,772 : INFO : ball_device.bd_trough : Received unexpected ball
+2023-04-01 11:35:18,772 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2023-04-01 11:35:18,772 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2023-04-01 11:35:18,772 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2023-04-01 11:35:18,773 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2023-04-01 11:35:18,773 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2023-04-01 11:35:18,773 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 11:35:18,773 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2023-04-01 11:35:33,875 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_failed'====== Args={'target': <ball_device.bd_vuk_back>, 'balls': 1, 'retry': True, 'num_attempts': 0}
+2023-04-01 11:35:33,876 : WARNING : ball_device.bd_plunger : Path to <ball_device.bd_vuk_back> canceled. Assuming the ball jumped to <playfield.playfield>.
+2023-04-01 11:35:33,876 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-04-01 11:35:33,876 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2023-04-01 11:35:33,876 : INFO : ball_device.bd_plunger : 1 ball(s) missing from device. Mechanical eject? False
+2023-04-01 11:35:33,876 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_missing'====== Args={'balls': 1}
+2023-04-01 11:35:33,877 : INFO : ball_device.bd_vuk_back : State: idle
+2023-04-01 11:35:33,877 : INFO : EventManager : Event: ======'balldevice_ball_missing'====== Args={'balls': 1, 'name': 'bd_plunger'}
+2023-04-01 11:35:33,878 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 11:35:33,878 : INFO : ball_device.bd_plunger : State: idle
+2023-04-01 11:36:25,570 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 11:36:25,864 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 11:36:25,864 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-04-01 11:36:25,864 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2023-04-01 11:36:25,865 : INFO : BallController : Known balls: 6
+2023-04-01 11:36:25,865 : INFO : BallController : bd_vuk_back contains 0 balls. Tags []
+2023-04-01 11:36:25,865 : INFO : BallController : bd_vuk_right contains 0 balls. Tags []
+2023-04-01 11:36:25,865 : INFO : BallController : bd_b_lock contains 0 balls. Tags []
+2023-04-01 11:36:25,865 : INFO : BallController : bd_vuk_bot contains 0 balls. Tags []
+2023-04-01 11:36:25,865 : INFO : BallController : bd_trough contains 5 balls. Tags ['trough', 'home', 'drain']
+2023-04-01 11:36:25,865 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2023-04-01 11:36:25,865 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2023-04-01 11:36:25,865 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2023-04-01 11:36:28,025 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:36:28,046 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:36:28,047 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:36:28,066 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:36:28,178 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:36:28,206 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:36:28,286 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:36:28,323 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:36:28,325 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:36:28,328 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:36:28,330 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:36:28,342 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:36:28,343 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:36:28,343 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:36:28,343 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:36:28,344 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:36:32,853 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 11:36:33,050 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 11:36:33,050 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-04-01 11:36:33,050 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2023-04-01 11:36:33,051 : INFO : BallController : Known balls: 6
+2023-04-01 11:36:33,051 : INFO : BallController : bd_vuk_back contains 0 balls. Tags []
+2023-04-01 11:36:33,051 : INFO : BallController : bd_vuk_right contains 0 balls. Tags []
+2023-04-01 11:36:33,051 : INFO : BallController : bd_b_lock contains 0 balls. Tags []
+2023-04-01 11:36:33,051 : INFO : BallController : bd_vuk_bot contains 0 balls. Tags []
+2023-04-01 11:36:33,051 : INFO : BallController : bd_trough contains 5 balls. Tags ['trough', 'home', 'drain']
+2023-04-01 11:36:33,051 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2023-04-01 11:36:33,051 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2023-04-01 11:36:33,051 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2023-04-01 11:36:33,157 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 11:36:33,280 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 11:36:33,281 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-04-01 11:36:33,281 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2023-04-01 11:36:33,282 : INFO : BallController : Known balls: 6
+2023-04-01 11:36:33,282 : INFO : BallController : bd_vuk_back contains 0 balls. Tags []
+2023-04-01 11:36:33,282 : INFO : BallController : bd_vuk_right contains 0 balls. Tags []
+2023-04-01 11:36:33,282 : INFO : BallController : bd_b_lock contains 0 balls. Tags []
+2023-04-01 11:36:33,282 : INFO : BallController : bd_vuk_bot contains 0 balls. Tags []
+2023-04-01 11:36:33,282 : INFO : BallController : bd_trough contains 5 balls. Tags ['trough', 'home', 'drain']
+2023-04-01 11:36:33,282 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2023-04-01 11:36:33,282 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2023-04-01 11:36:33,282 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2023-04-01 11:36:33,454 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 11:36:33,618 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 11:36:33,618 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-04-01 11:36:33,618 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2023-04-01 11:36:33,619 : INFO : BallController : Known balls: 6
+2023-04-01 11:36:33,619 : INFO : BallController : bd_vuk_back contains 0 balls. Tags []
+2023-04-01 11:36:33,619 : INFO : BallController : bd_vuk_right contains 0 balls. Tags []
+2023-04-01 11:36:33,619 : INFO : BallController : bd_b_lock contains 0 balls. Tags []
+2023-04-01 11:36:33,619 : INFO : BallController : bd_vuk_bot contains 0 balls. Tags []
+2023-04-01 11:36:33,619 : INFO : BallController : bd_trough contains 5 balls. Tags ['trough', 'home', 'drain']
+2023-04-01 11:36:33,619 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2023-04-01 11:36:33,619 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2023-04-01 11:36:33,619 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2023-04-01 11:36:45,123 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 11:36:45,144 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:36:45,145 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 11:36:45,145 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' active >>>>>>>
+2023-04-01 11:36:45,165 : INFO : SwitchController : <<<<<<< 's_left_flipper_2' inactive >>>>>>>
+2023-04-01 11:36:45,206 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 11:36:45,322 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:36:45,324 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:36:45,341 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:36:45,342 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 11:36:45,342 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:36:45,342 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:36:45,378 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:36:45,380 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:36:45,385 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 11:36:45,387 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 11:36:46,715 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 11:36:46,938 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 11:36:46,938 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-04-01 11:36:46,938 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2023-04-01 11:36:46,939 : INFO : BallController : Known balls: 6
+2023-04-01 11:36:46,939 : INFO : BallController : bd_vuk_back contains 0 balls. Tags []
+2023-04-01 11:36:46,939 : INFO : BallController : bd_vuk_right contains 0 balls. Tags []
+2023-04-01 11:36:46,939 : INFO : BallController : bd_b_lock contains 0 balls. Tags []
+2023-04-01 11:36:46,939 : INFO : BallController : bd_vuk_bot contains 0 balls. Tags []
+2023-04-01 11:36:46,939 : INFO : BallController : bd_trough contains 5 balls. Tags ['trough', 'home', 'drain']
+2023-04-01 11:36:46,939 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2023-04-01 11:36:46,939 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2023-04-01 11:36:46,939 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2023-04-01 11:36:47,187 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 11:36:48,059 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 11:36:48,059 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-04-01 11:36:48,059 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2023-04-01 11:36:48,059 : INFO : BallController : Known balls: 6
+2023-04-01 11:36:48,059 : INFO : BallController : bd_vuk_back contains 0 balls. Tags []
+2023-04-01 11:36:48,060 : INFO : BallController : bd_vuk_right contains 0 balls. Tags []
+2023-04-01 11:36:48,060 : INFO : BallController : bd_b_lock contains 0 balls. Tags []
+2023-04-01 11:36:48,060 : INFO : BallController : bd_vuk_bot contains 0 balls. Tags []
+2023-04-01 11:36:48,060 : INFO : BallController : bd_trough contains 5 balls. Tags ['trough', 'home', 'drain']
+2023-04-01 11:36:48,060 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2023-04-01 11:36:48,060 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2023-04-01 11:36:48,060 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2023-04-01 11:36:48,259 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 11:36:48,350 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 11:36:48,350 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-04-01 11:36:48,351 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2023-04-01 11:36:48,351 : INFO : BallController : Known balls: 6
+2023-04-01 11:36:48,351 : INFO : BallController : bd_vuk_back contains 0 balls. Tags []
+2023-04-01 11:36:48,351 : INFO : BallController : bd_vuk_right contains 0 balls. Tags []
+2023-04-01 11:36:48,351 : INFO : BallController : bd_b_lock contains 0 balls. Tags []
+2023-04-01 11:36:48,351 : INFO : BallController : bd_vuk_bot contains 0 balls. Tags []
+2023-04-01 11:36:48,351 : INFO : BallController : bd_trough contains 5 balls. Tags ['trough', 'home', 'drain']
+2023-04-01 11:36:48,352 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2023-04-01 11:36:48,352 : INFO : BallController : playfield contains 1 balls. Tags ['default']
+2023-04-01 11:36:48,352 : WARNING : BallController : BallController denies game start. Balls are not in their home positions.
+2023-04-01 11:36:49,262 : INFO : Machine : Shutting down...
+2023-04-01 11:36:49,262 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-01 11:36:49,377 : INFO : root : MPF run loop ended.

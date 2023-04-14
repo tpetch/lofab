@@ -1,0 +1,1027 @@
+2023-04-01 13:53:21,596 : INFO : root : Loading config.
+2023-04-01 13:53:22,009 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/config_spec.mpf_cache
+2023-04-01 13:53:22,009 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-01 13:53:22,009 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/28c67afebeedf0bcd540f5dc9898a885.mpf_cache
+2023-04-01 13:53:22,089 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/03cea1619b79a61f4f0eef3c59cdaa46.mpf_cache
+2023-04-01 13:53:22,091 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/d3948d842c6309f14ab557c3c72320d0.mpf_cache
+2023-04-01 13:53:22,093 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/a37a2141962f60258a07880b3484644a.mpf_cache
+2023-04-01 13:53:22,094 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/1abbb484e5c2eb8b7dba517683fc6f83.mpf_cache
+2023-04-01 13:53:22,095 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.1.dev4
+2023-04-01 13:53:22,095 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2023-04-01-13-53-21-mpf-Tanners-MacBook-Pro-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-01 13:53:22,095 : INFO : Machine : MPF path: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf
+2023-04-01 13:53:22,095 : INFO : Machine : Machine path: /Users/tpetch/Documents/trashland_3
+2023-04-01 13:53:22,095 : INFO : Machine : Platform: darwin
+2023-04-01 13:53:22,095 : INFO : Machine : Python executable location: /Users/tpetch/.local/pipx/venvs/mpf/bin/python
+2023-04-01 13:53:22,095 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-04-01 13:53:22,104 : INFO : Machine : Initialise MPF.
+2023-04-01 13:53:22,187 : INFO : [NET] : Trying to connect to /dev/tty.usbmodem141401 at 921600bps
+2023-04-01 13:53:22,194 : INFO : [NET] : Connected to /dev/tty.usbmodem141401 at 921600bps
+2023-04-01 13:53:22,207 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.06
+2023-04-01 13:53:22,207 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '02.06', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,207 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-2000', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,209 : INFO : [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-04-01 13:53:22,211 : INFO : [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2023-04-01 13:53:22,212 : INFO : [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-04-01 13:53:22,214 : INFO : [NET] : Registered I/O Board 3: Model: FP-I/O-1616, Firmware: 01.09, Switches: 16, Drivers: 16
+2023-04-01 13:53:22,215 : INFO : [NET] : Registered I/O Board 4: Model: FP-I/O-3208, Firmware: 01.09, Switches: 32, Drivers: 8
+2023-04-01 13:53:22,218 : INFO : [EXP] : Trying to connect to /dev/tty.usbmodem141403 at 921600bps
+2023-04-01 13:53:22,222 : INFO : [EXP] : Connected to /dev/tty.usbmodem141403 at 921600bps
+2023-04-01 13:53:22,228 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,269 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,269 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,269 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.1.dev4', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,269 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.1.dev4, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,269 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,282 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-10.16-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,283 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,283 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '22.2.0', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,283 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 22.2.0: Fri Nov 11 02:08:47 PST 2022; root:xnu-8792.61.2~4/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,283 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,283 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-04-01 13:53:22,360 : INFO : EventManager : Event: ======'drop_target_bank_single_main_up'====== Args={}
+2023-04-01 13:53:22,360 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2023-04-01 13:53:22,360 : INFO : EventManager : Event: ======'drop_target_bank_right_up'====== Args={}
+2023-04-01 13:53:22,361 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-04-01 13:53:22,362 : INFO : SwitchController : Found active switch: (('03', 0), <Platform.FAST>) <switch.s_left_flipper_2>
+2023-04-01 13:53:22,362 : INFO : SwitchController : Found active switch: (('1D', 0), <Platform.FAST>) <switch.s_trough_1>
+2023-04-01 13:53:22,362 : INFO : SwitchController : Found active switch: (('1C', 0), <Platform.FAST>) <switch.s_trough_2>
+2023-04-01 13:53:22,362 : INFO : SwitchController : Found active switch: (('34', 0), <Platform.FAST>) <switch.s_drop_scoop>
+2023-04-01 13:53:22,369 : INFO : ball_device.bd_vuk_back : BCH: Initial count: 0
+2023-04-01 13:53:22,369 : INFO : ball_device.bd_vuk_back : State: idle
+2023-04-01 13:53:22,369 : INFO : ball_device.bd_vuk_right : BCH: Initial count: 0
+2023-04-01 13:53:22,370 : INFO : ball_device.bd_vuk_right : State: idle
+2023-04-01 13:53:22,370 : INFO : ball_device.bd_b_lock : BCH: Initial count: 0
+2023-04-01 13:53:22,371 : INFO : ball_device.bd_b_lock : State: idle
+2023-04-01 13:53:22,371 : INFO : ball_device.bd_vuk_bot : BCH: Initial count: 0
+2023-04-01 13:53:22,371 : INFO : ball_device.bd_vuk_bot : State: idle
+2023-04-01 13:53:22,372 : INFO : ball_device.bd_trough : BCH: Initial count: 2
+2023-04-01 13:53:22,372 : INFO : ball_device.bd_trough : State: idle
+2023-04-01 13:53:22,372 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2023-04-01 13:53:22,373 : INFO : ball_device.bd_plunger : State: idle
+2023-04-01 13:53:22,388 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-04-01 13:53:22,397 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-04-01 13:53:22,397 : INFO : BallController : Initial balls found: 2
+2023-04-01 13:53:22,399 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,399 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,399 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0.0, 'top': [0, 0, 0, 0, 0, 0, 0, 0, 0], 'total': 9}, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,399 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 151, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 432, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_pop'====== Args={'value': 86, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_interchange'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_loop'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_misc'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_left'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_center'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_scoop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3494, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 211, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 411, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_right'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_rollover'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_far'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_large'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_left'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_right'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_vuk'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 135, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 253, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_2'====== Args={'value': 344, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,403 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_1'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_2'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,404 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_right'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 79, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 122, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 680, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 675, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 481, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 38, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 27, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 191, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,408 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 54, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,408 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,408 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,408 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 65, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,408 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_l'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,409 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_r'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,409 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_rollover'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,409 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_target'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,409 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 94, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,410 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-01 13:53:22,425 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-04-01 13:53:22,426 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2023-04-01 13:53:22,427 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2023-04-01 13:53:22,427 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2023-04-01 13:53:22,428 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2023-04-01 13:53:22,428 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2023-04-01 13:53:22,429 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2023-04-01 13:53:22,430 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2023-04-01 13:53:22,430 : INFO : Mode.attract : Started. Priority: 10
+2023-04-01 13:53:22,430 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-04-01 13:53:22,430 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2023-04-01 13:53:22,433 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2023-04-01 13:53:22,434 : INFO : Machine : Starting the main run loop.
+2023-04-01 13:53:31,317 : INFO : BcpServer : New client connected.
+2023-04-01 13:53:53,092 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:53:53,298 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:53:53,298 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2023-04-01 13:53:53,298 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.2050000000745058}
+2023-04-01 13:53:53,299 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.2050000000745058}
+2023-04-01 13:53:53,299 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.2050000000745058}
+2023-04-01 13:53:53,299 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2023-04-01 13:53:53,299 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2023-04-01 13:53:53,299 : INFO : Mode.attract : Stopped.
+2023-04-01 13:53:53,299 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-04-01 13:53:53,301 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2023-04-01 13:53:53,301 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2023-04-01 13:53:53,301 : INFO : Mode.game : Started. Priority: 20
+2023-04-01 13:53:53,302 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-04-01 13:53:53,302 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.2050000000745058}
+2023-04-01 13:53:53,302 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2023-04-01 13:53:53,303 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2023-04-01 13:53:53,303 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2023-04-01 13:53:53,303 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2023-04-01 13:53:53,304 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2023-04-01 13:53:53,304 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2023-04-01 13:53:53,304 : INFO : Mode.game : Player added successfully. Total players: 1
+2023-04-01 13:53:53,304 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-04-01 13:53:53,304 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2023-04-01 13:53:53,304 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-04-01 13:53:53,305 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2023-04-01 13:53:53,313 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2023-04-01 13:53:53,325 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2023-04-01 13:53:53,334 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-04-01 13:53:53,334 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2023-04-01 13:53:53,335 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2023-04-01 13:53:53,335 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2023-04-01 13:53:53,336 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2023-04-01 13:53:53,336 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2023-04-01 13:53:53,336 : INFO : drop_target_bank.single_main : All targets are already up. Will not reset bank.
+2023-04-01 13:53:53,337 : INFO : drop_target_bank.mid : All targets are already up. Will not reset bank.
+2023-04-01 13:53:53,337 : INFO : drop_target_bank.right : All targets are already up. Will not reset bank.
+2023-04-01 13:53:53,339 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2023-04-01 13:53:53,339 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2023-04-01 13:53:53,339 : INFO : ball_device.bd_plunger : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: s_launch_active
+2023-04-01 13:53:53,340 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 13:53:53,340 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2023-04-01 13:53:53,341 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-04-01 13:53:53,341 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2023-04-01 13:53:53,341 : INFO : ball_device.bd_vuk_back : State: waiting_for_ball
+2023-04-01 13:53:53,341 : INFO : ball_device.bd_trough : State: ejecting
+2023-04-01 13:53:53,341 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2023-04-01 13:53:53,342 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-04-01 13:53:53,342 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2023-04-01 13:53:53,343 : INFO : coil.c_trough : Pulsing Driver for 13ms (0.8 pulse_power)
+2023-04-01 13:53:53,400 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,401 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3495, 'prev_value': 3494, 'change': 1}
+2023-04-01 13:53:53,401 : INFO : SwitchController : <<<<<<< 's_trough_jam' active >>>>>>>
+2023-04-01 13:53:53,402 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 66, 'prev_value': 65, 'change': 1}
+2023-04-01 13:53:53,402 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,406 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,406 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3496, 'prev_value': 3495, 'change': 1}
+2023-04-01 13:53:53,408 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,422 : INFO : SwitchController : <<<<<<< 's_trough_jam' inactive >>>>>>>
+2023-04-01 13:53:53,422 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,422 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3497, 'prev_value': 3496, 'change': 1}
+2023-04-01 13:53:53,423 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,442 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,442 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3498, 'prev_value': 3497, 'change': 1}
+2023-04-01 13:53:53,443 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,464 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,464 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3499, 'prev_value': 3498, 'change': 1}
+2023-04-01 13:53:53,465 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,489 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,489 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3500, 'prev_value': 3499, 'change': 1}
+2023-04-01 13:53:53,510 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,510 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,510 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3501, 'prev_value': 3500, 'change': 1}
+2023-04-01 13:53:53,510 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,511 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,511 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3502, 'prev_value': 3501, 'change': 1}
+2023-04-01 13:53:53,513 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,516 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,516 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3503, 'prev_value': 3502, 'change': 1}
+2023-04-01 13:53:53,518 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,532 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,532 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3504, 'prev_value': 3503, 'change': 1}
+2023-04-01 13:53:53,533 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,535 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:53,535 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3505, 'prev_value': 3504, 'change': 1}
+2023-04-01 13:53:53,537 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:53,596 : INFO : SwitchController : <<<<<<< 's_trough_2' inactive >>>>>>>
+2023-04-01 13:53:53,597 : INFO : ball_device.bd_trough : State: ball_left
+2023-04-01 13:53:53,597 : INFO : ball_device.bd_trough : Ball left
+2023-04-01 13:53:53,597 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2023-04-01 13:53:54,004 : INFO : SwitchController : <<<<<<< 's_autolauncher' active >>>>>>>
+2023-04-01 13:53:54,004 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 152, 'prev_value': 151, 'change': 1}
+2023-04-01 13:53:54,504 : INFO : ball_device.bd_plunger : Received ball from <ball_device.bd_trough>
+2023-04-01 13:53:54,505 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2023-04-01 13:53:54,505 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2023-04-01 13:53:54,505 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 13:53:54,506 : INFO : ball_device.bd_trough : Got eject confirm
+2023-04-01 13:53:54,506 : INFO : ball_device.bd_trough : Eject successful
+2023-04-01 13:53:54,506 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2023-04-01 13:53:54,506 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 13:53:54,506 : INFO : ball_device.bd_trough : State: idle
+2023-04-01 13:53:54,506 : INFO : ball_device.bd_plunger : State: waiting_for_target_ready
+2023-04-01 13:53:54,507 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-04-01 13:53:54,507 : INFO : ball_device.bd_plunger : State: ejecting
+2023-04-01 13:53:54,507 : INFO : ball_device.bd_plunger : Ejecting ball to <ball_device.bd_vuk_back>
+2023-04-01 13:53:54,507 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-04-01 13:53:54,508 : INFO : ball_device.bd_plunger : Wait for ball to leave device
+2023-04-01 13:53:57,157 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:53:57,158 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 681, 'prev_value': 680, 'change': 1}
+2023-04-01 13:53:57,180 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:57,180 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3506, 'prev_value': 3505, 'change': 1}
+2023-04-01 13:53:57,180 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:57,181 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 13:53:57,181 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 412, 'prev_value': 411, 'change': 1}
+2023-04-01 13:53:57,181 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:53:57,181 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 433, 'prev_value': 432, 'change': 1}
+2023-04-01 13:53:57,182 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:57,182 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3507, 'prev_value': 3506, 'change': 1}
+2023-04-01 13:53:57,203 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:57,206 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:57,206 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3508, 'prev_value': 3507, 'change': 1}
+2023-04-01 13:53:57,208 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:57,229 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:53:57,229 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 676, 'prev_value': 675, 'change': 1}
+2023-04-01 13:53:57,812 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 13:53:57,812 : INFO : EventManager : Event: ======'s_launch_active'====== Args={}
+2023-04-01 13:53:57,812 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 136, 'prev_value': 135, 'change': 1}
+2023-04-01 13:53:57,813 : INFO : coil.c_autolauncher : Pulsing Driver for 18ms (0.9 pulse_power)
+2023-04-01 13:53:57,841 : INFO : SwitchController : <<<<<<< 's_autolauncher' inactive >>>>>>>
+2023-04-01 13:53:57,841 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:57,841 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3509, 'prev_value': 3508, 'change': 1}
+2023-04-01 13:53:57,842 : INFO : ball_device.bd_plunger : State: ball_left
+2023-04-01 13:53:57,842 : INFO : ball_device.bd_plunger : Ball left
+2023-04-01 13:53:57,843 : INFO : ball_device.bd_plunger : Wait for confirm with timeout 4.0
+2023-04-01 13:53:57,850 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:57,862 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:57,862 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3510, 'prev_value': 3509, 'change': 1}
+2023-04-01 13:53:57,862 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:57,863 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:57,863 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3511, 'prev_value': 3510, 'change': 1}
+2023-04-01 13:53:57,865 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:57,884 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:57,884 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3512, 'prev_value': 3511, 'change': 1}
+2023-04-01 13:53:57,884 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:57,884 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:57,885 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3513, 'prev_value': 3512, 'change': 1}
+2023-04-01 13:53:57,885 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:57,904 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:57,904 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3514, 'prev_value': 3513, 'change': 1}
+2023-04-01 13:53:57,905 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:57,987 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 13:53:58,555 : INFO : SwitchController : <<<<<<< 's_vuk_back' active >>>>>>>
+2023-04-01 13:53:58,555 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 95, 'prev_value': 94, 'change': 1}
+2023-04-01 13:53:59,056 : INFO : ball_device.bd_vuk_back : Received ball from <ball_device.bd_plunger>
+2023-04-01 13:53:59,057 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 13:53:59,057 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_vuk_back>}
+2023-04-01 13:53:59,057 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 1}
+2023-04-01 13:53:59,058 : INFO : ball_device.bd_plunger : Got eject confirm
+2023-04-01 13:53:59,058 : INFO : ball_device.bd_plunger : Eject successful
+2023-04-01 13:53:59,058 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_vuk_back>}
+2023-04-01 13:53:59,058 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 13:53:59,058 : INFO : ball_device.bd_plunger : State: idle
+2023-04-01 13:53:59,059 : INFO : ball_device.bd_vuk_back : State: waiting_for_target_ready
+2023-04-01 13:53:59,059 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-04-01 13:53:59,059 : INFO : ball_device.bd_vuk_back : State: ejecting
+2023-04-01 13:53:59,059 : INFO : ball_device.bd_vuk_back : Ejecting ball to <playfield.playfield>
+2023-04-01 13:53:59,059 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_vuk_back>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-04-01 13:53:59,061 : INFO : ball_device.bd_vuk_back : Wait for ball to leave device
+2023-04-01 13:53:59,061 : INFO : coil.c_vuk_back : Pulsing Driver for 40ms (1.0 pulse_power)
+2023-04-01 13:53:59,093 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:53:59,093 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3515, 'prev_value': 3514, 'change': 1}
+2023-04-01 13:53:59,095 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:53:59,134 : INFO : SwitchController : <<<<<<< 's_vuk_back' inactive >>>>>>>
+2023-04-01 13:53:59,135 : INFO : ball_device.bd_vuk_back : State: ball_left
+2023-04-01 13:53:59,135 : INFO : ball_device.bd_vuk_back : Ball left
+2023-04-01 13:53:59,135 : INFO : ball_device.bd_vuk_back : Wait for confirm with timeout 2.0
+2023-04-01 13:53:59,522 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:53:59,554 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:53:59,554 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 677, 'prev_value': 676, 'change': 1}
+2023-04-01 13:53:59,631 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:00,158 : INFO : EventManager : Event: ======'flipper_cradle'====== Args={}
+2023-04-01 13:54:00,608 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:00,608 : INFO : EventManager : Event: ======'flipper_cradle_release'====== Args={}
+2023-04-01 13:54:00,698 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 13:54:00,719 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:00,983 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:00,983 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 682, 'prev_value': 681, 'change': 1}
+2023-04-01 13:54:00,992 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:00,992 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3516, 'prev_value': 3515, 'change': 1}
+2023-04-01 13:54:01,005 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:01,005 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 13:54:01,005 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 413, 'prev_value': 412, 'change': 1}
+2023-04-01 13:54:01,005 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:01,006 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 434, 'prev_value': 433, 'change': 1}
+2023-04-01 13:54:01,006 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:01,006 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3517, 'prev_value': 3516, 'change': 1}
+2023-04-01 13:54:01,026 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:01,026 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:01,027 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3518, 'prev_value': 3517, 'change': 1}
+2023-04-01 13:54:01,028 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:01,137 : INFO : ball_device.bd_vuk_back : State: failed_confirm
+2023-04-01 13:54:01,137 : INFO : ball_device.bd_vuk_back : Got timeout (2.0s) before confirm from <playfield.playfield>
+2023-04-01 13:54:01,180 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:01,181 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper_1'}
+2023-04-01 13:54:01,181 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 254, 'prev_value': 253, 'change': 1}
+2023-04-01 13:54:01,181 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:01,181 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper_1'}
+2023-04-01 13:54:01,189 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 13:54:01,189 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 212, 'prev_value': 211, 'change': 1}
+2023-04-01 13:54:01,203 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:01,203 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3519, 'prev_value': 3518, 'change': 1}
+2023-04-01 13:54:01,225 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:01,246 : INFO : ball_device.bd_vuk_back : Confirming eject because target is playfield and ball did not return.
+2023-04-01 13:54:01,246 : INFO : ball_device.bd_vuk_back : Eject successful
+2023-04-01 13:54:01,246 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2023-04-01 13:54:01,247 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2023-04-01 13:54:01,247 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2023-04-01 13:54:01,248 : INFO : EventManager : Event: ======'balldevice_bd_vuk_back_ball_count_changed'====== Args={'balls': 0}
+2023-04-01 13:54:01,248 : INFO : ball_device.bd_vuk_back : State: idle
+2023-04-01 13:54:01,307 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 13:54:01,362 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:01,363 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper_1'}
+2023-04-01 13:54:01,363 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 255, 'prev_value': 254, 'change': 1}
+2023-04-01 13:54:01,384 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:01,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3520, 'prev_value': 3519, 'change': 1}
+2023-04-01 13:54:01,385 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 13:54:01,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 213, 'prev_value': 212, 'change': 1}
+2023-04-01 13:54:01,386 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:01,386 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper_1'}
+2023-04-01 13:54:01,497 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:01,498 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 13:54:01,499 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:01,499 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3521, 'prev_value': 3520, 'change': 1}
+2023-04-01 13:54:01,502 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:01,504 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:01,504 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3522, 'prev_value': 3521, 'change': 1}
+2023-04-01 13:54:01,518 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:01,519 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:01,519 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3523, 'prev_value': 3522, 'change': 1}
+2023-04-01 13:54:01,519 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:01,519 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:01,519 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3524, 'prev_value': 3523, 'change': 1}
+2023-04-01 13:54:01,520 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:02,261 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:02,261 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3525, 'prev_value': 3524, 'change': 1}
+2023-04-01 13:54:02,262 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:02,369 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:02,369 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 678, 'prev_value': 677, 'change': 1}
+2023-04-01 13:54:02,390 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:02,390 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:02,390 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper_1'}
+2023-04-01 13:54:02,390 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:02,391 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 679, 'prev_value': 678, 'change': 1}
+2023-04-01 13:54:02,391 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:02,476 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 13:54:02,498 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:02,808 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:02,809 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 683, 'prev_value': 682, 'change': 1}
+2023-04-01 13:54:02,811 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:02,811 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 680, 'prev_value': 679, 'change': 1}
+2023-04-01 13:54:02,817 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:02,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3526, 'prev_value': 3525, 'change': 1}
+2023-04-01 13:54:02,831 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:02,831 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 13:54:02,831 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 414, 'prev_value': 413, 'change': 1}
+2023-04-01 13:54:02,831 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:02,831 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 435, 'prev_value': 434, 'change': 1}
+2023-04-01 13:54:02,833 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:02,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3527, 'prev_value': 3526, 'change': 1}
+2023-04-01 13:54:02,836 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:02,852 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:02,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3528, 'prev_value': 3527, 'change': 1}
+2023-04-01 13:54:02,853 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:02,853 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:02,853 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3529, 'prev_value': 3528, 'change': 1}
+2023-04-01 13:54:02,853 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:03,127 : INFO : SwitchController : <<<<<<< 's_drop_mid_right' active >>>>>>>
+2023-04-01 13:54:03,128 : INFO : EventManager : Event: ======'drop_target_mid_right_down'====== Args={'device': <drop_target.mid_right>}
+2023-04-01 13:54:03,128 : INFO : EventManager : Event: ======'drop_target_bank_mid_mixed'====== Args={'prev_value': <DropTargetBankState.UP: 'up'>, 'down': 1}
+2023-04-01 13:54:03,128 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 9, 'prev_value': 8, 'change': 1}
+2023-04-01 13:54:03,184 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:03,184 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3530, 'prev_value': 3529, 'change': 1}
+2023-04-01 13:54:03,187 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:03,223 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:03,223 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3531, 'prev_value': 3530, 'change': 1}
+2023-04-01 13:54:03,225 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:03,308 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:03,328 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:03,328 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 681, 'prev_value': 680, 'change': 1}
+2023-04-01 13:54:03,329 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:03,329 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:03,329 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:03,330 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 684, 'prev_value': 683, 'change': 1}
+2023-04-01 13:54:03,336 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:03,422 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 13:54:03,460 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:03,589 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:03,589 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 256, 'prev_value': 255, 'change': 1}
+2023-04-01 13:54:03,609 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:03,609 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3532, 'prev_value': 3531, 'change': 1}
+2023-04-01 13:54:03,609 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 13:54:03,609 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 214, 'prev_value': 213, 'change': 1}
+2023-04-01 13:54:03,611 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:03,613 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:03,613 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3533, 'prev_value': 3532, 'change': 1}
+2023-04-01 13:54:03,617 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:03,629 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:03,629 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3534, 'prev_value': 3533, 'change': 1}
+2023-04-01 13:54:03,851 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:03,935 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 13:54:03,966 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:03,969 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:03,969 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3535, 'prev_value': 3534, 'change': 1}
+2023-04-01 13:54:03,988 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:03,988 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:03,988 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3536, 'prev_value': 3535, 'change': 1}
+2023-04-01 13:54:03,988 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:04,031 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:04,031 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3537, 'prev_value': 3536, 'change': 1}
+2023-04-01 13:54:04,037 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:04,056 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:04,056 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3538, 'prev_value': 3537, 'change': 1}
+2023-04-01 13:54:04,058 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:04,751 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:04,751 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 257, 'prev_value': 256, 'change': 1}
+2023-04-01 13:54:04,773 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 13:54:04,774 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 215, 'prev_value': 214, 'change': 1}
+2023-04-01 13:54:04,774 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:04,774 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3539, 'prev_value': 3538, 'change': 1}
+2023-04-01 13:54:05,192 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:05,275 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 13:54:05,310 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:05,312 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:05,312 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3540, 'prev_value': 3539, 'change': 1}
+2023-04-01 13:54:05,314 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:05,316 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:05,317 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3541, 'prev_value': 3540, 'change': 1}
+2023-04-01 13:54:05,319 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:05,331 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:05,331 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3542, 'prev_value': 3541, 'change': 1}
+2023-04-01 13:54:05,331 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:05,352 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:05,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 685, 'prev_value': 684, 'change': 1}
+2023-04-01 13:54:05,353 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:05,353 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 682, 'prev_value': 681, 'change': 1}
+2023-04-01 13:54:05,353 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:05,354 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3543, 'prev_value': 3542, 'change': 1}
+2023-04-01 13:54:05,355 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:05,356 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:05,361 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 13:54:05,362 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 415, 'prev_value': 414, 'change': 1}
+2023-04-01 13:54:05,374 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:05,374 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 436, 'prev_value': 435, 'change': 1}
+2023-04-01 13:54:05,374 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:05,375 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3544, 'prev_value': 3543, 'change': 1}
+2023-04-01 13:54:05,375 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:05,375 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:05,375 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3545, 'prev_value': 3544, 'change': 1}
+2023-04-01 13:54:05,376 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:05,376 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 683, 'prev_value': 682, 'change': 1}
+2023-04-01 13:54:05,377 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:05,382 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:05,396 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:05,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3546, 'prev_value': 3545, 'change': 1}
+2023-04-01 13:54:05,396 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:05,855 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:05,855 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 684, 'prev_value': 683, 'change': 1}
+2023-04-01 13:54:05,896 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:05,918 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:05,998 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 13:54:06,019 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:06,266 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:06,266 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 686, 'prev_value': 685, 'change': 1}
+2023-04-01 13:54:06,275 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:06,275 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3547, 'prev_value': 3546, 'change': 1}
+2023-04-01 13:54:06,287 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:06,288 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:06,288 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 437, 'prev_value': 436, 'change': 1}
+2023-04-01 13:54:06,289 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 13:54:06,289 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 416, 'prev_value': 415, 'change': 1}
+2023-04-01 13:54:06,295 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:06,295 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3548, 'prev_value': 3547, 'change': 1}
+2023-04-01 13:54:06,309 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:06,309 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:06,309 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3549, 'prev_value': 3548, 'change': 1}
+2023-04-01 13:54:06,310 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:06,310 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:06,310 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3550, 'prev_value': 3549, 'change': 1}
+2023-04-01 13:54:06,311 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:06,645 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:06,647 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:06,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 685, 'prev_value': 684, 'change': 1}
+2023-04-01 13:54:06,666 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:06,667 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:06,667 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 687, 'prev_value': 686, 'change': 1}
+2023-04-01 13:54:06,667 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:06,745 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 13:54:06,793 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:07,126 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:07,126 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 258, 'prev_value': 257, 'change': 1}
+2023-04-01 13:54:07,148 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 13:54:07,148 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 216, 'prev_value': 215, 'change': 1}
+2023-04-01 13:54:07,149 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:07,149 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3551, 'prev_value': 3550, 'change': 1}
+2023-04-01 13:54:07,171 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:07,171 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:07,171 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3552, 'prev_value': 3551, 'change': 1}
+2023-04-01 13:54:07,379 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:07,464 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 13:54:07,508 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:07,511 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:07,511 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3553, 'prev_value': 3552, 'change': 1}
+2023-04-01 13:54:07,513 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:07,544 : INFO : SwitchController : <<<<<<< 's_rollover_left' active >>>>>>>
+2023-04-01 13:54:07,544 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 29, 'prev_value': 28, 'change': 1}
+2023-04-01 13:54:07,553 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:07,553 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3554, 'prev_value': 3553, 'change': 1}
+2023-04-01 13:54:07,565 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:07,565 : INFO : SwitchController : <<<<<<< 's_rollover_left' inactive >>>>>>>
+2023-04-01 13:54:07,959 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:07,959 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 688, 'prev_value': 687, 'change': 1}
+2023-04-01 13:54:07,981 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:07,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3555, 'prev_value': 3554, 'change': 1}
+2023-04-01 13:54:07,982 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:07,982 : INFO : SwitchController : <<<<<<< 's_sling_right' active >>>>>>>
+2023-04-01 13:54:07,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 39, 'prev_value': 38, 'change': 1}
+2023-04-01 13:54:07,983 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 13:54:07,983 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 417, 'prev_value': 416, 'change': 1}
+2023-04-01 13:54:07,983 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:07,983 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 438, 'prev_value': 437, 'change': 1}
+2023-04-01 13:54:07,984 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:07,984 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3556, 'prev_value': 3555, 'change': 1}
+2023-04-01 13:54:07,987 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:07,989 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:07,989 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3557, 'prev_value': 3556, 'change': 1}
+2023-04-01 13:54:07,991 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,004 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,004 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3558, 'prev_value': 3557, 'change': 1}
+2023-04-01 13:54:08,004 : INFO : SwitchController : <<<<<<< 's_sling_right' inactive >>>>>>>
+2023-04-01 13:54:08,012 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,027 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,027 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3559, 'prev_value': 3558, 'change': 1}
+2023-04-01 13:54:08,031 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,034 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,034 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3560, 'prev_value': 3559, 'change': 1}
+2023-04-01 13:54:08,036 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,179 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:08,179 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper_1'}
+2023-04-01 13:54:08,179 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 259, 'prev_value': 258, 'change': 1}
+2023-04-01 13:54:08,182 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:08,182 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper_1'}
+2023-04-01 13:54:08,201 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 13:54:08,202 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 217, 'prev_value': 216, 'change': 1}
+2023-04-01 13:54:08,202 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,202 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3561, 'prev_value': 3560, 'change': 1}
+2023-04-01 13:54:08,203 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,205 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,205 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3562, 'prev_value': 3561, 'change': 1}
+2023-04-01 13:54:08,259 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 13:54:08,263 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2023-04-01 13:54:08,263 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 80, 'prev_value': 79, 'change': 1}
+2023-04-01 13:54:08,281 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:08,281 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2023-04-01 13:54:08,281 : INFO : SwitchController : <<<<<<< 's_pop_lower' active >>>>>>>
+2023-04-01 13:54:08,281 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 81, 'prev_value': 80, 'change': 1}
+2023-04-01 13:54:08,282 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:08,282 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 439, 'prev_value': 438, 'change': 1}
+2023-04-01 13:54:08,304 : INFO : SwitchController : <<<<<<< 's_pop_lower' inactive >>>>>>>
+2023-04-01 13:54:08,430 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:08,430 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper_1'}
+2023-04-01 13:54:08,514 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 13:54:08,550 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,553 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,553 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3563, 'prev_value': 3562, 'change': 1}
+2023-04-01 13:54:08,556 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,559 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,559 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3564, 'prev_value': 3563, 'change': 1}
+2023-04-01 13:54:08,572 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,692 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:08,692 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 689, 'prev_value': 688, 'change': 1}
+2023-04-01 13:54:08,697 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:08,698 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:08,698 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 686, 'prev_value': 685, 'change': 1}
+2023-04-01 13:54:08,699 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:08,699 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 690, 'prev_value': 689, 'change': 1}
+2023-04-01 13:54:08,713 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,713 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3565, 'prev_value': 3564, 'change': 1}
+2023-04-01 13:54:08,714 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:08,714 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,714 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 13:54:08,714 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 418, 'prev_value': 417, 'change': 1}
+2023-04-01 13:54:08,715 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:08,715 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 440, 'prev_value': 439, 'change': 1}
+2023-04-01 13:54:08,717 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,717 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3566, 'prev_value': 3565, 'change': 1}
+2023-04-01 13:54:08,735 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,735 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,735 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3567, 'prev_value': 3566, 'change': 1}
+2023-04-01 13:54:08,738 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:08,741 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:08,741 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3568, 'prev_value': 3567, 'change': 1}
+2023-04-01 13:54:08,743 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:09,361 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:09,368 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:09,450 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 13:54:09,472 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:09,604 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:09,604 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 691, 'prev_value': 690, 'change': 1}
+2023-04-01 13:54:09,610 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:09,611 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 687, 'prev_value': 686, 'change': 1}
+2023-04-01 13:54:09,613 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:09,613 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3569, 'prev_value': 3568, 'change': 1}
+2023-04-01 13:54:09,625 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:09,626 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:09,626 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 441, 'prev_value': 440, 'change': 1}
+2023-04-01 13:54:09,631 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 13:54:09,631 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 419, 'prev_value': 418, 'change': 1}
+2023-04-01 13:54:09,632 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:09,632 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3570, 'prev_value': 3569, 'change': 1}
+2023-04-01 13:54:09,646 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:09,864 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:09,864 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3571, 'prev_value': 3570, 'change': 1}
+2023-04-01 13:54:09,866 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:10,330 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:10,335 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:10,421 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 13:54:10,442 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:11,088 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:11,088 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 692, 'prev_value': 691, 'change': 1}
+2023-04-01 13:54:11,089 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:11,089 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 688, 'prev_value': 687, 'change': 1}
+2023-04-01 13:54:11,108 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:11,109 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3572, 'prev_value': 3571, 'change': 1}
+2023-04-01 13:54:11,109 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:11,109 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 13:54:11,109 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 420, 'prev_value': 419, 'change': 1}
+2023-04-01 13:54:11,110 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:11,110 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 442, 'prev_value': 441, 'change': 1}
+2023-04-01 13:54:11,110 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:11,110 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3573, 'prev_value': 3572, 'change': 1}
+2023-04-01 13:54:11,113 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:11,115 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:11,115 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3574, 'prev_value': 3573, 'change': 1}
+2023-04-01 13:54:11,134 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:11,469 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:11,472 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:11,559 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 13:54:11,583 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:11,592 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:11,592 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 260, 'prev_value': 259, 'change': 1}
+2023-04-01 13:54:11,606 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:11,606 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3575, 'prev_value': 3574, 'change': 1}
+2023-04-01 13:54:11,608 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:11,610 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:11,610 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3576, 'prev_value': 3575, 'change': 1}
+2023-04-01 13:54:11,612 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 13:54:11,612 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 218, 'prev_value': 217, 'change': 1}
+2023-04-01 13:54:11,629 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:11,629 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:11,629 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3577, 'prev_value': 3576, 'change': 1}
+2023-04-01 13:54:12,208 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:12,293 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 13:54:12,323 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:12,323 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:12,323 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3578, 'prev_value': 3577, 'change': 1}
+2023-04-01 13:54:12,326 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:12,329 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:12,329 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3579, 'prev_value': 3578, 'change': 1}
+2023-04-01 13:54:12,332 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:12,344 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:12,344 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3580, 'prev_value': 3579, 'change': 1}
+2023-04-01 13:54:12,345 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:12,389 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:12,390 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3581, 'prev_value': 3580, 'change': 1}
+2023-04-01 13:54:12,391 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:12,417 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:12,417 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3582, 'prev_value': 3581, 'change': 1}
+2023-04-01 13:54:12,419 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:12,880 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:12,880 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3583, 'prev_value': 3582, 'change': 1}
+2023-04-01 13:54:12,882 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:13,465 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:13,465 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 261, 'prev_value': 260, 'change': 1}
+2023-04-01 13:54:13,487 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:13,487 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3584, 'prev_value': 3583, 'change': 1}
+2023-04-01 13:54:13,487 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:13,487 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 13:54:13,488 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 219, 'prev_value': 218, 'change': 1}
+2023-04-01 13:54:13,488 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:13,488 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3585, 'prev_value': 3584, 'change': 1}
+2023-04-01 13:54:13,703 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:13,787 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 13:54:13,828 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:13,831 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:13,831 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3586, 'prev_value': 3585, 'change': 1}
+2023-04-01 13:54:13,834 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:13,837 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:13,837 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3587, 'prev_value': 3586, 'change': 1}
+2023-04-01 13:54:13,849 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:13,852 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:13,852 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3588, 'prev_value': 3587, 'change': 1}
+2023-04-01 13:54:13,854 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:13,887 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:13,887 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3589, 'prev_value': 3588, 'change': 1}
+2023-04-01 13:54:13,889 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:13,911 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:13,912 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 262, 'prev_value': 261, 'change': 1}
+2023-04-01 13:54:13,914 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:13,914 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3590, 'prev_value': 3589, 'change': 1}
+2023-04-01 13:54:13,917 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:13,937 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:13,938 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:13,938 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 263, 'prev_value': 262, 'change': 1}
+2023-04-01 13:54:13,938 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' active >>>>>>>
+2023-04-01 13:54:13,938 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 220, 'prev_value': 219, 'change': 1}
+2023-04-01 13:54:13,939 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:13,939 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3591, 'prev_value': 3590, 'change': 1}
+2023-04-01 13:54:13,946 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:13,960 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:13,960 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3592, 'prev_value': 3591, 'change': 1}
+2023-04-01 13:54:14,135 : INFO : SwitchController : <<<<<<< 's_flip_left_top_eos' inactive >>>>>>>
+2023-04-01 13:54:14,211 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:14,291 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 13:54:14,292 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 123, 'prev_value': 122, 'change': 1}
+2023-04-01 13:54:14,314 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 13:54:14,315 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 13:54:14,315 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 124, 'prev_value': 123, 'change': 1}
+2023-04-01 13:54:14,317 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:14,319 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 13:54:14,320 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:14,321 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3593, 'prev_value': 3592, 'change': 1}
+2023-04-01 13:54:14,336 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 13:54:14,337 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 125, 'prev_value': 124, 'change': 1}
+2023-04-01 13:54:14,337 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:14,337 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 13:54:14,337 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:14,337 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3594, 'prev_value': 3593, 'change': 1}
+2023-04-01 13:54:14,338 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:14,338 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:14,338 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3595, 'prev_value': 3594, 'change': 1}
+2023-04-01 13:54:14,346 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:14,346 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:14,346 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3596, 'prev_value': 3595, 'change': 1}
+2023-04-01 13:54:14,346 : INFO : SwitchController : <<<<<<< 's_pop_right' active >>>>>>>
+2023-04-01 13:54:14,346 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 126, 'prev_value': 125, 'change': 1}
+2023-04-01 13:54:14,347 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:14,359 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:14,359 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3597, 'prev_value': 3596, 'change': 1}
+2023-04-01 13:54:14,359 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:14,359 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:14,359 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3598, 'prev_value': 3597, 'change': 1}
+2023-04-01 13:54:14,360 : INFO : SwitchController : <<<<<<< 's_pop_right' inactive >>>>>>>
+2023-04-01 13:54:14,360 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:14,363 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:14,363 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3599, 'prev_value': 3598, 'change': 1}
+2023-04-01 13:54:14,365 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:14,383 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:14,383 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3600, 'prev_value': 3599, 'change': 1}
+2023-04-01 13:54:14,385 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:14,416 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:14,416 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3601, 'prev_value': 3600, 'change': 1}
+2023-04-01 13:54:14,418 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:14,671 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' active >>>>>>>
+2023-04-01 13:54:14,671 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 264, 'prev_value': 263, 'change': 1}
+2023-04-01 13:54:14,694 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:14,694 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3602, 'prev_value': 3601, 'change': 1}
+2023-04-01 13:54:14,779 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' active >>>>>>>
+2023-04-01 13:54:14,779 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper_1'}
+2023-04-01 13:54:14,779 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 693, 'prev_value': 692, 'change': 1}
+2023-04-01 13:54:14,783 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' active >>>>>>>
+2023-04-01 13:54:14,783 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 689, 'prev_value': 688, 'change': 1}
+2023-04-01 13:54:14,804 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:14,804 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 443, 'prev_value': 442, 'change': 1}
+2023-04-01 13:54:14,863 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' active >>>>>>>
+2023-04-01 13:54:14,863 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 421, 'prev_value': 420, 'change': 1}
+2023-04-01 13:54:14,887 : INFO : SwitchController : <<<<<<< 's_b_eos' inactive >>>>>>>
+2023-04-01 13:54:15,023 : INFO : SwitchController : <<<<<<< 's_left_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:15,024 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_left_flipper_1'}
+2023-04-01 13:54:15,045 : INFO : SwitchController : <<<<<<< 's_right_flipper_1' inactive >>>>>>>
+2023-04-01 13:54:15,045 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_right_flipper_1'}
+2023-04-01 13:54:15,046 : INFO : SwitchController : <<<<<<< 's_right_flipper_2' inactive >>>>>>>
+2023-04-01 13:54:15,124 : INFO : SwitchController : <<<<<<< 's_flip_right_eos' inactive >>>>>>>
+2023-04-01 13:54:15,145 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:15,145 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:15,145 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3603, 'prev_value': 3602, 'change': 1}
+2023-04-01 13:54:15,146 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:15,147 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:15,147 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3604, 'prev_value': 3603, 'change': 1}
+2023-04-01 13:54:15,150 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:15,153 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:15,153 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3605, 'prev_value': 3604, 'change': 1}
+2023-04-01 13:54:15,166 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:15,166 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:15,167 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3606, 'prev_value': 3605, 'change': 1}
+2023-04-01 13:54:15,167 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:15,207 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:15,207 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3607, 'prev_value': 3606, 'change': 1}
+2023-04-01 13:54:15,209 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:15,308 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:15,309 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3608, 'prev_value': 3607, 'change': 1}
+2023-04-01 13:54:15,311 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:15,329 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:15,329 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3609, 'prev_value': 3608, 'change': 1}
+2023-04-01 13:54:15,330 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:15,425 : INFO : SwitchController : <<<<<<< 's_trough_6' active >>>>>>>
+2023-04-01 13:54:15,425 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 43, 'prev_value': 42, 'change': 1}
+2023-04-01 13:54:15,527 : INFO : SwitchController : <<<<<<< 's_trough_6' inactive >>>>>>>
+2023-04-01 13:54:15,594 : INFO : SwitchController : <<<<<<< 's_trough_5' active >>>>>>>
+2023-04-01 13:54:15,594 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 46, 'prev_value': 45, 'change': 1}
+2023-04-01 13:54:15,680 : INFO : SwitchController : <<<<<<< 's_trough_5' inactive >>>>>>>
+2023-04-01 13:54:15,735 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2023-04-01 13:54:15,736 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 55, 'prev_value': 54, 'change': 1}
+2023-04-01 13:54:15,799 : INFO : SwitchController : <<<<<<< 's_trough_4' inactive >>>>>>>
+2023-04-01 13:54:15,851 : INFO : SwitchController : <<<<<<< 's_trough_3' active >>>>>>>
+2023-04-01 13:54:15,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 54, 'prev_value': 53, 'change': 1}
+2023-04-01 13:54:15,906 : INFO : SwitchController : <<<<<<< 's_trough_3' inactive >>>>>>>
+2023-04-01 13:54:15,952 : INFO : SwitchController : <<<<<<< 's_trough_2' active >>>>>>>
+2023-04-01 13:54:15,952 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 65, 'prev_value': 64, 'change': 1}
+2023-04-01 13:54:16,453 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2023-04-01 13:54:16,453 : INFO : ball_device.bd_trough : Received unexpected ball
+2023-04-01 13:54:16,453 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2023-04-01 13:54:16,454 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2023-04-01 13:54:16,454 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2023-04-01 13:54:16,454 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2023-04-01 13:54:16,455 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2023-04-01 13:54:16,455 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2023-04-01 13:54:16,456 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 13:54:16,456 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2023-04-01 13:54:16,458 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2023-04-01 13:54:16,458 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2023-04-01 13:54:16,459 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2023-04-01 13:54:16,459 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2023-04-01 13:54:16,460 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2023-04-01 13:54:16,460 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2023-04-01 13:54:16,461 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2023-04-01 13:54:16,461 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2023-04-01 13:54:16,462 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2023-04-01 13:54:16,463 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2023-04-01 13:54:16,463 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2023-04-01 13:54:16,464 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2023-04-01 13:54:16,464 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2023-04-01 13:54:16,465 : INFO : drop_target_bank.single_main : All targets are already up. Will not reset bank.
+2023-04-01 13:54:16,465 : INFO : drop_target_bank.mid : 1 targets are down. Will reset those.
+2023-04-01 13:54:16,465 : INFO : coil.c_drop_mid : Pulsing Driver for 50ms (0.7 pulse_power)
+2023-04-01 13:54:16,465 : INFO : drop_target_bank.right : All targets are already up. Will not reset bank.
+2023-04-01 13:54:16,467 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2023-04-01 13:54:16,468 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2023-04-01 13:54:16,468 : INFO : ball_device.bd_plunger : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: s_launch_active
+2023-04-01 13:54:16,468 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2023-04-01 13:54:16,480 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2023-04-01 13:54:16,480 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-04-01 13:54:16,480 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2023-04-01 13:54:16,481 : INFO : ball_device.bd_vuk_back : State: waiting_for_ball
+2023-04-01 13:54:16,481 : INFO : ball_device.bd_trough : State: ejecting
+2023-04-01 13:54:16,481 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2023-04-01 13:54:16,481 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2023-04-01 13:54:16,482 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2023-04-01 13:54:16,525 : INFO : coil.c_trough : Pulsing Driver for 13ms (0.8 pulse_power)
+2023-04-01 13:54:16,527 : INFO : SwitchController : <<<<<<< 's_drop_mid_right' inactive >>>>>>>
+2023-04-01 13:54:16,534 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,534 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3610, 'prev_value': 3609, 'change': 1}
+2023-04-01 13:54:16,548 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,548 : INFO : SwitchController : <<<<<<< 's_trough_jam' active >>>>>>>
+2023-04-01 13:54:16,548 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 67, 'prev_value': 66, 'change': 1}
+2023-04-01 13:54:16,569 : INFO : SwitchController : <<<<<<< 's_trough_jam' inactive >>>>>>>
+2023-04-01 13:54:16,569 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,569 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3611, 'prev_value': 3610, 'change': 1}
+2023-04-01 13:54:16,570 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,633 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,634 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3612, 'prev_value': 3611, 'change': 1}
+2023-04-01 13:54:16,635 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,637 : INFO : SwitchController : <<<<<<< 's_b_eos' active >>>>>>>
+2023-04-01 13:54:16,638 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 444, 'prev_value': 443, 'change': 1}
+2023-04-01 13:54:16,639 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,640 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3613, 'prev_value': 3612, 'change': 1}
+2023-04-01 13:54:16,643 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,654 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,655 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3614, 'prev_value': 3613, 'change': 1}
+2023-04-01 13:54:16,655 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,655 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,655 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3615, 'prev_value': 3614, 'change': 1}
+2023-04-01 13:54:16,656 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,656 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,656 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3616, 'prev_value': 3615, 'change': 1}
+2023-04-01 13:54:16,657 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,660 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,660 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3617, 'prev_value': 3616, 'change': 1}
+2023-04-01 13:54:16,662 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,676 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,677 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3618, 'prev_value': 3617, 'change': 1}
+2023-04-01 13:54:16,677 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,697 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,697 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3619, 'prev_value': 3618, 'change': 1}
+2023-04-01 13:54:16,698 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,740 : INFO : SwitchController : <<<<<<< 's_trough_2' inactive >>>>>>>
+2023-04-01 13:54:16,741 : INFO : ball_device.bd_trough : State: ball_left
+2023-04-01 13:54:16,742 : INFO : ball_device.bd_trough : Ball left
+2023-04-01 13:54:16,742 : INFO : ball_device.bd_trough : Wait for confirm with timeout 10.0
+2023-04-01 13:54:16,781 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:16,781 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3620, 'prev_value': 3619, 'change': 1}
+2023-04-01 13:54:16,783 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:16,965 : INFO : EventManager : Event: ======'drop_target_mid_right_up'====== Args={'device': <drop_target.mid_right>}
+2023-04-01 13:54:16,966 : INFO : EventManager : Event: ======'drop_target_bank_mid_up'====== Args={}
+2023-04-01 13:54:17,390 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' active >>>>>>>
+2023-04-01 13:54:17,390 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 3621, 'prev_value': 3620, 'change': 1}
+2023-04-01 13:54:17,392 : INFO : SwitchController : <<<<<<< 's_flip_left_eos' inactive >>>>>>>
+2023-04-01 13:54:18,055 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 13:54:18,055 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 137, 'prev_value': 136, 'change': 1}
+2023-04-01 13:54:18,212 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 13:54:18,389 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:18,389 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:18,389 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 28, 'prev_value': 27, 'change': 1}
+2023-04-01 13:54:18,477 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:18,514 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:18,514 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:18,515 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 29, 'prev_value': 28, 'change': 1}
+2023-04-01 13:54:18,915 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:19,042 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:19,042 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:19,042 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 30, 'prev_value': 29, 'change': 1}
+2023-04-01 13:54:19,234 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:19,358 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:19,358 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:19,358 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 31, 'prev_value': 30, 'change': 1}
+2023-04-01 13:54:19,709 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:19,817 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:19,818 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:19,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 32, 'prev_value': 31, 'change': 1}
+2023-04-01 13:54:19,930 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:20,079 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 13:54:20,079 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 138, 'prev_value': 137, 'change': 1}
+2023-04-01 13:54:20,263 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 13:54:20,418 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 13:54:20,419 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 139, 'prev_value': 138, 'change': 1}
+2023-04-01 13:54:20,514 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 13:54:20,670 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 13:54:20,670 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 140, 'prev_value': 139, 'change': 1}
+2023-04-01 13:54:20,784 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 13:54:20,872 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:20,872 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:20,872 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 33, 'prev_value': 32, 'change': 1}
+2023-04-01 13:54:21,023 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:21,182 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:21,182 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:21,182 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 34, 'prev_value': 33, 'change': 1}
+2023-04-01 13:54:21,233 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:21,358 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:21,358 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:21,358 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 35, 'prev_value': 34, 'change': 1}
+2023-04-01 13:54:21,445 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:21,616 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 13:54:21,616 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 141, 'prev_value': 140, 'change': 1}
+2023-04-01 13:54:21,697 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 13:54:21,814 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:21,814 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:21,814 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 36, 'prev_value': 35, 'change': 1}
+2023-04-01 13:54:22,122 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:22,230 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:22,230 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:22,230 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 37, 'prev_value': 36, 'change': 1}
+2023-04-01 13:54:22,326 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:22,429 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:22,430 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:22,430 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 38, 'prev_value': 37, 'change': 1}
+2023-04-01 13:54:22,511 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:22,634 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2023-04-01 13:54:22,634 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2023-04-01 13:54:22,634 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 39, 'prev_value': 38, 'change': 1}
+2023-04-01 13:54:22,707 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2023-04-01 13:54:23,103 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 13:54:23,103 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 142, 'prev_value': 141, 'change': 1}
+2023-04-01 13:54:23,281 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 13:54:26,744 : INFO : ball_device.bd_trough : State: failed_confirm
+2023-04-01 13:54:26,744 : INFO : ball_device.bd_trough : Got timeout (10.0s) before confirm from <ball_device.bd_plunger>
+2023-04-01 13:54:30,620 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 13:54:30,620 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 143, 'prev_value': 142, 'change': 1}
+2023-04-01 13:54:30,745 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 13:54:30,900 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2023-04-01 13:54:30,900 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 144, 'prev_value': 143, 'change': 1}
+2023-04-01 13:54:31,301 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2023-04-01 13:54:36,713 : INFO : Machine : Shutting down...
+2023-04-01 13:54:36,713 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-01 13:54:36,714 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2023-04-01 13:54:36,714 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2023-04-01 13:54:36,714 : INFO : Mode.game : Stopped.
+2023-04-01 13:54:36,714 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-04-01 13:54:36,714 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2023-04-01 13:54:36,714 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2023-04-01 13:54:36,825 : INFO : root : MPF run loop ended.

@@ -1,0 +1,56 @@
+2023-04-01 19:54:05,314 : INFO : root : Loading config.
+2023-04-01 19:54:05,741 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/config_spec.mpf_cache
+2023-04-01 19:54:05,741 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-01 19:54:05,742 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/28c67afebeedf0bcd540f5dc9898a885.mpf_cache
+2023-04-01 19:54:05,807 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/03cea1619b79a61f4f0eef3c59cdaa46.mpf_cache
+2023-04-01 19:54:05,808 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/d3948d842c6309f14ab557c3c72320d0.mpf_cache
+2023-04-01 19:54:05,808 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/03cea1619b79a61f4f0eef3c59cdaa46.mpf_cache
+2023-04-01 19:54:05,809 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/1a491952b1b86d65aa143eb7204b9608.mpf_cache
+2023-04-01 19:54:05,809 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/a37a2141962f60258a07880b3484644a.mpf_cache
+2023-04-01 19:54:05,810 : INFO : ConfigProcessor : Loading config from cache: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/1abbb484e5c2eb8b7dba517683fc6f83.mpf_cache
+2023-04-01 19:54:05,811 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.1.dev4
+2023-04-01 19:54:05,811 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2023-04-01-19-54-05-mpf-Tanners-MacBook-Pro-2.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-01 19:54:05,811 : INFO : Machine : MPF path: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf
+2023-04-01 19:54:05,811 : INFO : Machine : Machine path: /Users/tpetch/Documents/trashland_3
+2023-04-01 19:54:05,811 : INFO : Machine : Platform: darwin
+2023-04-01 19:54:05,811 : INFO : Machine : Python executable location: /Users/tpetch/.local/pipx/venvs/mpf/bin/python
+2023-04-01 19:54:05,811 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-04-01 19:54:05,818 : INFO : Machine : Initialise MPF.
+2023-04-01 19:54:05,891 : INFO : [NET] : Trying to connect to /dev/tty.usbmodem141401 at 921600bps
+2023-04-01 19:54:05,896 : INFO : [NET] : Connected to /dev/tty.usbmodem141401 at 921600bps
+2023-04-01 19:54:06,402 : ERROR : asyncio : Exception in callback <function Util.raise_exceptions at 0x7f870f53be50>
+handle: <Handle Util.raise_exceptions>
+Traceback (most recent call last):
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/utility_functions.py", line 767, in raise_exceptions
+    future.result()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 303, in _socket_reader
+    self.parse_raw_bytes(resp)
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 281, in parse_raw_bytes
+    self.message_processors[msg_header](msg[3:])
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/net_neuron.py", line 190, in _process_switch_closed
+    self.machine.switch_controller.process_switch_by_num(state=1,
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+AssertionError: Got early switch change for switch ('01', 0) to state 1. platform: <Platform.FAST>
+2023-04-01 19:54:06,407 : INFO : Machine : Starting the main run loop.
+2023-04-01 19:54:06,408 : INFO : Machine : Shutting down...
+2023-04-01 19:54:06,408 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-01 19:54:07,410 : ERROR : [NET] : Message Timeout: The serial message CH:2000,FF did not receive a response.
+2023-04-01 19:54:07,410 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/machine.py", line 797, in _run_loop
+    raise self._exception['exception']
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/utility_functions.py", line 767, in raise_exceptions
+    future.result()
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 303, in _socket_reader
+    self.parse_raw_bytes(resp)
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/base.py", line 281, in parse_raw_bytes
+    self.message_processors[msg_header](msg[3:])
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/platforms/fast/communicators/net_neuron.py", line 190, in _process_switch_closed
+    self.machine.switch_controller.process_switch_by_num(state=1,
+  File "/Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/core/switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+AssertionError: Got early switch change for switch ('01', 0) to state 1. platform: <Platform.FAST>
+2023-04-01 19:54:10,236 : INFO : root : MPF run loop ended.
