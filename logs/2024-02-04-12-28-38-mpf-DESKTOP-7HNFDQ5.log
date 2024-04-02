@@ -1,0 +1,331 @@
+2024-02-04 12:28:38,578 : INFO : root : Loading config.
+2024-02-04 12:28:38,582 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-02-04 12:28:38,582 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\ae594c12e5b61ed7124eed45950049a7.mpf_cache
+2024-02-04 12:28:38,654 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e981666969e170eb9e0a37595fe7075e.mpf_cache
+2024-02-04 12:28:38,655 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\dfbe1b39ae456f06de73c859384050b2.mpf_cache
+2024-02-04 12:28:38,656 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e981666969e170eb9e0a37595fe7075e.mpf_cache
+2024-02-04 12:28:38,657 : WARNING : ConfigProcessor : Config file in cache changed: c:\lofab\modes\attract\shows\.\gi-start.yaml
+2024-02-04 12:28:38,657 : INFO : ConfigProcessor : Loading config from file c:\lofab\modes\attract\shows\.\gi-start.yaml.
+2024-02-04 12:28:38,659 : INFO : ConfigProcessor : Loading config: c:\lofab\modes\attract\shows\.\gi-start.yaml
+2024-02-04 12:28:38,660 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\cacbc1766a696e848da166f75f474858.mpf_cache
+2024-02-04 12:28:38,660 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev33
+2024-02-04 12:28:38,660 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-02-04-12-28-38-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-02-04 12:28:38,660 : INFO : Machine : MPF path: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf
+2024-02-04 12:28:38,661 : INFO : Machine : Machine path: c:\lofab
+2024-02-04 12:28:38,661 : INFO : Machine : Platform: win32
+2024-02-04 12:28:38,661 : INFO : Machine : Python executable location: C:\Users\Tanner\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-02-04 12:28:38,661 : INFO : Machine : Python version: 3.11.7 (64-bit)
+2024-02-04 12:28:38,663 : INFO : Machine : Initializing MPF...
+2024-02-04 12:28:38,896 : INFO : [NET] : Trying to connect to com9 at 921600bps
+2024-02-04 12:28:38,975 : INFO : [NET] : Connected to com9 at 921600bps
+2024-02-04 12:28:38,988 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.13
+2024-02-04 12:28:39,019 : INFO : [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-02-04 12:28:39,035 : INFO : [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2024-02-04 12:28:39,050 : INFO : [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-02-04 12:28:39,051 : INFO : [EXP] : Trying to connect to com10 at 921600bps
+2024-02-04 12:28:39,129 : INFO : [EXP] : Connected to com10 at 921600bps
+2024-02-04 12:28:39,144 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.12", board address 84
+2024-02-04 12:28:39,160 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.12", board address 840
+2024-02-04 12:28:39,175 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.12", board address 841
+2024-02-04 12:28:39,190 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,204 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,204 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,204 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev33', 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,204 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev33, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,205 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.7', 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,213 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,213 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,213 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,213 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,213 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-02-04 12:28:39,213 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-02-04 12:28:41,760 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-02-04 12:28:41,781 : INFO : ball_device.bd_vuk : BCH: Initial count: 0
+2024-02-04 12:28:41,781 : INFO : ball_device.bd_vuk : State: idle
+2024-02-04 12:28:41,782 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2024-02-04 12:28:41,782 : INFO : ball_device.bd_trough : State: idle
+2024-02-04 12:28:41,790 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-02-04 12:28:41,793 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-02-04 12:28:41,794 : INFO : BallController : Initial balls found: 0
+2024-02-04 12:28:41,795 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 44, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,795 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 120, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,795 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0.0, 'top': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'total': 44}, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,795 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_9'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,795 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_autolauncher'====== Args={'value': 422, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_eos'====== Args={'value': 2450, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_pop'====== Args={'value': 446, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_interchange'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_loop'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_rollover_misc'====== Args={'value': 33, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_left'====== Args={'value': 21, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_b_target_right'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_center'====== Args={'value': 113, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_left'====== Args={'value': 76, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_mid_right'====== Args={'value': 96, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,796 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_left'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_right_right'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_scoop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop_single'====== Args={'value': 24, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_eos'====== Args={'value': 25095, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_left_top_eos'====== Args={'value': 1729, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flip_right_eos'====== Args={'value': 2110, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_l'====== Args={'value': 251, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_r'====== Args={'value': 166, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_left'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,797 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_inlane_right'====== Args={'value': 59, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_rollover'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_far'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_large'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_left'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_target_right'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_l_vuk'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 460, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_1'====== Args={'value': 1947, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,798 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_2'====== Args={'value': 651, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_1'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_2'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_lock_3'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_left'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_outlane_right'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 152, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_lower'====== Args={'value': 560, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,799 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 2348, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_1'====== Args={'value': 3494, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_2'====== Args={'value': 3304, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_left'====== Args={'value': 84, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_rollover_right'====== Args={'value': 488, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_l'====== Args={'value': 35, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 159, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_r'====== Args={'value': 32, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 237, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 118, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_back'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_l'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_right'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt'====== Args={'value': 2735, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,801 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 504, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 459, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 506, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_5'====== Args={'value': 284, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_6'====== Args={'value': 277, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 344, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,802 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_l'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_lane_r'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_rollover'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_u_target'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_back'====== Args={'value': 489, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,803 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk_right'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2024-02-04 12:28:41,804 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2024-02-04 12:28:41,829 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2024-02-04 12:28:41,830 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2024-02-04 12:28:41,830 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2024-02-04 12:28:41,830 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2024-02-04 12:28:41,831 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2024-02-04 12:28:41,832 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2024-02-04 12:28:41,832 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2024-02-04 12:28:41,832 : INFO : Mode.attract : Started. Priority: 10
+2024-02-04 12:28:41,832 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-02-04 12:28:41,832 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2024-02-04 12:28:41,833 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2024-02-04 12:28:41,851 : INFO : Machine : Starting the main run loop.
+2024-02-04 13:42:41,029 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:41,032 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:41,032 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:41,033 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:47,152 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:47,152 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:47,152 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:47,169 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:47,869 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:47,869 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:47,869 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:47,872 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:47,886 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:47,886 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:47,886 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:47,886 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:47,915 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:47,915 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:47,915 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:47,962 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:48,087 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:48,087 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:48,087 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:48,087 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:48,103 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:48,103 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:48,103 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:48,103 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:48,119 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:48,119 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:48,119 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:48,166 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:48,292 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:48,292 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:48,292 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:48,323 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:48,323 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:48,323 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:48,323 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:48,400 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:48,525 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:48,525 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:48,525 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:48,555 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:48,573 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:48,573 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:48,573 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:48,586 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:48,604 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 13:42:48,604 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 13:42:48,604 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 13:42:48,634 : INFO : SwitchController : <<<<<<< 's_pop' inactive >>>>>>>
+2024-02-04 13:42:53,906 : INFO : SwitchController : <<<<<<< 's_flipper_r' active >>>>>>>
+2024-02-04 13:42:53,923 : INFO : SwitchController : <<<<<<< 's_flipper_l' active >>>>>>>
+2024-02-04 13:42:53,924 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_l'}
+2024-02-04 13:42:54,078 : INFO : SwitchController : <<<<<<< 's_flipper_l' inactive >>>>>>>
+2024-02-04 13:42:54,078 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_l'}
+2024-02-04 13:42:54,096 : INFO : SwitchController : <<<<<<< 's_flipper_r' inactive >>>>>>>
+2024-02-04 13:42:54,096 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_flipper_r'}
+2024-02-04 13:42:54,186 : INFO : SwitchController : <<<<<<< 's_flipper_r' active >>>>>>>
+2024-02-04 13:42:54,187 : INFO : SwitchController : <<<<<<< 's_flipper_l' active >>>>>>>
+2024-02-04 13:42:54,187 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_l'}
+2024-02-04 13:42:55,155 : INFO : SwitchController : <<<<<<< 's_flipper_r' inactive >>>>>>>
+2024-02-04 13:42:55,155 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_flipper_r'}
+2024-02-04 13:42:55,155 : INFO : SwitchController : <<<<<<< 's_flipper_l' inactive >>>>>>>
+2024-02-04 13:42:55,155 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_l'}
+2024-02-04 13:42:55,561 : INFO : SwitchController : <<<<<<< 's_flipper_r' active >>>>>>>
+2024-02-04 13:42:55,561 : INFO : SwitchController : <<<<<<< 's_flipper_l' active >>>>>>>
+2024-02-04 13:42:55,561 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_l'}
+2024-02-04 13:42:56,483 : INFO : SwitchController : <<<<<<< 's_flipper_l' inactive >>>>>>>
+2024-02-04 13:42:56,483 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_l'}
+2024-02-04 13:42:56,483 : INFO : SwitchController : <<<<<<< 's_flipper_r' inactive >>>>>>>
+2024-02-04 13:42:56,484 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_flipper_r'}
+2024-02-04 14:18:27,905 : INFO : SwitchController : <<<<<<< 's_flipper_l' active >>>>>>>
+2024-02-04 14:18:28,249 : INFO : SwitchController : <<<<<<< 's_flipper_l' inactive >>>>>>>
+2024-02-04 14:19:54,892 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2024-02-04 14:19:55,065 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2024-02-04 14:19:55,266 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2024-02-04 14:19:55,406 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2024-02-04 14:19:56,094 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-02-04 14:19:56,251 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-02-04 14:19:56,251 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-02-04 14:19:56,252 : INFO : BallController : Known balls: 0
+2024-02-04 14:19:56,252 : INFO : BallController : bd_vuk contains 0 balls. Tags []
+2024-02-04 14:19:56,252 : INFO : BallController : bd_trough contains 0 balls. Tags []
+2024-02-04 14:19:56,252 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-02-04 14:19:56,252 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-02-04 14:19:56,252 : INFO : BallController : Triggering ball search.
+2024-02-04 14:19:56,345 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-02-04 14:19:56,469 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-02-04 14:19:56,469 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-02-04 14:19:56,469 : INFO : BallController : Known balls: 0
+2024-02-04 14:19:56,469 : INFO : BallController : bd_vuk contains 0 balls. Tags []
+2024-02-04 14:19:56,469 : INFO : BallController : bd_trough contains 0 balls. Tags []
+2024-02-04 14:19:56,469 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-02-04 14:19:56,469 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-02-04 14:19:56,469 : INFO : BallController : Triggering ball search.
+2024-02-04 14:19:57,373 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2024-02-04 14:19:57,639 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2024-02-04 14:19:57,639 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2024-02-04 14:19:57,639 : INFO : BallController : Known balls: 0
+2024-02-04 14:19:57,639 : INFO : BallController : bd_vuk contains 0 balls. Tags []
+2024-02-04 14:19:57,639 : INFO : BallController : bd_trough contains 0 balls. Tags []
+2024-02-04 14:19:57,639 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2024-02-04 14:19:57,640 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2024-02-04 14:19:57,640 : INFO : BallController : Triggering ball search.
+2024-02-04 14:20:02,481 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2024-02-04 14:20:02,685 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2024-02-04 14:20:02,888 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2024-02-04 14:20:03,013 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2024-02-04 15:14:19,264 : INFO : SwitchController : <<<<<<< 's_vuk' active >>>>>>>
+2024-02-04 15:14:19,264 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2024-02-04 15:14:19,283 : INFO : SwitchController : <<<<<<< 's_flipper_r' active >>>>>>>
+2024-02-04 15:14:19,283 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2024-02-04 15:14:19,283 : INFO : SwitchController : <<<<<<< 's_flipper_l' active >>>>>>>
+2024-02-04 15:14:19,283 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_l'}
+2024-02-04 15:14:19,283 : INFO : SwitchController : <<<<<<< 's_trough_4' inactive >>>>>>>
+2024-02-04 15:14:19,283 : INFO : SwitchController : <<<<<<< 's_sling_l' active >>>>>>>
+2024-02-04 15:14:19,283 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 15:14:19,283 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 15:14:19,283 : INFO : SwitchController : <<<<<<< 's_stationary_l' active >>>>>>>
+2024-02-04 15:14:19,283 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-02-04 15:14:19,283 : INFO : SwitchController : <<<<<<< 's_9' active >>>>>>>
+2024-02-04 15:14:19,283 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-02-04 15:14:19,283 : INFO : SwitchController : <<<<<<< 's_pop' active >>>>>>>
+2024-02-04 15:14:19,283 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 15:14:19,283 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 15:14:19,284 : INFO : SwitchController : <<<<<<< 's_stationary_right' active >>>>>>>
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-02-04 15:14:19,284 : INFO : SwitchController : <<<<<<< 's_stationary_back' active >>>>>>>
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2024-02-04 15:14:19,284 : INFO : SwitchController : <<<<<<< 's_sling_r' active >>>>>>>
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 15:14:19,284 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 15:14:19,284 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2024-02-04 15:14:19,285 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2024-02-04 15:14:19,330 : ERROR : asyncio : Fatal write error on serial transport
+protocol: <asyncio.streams.StreamReaderProtocol object at 0x000002240E7C6490>
+transport: SerialTransport(<ProactorEventLoop running=True closed=False debug=False>, <asyncio.streams.StreamReaderProtocol object at 0x000002240E7C6490>, Serial<id=0x2240e7c18d0, open=True>(port='com10', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=0, xonxoff=False, rtscts=False, dsrdtr=False))
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\serial_asyncio\__init__.py", line 290, in _poll_read
+    if self.serial.in_waiting:
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2024-02-04 15:14:19,363 : ERROR : asyncio : Fatal write error on serial transport
+protocol: <asyncio.streams.StreamReaderProtocol object at 0x000002240C617BD0>
+transport: SerialTransport(<ProactorEventLoop running=True closed=False debug=False>, <asyncio.streams.StreamReaderProtocol object at 0x000002240C617BD0>, Serial<id=0x2240e7b0280, open=True>(port='com9', baudrate=921600, bytesize=8, parity='N', stopbits=1, timeout=0, xonxoff=False, rtscts=False, dsrdtr=False))
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\serial_asyncio\__init__.py", line 290, in _poll_read
+    if self.serial.in_waiting:
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2024-02-04 15:14:19,365 : WARNING : [EXP] : Serial error: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2024-02-04 15:14:19,365 : WARNING : [NET] : Serial error: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2024-02-04 15:14:19,369 : INFO : Machine : Shutting down...
+2024-02-04 15:14:19,370 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-02-04 15:14:19,486 : ERROR : root : ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\commands\game.py", line 233, in __init__
+    self.machine.run()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 684, in run
+    self._run_loop()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 784, in _run_loop
+    self._crash_shutdown()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 729, in _crash_shutdown
+    self._do_stop()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 720, in _do_stop
+    self.shutdown()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 750, in shutdown
+    self._platform_stop()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 800, in _platform_stop
+    hardware_platform.stop()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 171, in stop
+    connection.stop()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\communicators\base.py", line 230, in stop
+    self.machine.clock.loop.run_until_complete(self.writer.wait_closed())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 361, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\serial_asyncio\__init__.py", line 290, in _poll_read
+    if self.serial.in_waiting:
+       ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\serial\serialwin32.py", line 259, in in_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))

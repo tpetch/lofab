@@ -1,0 +1,71 @@
+2024-02-03 18:23:03,104 : INFO : root : Loading config.
+2024-02-03 18:23:03,108 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-02-03 18:23:03,109 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\ae594c12e5b61ed7124eed45950049a7.mpf_cache
+2024-02-03 18:23:03,178 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e981666969e170eb9e0a37595fe7075e.mpf_cache
+2024-02-03 18:23:03,179 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\dfbe1b39ae456f06de73c859384050b2.mpf_cache
+2024-02-03 18:23:03,180 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\e981666969e170eb9e0a37595fe7075e.mpf_cache
+2024-02-03 18:23:03,181 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\408f6e4029d7abcf3040e9e16e1e62b0.mpf_cache
+2024-02-03 18:23:03,181 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev33
+2024-02-03 18:23:03,181 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-02-03-18-23-03-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-02-03 18:23:03,181 : INFO : Machine : MPF path: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf
+2024-02-03 18:23:03,181 : INFO : Machine : Machine path: c:\lofab
+2024-02-03 18:23:03,181 : INFO : Machine : Platform: win32
+2024-02-03 18:23:03,181 : INFO : Machine : Python executable location: C:\Users\Tanner\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-02-03 18:23:03,181 : INFO : Machine : Python version: 3.11.7 (64-bit)
+2024-02-03 18:23:03,183 : INFO : Machine : Initializing MPF...
+2024-02-03 18:23:03,471 : INFO : [NET] : Trying to connect to com9 at 921600bps
+2024-02-03 18:23:03,548 : INFO : [NET] : Connected to com9 at 921600bps
+2024-02-03 18:23:03,555 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.13
+2024-02-03 18:23:03,587 : INFO : [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-02-03 18:23:03,603 : INFO : [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2024-02-03 18:23:03,618 : INFO : [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-02-03 18:23:03,619 : INFO : [EXP] : Trying to connect to com10 at 921600bps
+2024-02-03 18:23:03,697 : INFO : [EXP] : Connected to com10 at 921600bps
+2024-02-03 18:23:03,713 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.12", board address 84
+2024-02-03 18:23:03,728 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.12", board address 840
+2024-02-03 18:23:03,744 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.12", board address 841
+2024-02-03 18:23:03,759 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,773 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,773 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,773 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev33', 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,773 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev33, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,773 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.7', 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,782 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,782 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,782 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,782 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,782 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-02-03 18:23:03,782 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-02-03 18:23:03,807 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-89' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=AttributeError("'NoneType' object has no attribute 'lower'")>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\light.py", line 314, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\light.py", line 236, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 660, in parse_light_number_to_channels
+    parts = number.lower().split("-")
+            ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-02-03 18:23:03,809 : INFO : Machine : Starting the main run loop.
+2024-02-03 18:23:03,812 : INFO : Machine : Shutting down...
+2024-02-03 18:23:03,812 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-02-03 18:23:04,945 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 788, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\light.py", line 314, in _initialize
+    self._load_hw_drivers()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\light.py", line 236, in _load_hw_drivers
+    channel_list = platform.parse_light_number_to_channels(self.config['number'], self.config['subtype'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 660, in parse_light_number_to_channels
+    parts = number.lower().split("-")
+            ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-02-03 18:23:04,950 : INFO : root : MPF run loop ended.

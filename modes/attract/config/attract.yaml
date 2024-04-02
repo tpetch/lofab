@@ -1,7 +1,6 @@
-#config_version=5
+#config_version=6
 
 show_player:
-  mode_attract_started: attract_display_loop
-  mode_attract_started.1: 
-    gi-start:
-      speed: 1
+  mode_attract_started: 
+    knife_breathe:
+      speed: 30

@@ -1,6 +1,0 @@
-2023-03-20 16:52:38,071 : INFO : root : Loading config.
-2023-03-20 16:52:38,460 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/config_spec.mpf_cache
-2023-03-20 16:52:38,460 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
-2023-03-20 16:52:38,461 : INFO : ConfigProcessor : Loading config from file /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
-2023-03-20 16:52:38,532 : INFO : ConfigProcessor : Loading config: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml
-2023-03-20 16:52:38,533 : INFO : ConfigProcessor : Loading config from file /Users/tpetch/Documents/trashland_3/monitor/config/config.yaml.

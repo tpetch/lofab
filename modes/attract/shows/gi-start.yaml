@@ -1,10 +1,22 @@
-#show_version=5
+#show_version=6
 
     - lights:
-       gi: green-f1s
-       insert: yellow-f1s
+       gi: red-f1s
+       playfield: purple-f2s
+      duration: 2s
+    - lights:
+       gi: purple-f1s
+       playfield: orange-f2s
+      duration: 2s
+    - lights:
+       gi: orange-f1s
+       playfield: yellow-f2s
       duration: 2s
     - lights:
        gi: yellow-f1s
-       insert: green-f1s
+       playfield: pink-f2s
+      duration: 2s
+    - lights:
+       gi: pink-f1s
+       playfield: red-f2s
       duration: 2s

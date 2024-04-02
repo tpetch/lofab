@@ -1,0 +1,10 @@
+2024-02-01 12:26:46,445 : INFO : root : Loading config.
+2024-02-01 12:26:46,449 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-02-01 12:26:46,449 : INFO : ConfigProcessor : Loading config from file C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml.
+2024-02-01 12:26:46,460 : INFO : ConfigProcessor : Loading config: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml
+2024-02-01 12:26:46,461 : INFO : ConfigProcessor : Loading config from file C:\lofab\config\config.yaml.
+2024-02-01 12:26:46,463 : INFO : ConfigProcessor : Loading config: C:\lofab\config\config.yaml
+2024-02-01 12:26:46,465 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\35bf7834a2cb30277765407e9f9dad35.mpf_cache
+2024-02-01 12:26:47,045 : INFO : ConfigProcessor : Loading config from file C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\modes\attract\config\attract.yaml.
+2024-02-01 12:26:47,051 : INFO : ConfigProcessor : Loading config: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\modes\attract\config\attract.yaml
+2024-02-01 12:26:47,051 : INFO : ConfigProcessor : Loading config from file C:\lofab\modes\attract\config\attract.yaml.

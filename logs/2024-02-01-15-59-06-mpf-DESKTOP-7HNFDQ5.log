@@ -1,0 +1,620 @@
+2024-02-01 15:59:06,375 : INFO : root : Loading config.
+2024-02-01 15:59:06,379 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-02-01 15:59:06,379 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\ae594c12e5b61ed7124eed45950049a7.mpf_cache
+2024-02-01 15:59:06,455 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\165ae565642a148ddd3c4976ade4dd88.mpf_cache
+2024-02-01 15:59:06,456 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\dfbe1b39ae456f06de73c859384050b2.mpf_cache
+2024-02-01 15:59:06,456 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev33
+2024-02-01 15:59:06,456 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-02-01-15-59-06-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-02-01 15:59:06,456 : INFO : Machine : MPF path: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf
+2024-02-01 15:59:06,457 : INFO : Machine : Machine path: c:\lofab
+2024-02-01 15:59:06,457 : INFO : Machine : Platform: win32
+2024-02-01 15:59:06,457 : INFO : Machine : Python executable location: C:\Users\Tanner\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-02-01 15:59:06,457 : INFO : Machine : Python version: 3.11.7 (64-bit)
+2024-02-01 15:59:06,459 : INFO : Machine : Initializing MPF...
+2024-02-01 15:59:06,693 : INFO : [NET] : Trying to connect to com9 at 921600bps
+2024-02-01 15:59:06,771 : INFO : [NET] : Connected to com9 at 921600bps
+2024-02-01 15:59:06,775 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.13
+2024-02-01 15:59:06,807 : INFO : [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-02-01 15:59:06,822 : INFO : [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2024-02-01 15:59:06,839 : INFO : [EXP] : Trying to connect to com10 at 921600bps
+2024-02-01 15:59:06,916 : INFO : [EXP] : Connected to com10 at 921600bps
+2024-02-01 15:59:06,933 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.12", board address 84
+2024-02-01 15:59:06,949 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.12", board address 840
+2024-02-01 15:59:06,965 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.12", board address 841
+2024-02-01 15:59:06,981 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-02-01 15:59:06,995 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-02-01 15:59:06,996 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-02-01 15:59:06,996 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev33', 'prev_value': None, 'change': True}
+2024-02-01 15:59:06,996 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev33, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-02-01 15:59:06,996 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.7', 'prev_value': None, 'change': True}
+2024-02-01 15:59:07,005 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-02-01 15:59:07,005 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-02-01 15:59:07,005 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-02-01 15:59:07,005 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-02-01 15:59:07,005 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-02-01 15:59:07,005 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-02-01 15:59:07,021 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_stationary_back in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_stationary_back in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,023 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_flipper_l in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 335, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 380, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 337, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board b_main does not exist for driver b_main-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_flipper_l in platform. See error above
+2024-02-01 15:59:07,024 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_1 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_1 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,025 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-44' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_sling_r in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-13
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_sling_r in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,026 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_flipper_r in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 335, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 380, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 337, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board b_main does not exist for driver b_main-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_flipper_r in platform. See error above
+2024-02-01 15:59:07,027 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_2 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_2 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,027 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_vuk in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-14
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_vuk in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,028 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_trough in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 335, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 380, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 337, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board b_main does not exist for driver b_main-0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_trough in platform. See error above
+2024-02-01 15:59:07,029 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_3 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_3 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,030 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_pop in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 335, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 380, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 337, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board b_main does not exist for driver b_main-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_pop in platform. See error above
+2024-02-01 15:59:07,031 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_trough_4 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_trough_4 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,031 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_sling_l in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 335, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 380, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 337, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board b_main does not exist for driver b_main-3
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_sling_l in platform. See error above
+2024-02-01 15:59:07,032 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_sling_l in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_sling_l in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,033 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_sling_r in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 335, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 380, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 337, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board b_main does not exist for driver b_main-6
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_sling_r in platform. See error above
+2024-02-01 15:59:07,034 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_vuk in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 335, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 380, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 337, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board b_main does not exist for driver b_main-5
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_vuk in platform. See error above
+2024-02-01 15:59:07,035 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_stationary_l in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-8
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_stationary_l in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,036 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_9 in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-9
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_9 in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,037 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-41' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_pop in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-10
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_pop in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,037 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_stationary_right in platform. See error above')>
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-11
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_stationary_right in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:07,039 : INFO : Machine : Starting the main run loop.
+2024-02-01 15:59:07,042 : INFO : Machine : Shutting down...
+2024-02-01 15:59:07,042 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-02-01 15:59:08,158 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 440, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'b_main'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 148, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 497, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 442, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board b_main does not exist for switch b_main-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 788, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\switch.py", line 151, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_stationary_back in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2024-02-01 15:59:08,161 : INFO : root : MPF run loop ended.

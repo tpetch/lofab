@@ -1,0 +1,80 @@
+2024-02-01 13:55:11,464 : INFO : root : Loading config.
+2024-02-01 13:55:11,473 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-02-01 13:55:11,473 : WARNING : ConfigProcessor : Config file in cache changed: C:\lofab\config\config.yaml
+2024-02-01 13:55:11,473 : INFO : ConfigProcessor : Loading config from file C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml.
+2024-02-01 13:55:11,490 : INFO : ConfigProcessor : Loading config: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml
+2024-02-01 13:55:11,490 : INFO : ConfigProcessor : Loading config from file C:\lofab\config\config.yaml.
+2024-02-01 13:55:11,493 : INFO : ConfigProcessor : Loading config: C:\lofab\config\config.yaml
+2024-02-01 13:55:11,495 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\35bf7834a2cb30277765407e9f9dad35.mpf_cache
+2024-02-01 13:55:12,059 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\165ae565642a148ddd3c4976ade4dd88.mpf_cache
+2024-02-01 13:55:12,064 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\dfbe1b39ae456f06de73c859384050b2.mpf_cache
+2024-02-01 13:55:12,069 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev33
+2024-02-01 13:55:12,069 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-02-01-13-55-11-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-02-01 13:55:12,069 : INFO : Machine : MPF path: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf
+2024-02-01 13:55:12,069 : INFO : Machine : Machine path: C:\lofab
+2024-02-01 13:55:12,069 : INFO : Machine : Platform: win32
+2024-02-01 13:55:12,069 : INFO : Machine : Python executable location: C:\Users\Tanner\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-02-01 13:55:12,069 : INFO : Machine : Python version: 3.11.7 (64-bit)
+2024-02-01 13:55:12,072 : INFO : Machine : Initializing MPF...
+2024-02-01 13:55:12,933 : INFO : [NET] : Trying to connect to com9 at 921600bps
+2024-02-01 13:55:13,010 : INFO : [NET] : Connected to com9 at 921600bps
+2024-02-01 13:55:13,012 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.13
+2024-02-01 13:55:13,043 : INFO : [NET] : Registered I/O Board 0: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2024-02-01 13:55:13,058 : INFO : [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.09, Switches: 8, Drivers: 4
+2024-02-01 13:55:13,073 : INFO : [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2024-02-01 13:55:13,085 : INFO : [EXP] : Trying to connect to com10 at 921600bps
+2024-02-01 13:55:13,162 : INFO : [EXP] : Connected to com10 at 921600bps
+2024-02-01 13:55:13,168 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "EXP FP-EXP-0081  0.12", board address 84
+2024-02-01 13:55:13,183 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.12", board address 840
+2024-02-01 13:55:13,198 : INFO : [EXP] : Verifying hardware for EXP "pf" (FP-EXP-0081, @84) with ID string "BRK FP-EXP-0081  0.12", board address 841
+2024-02-01 13:55:13,214 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,354 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,354 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,354 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev33', 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,355 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev33, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,355 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.7', 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,363 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,363 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,363 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,363 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,363 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-02-01 13:55:13,363 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-02-01 13:55:15,909 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2024-02-01 13:55:15,941 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-02-01 13:55:15,941 : INFO : SwitchController : Found active switch: (19, [FAST Platform Interface]) <switch.s_trough_4>
+2024-02-01 13:55:15,943 : INFO : ball_device.bd_vuk : BCH: Initial count: 0
+2024-02-01 13:55:15,944 : INFO : ball_device.bd_vuk : State: idle
+2024-02-01 13:55:16,413 : INFO : ball_device.bd_trough : BCH: Initial count: 1
+2024-02-01 13:55:16,413 : INFO : ball_device.bd_trough : State: idle
+2024-02-01 13:55:16,469 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-02-01 13:55:16,471 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-02-01 13:55:16,472 : INFO : BallController : Initial balls found: 1
+2024-02-01 13:55:16,473 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...pper_right>')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...pper_right>')>)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\events.py", line 791, in _queue_task_done
+    future.result()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\events.py", line 704, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 58, in _check_duplicate_coil_numbers
+    raise AssertionError("Duplicate coil number {} for coil {}".format(coil.hw_driver.number, coil))
+AssertionError: Duplicate coil number 9 for coil <coil.c_flipper_right>
+2024-02-01 13:55:16,494 : INFO : Machine : Starting the main run loop.
+2024-02-01 13:55:16,497 : INFO : Machine : Shutting down...
+2024-02-01 13:55:16,497 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-02-01 13:55:17,593 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 788, in _run_loop
+    raise self._exception['exception']
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\events.py", line 791, in _queue_task_done
+    future.result()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\events.py", line 704, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 58, in _check_duplicate_coil_numbers
+    raise AssertionError("Duplicate coil number {} for coil {}".format(coil.hw_driver.number, coil))
+AssertionError: Duplicate coil number 9 for coil <coil.c_flipper_right>
+2024-02-01 13:55:17,606 : INFO : root : MPF run loop ended.

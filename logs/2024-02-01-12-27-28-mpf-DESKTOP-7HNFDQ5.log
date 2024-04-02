@@ -1,0 +1,48 @@
+2024-02-01 12:27:28,827 : INFO : root : Loading config.
+2024-02-01 12:27:28,830 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-02-01 12:27:28,831 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\35bf7834a2cb30277765407e9f9dad35.mpf_cache
+2024-02-01 12:27:28,899 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\a2934b2c2ffee8b0382fdb4f299381ea.mpf_cache
+2024-02-01 12:27:28,905 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\dfbe1b39ae456f06de73c859384050b2.mpf_cache
+2024-02-01 12:27:28,910 : INFO : ConfigProcessor : Loading config from file C:\lofab\modes\attract\shows\.\attract_display_loop.yaml.
+2024-02-01 12:27:28,913 : INFO : ConfigProcessor : Loading config: C:\lofab\modes\attract\shows\.\attract_display_loop.yaml
+2024-02-01 12:27:28,914 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\ae8c868550a49a81e63b3815e7eb5a1d.mpf_cache
+2024-02-01 12:27:28,914 : INFO : ConfigProcessor : Loading config from file C:\lofab\modes\attract\shows\.\gi-start.yaml.
+2024-02-01 12:27:28,915 : INFO : ConfigProcessor : Loading config: C:\lofab\modes\attract\shows\.\gi-start.yaml
+2024-02-01 12:27:28,915 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\33a505bd675d22be3af5a2b10c6c9794.mpf_cache
+2024-02-01 12:27:28,916 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev33
+2024-02-01 12:27:28,916 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-02-01-12-27-28-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-02-01 12:27:28,916 : INFO : Machine : MPF path: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf
+2024-02-01 12:27:28,916 : INFO : Machine : Machine path: C:\lofab
+2024-02-01 12:27:28,916 : INFO : Machine : Platform: win32
+2024-02-01 12:27:28,916 : INFO : Machine : Python executable location: C:\Users\Tanner\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-02-01 12:27:28,916 : INFO : Machine : Python version: 3.11.7 (64-bit)
+2024-02-01 12:27:28,918 : INFO : Machine : Initializing MPF...
+2024-02-01 12:27:29,798 : INFO : [NET] : Trying to connect to vom9 at 921600bps
+2024-02-01 12:27:29,800 : ERROR : [NET] : Failed to connect to any of the specified ports.
+2024-02-01 12:27:29,802 : INFO : Machine : Shutting down...
+2024-02-01 12:27:29,802 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-02-01 12:27:29,915 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 275, in _connect_to_hardware
+    await communicator.connect()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\communicators\base.py", line 107, in connect
+    raise SerialException(f"{self} could not connect to a serial port. Is it open in CoolTerm? ;)")
+serial.serialutil.SerialException: [FAST NET] could not connect to a serial port. Is it open in CoolTerm? ;)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 670, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 246, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 242, in initialize_core_and_hardware
+    await self._initialize_platforms()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 333, in _initialize_platforms
+    result.result()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 120, in initialize
+    await self._connect_to_hardware()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 281, in _connect_to_hardware
+    raise MpfRuntimeError("Could not open serial port {}. Is something else connected to the port? "
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port net. Is something else connected to the port? Did the port number or your computer change? Do you have permissions to the port?  Error Code: RE-FAST-1 (https://missionpinball.org/logs)
+2024-02-01 12:27:29,920 : INFO : root : MPF run loop ended.

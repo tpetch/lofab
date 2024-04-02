@@ -1,6 +1,6 @@
 events:
   game_ended: 44
-  game_started: 116
+  game_started: 120
 player:
   score:
     average: 0.0
@@ -17,6 +17,7 @@ player:
     - 0
     total: 44
 switches:
+  s_9: 0
   s_autolauncher: 422
   s_b_eos: 2450
   s_b_pop: 446
@@ -35,6 +36,8 @@ switches:
   s_flip_left_eos: 25095
   s_flip_left_top_eos: 1729
   s_flip_right_eos: 2110
+  s_flipper_l: 251
+  s_flipper_r: 166
   s_inlane_left: 31
   s_inlane_right: 59
   s_l_rollover: 9
@@ -51,6 +54,7 @@ switches:
   s_lock_3: 1
   s_outlane_left: 12
   s_outlane_right: 28
+  s_pop: 62
   s_pop_left: 152
   s_pop_lower: 560
   s_pop_right: 2348
@@ -58,14 +62,19 @@ switches:
   s_right_flipper_2: 3304
   s_rollover_left: 84
   s_rollover_right: 488
+  s_sling_l: 35
   s_sling_left: 159
+  s_sling_r: 32
   s_sling_right: 237
-  s_start: 113
+  s_start: 118
+  s_stationary_back: 28
+  s_stationary_l: 43
+  s_stationary_right: 23
   s_tilt: 2735
-  s_trough_1: 0
-  s_trough_2: 440
-  s_trough_3: 394
-  s_trough_4: 396
+  s_trough_1: 64
+  s_trough_2: 504
+  s_trough_3: 459
+  s_trough_4: 506
   s_trough_5: 284
   s_trough_6: 277
   s_trough_jam: 344
@@ -73,5 +82,6 @@ switches:
   s_u_lane_r: 20
   s_u_rollover: 10
   s_u_target: 8
+  s_vuk: 15
   s_vuk_back: 489
   s_vuk_right: 1

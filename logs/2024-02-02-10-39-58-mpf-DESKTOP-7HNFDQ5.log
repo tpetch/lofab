@@ -1,0 +1,62 @@
+2024-02-02 10:39:58,248 : INFO : root : Loading config.
+2024-02-02 10:39:58,252 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-02-02 10:39:58,253 : WARNING : ConfigProcessor : Config file in cache changed: c:\lofab\config\config.yaml
+2024-02-02 10:39:58,253 : INFO : ConfigProcessor : Loading config from file C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml.
+2024-02-02 10:39:58,264 : INFO : ConfigProcessor : Loading config: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml
+2024-02-02 10:39:58,264 : INFO : ConfigProcessor : Loading config from file c:\lofab\config\config.yaml.
+2024-02-02 10:39:58,267 : INFO : ConfigProcessor : Loading config: c:\lofab\config\config.yaml
+2024-02-02 10:39:58,269 : INFO : ConfigProcessor : Config file cache created: C:\Users\Tanner\AppData\Local\Temp\ae594c12e5b61ed7124eed45950049a7.mpf_cache
+2024-02-02 10:39:58,339 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\165ae565642a148ddd3c4976ade4dd88.mpf_cache
+2024-02-02 10:39:58,340 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Tanner\AppData\Local\Temp\dfbe1b39ae456f06de73c859384050b2.mpf_cache
+2024-02-02 10:39:58,341 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev33
+2024-02-02 10:39:58,341 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2024-02-02-10-39-58-mpf-DESKTOP-7HNFDQ5.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-02-02 10:39:58,341 : INFO : Machine : MPF path: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf
+2024-02-02 10:39:58,341 : INFO : Machine : Machine path: c:\lofab
+2024-02-02 10:39:58,341 : INFO : Machine : Platform: win32
+2024-02-02 10:39:58,341 : INFO : Machine : Python executable location: C:\Users\Tanner\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-02-02 10:39:58,341 : INFO : Machine : Python version: 3.11.7 (64-bit)
+2024-02-02 10:39:58,344 : INFO : Machine : Initializing MPF...
+2024-02-02 10:39:58,562 : INFO : [NET] : Trying to connect to com9 at 921600bps
+2024-02-02 10:39:58,639 : INFO : [NET] : Connected to com9 at 921600bps
+2024-02-02 10:39:58,644 : INFO : [NET] : Connected to FP-CPU-2000 with firmware v02.13
+2024-02-02 10:39:58,660 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Task finishe... Interface]')>) at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\utility_functions.py:784
+handle: <Handle Util.raise_exceptions(<Task finishe... Interface]')>) at C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\utility_functions.py:784>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\utility_functions.py", line 792, in raise_exceptions
+    future.result()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\communicators\base.py", line 373, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\communicators\base.py", line 338, in parse_incoming_raw_bytes
+    self._dispatch_incoming_msg(msg)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\communicators\base.py", line 347, in _dispatch_incoming_msg
+    self.message_processors[msg_header](msg[3:])
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\communicators\net_neuron.py", line 301, in _process_switch_open
+    self.machine.switch_controller.process_switch_by_num(state=0,
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+AssertionError: Got early switch change for switch 16 to state 0. platform: [FAST Platform Interface]
+2024-02-02 10:39:58,663 : INFO : Machine : Starting the main run loop.
+2024-02-02 10:39:58,666 : INFO : Machine : Shutting down...
+2024-02-02 10:39:58,666 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-02-02 10:39:59,769 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 788, in _run_loop
+    raise self._exception['exception']
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\utility_functions.py", line 792, in raise_exceptions
+    future.result()
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\communicators\base.py", line 373, in _socket_reader
+    self.parse_incoming_raw_bytes(resp)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\communicators\base.py", line 338, in parse_incoming_raw_bytes
+    self._dispatch_incoming_msg(msg)
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\communicators\base.py", line 347, in _dispatch_incoming_msg
+    self.message_processors[msg_header](msg[3:])
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\communicators\net_neuron.py", line 301, in _process_switch_open
+    self.machine.switch_controller.process_switch_by_num(state=0,
+  File "C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\switch_controller.py", line 251, in process_switch_by_num
+    raise AssertionError("Got early switch change for switch {} to state {}. platform: {}".format(
+AssertionError: Got early switch change for switch 16 to state 0. platform: [FAST Platform Interface]
+2024-02-02 10:39:59,771 : INFO : root : MPF run loop ended.
