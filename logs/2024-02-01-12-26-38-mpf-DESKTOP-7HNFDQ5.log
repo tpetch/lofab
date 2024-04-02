@@ -1,5 +1,0 @@
-2024-02-01 12:26:38,954 : INFO : root : Loading config.
-2024-02-01 12:26:38,962 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
-2024-02-01 12:26:38,962 : INFO : ConfigProcessor : Loading config from file C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml.
-2024-02-01 12:26:38,973 : INFO : ConfigProcessor : Loading config: C:\Users\Tanner\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml
-2024-02-01 12:26:38,974 : INFO : ConfigProcessor : Loading config from file C:\lofab\config\config.yaml.

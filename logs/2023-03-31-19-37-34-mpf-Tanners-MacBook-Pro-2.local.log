@@ -1,7 +1,0 @@
-2023-03-31 19:37:34,459 : INFO : root : Loading config.
-2023-03-31 19:37:34,868 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/0y/x6b2lmrx6vq3nhkjncz48nhc0000gn/T/config_spec.mpf_cache
-2023-03-31 19:37:34,868 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
-2023-03-31 19:37:34,869 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tpetch/Documents/trashland_3/config/config.yaml
-2023-03-31 19:37:34,869 : INFO : ConfigProcessor : Loading config from file /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
-2023-03-31 19:37:34,940 : INFO : ConfigProcessor : Loading config: /Users/tpetch/.local/pipx/venvs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml
-2023-03-31 19:37:34,941 : INFO : ConfigProcessor : Loading config from file /Users/tpetch/Documents/trashland_3/config/config.yaml.
