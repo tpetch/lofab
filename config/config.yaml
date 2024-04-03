@@ -6,7 +6,7 @@ hardware:
 
 playfields:
   playfield:
-    default_source_device: none
+    default_source_device: bd_trough
     tags: default 
 
 
@@ -30,10 +30,16 @@ fast:
     boards: 
       pf:
         model: FP-EXP-0081
+        
+displays:
+  window:
+    width: 1024
+    height: 600
     
 
 modes:
   - attract
+  - base
 
 
 
@@ -241,7 +247,7 @@ lights:
     number: pf-8-9
     tags: popflash
   l_pop_flasher_10 :
-    number: pf-8-9
+    number: pf-8-10
     tags: popflash
 
   
@@ -262,7 +268,7 @@ switches:
     tags: right_flipper
   s_launch:
     number: b_cabinet-1
-    tags:
+    tags: launch
   s_start:
     number: b_cabinet-2
     tags: start
@@ -315,7 +321,7 @@ switches:
     number: b_main-27
   s_ramp_l:
     number: b_main-28
-  s_ramp_full:
+  s_ramp_complete:
     number: b_main-29
   s_spinner:
     number: b_main-30
@@ -371,6 +377,11 @@ coils:
   c_vuk:
     number: b_main-5
     
+spinners:
+  spinner:
+    switch: s_spinner
+    active_ms: 500
+    
 flippers:
 
   f_l:
@@ -396,7 +407,7 @@ ball_devices:
   bd_trough:
     ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4
     eject_coil: c_trough
-    #tags: trough, home, drain
+    tags: trough, home, drain
     
 autofire_coils:
     

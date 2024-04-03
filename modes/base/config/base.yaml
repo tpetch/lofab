@@ -1,34 +1,11 @@
-#config_version=5
+#config_version=6
 mode:
   start_events: ball_starting
   priority: 100
   
 
 slide_player:
-  mode_base_started:
-    widgets:
-      - type: text
-        text: (score)
-        color: green
-        number_grouping: true
-        min_digits: 2
-        font_size: 130
-      - type: text
-        text: PLAYER (number)
-        color: green
-        y: 10
-        x: 10
-        font_size: 50
-        anchor_x: left
-        anchor_y: bottom
-      - type: text
-        text: BALL (ball)
-        color: green
-        y: 10
-        x: right-40
-        anchor_x: right
-        anchor_y: bottom
-        font_size: 50
+
         
 shows:
 
@@ -37,85 +14,25 @@ shows:
       
 shots:
 
-  left_inlane:
-    switch: s_inlane_left
+  left_inlane_h:
+    switch: s_h
     show_tokens:
       light: l_inlane_left
-  left_outlane:
-    switch: s_outlane_left
-    show_tokens:
-      light: l_outlane_left
   right_inlane:
-    switch: s_inlane_right
+    switch: s_e
     show_tokens:
       light: l_tlane_right
-  right_outlane:
-    switch: s_outlane_right
-    show_tokens:
-      light: l_outlane_right
-      
-  drop_mid_left:
-     switch: 
-     show_tokens: s_drop_mid_left
-      light: l_drop_mid_left
-  drop_mid_center:
-     switch: 
-     show_tokens: s_drop_mid_center
-      light: l_drop_mid_center
-  drop_mid_right:
-     switch: 
-     show_tokens: s_drop_mid_right
-      light: l_drop_mid_right
-    
 
-    
-  small_cw_orbit:
-    hit_events: ss_small_cw_orbit
-  small_ccw_orbit:
-    hit_events: ss_small_ccw_orbit
-    
-  left_pop:
-    switch: s_pop_left
-  right_pop:
-    switch: s_pop_right
-  lower_pop:
-    switch: s_pop_lower
-    
-  scoop:
-    switch: s_vuk_right
-    
-  single_drop_shot:
-    switch: s_drop_single
+
     
 sequence_shots:
     
-  ss_small_cw_orbit:
-    switch_sequence: s_rollover_left, s_rollover_right
+  ss_ramp_r:
+    switch_sequence: s_ramp_r, s_ramp_complete
     sequence_timeout: 2s
-  ss_small_ccw_orbit:
-    switch_sequence: s_rollover_right, s_rollover_left
+  ss_ramp_l:
+    switch_sequence: s_ramp_l, s_ramp_complete
     sequence_timeout: 2s
   
   
 variable_player:
-  
-  left_pop_hit:
-    score: 150
-  right_pop_hit:
-    score: 150
-  lower_pop_hit:
-    score: 10
-    
-  left_outlane_hit:
-    score: 1000
-  right_outlane_hit:
-    score: 1000
-  left_inlane_hit:
-    score: 100
-  right_inlane_hit:
-    score: 100
-    
-  ss_small_cw_orbit_hit:
-    score: 200
-  ss_small_ccw_orbit_hit:
-    score: 300
