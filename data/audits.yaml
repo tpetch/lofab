@@ -1,6 +1,28 @@
 events:
   game_ended: 44
-  game_started: 120
+  game_started: 123
+missing_switches:
+  s_e: 3
+  s_flipper_l: 3
+  s_flipper_r: 3
+  s_h: 3
+  s_launch: 3
+  s_pop: 3
+  s_ramp_complete: 3
+  s_ramp_l: 3
+  s_ramp_r: 3
+  s_sling_l: 3
+  s_sling_r: 3
+  s_spinner: 3
+  s_start: 3
+  s_stationary_S: 3
+  s_stationary_back: 3
+  s_stationary_o: 3
+  s_stationay_u: 3
+  s_trough_2: 3
+  s_trough_3: 3
+  s_trough_4: 3
+  s_vuk: 3
 player:
   score:
     average: 0.0
@@ -33,11 +55,13 @@ switches:
   s_drop_right_right: 32
   s_drop_scoop: 0
   s_drop_single: 24
+  s_e: 0
   s_flip_left_eos: 25095
   s_flip_left_top_eos: 1729
   s_flip_right_eos: 2110
   s_flipper_l: 251
   s_flipper_r: 166
+  s_h: 0
   s_inlane_left: 31
   s_inlane_right: 59
   s_l_rollover: 9
@@ -58,6 +82,9 @@ switches:
   s_pop_left: 152
   s_pop_lower: 560
   s_pop_right: 2348
+  s_ramp_complete: 0
+  s_ramp_l: 0
+  s_ramp_r: 0
   s_right_flipper_1: 3494
   s_right_flipper_2: 3304
   s_rollover_left: 84
@@ -66,12 +93,16 @@ switches:
   s_sling_left: 159
   s_sling_r: 32
   s_sling_right: 237
+  s_spinner: 0
   s_start: 118
+  s_stationary_S: 0
   s_stationary_back: 28
   s_stationary_l: 43
+  s_stationary_o: 0
   s_stationary_right: 23
+  s_stationay_u: 0
   s_tilt: 2735
-  s_trough_1: 64
+  s_trough_1: 65
   s_trough_2: 504
   s_trough_3: 459
   s_trough_4: 506

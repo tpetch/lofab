@@ -17,11 +17,12 @@ shots:
   left_inlane_h:
     switch: s_h
     show_tokens:
-      light: l_inlane_left
+      light: l_inlane_l
   right_inlane:
     switch: s_e
     show_tokens:
-      light: l_tlane_right
+      light: l_inlane_r
+
 
 
     
@@ -36,3 +37,5 @@ sequence_shots:
   
   
 variable_player:
+show_player:
+  ball_started: gi_on

@@ -1,0 +1,89 @@
+2024-04-05 06:52:25,610 : INFO : root : Loading config.
+2024-04-05 06:52:25,613 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-04-05 06:52:25,613 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml
+2024-04-05 06:52:25,613 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
+2024-04-05 06:52:25,619 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2024-04-05 06:52:25,619 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml.
+2024-04-05 06:52:25,623 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml
+2024-04-05 06:52:25,624 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/871505f0f2d2915bd502f0a1fb110f3b.mpf_cache
+2024-04-05 06:52:25,653 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-05 06:52:25,653 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/edcc5f1d3215b377c9faab88c62e4ce0.mpf_cache
+2024-04-05 06:52:25,654 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-05 06:52:25,654 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/lofab/modes/base/config/base.yaml
+2024-04-05 06:52:25,654 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/base/config/base.yaml.
+2024-04-05 06:52:25,654 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/base/config/base.yaml
+2024-04-05 06:52:25,655 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f97c90855879603280fcc571f5c42639.mpf_cache
+2024-04-05 06:52:25,656 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/3dbc438e88423aa3ff742db2713b600f.mpf_cache
+2024-04-05 06:52:25,657 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ab100dbe0e16472b56f0213f3842a00f.mpf_cache
+2024-04-05 06:52:25,658 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0f3c951d4c93079ae3fac6429c5bc2ee.mpf_cache
+2024-04-05 06:52:25,658 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/8bf004783a280ac33d17b88f37848116.mpf_cache
+2024-04-05 06:52:25,659 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/base/shows/./gi_on.yaml.
+2024-04-05 06:52:25,660 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/base/shows/./gi_on.yaml
+2024-04-05 06:52:25,662 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d5d50eaa09e055f3a827c6269a3aa165.mpf_cache
+2024-04-05 06:52:25,662 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.1.dev3
+2024-04-05 06:52:25,662 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-04-05-06-52-25-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-04-05 06:52:25,662 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf
+2024-04-05 06:52:25,662 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/lofab
+2024-04-05 06:52:25,662 : INFO : Machine : Platform: darwin
+2024-04-05 06:52:25,662 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+2024-04-05 06:52:25,662 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2024-04-05 06:52:25,663 : INFO : Machine : Initializing MPF...
+2024-04-05 06:52:25,773 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,788 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,788 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,788 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.1.dev3', 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,788 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.1.dev3, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,788 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,800 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,800 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,801 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,801 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,801 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2024-04-05 06:52:25,801 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-04-05 06:52:25,813 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-04-05 06:52:25,815 : INFO : ball_device.bd_vuk : BCH: Initial count: 0
+2024-04-05 06:52:25,815 : INFO : ball_device.bd_vuk : State: idle
+2024-04-05 06:52:25,815 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2024-04-05 06:52:25,815 : INFO : ball_device.bd_trough : State: idle
+2024-04-05 06:52:25,818 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-04-05 06:52:25,962 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...lights None')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...lights None')>)>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/assets/show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/assets/show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/config_players/device_config_player.py", line 44, in validate_config_entry
+    raise AssertionError(
+AssertionError: Invalid settings for player gi_on:lights None
+2024-04-05 06:52:25,966 : INFO : Machine : Starting the main run loop.
+2024-04-05 06:52:25,966 : INFO : Machine : Shutting down...
+2024-04-05 06:52:25,966 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-04-05 06:52:26,968 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/show_controller.py", line 53, in _load_shows
+    self.machine.shows[show_name].load(show_config)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/assets/show.py", line 171, in load
+    self._process_step_actions(step, actions)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/assets/show.py", line 197, in _process_step_actions
+    self.machine.show_controller.show_players[key].validate_config_entry(value, self.name)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/config_players/device_config_player.py", line 44, in validate_config_entry
+    raise AssertionError(
+AssertionError: Invalid settings for player gi_on:lights None
+2024-04-05 06:52:52,367 : INFO : root : MPF run loop ended.

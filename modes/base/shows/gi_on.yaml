@@ -1,0 +1,33 @@
+#show_version=6
+
+  - lights:
+      l_gi_1: white
+      l_gi_2: white
+      l_gi_3: white
+      l_gi_4: white
+      l_gi_5: white
+      l_gi_6: white
+      l_gi_7: white
+      l_gi_8: white
+      l_gi_9: white
+      l_gi_10: white
+      l_gi_11: white
+      l_gi_12: white
+      l_gi_13: white
+      l_gi_14: white
+      l_gi_15: white
+      l_gi_16: white
+      l_gi_17: white
+      l_gi_18: white
+      l_gi_19: white
+      l_gi_20: white
+      l_tilt_1: white
+      l_tilt_2: white
+      l_tilt_3: white
+      l_tilt_4: white
+      l_tilt_5: white
+      l_tilt_6: white
+      l_tilt_7: white
+      l_tilt_8: white
+      l_tilt_on_1: white
+      l_tilt_on_2: white
