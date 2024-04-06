@@ -1,0 +1,8 @@
+#show_version=6
+
+    - lights:
+       tilt_light: red-f1s
+      duration: 3s
+    - lights:
+       tilt_light: off-f1s
+      duration: 3s

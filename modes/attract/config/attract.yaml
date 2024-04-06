@@ -4,3 +4,4 @@ show_player:
   mode_attract_started: 
     knife_breathe:
       speed: 30
+  mode_attract_started.1: attract_display_loop

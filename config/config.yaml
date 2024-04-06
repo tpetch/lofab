@@ -26,17 +26,18 @@ fast:
         order: 3
         
   exp:
-    port: com4
+    port: com5
     boards: 
       pf:
         model: FP-EXP-0081
       neu:
-        model: FP-CPU-2000
+        model: FP-EXP-2000
         
 displays:
   window:
     width: 1024
     height: 600
+    fullscreen: true
     
 
 modes:
@@ -254,30 +255,43 @@ lights:
     
   l_tilt_1:
     number: neu-1-1
+    tags: tilt_light
   l_tilt_2:
     number: neu-1-2
+    tags: tilt_light
   l_tilt_3:
     number: neu-1-3
+    tags: tilt_light
   l_tilt_4:
     number: neu-1-4
+    tags: tilt_light
   l_tilt_5:
     number: neu-1-5
+    tags: tilt_light
   l_tilt_6:
     number: neu-1-6
+    tags: tilt_light
   l_tilt_7:
     number: neu-1-7
+    tags: tilt_light
   l_tilt_8:
     number: neu-1-8
+    tags: tilt_light
   l_tilt_null:
     number: neu-1-9
+    tags: tilt_light
   l_tilt_on_1:
     number: neu-1-10
+    tags: tilt_light
   l_tilt_on_2:
     number: neu-1-11
+    tags: tilt_light
   l_tilt_front_1:
     number: neu-1-12
+    tags: tilt_light
   l_tilt_front_2:
     number: neu-1-13
+    tags: tilt_light
 
   
 
@@ -348,12 +362,16 @@ switches:
     
   s_ramp_r:
     number: b_main-27
+    type: 'NC'
   s_ramp_l:
     number: b_main-28
+    type: 'NC'
   s_ramp_complete:
     number: b_main-29
+    type: 'NC'
   s_spinner:
     number: b_main-30
+    type: 'NC'
     
   s_h:
     number: b_main_22

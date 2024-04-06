@@ -8,7 +8,13 @@ slide_player:
 
         
 shows:
-
+  shaker_spinner:
+    - duration: 100ms
+      coils:
+        c_shaker: enable
+    - duration: 1s
+      coils:
+        c_shaker: disable
         
 
       
@@ -22,6 +28,12 @@ shots:
     switch: s_e
     show_tokens:
       light: l_inlane_r
+      
+coil_player:
+  spinner_spinner_active:
+    c_shaker: enable
+  spinner_spinner_inactive:
+    c_shaker: disable
 
 
 
