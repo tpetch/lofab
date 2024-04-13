@@ -1,0 +1,49 @@
+2024-04-13 14:13:29,135 : kivy : Kivy: v2.2.1
+2024-04-13 14:13:29,136 : kivy : Kivy: Installed at "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/kivy/__init__.py"
+2024-04-13 14:13:29,136 : kivy : Python: v3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) 
+[Clang 13.0.0 (clang-1300.0.29.30)]
+2024-04-13 14:13:29,136 : kivy : Python: Interpreter at "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9"
+2024-04-13 14:13:29,157 : kivy : Factory: 190 symbols loaded
+2024-04-13 14:13:29,284 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.5.1
+2024-04-13 14:13:29,284 : kivy : Image: Providers: img_tex, img_imageio, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2024-04-13 14:13:29,385 : kivy : VideoFFPy: Using ffpyplayer 4.5.1
+2024-04-13 14:13:29,385 : kivy : Video: Provider: ffpyplayer(['video_ffmpeg'] ignored)
+2024-04-13 14:13:29,423 : root : Loading MPF-MC controller
+2024-04-13 14:13:29,426 : YamlMultifileConfigLoader : Machine config file #1: config
+2024-04-13 14:13:29,426 : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/lofab/config/config
+2024-04-13 14:13:29,426 : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpfmc/mcconfig.yaml.
+2024-04-13 14:13:29,429 : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpfmc/mcconfig.yaml
+2024-04-13 14:13:29,430 : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/config/config.
+2024-04-13 14:13:29,434 : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/config/config
+2024-04-13 14:13:29,435 : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d2eff62569ef5a6216970672da69648f.mpf_cache
+2024-04-13 14:13:29,435 : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-13 14:13:29,435 : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/edcc5f1d3215b377c9faab88c62e4ce0.mpf_cache
+2024-04-13 14:13:29,435 : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-13 14:13:29,435 : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f97c90855879603280fcc571f5c42639.mpf_cache
+2024-04-13 14:13:29,435 : mpfmc : Mission Pinball Framework Media Controller (MPF-MC) v0.57.0. Requires MPF v0.57.0 or newer.
+2024-04-13 14:13:29,435 : mpfmc : Found MPF v0.57.1.dev3
+2024-04-13 14:13:29,435 : mpfmc : Machine path: /Users/tannerpetch/Documents/GitHub/lofab
+2024-04-13 14:13:29,435 : mpfmc : Starting clock at 60.0Hz
+2024-04-13 14:13:29,442 : kivy : Text: Provider: sdl2
+2024-04-13 14:13:29,449 : ConfigValidator : Your config contains a value for the setting "displays:fullscreen", but this is not a valid setting name.
+2024-04-13 14:13:29,449 : root : Config File Error in ConfigValidator: Your config contains a value for the setting "displays:fullscreen", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpfmc/commands/mc.py", line 215, in __init__
+    MpfMc(options=vars(args),
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpfmc/core/mc.py", line 151, in __init__
+    self.config_processor = ConfigProcessor(self)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpfmc/core/config_processor.py", line 34, in __init__
+    self.process_displays(config=self.mc.machine_config['displays'])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpfmc/core/config_processor.py", line 82, in process_displays
+    self.mc.displays[display] = self.create_display(display, settings)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpfmc/core/config_processor.py", line 88, in create_display
+    return Display(self.mc, name, **self.machine.config_validator.validate_config('displays', config))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/config_validator.py", line 335, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "displays:fullscreen", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2024-04-13 14:13:29,450 : root : Stopping child threads... (0 remaining)
+2024-04-13 14:13:29,450 : root : All child threads stopped.

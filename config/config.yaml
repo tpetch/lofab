@@ -37,7 +37,6 @@ displays:
   window:
     width: 1024
     height: 600
-    fullscreen: true
     
 
 modes:
@@ -249,9 +248,43 @@ lights:
   l_pop_flasher_9:
     number: pf-8-9
     tags: popflash
-  l_pop_flasher_10 :
+  l_pop_flasher_10:
     number: pf-8-10
     tags: popflash
+    
+  l_stadium_1:
+    number: pf-5-1
+    tags: stadium
+  l_stadium_2:
+    number: pf-5-2
+    tags: stadium
+  l_stadium_3:
+    number: pf-5-3
+    tags: stadium
+  l_stadium_4:
+    number: pf-5-4
+    tags: stadium
+  l_stadium_5:
+    number: pf-5-5
+    tags: stadium
+  l_stadium_6:
+    number: pf-5-6
+    tags: stadium
+  l_stadium_7:
+    number: pf-5-7
+    tags: stadium
+  l_stadium_8:
+    number: pf-5-8
+    tags: stadium
+  l_stadium_9:
+    number: pf-5-9
+    tags: stadium
+  l_stadium_10:
+    number: pf-5-10
+    tags: stadium
+  l_stadium_11:
+    number: pf-5-11
+    tags: stadium
     
   l_tilt_1:
     number: neu-1-1

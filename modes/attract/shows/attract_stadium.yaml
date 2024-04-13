@@ -1,0 +1,8 @@
+#show_version=6
+
+    - lights:
+       stadium: red-f1s
+      duration: 3s
+    - lights:
+       stadium: off-f1s
+      duration: 2s

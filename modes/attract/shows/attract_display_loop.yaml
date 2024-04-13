@@ -1,13 +1,14 @@
 #show_version=6
   
 - duration: 3s
-  slides:  
-    hofab_title:
-      - type: image
-        image: hofab_title.png
-      
-- duration: 3s
   slides:
     fast_slide:
       - type: image
-        image: fast_slide.png
+        image: fast_slide
+        
+- duration: 3s
+  slides:  
+    hofab_title:
+      - type: image
+        image: hofab_title
+      
