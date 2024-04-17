@@ -510,6 +510,7 @@ autofire_coils:
     
   ac_rsling:
     coil: c_sling_r
+    switch: s_sling_r
     
   ac_pop:
     coil: c_pop
