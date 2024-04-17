@@ -312,7 +312,6 @@ lights:
     tags: tilt_light
   l_tilt_null:
     number: neu-1-9
-    tags: tilt_light
   l_tilt_on_1:
     number: neu-1-10
     tags: tilt_light
@@ -332,6 +331,13 @@ lights:
 
 switches:
 
+# Board 0 - HeD
+
+  s_tilt_l:
+    number: b_head-5
+  s_tilt_r:
+    number: b_head-7
+
 # Board 1 - Cabinet Board
 
   s_flipper_l:
@@ -339,11 +345,10 @@ switches:
     tags: left_flipper
   s_flipper_r:
     number: b_cabinet-0
-    
-    
     tags: right_flipper
   s_launch:
     number: b_cabinet-1
+    events_when_activated: launch_press
     tags: launch
   s_start:
     number: b_cabinet-2
@@ -393,10 +398,10 @@ switches:
     tags:
     type: 'NC'
     
-  s_ramp_r:
+  s_ramp_l:
     number: b_main-27
     type: 'NC'
-  s_ramp_l:
+  s_ramp_r:
     number: b_main-28
     type: 'NC'
   s_ramp_complete:
@@ -407,9 +412,11 @@ switches:
     type: 'NC'
     
   s_h:
-    number: b_main_22
+    number: b_main-22
+    type: 'NC'
   s_e:
-    number: b_main_23
+    number: b_main-23
+    type: 'NC'
 
 
   
@@ -453,27 +460,33 @@ coils:
   c_sling_r:
     number: b_main-6
     default_pulse_ms: 8
-    
   c_vuk:
     number: b_main-5
+    default_pulse_ms: 8
     
 spinners:
   spinner:
     switch: s_spinner
     active_ms: 500
     
+timed_switches:
+  game_cancel:
+    switch_tags: start
+    time: 5s
+    events_when_active: end_game
+    
 flippers:
 
   f_l:
     main_coil: c_flipper_l
     activation_switch: s_flipper_l
-    enable_events: ball_started, machine_reset_phase_3
+    enable_events: ball_started
 
     
   f_r:
     main_coil: c_flipper_r
     activation_switch: s_flipper_r
-    enable_events: ball_started, machine_reset_phase_3
+    enable_events: ball_started
 
     
 
@@ -494,18 +507,18 @@ autofire_coils:
   ac_lsling:
     coil: c_sling_l
     switch: s_sling_l
-    enable_events: machine_reset_phase_3
-    
     
   ac_rsling:
     coil: c_sling_r
-    switch: s_sling_r
-    enable_events: machine_reset_phase_3
     
   ac_pop:
     coil: c_pop
     switch: s_pop
-    enable_events: machine_reset_phase_3
+    
+queue_relay_player:
+  ball_starting:
+    post: ball_started
+    wait_for: launch_press
 
 
    
