@@ -28,6 +28,13 @@ shows:
       duration: 100ms
     - lights:
         l_sling_r: off
+        
+  pop_flash:
+    - lights:
+        popflash: red
+      duration: 200ms
+    - lights:
+        popflash: off
 
         
 
@@ -36,8 +43,7 @@ shots:
 
   r_pop:
    switch: s_pop
-   show_tokens: 
-     led: l_pop_flasher_1
+
   r_sling_l:
    switch: s_sling_l
 
@@ -68,6 +74,9 @@ variable_player:
 
 show_player:
   ball_started: gi_on
+  r_pop_hit:
+    pop_flash:
+      loops: 0
   r_sling_l_hit: 
     sling_flash_l:
       loops: 0
