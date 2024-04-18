@@ -24,10 +24,7 @@ shows:
         l_pop_flasher_7: white
       duration: 500ms
     - lights:
-        l_pop_flasher_1: off
-        l_pop_flasher_3: off
-        l_pop_flasher_5: off
-        l_pop_flasher_7: off
+        popflash: off
       duration: 10ms
 
         
