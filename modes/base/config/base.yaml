@@ -17,22 +17,19 @@ shows:
         c_shaker: disable
         
   flash_pop:
-    - duration: 500ms
-      l_pop_flasher_1: white
-      l_pop_flasher_3: white
-      l_pop_flasher_5: white
-      l_pop_flasher_7: white
-    - duration: 10ms
-      l_pop_flasher_1: off
-      l_pop_flasher_3: off
-      l_pop_flasher_5: off
-      l_pop_flasher_7: off
-      
-  flash_red:
-    - duration: 500ms
-      (leds): red
-    - duration: 10ms
-      (leds): off
+    - lights:
+        l_pop_flasher_1: white
+        l_pop_flasher_3: white
+        l_pop_flasher_5: white
+        l_pop_flasher_7: white
+      duration: 500ms
+    - lights:
+        l_pop_flasher_1: off
+        l_pop_flasher_3: off
+        l_pop_flasher_5: off
+        l_pop_flasher_7: off
+      duration: 10ms
+
         
 
       
@@ -40,7 +37,8 @@ shots:
 
   r_pop:
    switch: s_pop
-   show_tokens: l_pop_flasher_1, l_pop_flasher_4, l_pop_flasher_7
+   show_tokens: 
+     led: l_pop_flasher_1, l_pop_flasher_4, l_pop_flasher_7
       
 coil_player:
   spinner_spinner_active:
