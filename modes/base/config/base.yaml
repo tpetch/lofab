@@ -37,7 +37,7 @@ shots:
   r_pop:
    switch: s_pop
    show_tokens: 
-     led: l_pop_flasher_1, l_pop_flasher_4, l_pop_flasher_7
+     led: l_pop_flasher_1
   r_sling_l:
    switch: s_sling_l
    show_tokens:
