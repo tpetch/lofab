@@ -70,7 +70,7 @@ show_player:
   ball_started: gi_on
   r_sling_l_hit: 
     sling_flash_l:
-      loops: 1
+      loops: 0
   r_sling_r_hit: 
     sling_flash_r:
-      loops: 1
+      loops: 0
