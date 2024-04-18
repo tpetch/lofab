@@ -16,16 +16,18 @@ shows:
       coils:
         c_shaker: disable
         
-  flash_pop:
+  sling_flash_l:
     - lights:
-        l_pop_flasher_1: white
-        l_pop_flasher_3: white
-        l_pop_flasher_5: white
-        l_pop_flasher_7: white
-      duration: 500ms
+        l_sling_l: red
+      duration: 100ms
     - lights:
-        popflash: off
-      duration: 10ms
+        l_sling_l: off
+  sling_flash_r:
+    - lights:
+        l_sling_r: red
+      duration: 100ms
+    - lights:
+        l_sling_r: off
 
         
 
@@ -36,6 +38,14 @@ shots:
    switch: s_pop
    show_tokens: 
      led: l_pop_flasher_1, l_pop_flasher_4, l_pop_flasher_7
+  r_sling_l:
+   switch: s_sling_l
+   show_tokens:
+     led: l_sling_l
+  r_sling_r:
+   switch: s_sling_r
+   show_tokens:
+     led: l_sling_r
       
 coil_player:
   spinner_spinner_active:
@@ -60,6 +70,9 @@ variable_player:
 
 show_player:
   ball_started: gi_on
-  r_pop_hit: 
-    flash_pop:
+  r_sling_l_hit: 
+    sling_flash_l:
+      loops: 1
+  r_sling_r_hit: 
+    sling_flash_r:
       loops: 1

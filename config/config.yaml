@@ -225,33 +225,10 @@ lights:
   l_pop_flasher_1:
     number: pf-8-1
     tags: popflash
-  l_pop_flasher_2:
+  l_pop_flasher_10:
     number: pf-8-2
     tags: popflash
-  l_pop_flasher_3:
-    number: pf-8-3
-    tags: popflash
-  l_pop_flasher_4:
-    number: pf-8-4
-    tags: popflash
-  l_pop_flasher_5:
-    number: pf-8-5
-    tags: popflash
-  l_pop_flasher_6:
-    number: pf-8-6
-    tags: popflash
-  l_pop_flasher_7:
-    number: pf-8-7
-    tags: popflash
-  l_pop_flasher_8:
-    number: pf-8-8
-    tags: popflash
-  l_pop_flasher_9:
-    number: pf-8-9
-    tags: popflash
-  l_pop_flasher_10:
-    number: pf-8-10
-    tags: popflash
+
     
   l_stadium_1:
     number: pf-5-1
