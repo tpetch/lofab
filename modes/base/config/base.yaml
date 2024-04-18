@@ -63,4 +63,6 @@ variable_player:
 
 show_player:
   ball_started: gi_on
-  r_pop_hit: flash_pop
+  r_pop_hit: 
+    flash_pop:
+      loops: 1
