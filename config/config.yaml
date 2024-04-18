@@ -380,7 +380,7 @@ switches:
   s_stationary_o:
     number: b_main-8
     tags: playfield_active
-  s_stationay_u:
+  s_stationary_u:
     number: b_main-9
     tags: playfield_active
   s_pop:
