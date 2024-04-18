@@ -42,6 +42,7 @@ displays:
 modes:
   - attract
   - base
+  - lane_rotate
 
 
 

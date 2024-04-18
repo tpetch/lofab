@@ -20,14 +20,7 @@ shows:
       
 shots:
 
-  left_inlane_h:
-    switch: s_h
-    show_tokens:
-      light: l_inlane_l
-  right_inlane:
-    switch: s_e
-    show_tokens:
-      light: l_inlane_r
+
       
 coil_player:
   spinner_spinner_active:

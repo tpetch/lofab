@@ -187,3 +187,6 @@
 2024-04-17 18:48:49,285 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
 2024-04-17 18:48:49,285 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
 2024-04-17 18:48:49,285 : INFO : Machine : Starting the main run loop.
+2024-04-17 18:57:48,791 : INFO : Machine : Shutting down...
+2024-04-17 18:57:48,792 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-04-17 18:57:48,802 : INFO : root : MPF run loop ended.

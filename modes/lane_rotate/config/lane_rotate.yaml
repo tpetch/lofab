@@ -1,44 +1,48 @@
 #config_version=5
 mode:
-  start_events: start_mode_lane_rotate, ball_starting
+  start_events: start_mode_lane_rotate, ball_started
   stop_events: stop_mode_lane_rotate, ball_will_end
 
 shots:
-  r_left_outlane:
-    switch: s_left_outlane
-    profile: inout_lane_profile
+  r_h:
+    switch: s_h
+    profile: rotate_profile
     show_tokens:
-      led: l_left_outlane
-  r_left_inlane:
-    switch: s_left_inlane
-    profile: inout_lane_profile
+      led: l_inlane_l
+  r_o:
+    switch: s_stationary_o
+    profile: rotate_profile
     show_tokens:
-      led: l_left_inlane
-  r_right_inlane:
-    switch: s_right_inlane
-    profile: inout_lane_profile
+      led: l_target_l
+  r_u:
+    switch: s_stationary_u
+    profile: rotate_profile
     show_tokens:
-      led: l_right_inlane
-  r_right_outlane:
-    switch: s_right_outlane
-    profile: inout_lane_profile
+      led: l_target_mid_l
+  r_s:
+    switch: s_stationary_s
+    profile: rotate_profile
     show_tokens:
-      led: l_right_outlane
+      led: l_target_r
+  r_e:
+    switch: s_e
+    profile: rotate_profile
+    show_tokens:
+      led: l_inlane_r
       
 show_player:
-  inout_lane_group_hit_complete:
-    shaker_halfsecond:
-      loops: -1
+#  inout_lane_group_hit_complete:
+
 
 shot_groups:
-  inout_lane_group:
-    shots: r_left_outlane, r_left_inlane, r_right_inlane, r_right_outlane
-    reset_events: inout_lane_group_hit_complete
+  rotate_group:
+    shots: r_h, r_o, r_u, r_s, r_e
+    reset_events: rotate_group_hit_complete
     rotate_left_events: s_flipper_left_active
     rotate_right_events: s_flipper_right_active
 
 shot_profiles:
-  inout_lane_profile:
+  rotate_profile:
     states:
       - name:
         show: off
@@ -46,5 +50,5 @@ shot_profiles:
         show: on
 
 variable_player:
-  inout_lane_group_hit_complete:
-    score: 5000
+  rotate_group_hit_complete:
+    score: 1000
