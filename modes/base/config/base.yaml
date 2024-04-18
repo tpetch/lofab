@@ -40,12 +40,10 @@ shots:
      led: l_pop_flasher_1
   r_sling_l:
    switch: s_sling_l
-   show_tokens:
-     led: l_sling_l
+
   r_sling_r:
    switch: s_sling_r
-   show_tokens:
-     led: l_sling_r
+
       
 coil_player:
   spinner_spinner_active:
