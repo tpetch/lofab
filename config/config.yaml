@@ -386,7 +386,7 @@ switches:
   s_pop:
     number: b_main-10
 
-  s_stationary_S:
+  s_stationary_s:
     number: b_main-11
     tags: playfield_active
   s_stationary_back:

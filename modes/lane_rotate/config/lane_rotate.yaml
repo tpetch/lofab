@@ -38,8 +38,8 @@ shot_groups:
   rotate_group:
     shots: r_h, r_o, r_u, r_s, r_e
     reset_events: rotate_group_hit_complete
-    rotate_left_events: s_flipper_left_active
-    rotate_right_events: s_flipper_right_active
+    rotate_left_events: s_flipper_l_active
+    rotate_right_events: s_flipper_r_active
 
 shot_profiles:
   rotate_profile:
