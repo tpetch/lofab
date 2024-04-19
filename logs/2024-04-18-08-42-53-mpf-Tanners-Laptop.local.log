@@ -309,4 +309,3 @@ Traceback (most recent call last):
   File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/logging.py", line 174, in raise_config_error
     raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
 mpf.exceptions.config_file_error.ConfigFileError: Config File Error in light.l_pop_flasher_1: Type rgbw does not match channels [{'number': 'pf-8-1-r', 'subtype': None, 'platform': None, 'platform_settings': {}}, {'number': 'pf-8-1-g', 'subtype': None, 'platform': None, 'platform_settings': {}}, {'number': 'pf-8-1-b', 'subtype': None, 'platform': None, 'platform_settings': {}}] for light l_pop_flasher_1 Error Code: CFE-light-12 (https://missionpinball.org/logs)
-2024-04-18 18:19:43,662 : INFO : root : MPF run loop ended.

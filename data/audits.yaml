@@ -1,33 +1,29 @@
 events:
   game_ended: 44
-  game_started: 149
+  game_started: 126
 missing_switches:
-  s_e: 29
-  s_flipper_l: 29
-  s_flipper_r: 29
-  s_h: 29
-  s_launch: 11
-  s_pop: 29
-  s_ramp_complete: 29
-  s_ramp_l: 29
-  s_ramp_r: 29
-  s_sling_l: 29
-  s_sling_r: 29
-  s_spinner: 29
-  s_start: 11
+  s_e: 6
+  s_flipper_l: 6
+  s_flipper_r: 6
+  s_h: 6
+  s_launch: 6
+  s_pop: 6
+  s_ramp_complete: 6
+  s_ramp_l: 6
+  s_ramp_r: 6
+  s_sling_l: 6
+  s_sling_r: 6
+  s_spinner: 6
+  s_start: 6
   s_stationary_S: 6
-  s_stationary_back: 29
-  s_stationary_o: 29
-  s_stationary_s: 23
-  s_stationary_u: 23
+  s_stationary_back: 6
+  s_stationary_o: 6
   s_stationay_u: 6
-  s_tilt_l: 23
-  s_tilt_r: 23
-  s_trough_1: 11
-  s_trough_2: 29
-  s_trough_3: 29
-  s_trough_4: 11
-  s_vuk: 29
+  s_trough_1: 3
+  s_trough_2: 6
+  s_trough_3: 6
+  s_trough_4: 6
+  s_vuk: 6
 player:
   score:
     average: 0.0
@@ -75,7 +71,7 @@ switches:
   s_l_target_left: 10
   s_l_target_right: 9
   s_l_vuk: 9
-  s_launch: 461
+  s_launch: 460
   s_left_flipper_1: 1947
   s_left_flipper_2: 651
   s_lock_1: 1
@@ -99,22 +95,18 @@ switches:
   s_sling_r: 32
   s_sling_right: 237
   s_spinner: 0
-  s_start: 125
+  s_start: 118
   s_stationary_S: 0
   s_stationary_back: 28
   s_stationary_l: 43
   s_stationary_o: 0
   s_stationary_right: 23
-  s_stationary_s: 0
-  s_stationary_u: 0
   s_stationay_u: 0
   s_tilt: 2735
-  s_tilt_l: 0
-  s_tilt_r: 0
-  s_trough_1: 67
+  s_trough_1: 65
   s_trough_2: 504
   s_trough_3: 459
-  s_trough_4: 508
+  s_trough_4: 506
   s_trough_5: 284
   s_trough_6: 277
   s_trough_jam: 344
