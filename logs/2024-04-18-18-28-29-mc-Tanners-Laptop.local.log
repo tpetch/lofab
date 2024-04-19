@@ -1,0 +1,24 @@
+2024-04-18 18:28:29,792 : kivy : Kivy: v2.2.1
+2024-04-18 18:28:29,792 : kivy : Kivy: Installed at "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/kivy/__init__.py"
+2024-04-18 18:28:29,793 : kivy : Python: v3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) 
+[Clang 13.0.0 (clang-1300.0.29.30)]
+2024-04-18 18:28:29,793 : kivy : Python: Interpreter at "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9"
+2024-04-18 18:28:29,804 : kivy : Factory: 190 symbols loaded
+2024-04-18 18:28:29,929 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.5.1
+2024-04-18 18:28:29,929 : kivy : Image: Providers: img_tex, img_imageio, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2024-04-18 18:28:30,002 : kivy : VideoFFPy: Using ffpyplayer 4.5.1
+2024-04-18 18:28:30,002 : kivy : Video: Provider: ffpyplayer(['video_ffmpeg'] ignored)
+2024-04-18 18:28:30,039 : root : Loading MPF-MC controller
+2024-04-18 18:28:30,045 : YamlMultifileConfigLoader : Machine config file #1: config
+2024-04-18 18:28:30,045 : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/lofab/config/config
+2024-04-18 18:28:30,045 : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpfmc/mcconfig.yaml.
+2024-04-18 18:28:30,048 : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpfmc/mcconfig.yaml
+2024-04-18 18:28:30,048 : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/config/config.
+2024-04-18 18:28:30,052 : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/config/config
+2024-04-18 18:28:30,053 : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d2eff62569ef5a6216970672da69648f.mpf_cache
+2024-04-18 18:28:30,053 : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-18 18:28:30,053 : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/edcc5f1d3215b377c9faab88c62e4ce0.mpf_cache
+2024-04-18 18:28:30,053 : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-18 18:28:30,053 : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f97c90855879603280fcc571f5c42639.mpf_cache
+2024-04-18 18:28:30,053 : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/1875c266911f801b691956fe9e9284d6.mpf_cache
+2024-04-18 18:28:30,054 : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/ball_started_shows/config/ball_started_shows.yaml.

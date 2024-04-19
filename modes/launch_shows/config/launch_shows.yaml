@@ -1,0 +1,47 @@
+#config_version=6
+mode:
+  start_events: start_mode_launch_shows, ball_starting
+  stop_events: start_mode_launch_shows, ball_started
+  priority: 200
+  
+shows:
+  launch_lcd_show:
+    - duration: 3s
+      slides:
+          launch_slide:
+            widgets:
+              - type: text
+                text: PRESS LAUNCH BUTTON
+                color: red
+                font_size: 50
+  launch_lights:
+    - lights:
+       l_gi_6: red-f1s
+       l_gi_7: red-f1s
+       l_gi_8: red-f1s
+       l_gi_9: red-f1s
+      duration: 2s
+    - lights:
+       l_gi_6: off-f1s
+       l_gi_7: off-f1s
+       l_gi_8: off-f1s
+       l_gi_9: off-f1s
+      duration: 2s
+
+
+  launch_tilt:    
+    - lights:
+       tilt_light: red-f1s
+      duration: 1s
+    - lights:
+       tilt_light: blue-f1s
+      duration: 1s
+    - lights:
+       tilt_light: purple-f1s
+      duration: 1s
+  
+show_player:
+  ball_started_shows_started.1: launch_lcd_show
+  ball_started_shows_started.2: launch_tilt
+  ball_started_shows_started.3: launch_lights
+    

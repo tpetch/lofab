@@ -1,0 +1,26 @@
+2024-04-19 05:59:46,491 : INFO : root : Loading config.
+2024-04-19 05:59:46,493 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-04-19 05:59:46,493 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/871505f0f2d2915bd502f0a1fb110f3b.mpf_cache
+2024-04-19 05:59:46,522 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-19 05:59:46,523 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/edcc5f1d3215b377c9faab88c62e4ce0.mpf_cache
+2024-04-19 05:59:46,523 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-19 05:59:46,523 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f97c90855879603280fcc571f5c42639.mpf_cache
+2024-04-19 05:59:46,523 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/1875c266911f801b691956fe9e9284d6.mpf_cache
+2024-04-19 05:59:46,524 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/lofab/modes/ball_started_shows/config/ball_started_shows.yaml
+2024-04-19 05:59:46,524 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/ball_started_shows/config/ball_started_shows.yaml.
+2024-04-19 05:59:46,525 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/ball_started_shows/config/ball_started_shows.yaml
+2024-04-19 06:00:03,527 : ERROR : root : Shutdown because of SIGINT or keyboard interrupt.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/commands/game.py", line 231, in __init__
+    config = config_loader.load_mpf_config()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/config_loader.py", line 166, in load_mpf_config
+    mode_config = self._load_modes(config_spec, machine_config)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/config_loader.py", line 225, in _load_modes
+    config = self.config_processor.load_config_files_with_cache(mode_config_files, "mode",
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/config_processor.py", line 118, in load_config_files_with_cache
+    file_config, file_subfiles = self._load_config_file_and_return_loaded_files(configfile, config_type,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/config_processor.py", line 186, in _load_config_file_and_return_loaded_files
+    self._check_sections(config_spec, config, config_type, filename, ignore_unknown_sections)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/core/config_processor.py", line 163, in _check_sections
+    raise ConfigFileError('Found a "{}:" section in config file {}, '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigProcessor: Found a "priority:" section in config file /Users/tannerpetch/Documents/GitHub/lofab/modes/ball_started_shows/config/ball_started_shows.yaml, but that section name is unknown. Did you mean "shot_profiles:" instead?. Context: /Users/tannerpetch/Documents/GitHub/lofab/modes/ball_started_shows/config/ball_started_shows.yaml Error Code: CFE-ConfigProcessor-3 (https://missionpinball.org/logs)

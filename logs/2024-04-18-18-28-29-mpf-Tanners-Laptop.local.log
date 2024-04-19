@@ -1,0 +1,14 @@
+2024-04-18 18:28:29,747 : INFO : root : Loading config.
+2024-04-18 18:28:29,750 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-04-18 18:28:29,750 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml
+2024-04-18 18:28:29,750 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
+2024-04-18 18:28:29,755 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2024-04-18 18:28:29,756 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml.
+2024-04-18 18:28:29,760 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml
+2024-04-18 18:28:29,761 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/871505f0f2d2915bd502f0a1fb110f3b.mpf_cache
+2024-04-18 18:28:29,787 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-18 18:28:29,787 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/edcc5f1d3215b377c9faab88c62e4ce0.mpf_cache
+2024-04-18 18:28:29,788 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-18 18:28:29,788 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f97c90855879603280fcc571f5c42639.mpf_cache
+2024-04-18 18:28:29,788 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/1875c266911f801b691956fe9e9284d6.mpf_cache
+2024-04-18 18:28:29,788 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/ball_started_shows/config/ball_started_shows.yaml.
