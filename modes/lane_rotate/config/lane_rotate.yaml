@@ -52,15 +52,3 @@ shot_profiles:
 variable_player:
   rotate_group_hit_complete:
     score: 1000
-    
-  r_h_hit:
-    score: 100
-  r_o_hit:
-    score: 100
-  r_u_hit:
-    score: 100
-  r_s_hit:
-    score: 100
-  r_e_hit:
-    score: 100
-  

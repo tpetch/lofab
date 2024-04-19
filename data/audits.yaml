@@ -1,6 +1,5 @@
 events:
   game_ended: 44
-<<<<<<< Updated upstream
   game_started: 126
 missing_switches:
   s_e: 6
@@ -25,35 +24,6 @@ missing_switches:
   s_trough_3: 6
   s_trough_4: 6
   s_vuk: 6
-=======
-  game_started: 166
-missing_switches:
-  s_e: 46
-  s_flipper_l: 46
-  s_flipper_r: 7
-  s_h: 46
-  s_pop: 46
-  s_ramp_complete: 46
-  s_ramp_l: 46
-  s_ramp_r: 46
-  s_sling_l: 6
-  s_sling_r: 7
-  s_spinner: 46
-  s_start: 28
-  s_stationary_S: 6
-  s_stationary_back: 46
-  s_stationary_o: 46
-  s_stationary_s: 40
-  s_stationary_u: 40
-  s_stationay_u: 6
-  s_tilt_l: 40
-  s_tilt_r: 40
-  s_trough_1: 7
-  s_trough_2: 46
-  s_trough_3: 46
-  s_trough_4: 28
-  s_vuk: 46
->>>>>>> Stashed changes
 player:
   score:
     average: 0.0
@@ -69,9 +39,6 @@ player:
     - 0
     - 0
     total: 44
-shots:
-  r_sling_l: 6
-  r_sling_r: 1
 switches:
   s_9: 0
   s_autolauncher: 422
@@ -94,7 +61,7 @@ switches:
   s_flip_left_top_eos: 1729
   s_flip_right_eos: 2110
   s_flipper_l: 251
-  s_flipper_r: 168
+  s_flipper_r: 166
   s_h: 0
   s_inlane_left: 31
   s_inlane_right: 59
@@ -104,11 +71,7 @@ switches:
   s_l_target_left: 10
   s_l_target_right: 9
   s_l_vuk: 9
-<<<<<<< Updated upstream
   s_launch: 460
-=======
-  s_launch: 466
->>>>>>> Stashed changes
   s_left_flipper_1: 1947
   s_left_flipper_2: 651
   s_lock_1: 1
@@ -127,9 +90,9 @@ switches:
   s_right_flipper_2: 3304
   s_rollover_left: 84
   s_rollover_right: 488
-  s_sling_l: 41
+  s_sling_l: 35
   s_sling_left: 159
-  s_sling_r: 33
+  s_sling_r: 32
   s_sling_right: 237
   s_spinner: 0
   s_start: 118
@@ -140,13 +103,7 @@ switches:
   s_stationary_right: 23
   s_stationay_u: 0
   s_tilt: 2735
-<<<<<<< Updated upstream
   s_trough_1: 65
-=======
-  s_tilt_l: 0
-  s_tilt_r: 0
-  s_trough_1: 69
->>>>>>> Stashed changes
   s_trough_2: 504
   s_trough_3: 459
   s_trough_4: 506
