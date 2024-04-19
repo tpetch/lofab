@@ -1,0 +1,79 @@
+2024-04-19 13:25:42,910 : INFO : root : Loading config.
+2024-04-19 13:25:42,933 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/config_spec.mpf_cache
+2024-04-19 13:25:42,934 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-04-19 13:25:42,934 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
+2024-04-19 13:25:42,938 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2024-04-19 13:25:42,939 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml.
+2024-04-19 13:25:42,942 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml
+2024-04-19 13:25:42,944 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/871505f0f2d2915bd502f0a1fb110f3b.mpf_cache
+2024-04-19 13:25:42,973 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/modes/attract/config/attract.yaml.
+2024-04-19 13:25:42,973 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/modes/attract/config/attract.yaml
+2024-04-19 13:25:42,973 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/config/attract.yaml.
+2024-04-19 13:25:42,974 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/config/attract.yaml
+2024-04-19 13:25:42,974 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-19 13:25:42,974 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/modes/game/config/game.yaml.
+2024-04-19 13:25:42,974 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/modes/game/config/game.yaml
+2024-04-19 13:25:42,974 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/edcc5f1d3215b377c9faab88c62e4ce0.mpf_cache
+2024-04-19 13:25:42,975 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/modes/attract/config/attract.yaml.
+2024-04-19 13:25:42,975 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf/modes/attract/config/attract.yaml
+2024-04-19 13:25:42,975 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/config/attract.yaml.
+2024-04-19 13:25:42,975 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/config/attract.yaml
+2024-04-19 13:25:42,975 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/640347d32029b3f32c9ad31d7a1b4b81.mpf_cache
+2024-04-19 13:25:42,975 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/lane_rotate/config/lane_rotate.yaml.
+2024-04-19 13:25:42,976 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/lane_rotate/config/lane_rotate.yaml
+2024-04-19 13:25:42,977 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/1875c266911f801b691956fe9e9284d6.mpf_cache
+2024-04-19 13:25:42,977 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/base/config/base.yaml.
+2024-04-19 13:25:42,977 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/base/config/base.yaml
+2024-04-19 13:25:42,978 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f97c90855879603280fcc571f5c42639.mpf_cache
+2024-04-19 13:25:42,978 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./red_knife_expand_reverse.yaml.
+2024-04-19 13:25:43,001 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./red_knife_expand_reverse.yaml
+2024-04-19 13:25:43,003 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/3dbc438e88423aa3ff742db2713b600f.mpf_cache
+2024-04-19 13:25:43,003 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_display_loop.yaml.
+2024-04-19 13:25:43,004 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_display_loop.yaml
+2024-04-19 13:25:43,004 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/91adfe62d94491e9c757b00a8e3b96af.mpf_cache
+2024-04-19 13:25:43,004 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_tilt.yaml.
+2024-04-19 13:25:43,004 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_tilt.yaml
+2024-04-19 13:25:43,004 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/154d071a3850556c6f3eae37bf41c8b6.mpf_cache
+2024-04-19 13:25:43,004 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./knife_breathe.yaml.
+2024-04-19 13:25:43,065 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./knife_breathe.yaml
+2024-04-19 13:25:43,067 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ab100dbe0e16472b56f0213f3842a00f.mpf_cache
+2024-04-19 13:25:43,067 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_stadium.yaml.
+2024-04-19 13:25:43,068 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_stadium.yaml
+2024-04-19 13:25:43,068 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f03ad90ccd2c053e9e5d10795d01f4ba.mpf_cache
+2024-04-19 13:25:43,068 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./gi-start.yaml.
+2024-04-19 13:25:43,068 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./gi-start.yaml
+2024-04-19 13:25:43,068 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0f3c951d4c93079ae3fac6429c5bc2ee.mpf_cache
+2024-04-19 13:25:43,068 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./red_circle_expand.yaml.
+2024-04-19 13:25:43,092 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./red_circle_expand.yaml
+2024-04-19 13:25:43,094 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/8bf004783a280ac33d17b88f37848116.mpf_cache
+2024-04-19 13:25:43,095 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/base/shows/./gi_on.yaml.
+2024-04-19 13:25:43,096 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/base/shows/./gi_on.yaml
+2024-04-19 13:25:43,096 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d5d50eaa09e055f3a827c6269a3aa165.mpf_cache
+2024-04-19 13:25:43,096 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.1.dev3
+2024-04-19 13:25:43,096 : INFO : Machine : Command line arguments: {'no_load_cache': True, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-04-19-13-25-42-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-04-19 13:25:43,096 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/mpf
+2024-04-19 13:25:43,096 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/lofab
+2024-04-19 13:25:43,096 : INFO : Machine : Platform: darwin
+2024-04-19 13:25:43,096 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+2024-04-19 13:25:43,096 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2024-04-19 13:25:43,096 : INFO : Machine : Initializing MPF...
+2024-04-19 13:25:43,119 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,135 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,135 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,135 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.1.dev3', 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,135 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.1.dev3, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,135 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,142 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,142 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,142 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,142 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,142 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2024-04-19 13:25:43,142 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-04-19 13:25:43,156 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-04-19 13:25:43,157 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-04-19 13:25:43,158 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-04-19 13:25:56,534 : INFO : Machine : Starting the main run loop.
+2024-04-19 13:25:56,534 : INFO : Machine : Shutting down...
+2024-04-19 13:25:56,534 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-04-19 13:25:57,199 : ERROR : root : Received second SIGINT. Will exit ungracefully!
+NoneType: None

@@ -38,11 +38,21 @@ displays:
     width: 1024
     height: 600
     
+window:
+    width: 1024
+    height: 600
+    resizable: true
+    borderless: true
+    fullscreen: false
+    exit_on_escape: true
+    source_display: window
+    
 
 modes:
   - attract
-  - base
   - lane_rotate
+  - base
+  - launch_shows
 
 
 
@@ -350,7 +360,7 @@ switches:
     tags: right_flipper
   s_launch:
     number: b_cabinet-1
-    events_when_activated: launch_press
+    events_when_activated: e_launch_press
     tags: launch
   s_start:
     number: b_cabinet-2
@@ -518,10 +528,11 @@ autofire_coils:
     coil: c_pop
     switch: s_pop
     
+
 queue_relay_player:
   ball_starting:
-    post: ball_started
-    wait_for: launch_press
+    post: waiting_for_launch_press
+    wait_for: e_launch_press
 
 
    

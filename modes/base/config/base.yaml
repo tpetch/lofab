@@ -4,6 +4,7 @@ mode:
   priority: 100
   
 
+
 slide_player:
 
         
@@ -32,12 +33,16 @@ shows:
   pop_flash:
     - lights:
         popflash: red
-      duration: 200ms
+      duration: 100ms
     - lights:
         popflash: off
 
         
-
+coil_player:
+  spinner_spinner_active:
+    c_shaker: enable
+  spinner_spinner_inactive:
+    c_shaker: disable
       
 shots:
 
@@ -49,14 +54,8 @@ shots:
 
   r_sling_r:
    switch: s_sling_r
-
-      
-coil_player:
-  spinner_spinner_active:
-    c_shaker: enable
-  spinner_spinner_inactive:
-    c_shaker: disable
-
+   
+  
 
 
     
@@ -71,6 +70,15 @@ sequence_shots:
   
   
 variable_player:
+
+  r_sling_l_hit:
+    score: 10
+  r_sling_r_hit:
+    score: 10
+  r_pop_hit:
+    score: 50
+
+
 
 show_player:
   ball_started: gi_on
