@@ -1,28 +1,29 @@
 events:
   game_ended: 0
-  game_started: 6
+  game_started: 8
 missing_switches:
-  s_e: 6
-  s_flipper_l: 6
-  s_flipper_r: 6
-  s_h: 6
-  s_pop: 6
-  s_ramp_complete: 6
-  s_ramp_l: 6
-  s_ramp_r: 6
-  s_spinner: 6
-  s_start: 6
-  s_stationary_back: 6
-  s_stationary_o: 6
-  s_stationary_s: 6
-  s_stationary_u: 6
-  s_tilt_l: 6
-  s_tilt_r: 6
-  s_trough_1: 5
-  s_trough_2: 6
-  s_trough_3: 6
-  s_trough_4: 1
-  s_vuk: 6
+  s_e: 8
+  s_flipper_l: 8
+  s_flipper_r: 8
+  s_h: 8
+  s_pop: 8
+  s_ramp_complete: 8
+  s_ramp_l: 8
+  s_ramp_r: 8
+  s_sling_l: 2
+  s_spinner: 8
+  s_start: 8
+  s_stationary_back: 8
+  s_stationary_o: 8
+  s_stationary_s: 8
+  s_stationary_u: 8
+  s_tilt_l: 8
+  s_tilt_r: 8
+  s_trough_1: 7
+  s_trough_2: 8
+  s_trough_3: 8
+  s_trough_4: 3
+  s_vuk: 8
 player:
   score:
     average: 0
@@ -30,19 +31,19 @@ player:
     total: 0
 shots:
   r_sling_l: 12
-  r_sling_r: 22
+  r_sling_r: 34
 switches:
   s_e: 0
   s_flipper_l: 0
   s_flipper_r: 0
   s_h: 0
-  s_launch: 8
+  s_launch: 10
   s_pop: 0
   s_ramp_complete: 0
   s_ramp_l: 0
   s_ramp_r: 0
   s_sling_l: 12
-  s_sling_r: 22
+  s_sling_r: 34
   s_spinner: 0
   s_start: 0
   s_stationary_back: 0

@@ -336,3 +336,24 @@
 2024-04-20 09:05:04,174 : INFO : EventManager : Event: ======'r_sling_l_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
 2024-04-20 09:05:04,174 : INFO : EventManager : Event: ======'r_sling_l_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
 2024-04-20 09:05:04,308 : INFO : SwitchController : <<<<<<< 's_sling_l' inactive >>>>>>>
+2024-04-20 09:06:05,005 : INFO : Machine : Shutting down...
+2024-04-20 09:06:05,005 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-04-20 09:06:05,009 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2024-04-20 09:06:05,009 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2024-04-20 09:06:05,010 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2024-04-20 09:06:05,010 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2024-04-20 09:06:05,010 : INFO : EventManager : Event: ======'mode_lane_rotate_will_stop'====== Args={}
+2024-04-20 09:06:05,011 : INFO : EventManager : Event: ======'mode_lane_rotate_stopping'====== Args={}
+2024-04-20 09:06:05,011 : INFO : Mode.lane_rotate : Stopped.
+2024-04-20 09:06:05,011 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-04-20 09:06:05,011 : INFO : EventManager : Event: ======'mode_lane_rotate_stopped'====== Args={}
+2024-04-20 09:06:05,011 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'lane_rotate'}
+2024-04-20 09:06:05,012 : INFO : Mode.base : Stopped.
+2024-04-20 09:06:05,012 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-04-20 09:06:05,013 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2024-04-20 09:06:05,013 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2024-04-20 09:06:05,013 : INFO : Mode.game : Stopped.
+2024-04-20 09:06:05,013 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2024-04-20 09:06:05,014 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2024-04-20 09:06:05,014 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2024-04-20 09:06:05,020 : INFO : root : MPF run loop ended.

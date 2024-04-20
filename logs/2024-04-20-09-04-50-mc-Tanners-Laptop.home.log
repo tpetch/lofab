@@ -241,3 +241,8 @@
 2024-04-20 09:05:03,973 : EventManager : Event: ======'machine_var_audits_shots_r_sling_l'====== Args={'value': 11, 'prev_value': 10, 'change': 1}
 2024-04-20 09:05:04,185 : EventManager : Event: ======'machine_var_audits_switches_s_sling_l'====== Args={'value': 12, 'prev_value': 11, 'change': 1}
 2024-04-20 09:05:04,185 : EventManager : Event: ======'machine_var_audits_shots_r_sling_l'====== Args={'value': 12, 'prev_value': 11, 'change': 1}
+2024-04-20 09:06:05,004 : kivy : Base: Leaving application in progress...
+2024-04-20 09:06:05,009 : mpfmc : Stopping...
+2024-04-20 09:06:05,009 : EventManager : Event: ======'shutdown'====== Args={}
+2024-04-20 09:06:05,010 : AudioInterface : Disabling audio playback
+2024-04-20 09:06:05,107 : mpfmc : Loop rate 75.54 Hz
