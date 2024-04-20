@@ -368,3 +368,6 @@
 2024-04-19 16:59:49,639 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
 2024-04-19 16:59:49,640 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 0}
 2024-04-19 16:59:49,641 : INFO : ball_device.bd_trough : State: idle
+2024-04-19 17:48:25,888 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2024-04-19 17:48:25,888 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2024-04-19 17:48:25,890 : INFO : root : MPF run loop ended.

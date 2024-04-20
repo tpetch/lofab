@@ -38,14 +38,7 @@ displays:
     width: 1024
     height: 600
     
-window:
-    width: 1024
-    height: 600
-    resizable: true
-    borderless: true
-    fullscreen: false
-    exit_on_escape: true
-    source_display: window
+
     
 
 modes:
