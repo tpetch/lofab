@@ -1,0 +1,25 @@
+#config_version=6
+mode:
+  start_events: start_mode_launch_shows, waiting_for_launch_press
+  stop_events: start_mode_launch_shows, ball_started
+  priority: 180
+  
+shows:
+  launch_lcd_show:
+    - duration: 100s
+      slides:
+          launch_slide:
+            widgets:
+              - type: text
+                text: PRESS LAUNCH BUTTON
+                color: red
+                font_size: 50
+
+  
+
+  
+show_player:
+  mode_launch_shows_started.1: launch_lcd_show
+  mode_launch_shows_started.2: launch_tilt
+  mode_launch_shows_started.3: launch_lights
+    
