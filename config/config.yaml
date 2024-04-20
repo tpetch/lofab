@@ -3,6 +3,14 @@
   
 hardware:
   platform: fast
+  
+bcp:
+  connections:
+    local_display:
+      port: 1234
+
+mpf-mc:
+  bcp_port: 1235
 
 playfields:
   playfield:
