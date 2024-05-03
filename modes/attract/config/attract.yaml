@@ -9,4 +9,4 @@ show_player:
   mode_attract_started.3: attract_tilt
   
 slide_player:
-        mode_attract_started: attract2
+        mode_attract_started: attract
