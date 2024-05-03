@@ -4,6 +4,9 @@ show_player:
   mode_attract_started: 
     knife_breathe:
       speed: 30
-  mode_attract_started.1: attract_display_loop
+  #mode_attract_started.1: attract_display_loop
   mode_attract_started.2: attract_stadium
   mode_attract_started.3: attract_tilt
+  
+slide_player:
+        mode_attract_started: attract2

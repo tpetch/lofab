@@ -4,16 +4,7 @@ mode:
   stop_events: start_mode_launch_shows, ball_started
   priority: 180
   
-shows:
-  launch_lcd_show:
-    - duration: 100s
-      slides:
-          launch_slide:
-            widgets:
-              - type: text
-                text: PRESS LAUNCH BUTTON
-                color: red
-                font_size: 50
+
 
   
 
