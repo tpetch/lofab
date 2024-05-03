@@ -34,10 +34,7 @@ fast:
       neu:
         model: FP-EXP-2000
         
-displays:
-  window:
-    width: 1024
-    height: 600
+
     
 
     
