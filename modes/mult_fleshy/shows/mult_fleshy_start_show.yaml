@@ -1,14 +1,26 @@
 #show_version=6
 
     - lights:
-       gi: red
-       playfield: red
-      duration: 1s
+       gi: red-f200ms
+       playfield: red-f200ms
+      duration: 400ms
     - lights:
-       gi: purple-f1s
-       playfield: purple-f1s
-      duration: 1s
+       gi: off
+       playfield: off
+      duration: 250ms
     - lights:
-       gi: off-f1s
-       playfield: off-f1s
-      duration: 1s
+       gi: purple-f200ms
+       playfield: purple-f200ms
+      duration: 400ms
+    - lights:
+       gi: off
+       playfield: off
+      duration: 250ms
+    - lights:
+       gi: red-f200ms
+       playfield: red-f200ms
+      duration: 400ms
+    - lights:
+       gi: off
+       playfield: off
+      duration: 250ms
