@@ -31,7 +31,9 @@ shots:
       led: l_inlane_r
       
 show_player:
-#  inout_lane_group_hit_complete:
+  rotate_group_hit_complete: 
+    lanes_complete:
+      loops: 2
 
 
 shot_groups:

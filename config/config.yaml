@@ -44,6 +44,7 @@ modes:
   - lane_rotate
   - base
   - mult_fleshy_qualify
+  - mult_fleshy
 
 
 
@@ -450,7 +451,7 @@ coils:
     
   c_trough:
     number: b_main-0
-    default_pulse_ms: 15
+    default_pulse_ms: 10
     default_pulse_power: 1
 
   c_pop:
@@ -465,7 +466,7 @@ coils:
     default_pulse_ms: 8
   c_vuk:
     number: b_main-5
-    default_pulse_ms: 15
+    default_pulse_ms: 10
     
 spinners:
   spinner:
@@ -525,6 +526,8 @@ queue_relay_player:
   ball_starting:
     post: waiting_for_launch_press
     wait_for: e_launch_press
+    
+
 
 
    

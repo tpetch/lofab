@@ -1,6 +1,6 @@
 #config_version=6
 mode:
-  start_events: fleshy_qualify_start, ball_started{ball==1}
+  start_events: fleshy_qualify_start, ball_started #{ball==1}
   stop_events: fleshy_qualify_stop
 
 shots:
@@ -34,3 +34,12 @@ shot_profiles:
       - name: light3lit
         show: "fleshy_3"
         sync_ms: 250
+        
+shot_groups:
+  fleshy_shots:
+    shots: r_o_fleshy, r_s_fleshy
+    
+event_player:
+  fleshy_shots_light3lit_complete:
+    - mult_fleshy_start
+    - fleshy_qualify_stop
