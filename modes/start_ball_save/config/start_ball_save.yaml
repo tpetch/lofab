@@ -1,28 +1,28 @@
-#config_version=5
+#config_version=6
 # in your mode
 mode:
   start_events: ball_started
 ball_saves:
   ball_save_ball_save:
-    active_time: 15s
-    hurry_up_time: 3s
-    timer_start_events: balldevice_bd_plunger_ejecting_ball
+    active_time: 5s
+    hurry_up_time: 2s
+    timer_start_events: balldevice_bd_trough_ejecting_ball
     auto_launch: true
     balls_to_save: 1
 show_player:
   ball_save_ball_save_ball_save_timer_start:
     flash_color:
       key: ball_save
-      speed: 2
-      show_tokens:
-        lights: l_shoot_again
-        color: green
-  ball_save_ball_save_ball_save_hurry_up:
-    flash_color:
-      key: ball_save
       speed: 4
       show_tokens:
         lights: l_shoot_again
-        color: green
+        color: red
+  ball_save_ball_save_ball_save_hurry_up:
+    flash_color:
+      key: ball_save
+      speed: 8
+      show_tokens:
+        lights: l_shoot_again
+        color: red
   ball_save_ball_save_ball_save_disabled:
     ball_save: stop

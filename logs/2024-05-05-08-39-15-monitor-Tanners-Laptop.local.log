@@ -19,3 +19,9 @@
 2024-05-06 07:12:11,230 : INFO : BCP Client : Connected to MPF
 2024-05-06 08:23:59,193 : INFO : BCP Client : Connected to MPF
 2024-05-06 08:26:21,191 : INFO : BCP Client : Connected to MPF
+2024-05-06 10:19:52,223 : INFO : BCP Client : Connected to MPF
+2024-05-06 10:20:38,219 : INFO : BCP Client : Connected to MPF
+2024-05-06 10:27:05,217 : INFO : BCP Client : Connected to MPF
+2024-05-06 10:28:19,215 : INFO : root : MPF Monitor run loop ended.
+2024-05-06 10:28:19,215 : INFO : root : Stopping child threads... (0 remaining)
+2024-05-06 10:28:19,216 : INFO : root : All child threads stopped.

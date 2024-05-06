@@ -4,27 +4,27 @@ mode:
   stop_events: stop_mode_lane_rotate, ball_will_end
 
 shots:
-  r_h:
+  r_h_rotate:
     switch: s_h
     profile: rotate_profile
     show_tokens:
       led: l_inlane_l
-  r_o:
+  r_o_rotate:
     switch: s_stationary_o
     profile: rotate_profile
     show_tokens:
       led: l_target_l
-  r_u:
+  r_u_rotate:
     switch: s_stationary_u
     profile: rotate_profile
     show_tokens:
       led: l_target_mid_l
-  r_s:
+  r_s_rotate:
     switch: s_stationary_s
     profile: rotate_profile
     show_tokens:
       led: l_target_r
-  r_e:
+  r_e_rotate:
     switch: s_e
     profile: rotate_profile
     show_tokens:
@@ -38,7 +38,7 @@ show_player:
 
 shot_groups:
   rotate_group:
-    shots: r_h, r_o, r_u, r_s, r_e
+    shots: r_h_rotate, r_o_rotate, r_u_rotate, r_s_rotate, r_e_rotate
     reset_events: rotate_group_hit_complete
     rotate_left_events: s_flipper_l_active
     rotate_right_events: s_flipper_r_active
@@ -55,14 +55,5 @@ variable_player:
   rotate_group_hit_complete:
     score: 1000
     
-  r_h_hit:
-    score: 100
-  r_o_hit:
-    score: 100
-  r_u_hit:
-    score: 100
-  r_s_hit:
-    score: 100
-  r_e_hit:
-    score: 100
+
   

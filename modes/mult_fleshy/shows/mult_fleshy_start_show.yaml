@@ -1,0 +1,14 @@
+#show_version=6
+
+    - lights:
+       gi: red
+       playfield: red
+      duration: 1s
+    - lights:
+       gi: purple-f1s
+       playfield: purple-f1s
+      duration: 1s
+    - lights:
+       gi: off-f1s
+       playfield: off-f1s
+      duration: 1s
