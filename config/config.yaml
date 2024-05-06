@@ -43,7 +43,7 @@ modes:
   - attract
   - lane_rotate
   - base
-  - launch_shows
+  - mult_fleshy_qualify
 
 
 
@@ -498,11 +498,12 @@ ball_devices:
   bd_vuk:
     ball_switches: s_vuk
     eject_coil: c_vuk
-    eject_timeouts: 2s
+    eject_timeouts: 1s
     
   bd_trough:
     ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4
     eject_coil: c_trough
+    eject_timeouts: 2s
     tags: trough, home, drain
     
 autofire_coils:

@@ -15,10 +15,10 @@ color = Color(0, 0, 0, 1)
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 448.0
-offset_top = 168.0
-offset_right = 1472.0
-offset_bottom = 552.0
+offset_left = 8.0
+offset_top = 104.0
+offset_right = 1032.0
+offset_bottom = 488.0
 theme_override_font_sizes/font_size = 90
 text = "ATTRACT MODE TEST"
 horizontal_alignment = 1

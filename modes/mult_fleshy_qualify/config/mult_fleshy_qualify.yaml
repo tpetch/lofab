@@ -1,0 +1,36 @@
+#config_version=6
+mode:
+  start_events: fleshy_qualify_start, ball_started{ball==1}
+  stop_events: fleshy_qualify_stop
+
+shots:
+
+  r_o_fleshy:
+    switch: s_stationary_o
+    profile: fleshy_profile
+    show_tokens:
+      light1: l_target_l_hurryup_3
+      light2: l_target_l_hurryup_2
+      light3: l_target_l_hurryup_1
+  r_s_fleshy:
+    switch: s_stationary_s
+    profile: fleshy_profile
+    show_tokens:
+      light1: l_target_r_hurryup_3
+      light2: l_target_r_hurryup_2
+      light3: l_target_r_hurryup_1
+      
+shot_profiles:
+  fleshy_profile:
+    states:
+      - name: unlit
+        show: "off"
+      - name: light1lit
+        show: "fleshy_1"
+        sync_ms: 250
+      - name: light2lit
+        show: "fleshy_2"
+        sync_ms: 250
+      - name: light3lit
+        show: "fleshy_3"
+        sync_ms: 250

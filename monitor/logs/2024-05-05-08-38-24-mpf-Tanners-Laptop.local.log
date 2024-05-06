@@ -1,0 +1,5 @@
+2024-05-05 08:38:24,282 : INFO : root : Loading config.
+2024-05-05 08:38:24,283 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-05-05 08:38:24,283 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/git/mpf/mpf/mpfconfig.yaml.
+2024-05-05 08:38:24,288 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/git/mpf/mpf/mpfconfig.yaml
+2024-05-05 08:38:24,288 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/monitor/config/config.yaml.

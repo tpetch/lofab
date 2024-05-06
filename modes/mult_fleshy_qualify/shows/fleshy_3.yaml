@@ -1,0 +1,37 @@
+#show_version=6
+
+    - lights:
+       (light1): red-f250ms
+       (light2): pink-f250ms
+       (light3): red-f250ms
+      duration: 250ms
+    - lights:
+       (light1): red-f250ms
+       (light2): pink-f250ms
+       (light3): red-f250ms
+      duration: 250ms
+    - lights:
+       (light1): red-f250ms
+       (light2): pink-f250ms
+       (light3): red-f250ms
+      duration: 250ms
+    - lights:
+       (light1): red-f250ms
+       (light2): pink-f250ms
+       (light3): red-f250ms
+      duration: 250ms
+    - lights:
+       (light1): red-f250ms
+       (light2): pink-f250ms
+       (light3): red-f250ms
+      duration: 250ms
+    - lights:
+       (light1): red-f150ms
+       (light2): pink-f150ms
+       (light3): red-f150ms
+      duration: 150ms
+    - lights:
+       (light1): pink-f100ms
+       (light2): red-f100ms
+       (light3): pink-f100ms
+      duration: 100ms

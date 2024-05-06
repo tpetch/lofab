@@ -1,0 +1,6 @@
+#config_version=6
+mode:
+  start_events: fleshy_qualify_start, ball_started{ball==1}
+  stop_events: fleshy_qualify_stop
+
+shots:
