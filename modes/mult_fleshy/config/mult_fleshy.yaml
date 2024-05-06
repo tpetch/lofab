@@ -8,7 +8,7 @@ multiballs:
   fleshy_multiball:
     ball_count: 2
     shoot_again: 0s
-    start_events: mode_fleshy_mult_started
+    start_events: mode_mult_fleshy_started
     
 ball_saves:
   ball_save:
