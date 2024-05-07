@@ -9,6 +9,14 @@ slide_player:
     base:
       priority: 100
       action: queue
+    
+sound_player:
+
+  s_flipper_l_hit: sd_flipper
+  r_sling_l_hit: sd_sling_2
+  r_sling_r_hit: sd_sling_1
+  r_pop_hit: sd_sling_3
+  
 
         
 shows:
