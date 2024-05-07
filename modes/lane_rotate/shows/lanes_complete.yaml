@@ -1,23 +1,23 @@
 #show_version=6
 
     - lights:
-       l_inlane_l: pink-f250ms
-       l_target_l: pink-f250ms
-       l_target_mid_l: pink-f250ms
-       l_target_r: pink-f250ms
-       l_inlane_r: pink-f250ms
-      duration: 250ms
+       l_inlane_l: pink-f200ms
+       l_target_l: pink-f200ms
+       l_target_mid_l: pink-f200ms
+       l_target_r: pink-f200ms
+       l_inlane_r: pink-f200ms
+      duration: 200ms
     - lights:
-       l_inlane_l: white-f250ms
-       l_target_l: white-f250ms
-       l_target_mid_l: white-f250ms
-       l_target_r: white-f250ms
-       l_inlane_r: white-f250ms
-      duration: 250ms
+       l_inlane_l: white-f200ms
+       l_target_l: white-f200ms
+       l_target_mid_l: white-f200ms
+       l_target_r: white-f200ms
+       l_inlane_r: white-f200ms
+      duration: 200ms
     - lights:
-       l_inlane_l: off-f500ms
-       l_target_l: off-f500ms
-       l_target_mid_l: off-f500ms
-       l_target_r: off-f500ms
-       l_inlane_r: off-f500ms
-      duration: 500ms
+       l_inlane_l: off-f300ms
+       l_target_l: off-f300ms
+       l_target_mid_l: off-f300ms
+       l_target_r: off-f300ms
+       l_inlane_r: off-f300ms
+      duration: 300ms

@@ -46,6 +46,7 @@ modes:
   - mult_fleshy_qualify
   - mult_fleshy
   - start_ball_save
+  - launch_shows
 
 
 
@@ -528,7 +529,10 @@ queue_relay_player:
     post: waiting_for_launch_press
     wait_for: e_launch_press
     
-
+player_vars:
+  current_room:
+    initial_value: "LIVING ROOM"
+    value_type: str
 
 
    

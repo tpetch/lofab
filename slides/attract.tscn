@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bfenhsw486vo1"]
+[gd_scene load_steps=3 format=3 uid="uid://bfenhsw486vo1"]
 
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_bu23p"]
+[ext_resource type="Texture2D" uid="uid://dj68xa1u7nmvq" path="res://images/hofab_title.png" id="2_0k34j"]
 
 [node name="Attract" type="Control"]
 layout_mode = 3
@@ -13,15 +14,9 @@ offset_right = 1024.0
 offset_bottom = 600.0
 color = Color(0, 0, 0, 1)
 
-[node name="Label" type="Label" parent="."]
-layout_mode = 0
-offset_left = 8.0
-offset_top = 104.0
-offset_right = 1032.0
-offset_bottom = 488.0
-theme_override_font_sizes/font_size = 90
-text = "ATTRACT MODE TEST"
-horizontal_alignment = 1
-vertical_alignment = 1
-
 [node name="Node" type="Node" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(511.013, 296)
+scale = Vector2(0.925, 0.925)
+texture = ExtResource("2_0k34j")

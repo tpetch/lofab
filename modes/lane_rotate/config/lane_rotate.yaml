@@ -33,7 +33,7 @@ shots:
 show_player:
   rotate_group_hit_complete: 
     lanes_complete:
-      loops: 2
+      loops: 1
 
 
 shot_groups:

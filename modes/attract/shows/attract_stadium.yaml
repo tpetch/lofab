@@ -2,7 +2,7 @@
 
     - lights:
        stadium: red-f1s
-      duration: 3s
+      duration: 1500ms
     - lights:
-       stadium: off-f1s
-      duration: 2s
+       stadium: off
+      duration: 1s

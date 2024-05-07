@@ -1,0 +1,14 @@
+#show_version=6
+
+- slides: 
+    attract2:
+      expire: 3s
+  duration: 3
+- slides: 
+    attract_fast:
+      expire: 3s
+  duration: 3
+- slides: 
+    attract:
+      expire: 3s
+  duration: 3

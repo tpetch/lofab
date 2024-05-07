@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://hkryf5lyxe6v"]
+
+[ext_resource type="FontFile" uid="uid://coqi38pnmm7dj" path="res://misc/headline-gothic-atf-round.otf" id="1_dkd1n"]
+
+[resource]
+Label/colors/font_color = Color(0.360784, 0.0509804, 0.0392157, 1)
+Label/fonts/font = ExtResource("1_dkd1n")

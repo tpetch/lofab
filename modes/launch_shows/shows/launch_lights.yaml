@@ -5,10 +5,10 @@
        l_gi_7: red-f1s
        l_gi_8: red-f1s
        l_gi_9: red-f1s
-      duration: 2s
+      duration: 1s
     - lights:
        l_gi_6: off-f1s
        l_gi_7: off-f1s
        l_gi_8: off-f1s
        l_gi_9: off-f1s
-      duration: 2s
+      duration: 1s

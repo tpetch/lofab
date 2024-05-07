@@ -4,7 +4,11 @@ mode:
   priority: 100
   
 
-
+slide_player:
+  mode_launch_shows_stopped: 
+    base:
+      priority: 100
+      action: queue
 
         
 shows:
@@ -47,78 +51,88 @@ shots:
 
   r_pop:
    switch: s_pop
+   profile: sp_base
 
   r_sling_l:
    switch: s_sling_l
+   profile: sp_base
   r_sling_r:
    switch: s_sling_r
+   profile: sp_base
    
   r_h:
     switch: s_h
-    #profile: 
+    profile: sp_base 
     show_tokens:
       led: l_inlane_l
   r_o:
     switch: s_stationary_o
-    #profile: 
+    profile: sp_base
     show_tokens:
       led: l_target_l
   r_u:
     switch: s_stationary_u
-    #profile: 
+    profile: sp_base
     show_tokens:
       led: l_target_mid_l
   r_s:
     switch: s_stationary_s
-    #profile: 
+    profile: sp_base
     show_tokens:
       led: l_target_r
   r_e:
     switch: s_e
-    #profile: 
+    profile: sp_base 
     show_tokens:
       led: l_inlane_r
 
   r_ramp_r:
     hit_events: ss_ramp_r_hit
-    #profile:
+    profile: sp_base
     show_tokens:
       led: l_arrow_ramp_r
       led2: l_circle_ramp_r
   r_ramp_l:
     hit_events: ss_ramp_l_hit
-    #profile:
+    profile: sp_base
     show_tokens:
       led: l_arrow_ramp_r
       led2: l_circle_ramp_r
       
   r_vuk:
     switch: s_vuk
-    #profile:
+    profile: sp_base
     show_tokens:
       led: l_vuk_arrow_bot
       led2: l_vuk_square_bot
   r_vuk_bank:
     hit_events: ss_vuk_bank_hit
-    #profile:
+    profile: sp_base
     show_tokens:
       led: l_vuk_arrow_top
       led2: l_vuk_square_top
       
   r_right_orbit:
     hit_events: ss_right_orbit_hit
-    #profile:
+    profile: sp_base
     show_tokens:
       led: l_arrow_loop
       led2: l_circle_loop
       
   r_pop_stationary:
     switch: s_stationary_back
-    #profile:
+    profile: sp_base 
     show_tokens:
       led: l_knife
       led2: l_circle_knife
       led3: l_big_arrow_b
+      
+      
+shot_profiles:
+  sp_base:
+      states:
+      - name: state_base
+        show: "off"
       
   
 sequence_shots:

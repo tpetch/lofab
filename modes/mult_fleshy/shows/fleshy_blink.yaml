@@ -1,0 +1,11 @@
+#show_version=6
+
+    - lights:
+       (led): orange-f100ms
+      duration: 100ms
+    - lights:
+       (led): pink-f100ms
+      duration: 100ms
+    - lights:
+       (led): off
+      duration: 200ms

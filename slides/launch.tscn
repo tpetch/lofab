@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cx8xwmvx03qme"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_l7jqo"]
+[ext_resource type="Texture2D" uid="uid://fdxl8latq0i2" path="res://images/launch_bg.png" id="2_ih4hg"]
+
+[node name="Launch" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_l7jqo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(509.762, 300.75)
+scale = Vector2(0.2394, 0.2394)
+texture = ExtResource("2_ih4hg")

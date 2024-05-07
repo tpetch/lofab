@@ -8,6 +8,7 @@ shots:
   r_o_fleshy:
     switch: s_stationary_o
     profile: fleshy_profile
+    restart_events: mode_mult_fleshy_qualify_started
     show_tokens:
       light1: l_target_l_hurryup_3
       light2: l_target_l_hurryup_2
@@ -15,6 +16,7 @@ shots:
   r_s_fleshy:
     switch: s_stationary_s
     profile: fleshy_profile
+    restart_events: mode_mult_fleshy_qualify_started
     show_tokens:
       light1: l_target_r_hurryup_3
       light2: l_target_r_hurryup_2

@@ -38,7 +38,27 @@ show_player:
         color: red
   ball_save_ball_save_disabled:
     ball_save: stop
+    
+shots:
+  r_ramp_r_fleshy:
+    hit_events: ss_ramp_r_hit
+    profile: sp_fleshy_jp
+    show_tokens:
+      led: l_arrow_ramp_r
+      led2: l_circle_ramp_r
+  r_ramp_l_fleshy:
+    hit_events: ss_ramp_l_hit
+    profile: sp_fleshy_jp
+    show_tokens:
+      led: l_arrow_ramp_l
+      led2: l_circle_ramp_l
 
 shot_profiles:
-  #ramp_l_jp:
+  sp_fleshy_jp:
+      states:
+      - name: 
+        show: "fleshy_blink"
+      - name: jp_hit
+        show: "off"
+
     

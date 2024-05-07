@@ -1,0 +1,74 @@
+[gd_scene load_steps=6 format=3 uid="uid://celjkodvstce1"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_8sbgb"]
+[ext_resource type="Texture2D" uid="uid://bwyg1xupcofou" path="res://images/base_bg.png" id="2_qom4c"]
+[ext_resource type="FontFile" uid="uid://coqi38pnmm7dj" path="res://misc/headline-gothic-atf-round.otf" id="3_a4wxa"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_dpr11"]
+[ext_resource type="Theme" uid="uid://hkryf5lyxe6v" path="res://misc/headline_atf_text.tres" id="5_e32do"]
+
+[node name="Base" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_8sbgb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(509.976, 294.25)
+scale = Vector2(0.2418, 0.2418)
+texture = ExtResource("2_qom4c")
+
+[node name="MPFVariable" type="Label" parent="."]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 216.0
+offset_right = 856.0
+offset_bottom = 398.0
+theme_override_colors/font_color = Color(0.380392, 0.0862745, 0.0705882, 1)
+theme_override_fonts/font = ExtResource("3_a4wxa")
+theme_override_font_sizes/font_size = 181
+text = "1,000,000"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_dpr11")
+variable_name = "score"
+comma_separate = true
+min_digits = 2
+
+[node name="MPFVariable4" type="Label" parent="."]
+layout_mode = 0
+offset_left = 824.0
+offset_top = 96.0
+offset_right = 864.0
+offset_bottom = 158.0
+theme = ExtResource("5_e32do")
+theme_override_colors/font_color = Color(0.380392, 0.0862745, 0.0705882, 1)
+theme_override_fonts/font = ExtResource("3_a4wxa")
+theme_override_font_sizes/font_size = 61
+text = "1"
+script = ExtResource("3_dpr11")
+variable_name = "ball"
+min_digits = 1
+
+[node name="MPFVariable2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 312.0
+offset_top = 96.0
+offset_right = 352.0
+offset_bottom = 156.0
+theme = ExtResource("5_e32do")
+theme_override_font_sizes/font_size = 60
+text = "1"
+script = ExtResource("3_dpr11")
+variable_name = "number"
+
+[node name="MPFVariable3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 528.0
+offset_top = 442.0
+offset_right = 853.0
+offset_bottom = 502.0
+theme = ExtResource("5_e32do")
+theme_override_font_sizes/font_size = 60
+text = "LIVING ROOM"
+horizontal_alignment = 2
+script = ExtResource("3_dpr11")
+variable_name = "current_room"
