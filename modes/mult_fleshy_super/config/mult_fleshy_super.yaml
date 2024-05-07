@@ -1,0 +1,34 @@
+#config_version=6
+mode:
+  start_events: mult_fleshy_super_begin
+  stop_events: mult_fleshy_super_end, multiball_fleshy_multiball_ended
+  priority: 210
+  
+    
+
+
+    
+shots:
+  r_stationary_back_fleshy:
+    switch: s_stationary_back
+    profile: sp_fleshy_super_jp
+    restart_events: mode_mult_fleshy_super_started
+
+shot_profiles:
+  sp_fleshy_super_jp:
+      states:
+      - name: lit
+        show: "super_blink"
+      - name: super_jp_hit
+        show: "off"
+        
+variable_player:
+  r_stationary_back_fleshy_hit:
+    score: 10000
+
+event_player:
+  r_stationary_back_fleshy_hit:
+    - mult_flesh_jp_reset
+    - mult_fleshy_super_end
+
+    

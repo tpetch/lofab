@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://ddhd5ci8dafby"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_605ee"]
+[ext_resource type="Texture2D" uid="uid://b05q883m5itng" path="res://images/super_jackpot_bg.png" id="2_p0pbr"]
+
+[node name="SuperJackpot" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_605ee")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(510.709, 298.802)
+scale = Vector2(0.240958, 0.240958)
+texture = ExtResource("2_p0pbr")

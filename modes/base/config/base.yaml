@@ -158,7 +158,7 @@ sequence_shots:
     switch_sequence: s_stationary_s, s_vuk
     sequence_timeout: 1s
   ss_right_orbit:
-    event_sequence: spinner_spinner_active, s_h_hit
+    switch_sequence: s_spinner, s_e
     sequence_timeout: 5s
   
   

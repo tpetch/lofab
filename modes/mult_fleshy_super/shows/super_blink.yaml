@@ -1,0 +1,26 @@
+#show_version=6
+
+    - lights:
+       l_circle_knife: purple-f50ms
+       l_knife: off
+       l_big_arrow_b: off
+       l_big_arrow_t: off
+      duration: 150ms
+    - lights:
+       l_circle_knife: off
+       l_knife: pink-f50ms
+       l_big_arrow_b: off
+       l_big_arrow_t: off
+      duration: 150ms
+    - lights:
+       l_circle_knife: off
+       l_knife: off
+       l_big_arrow_b: purple-f50ms
+       l_big_arrow_t: off
+      duration: 150ms
+    - lights:
+       l_circle_knife: off
+       l_knife: off
+       l_big_arrow_b: off
+       l_big_arrow_t: pink-f50ms
+      duration: 150ms
