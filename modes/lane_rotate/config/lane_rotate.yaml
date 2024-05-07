@@ -46,7 +46,7 @@ shot_groups:
 shot_profiles:
   rotate_profile:
     states:
-      - name:
+      - name: unlit
         show: off
       - name: hit
         show: on
