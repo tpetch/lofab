@@ -71,31 +71,31 @@ shots:
    switch: s_sling_r
    profile: sp_base
    
-  r_h:
-    switch: s_h
-    profile: sp_base 
-    show_tokens:
-      led: l_inlane_l
-  r_o:
-    switch: s_stationary_o
-    profile: sp_base
-    show_tokens:
-      led: l_target_l
-  r_u:
-    switch: s_stationary_u
-    profile: sp_base
-    show_tokens:
-      led: l_target_mid_l
-  r_s:
-    switch: s_stationary_s
-    profile: sp_base
-    show_tokens:
-      led: l_target_r
-  r_e:
-    switch: s_e
-    profile: sp_base 
-    show_tokens:
-      led: l_inlane_r
+#  r_h:
+ #   switch: s_h
+  #  profile: sp_base 
+   # show_tokens:
+    #  led: l_inlane_l
+#  r_o:
+ #   switch: s_stationary_o
+  #  profile: sp_base
+   # show_tokens:
+    #  led: l_target_l
+#  r_u:
+ #   switch: s_stationary_u
+  #  profile: sp_base
+   # show_tokens:
+    #  led: l_target_mid_l
+#  r_s:
+ #   switch: s_stationary_s
+  #  profile: sp_base
+   # show_tokens:
+#    #  led: l_target_r
+ # r_e:
+  #  switch: s_e
+   # profile: sp_base 
+    #show_tokens:
+     # led: l_inlane_r
 
   r_ramp_r:
     hit_events: ss_ramp_r_hit
