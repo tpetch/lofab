@@ -1,0 +1,116 @@
+2024-05-07 07:03:17,645 : INFO : root : Loading config.
+2024-05-07 07:03:17,647 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-05-07 07:03:17,647 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/479bffd5d2f40b527f859677e5b1aef9.mpf_cache
+2024-05-07 07:03:17,673 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/config/attract.yaml
+2024-05-07 07:03:17,673 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/git/mpf/mpf/modes/attract/config/attract.yaml.
+2024-05-07 07:03:17,674 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/git/mpf/mpf/modes/attract/config/attract.yaml
+2024-05-07 07:03:17,674 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/config/attract.yaml.
+2024-05-07 07:03:17,674 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/config/attract.yaml
+2024-05-07 07:03:17,675 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0481b880979d7ccc71369ad5f781c736.mpf_cache
+2024-05-07 07:03:17,675 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9cfa8e96748dd80c23752180dbf36e5c.mpf_cache
+2024-05-07 07:03:17,675 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0481b880979d7ccc71369ad5f781c736.mpf_cache
+2024-05-07 07:03:17,675 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/1875c266911f801b691956fe9e9284d6.mpf_cache
+2024-05-07 07:03:17,675 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f97c90855879603280fcc571f5c42639.mpf_cache
+2024-05-07 07:03:17,676 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/5336ce152edc820b26f3a51a9f95779b.mpf_cache
+2024-05-07 07:03:17,676 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/584196ece55f676a535bfbda3a88171a.mpf_cache
+2024-05-07 07:03:17,676 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/4b1e343fa9806c398ec7ee103dcfa7e2.mpf_cache
+2024-05-07 07:03:17,677 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/66764f8b68b26fdba6c1f2bce3638479.mpf_cache
+2024-05-07 07:03:17,677 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/2b5fdb8fd0e736387486af32f8df92fd.mpf_cache
+2024-05-07 07:03:17,677 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/3dbc438e88423aa3ff742db2713b600f.mpf_cache
+2024-05-07 07:03:17,679 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/154d071a3850556c6f3eae37bf41c8b6.mpf_cache
+2024-05-07 07:03:17,679 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ab100dbe0e16472b56f0213f3842a00f.mpf_cache
+2024-05-07 07:03:17,681 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f03ad90ccd2c053e9e5d10795d01f4ba.mpf_cache
+2024-05-07 07:03:17,681 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0f3c951d4c93079ae3fac6429c5bc2ee.mpf_cache
+2024-05-07 07:03:17,681 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/8bf004783a280ac33d17b88f37848116.mpf_cache
+2024-05-07 07:03:17,683 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/db98bdefe8a072cec23a2527f4303b09.mpf_cache
+2024-05-07 07:03:17,683 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d5d50eaa09e055f3a827c6269a3aa165.mpf_cache
+2024-05-07 07:03:17,684 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/eefb91dd78a2b4d0f2b86f7f7cb501a3.mpf_cache
+2024-05-07 07:03:17,684 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d32f8b43f49e3e57afbd189fbbccae80.mpf_cache
+2024-05-07 07:03:17,684 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/08db62a1c5938674fa894d468364ed3e.mpf_cache
+2024-05-07 07:03:17,685 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/98754ca8fa1663afefe3af8297a0d59a.mpf_cache
+2024-05-07 07:03:17,685 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0b5d87cc943a75a2ef030b7892588c99.mpf_cache
+2024-05-07 07:03:17,686 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/250153cb7d132f4134a2e9b694314568.mpf_cache
+2024-05-07 07:03:17,686 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bbbe87a2f82c66174798be62d4e8058c.mpf_cache
+2024-05-07 07:03:17,686 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev1
+2024-05-07 07:03:17,686 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2024-05-07-07-03-17-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-05-07 07:03:17,686 : INFO : Machine : MPF path: /Users/tannerpetch/Documents/git/mpf/mpf
+2024-05-07 07:03:17,686 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/lofab
+2024-05-07 07:03:17,686 : INFO : Machine : Platform: darwin
+2024-05-07 07:03:17,686 : INFO : Machine : Python executable location: /Users/tannerpetch/mpfenv/bin/python3
+2024-05-07 07:03:17,686 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2024-05-07 07:03:17,687 : INFO : Machine : Initializing MPF...
+2024-05-07 07:03:17,707 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,714 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,714 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,714 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1', 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,714 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,714 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,721 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,721 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,721 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,721 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,721 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2024-05-07 07:03:17,721 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-05-07 07:03:17,735 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-05-07 07:03:17,737 : ERROR : ConfigValidator : Your config contains a value for the setting "slide_player:r", but this is not a valid setting name.
+2024-05-07 07:03:17,737 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...tting name.')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...tting name.')>)>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/config_players/device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/config_players/device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/config_players/slide_player.py", line 19, in _validate_config_item
+    device_settings = self.machine.config_validator.validate_config(
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player base:slides with settings {'action': 'remove'} >> Your config contains a value for the setting "slide_player:r", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2024-05-07 07:03:17,739 : INFO : Machine : Starting the main run loop.
+2024-05-07 07:03:17,739 : INFO : Machine : Shutting down...
+2024-05-07 07:03:17,739 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-05-07 07:03:18,741 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/events.py", line 795, in _queue_task_done
+    future.result()
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/config_players/device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/config_players/device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/config_players/slide_player.py", line 19, in _validate_config_item
+    device_settings = self.machine.config_validator.validate_config(
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "/Users/tannerpetch/Documents/git/mpf/mpf/core/config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player base:slides with settings {'action': 'remove'} >> Your config contains a value for the setting "slide_player:r", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2024-05-07 07:03:18,745 : INFO : root : MPF run loop ended.

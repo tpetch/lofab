@@ -8,7 +8,10 @@ slide_player:
   mode_launch_shows_stopped: 
     base:
       priority: 100
-      action: queue
+      action: queue_first
+  ball_ending:
+    base:
+      action: remove
     
 sound_player:
 

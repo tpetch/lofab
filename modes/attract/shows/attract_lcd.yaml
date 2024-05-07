@@ -1,14 +1,26 @@
 #show_version=6
 
 - slides: 
-    attract2:
-      expire: 3s
-  duration: 3
-- slides: 
-    attract_fast:
-      expire: 3s
-  duration: 3
-- slides: 
+
     attract:
-      expire: 3s
-  duration: 3
+      action: remove
+    attract2:
+      action: queue_immediate
+
+  duration: 3s
+- slides: 
+
+    attract2:
+      action: remove
+    attract_fast:
+      action: queue_immediate
+
+  duration: 3s
+- slides: 
+
+    attract_fast:
+      action: remove
+    attract:
+      action: queue_immediate
+
+  duration: 3s

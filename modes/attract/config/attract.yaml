@@ -8,3 +8,7 @@ show_player:
   mode_attract_started.2: attract_stadium
   mode_attract_started.3: attract_tilt
   
+slide_player:
+  mode_attract_started:
+    base:
+      action: remove
