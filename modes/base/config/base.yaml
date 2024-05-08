@@ -172,8 +172,6 @@ variable_player:
     score: 50
   r_h_hit:
     score: 100
-  r_h_hit:
-    score: 100
   r_o_hit:
     score: 100
   r_u_hit:
