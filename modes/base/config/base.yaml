@@ -71,31 +71,31 @@ shots:
    switch: s_sling_r
    profile: sp_base
    
-#  r_h:
- #   switch: s_h
-  #  profile: sp_base 
-   # show_tokens:
-    #  led: l_inlane_l
-#  r_o:
- #   switch: s_stationary_o
-  #  profile: sp_base
-   # show_tokens:
-    #  led: l_target_l
-#  r_u:
- #   switch: s_stationary_u
-  #  profile: sp_base
-   # show_tokens:
-    #  led: l_target_mid_l
-#  r_s:
- #   switch: s_stationary_s
-  #  profile: sp_base
-   # show_tokens:
-#    #  led: l_target_r
- # r_e:
-  #  switch: s_e
-   # profile: sp_base 
-    #show_tokens:
-     # led: l_inlane_r
+  r_h:
+    switch: s_h
+    profile: sp_base 
+    show_tokens:
+      led: l_inlane_l
+  r_o:
+    switch: s_stationary_o
+    profile: sp_base
+    show_tokens:
+      led: l_target_l
+  r_u:
+    switch: s_stationary_u
+    profile: sp_base
+    show_tokens:
+      led: l_target_mid_l
+  r_s:
+    switch: s_stationary_s
+    profile: sp_base
+    show_tokens:
+      led: l_target_r
+  r_e:
+    switch: s_e
+    profile: sp_base 
+    show_tokens:
+      led: l_inlane_r
 
   r_ramp_r:
     hit_events: ss_ramp_r_hit
@@ -130,7 +130,7 @@ shots:
       led: l_arrow_loop
       led2: l_circle_loop
       
-  r_pop_stationary:
+  r_stationary_back:
     switch: s_stationary_back
     profile: sp_base 
     show_tokens:
@@ -170,6 +170,22 @@ variable_player:
     score: 10
   r_pop_hit:
     score: 50
+  r_h_hit:
+    score: 100
+  r_h_hit:
+    score: 100
+  r_o_hit:
+    score: 100
+  r_u_hit:
+    score: 100
+  r_s_hit:
+    score: 100
+  r_e_hit:
+    score: 100
+  r_stationary_back_hit:
+    score: 200
+
+    
 
 
 

@@ -454,7 +454,7 @@ coils:
     
   c_trough:
     number: b_main-0
-    default_pulse_ms: 14
+    default_pulse_ms: 13
     default_pulse_power: 1
 
   c_pop:
@@ -469,7 +469,7 @@ coils:
     default_pulse_ms: 10
   c_vuk:
     number: b_main-5
-    default_pulse_ms: 13
+    default_pulse_ms: 12
     
 spinners:
   spinner:
