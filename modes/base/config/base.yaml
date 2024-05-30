@@ -189,6 +189,9 @@ variable_player:
 
 show_player:
   ball_started: gi_on
+  spinner_spinner_active: 
+    shaker_spinner:
+      loops: 0
   r_pop_hit:
     pop_flash:
       loops: 0
