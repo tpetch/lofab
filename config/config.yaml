@@ -434,10 +434,15 @@ coils:
 
   c_launch_light:
     number: b_cabinet-0
+    enable_hold: true
+    default_hold_power: 1
   c_start_light:
     number: b_cabinet-2
+    enable_hold: true
+    default_hold_power: 1
   c_shaker:
     number: b_cabinet-1
+    enable_hold: true
     default_pulse_ms: 1
     default_hold_power: 0.125
 
