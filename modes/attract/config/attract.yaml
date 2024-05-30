@@ -7,6 +7,7 @@ show_player:
   mode_attract_started.1: attract_lcd
   mode_attract_started.2: attract_stadium
   mode_attract_started.3: attract_tilt
+  mode_attract_started.4: attract_front_lights
   
 slide_player:
   mode_attract_started:
