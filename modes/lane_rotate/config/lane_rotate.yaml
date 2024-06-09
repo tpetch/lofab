@@ -55,5 +55,8 @@ variable_player:
   rotate_group_hit_complete:
     score: 1000
     
+event_player:
+  rotate_group_hit_complete: enable_mystery
+    
 
   

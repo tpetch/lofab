@@ -40,14 +40,18 @@ fast:
     
 
 modes:
+
+  - base
   - attract
   - lane_rotate
-  - base
   - mult_fleshy_qualify
   - mult_fleshy
+  - mult_fleshy_super
   - start_ball_save
   - launch_shows
-  - mult_fleshy_super
+  - hurryup_tilt_qualify
+  - hurryup_tilt
+
 
 
 
@@ -325,10 +329,10 @@ lights:
   l_tilt_on_2:
     number: neu-1-11
     tags: tilt_light
-  l_tilt_front_1:
+  l_tilt_front_r:
     number: neu-1-12
     tags: tilt_light
-  l_tilt_front_2:
+  l_tilt_front_l:
     number: neu-1-13
     tags: tilt_light
 
@@ -519,7 +523,7 @@ ball_devices:
   bd_trough:
     ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4
     eject_coil: c_trough
-    eject_timeouts: 2s
+    eject_timeouts: 1s
     tags: trough, home, drain
     
 autofire_coils:

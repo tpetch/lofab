@@ -1,0 +1,12 @@
+2024-06-07 21:22:23,130 : INFO : root : Loading config.
+2024-06-07 21:22:23,132 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-06-07 21:22:23,132 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml
+2024-06-07 21:22:23,132 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/git/mpf/mpf/mpfconfig.yaml.
+2024-06-07 21:22:23,137 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/git/mpf/mpf/mpfconfig.yaml
+2024-06-07 21:22:23,137 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml.
+2024-06-07 21:22:23,141 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml
+2024-06-07 21:22:23,143 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/479bffd5d2f40b527f859677e5b1aef9.mpf_cache
+2024-06-07 21:22:23,167 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0481b880979d7ccc71369ad5f781c736.mpf_cache
+2024-06-07 21:22:23,168 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9cfa8e96748dd80c23752180dbf36e5c.mpf_cache
+2024-06-07 21:22:23,168 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f97c90855879603280fcc571f5c42639.mpf_cache
+2024-06-07 21:22:23,168 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0481b880979d7ccc71369ad5f781c736.mpf_cache

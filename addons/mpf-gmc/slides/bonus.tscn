@@ -26,13 +26,13 @@ variable_type = 1
 variable_name = "entry"
 
 [node name="initial" type="Node2D" parent="MPFConditionalChildren"]
+visible = false
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/initial"]
 offset_top = 253.0
 offset_right = 1920.0
 offset_bottom = 430.0
 theme_override_font_sizes/font_size = 100
-text = "End of Ball 1"
 horizontal_alignment = 1
 vertical_alignment = 1
 script = ExtResource("2_6rn1m")
@@ -40,6 +40,7 @@ variable_name = "ball"
 template_string = "End of Ball %s"
 
 [node name="__default__" type="Node2D" parent="MPFConditionalChildren"]
+visible = false
 
 [node name="bonus_entry_name" type="Label" parent="MPFConditionalChildren/__default__"]
 offset_top = 133.0
@@ -67,6 +68,7 @@ variable_name = "score"
 comma_separate = true
 
 [node name="subtotal" type="Node2D" parent="MPFConditionalChildren"]
+visible = false
 
 [node name="Label" type="Label" parent="MPFConditionalChildren/subtotal"]
 offset_top = 133.0
@@ -91,6 +93,7 @@ variable_name = "score"
 comma_separate = true
 
 [node name="multiplier" type="Node2D" parent="MPFConditionalChildren"]
+visible = false
 
 [node name="Label" type="Label" parent="MPFConditionalChildren/multiplier"]
 offset_top = 133.0
@@ -115,6 +118,7 @@ variable_name = "score"
 template_string = "%sX"
 
 [node name="total" type="Node2D" parent="MPFConditionalChildren"]
+visible = false
 
 [node name="Label" type="Label" parent="MPFConditionalChildren/total"]
 offset_top = 133.0

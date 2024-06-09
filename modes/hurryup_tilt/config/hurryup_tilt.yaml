@@ -1,0 +1,99 @@
+#config_version=6
+mode:
+  start_events: hurryup_tilt_start
+  stop_events: hurryup_tilt_stop, ball_will_end
+  
+  
+show_player:
+  mode_hurryup_tilt_started:
+    tilt_gi:
+      loops: -1
+  
+shots:
+
+  r_pop_tilt:
+   switch: s_pop
+   profile: sp_tilt
+   
+
+  r_sling_l_tilt:
+   switch: s_sling_l
+   profile: sp_tilt
+  r_sling_r_tilt::
+   switch: s_sling_r
+   profile: sp_tilt
+   
+  r_h_tilt::
+    switch: s_h
+    profile: sp_tilt
+    show_tokens:
+      led: l_inlane_l
+  r_o_tilt::
+    switch: s_stationary_o
+    profile: sp_tilt
+    show_tokens:
+      led: l_target_l
+  r_u_tilt::
+    switch: s_stationary_u
+    profile: sp_tilt
+    show_tokens:
+      led: l_target_mid_l
+  r_s_tilt::
+    switch: s_stationary_s
+    profile: sp_tilt
+    show_tokens:
+      led: l_target_r
+  r_e_tilt::
+    switch: s_e
+    profile: sp_tilt 
+    show_tokens:
+      led: l_inlane_r
+
+  r_ramp_r_tilt::
+    hit_events: ss_ramp_r_hit
+    profile: sp_tilt
+    show_tokens:
+      led: l_arrow_ramp_r
+      led2: l_circle_ramp_r
+  r_ramp_l_tilt::
+    hit_events: ss_ramp_l_hit
+    profile: sp_tilt
+    show_tokens:
+      led: l_arrow_ramp_r
+      led2: l_circle_ramp_r
+      
+  r_vuk_tilt::
+    switch: s_vuk
+    profile: sp_tilt
+    show_tokens:
+      led: l_vuk_arrow_bot
+      led2: l_vuk_square_bot
+  r_vuk_bank_tilt::
+    hit_events: ss_vuk_bank_hit
+    profile: sp_tilt
+    show_tokens:
+      led: l_vuk_arrow_top
+      led2: l_vuk_square_top
+      
+  r_right_orbit_tilt::
+    hit_events: ss_right_orbit_hit
+    profile: sp_tilt
+    show_tokens:
+      led: l_arrow_loop
+      led2: l_circle_loop
+      
+  r_stationary_back_tilt::
+    switch: s_stationary_back
+    profile: sp_tilt
+    show_tokens:
+      led: l_knife
+      led2: l_circle_knife
+      led3: l_big_arrow_b
+    
+shot_profiles:
+  sp_tilt:
+      block: true
+      states:
+      - name: state_tilt
+        show: "off"
+        

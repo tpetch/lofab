@@ -1,0 +1,41 @@
+#config_version=6
+mode:
+  start_events: start_mode_mystery, ball_started
+  stop_events: stop_mode_mystery, ball_will_end
+  
+event_player:
+  slide_award_1_slide_removed: end_mystery
+  slide_award_2_slide_removed: end_mystery
+  slide_award_3_slide_removed: end_mystery
+  slide_award_4_slide_removed: end_mystery
+  
+ball_holds:
+  mystery_scoop:
+    balls_to_hold: 1
+    hold_devices: bd_vuk
+    enable_events: enable_mystery
+    disable_events: end_mystery
+    release_one_events: end_mystery
+
+slide_player:
+  mystery_award_1_event:
+    award_1_slide:
+      expire: 5s
+  mystery_award_2_event:
+    award_2_slide:
+      expire: 5s
+  mystery_award_3_event:
+    award_3_slide:
+      expire: 5s
+  mystery_award_4_event:
+    award_4_slide:
+      expire: 5s
+    
+random_event_player:
+  ball_hold_mystery_scoop_held_ball:
+    events:
+      mystery_award_big_points_event: 30
+      mystery_award_quick_multiball_event: 20
+      mystery_award_light_extra_ball_event: 20
+      mystery_award_4_event: 30
+    force_all: true

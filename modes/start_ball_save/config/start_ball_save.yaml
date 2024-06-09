@@ -2,10 +2,12 @@
 # in your mode
 mode:
   start_events: ball_started
+  stop_events: mode_hurryup_tilt_started
 ball_saves:
   ball_save_ball_save:
-    active_time: 7s
-    hurry_up_time: 3s
+    active_time: 10s
+    hurry_up_time: 5s
+    grace_period: 2s
     timer_start_events: balldevice_bd_trough_ejecting_ball
     auto_launch: true
     balls_to_save: 1

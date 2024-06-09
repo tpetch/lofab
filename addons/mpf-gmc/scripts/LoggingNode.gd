@@ -5,12 +5,10 @@
 class_name LoggingNode
 extends Node
 
-var logger: GMCLogger
+@warning_ignore("shadowed_global_identifier")
+var log: GMCLogger
+const Logger = preload("res://addons/mpf-gmc/scripts/log.gd")
 
 
-func configure_logging(level: int = 0):
-  self.logger = preload("res://addons/mpf-gmc/scripts/log.gd").new()
-  self.logger.setLevel(level if level else MPF.log.getLevel())
-
-func _exit_tree():
-  self.logger.queue_free()
+func configure_logging(log_name: String = self.name, level: Logger.LogLevel = Logger.LogLevel.USE_GLOBAL_LEVEL, set_global: bool = false):
+  self.log = Logger.new(log_name, level, set_global)

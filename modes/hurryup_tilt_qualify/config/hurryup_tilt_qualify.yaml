@@ -1,0 +1,42 @@
+#config_version=6
+mode:
+  start_events: hurryup_tilt_qualify_start, ball_started #{ball==1}
+  stop_events: hurryup_tilt_qualify_stop, ball_will_end
+
+shots:
+
+  r_tilt_r:
+    switch: s_tilt_r
+  r_tilt_l:
+    switch: s_tilt_l
+    restart_events: mode_hurryup_tilt_qualify_started
+    show_tokens:
+      light1: l_tilt_front_l
+
+
+
+variable_player:
+  mode_hurryup_tilt_qualify_started:
+    tilt_warnings:
+      int: 0       
+      action: set
+  tilt_reset:
+    tilt_warnings:
+      int: 0       
+      action: set
+  r_tilt_r_hit: 
+    tilt_warnings: 1
+  r_tilt_l_hit: 
+    tilt_warnings: 1
+
+  
+    
+show_player:
+  r_tilt_r_hit: tilt_r_flash
+  r_tilt_l_hit: tilt_l_flash
+    
+event_player:
+  tilt_warnings{value==2}:
+    - tilt_reset
+    - hurryup_tilt_start
+    - hurryup_tilt_qualify_stop
