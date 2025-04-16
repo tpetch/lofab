@@ -13,7 +13,7 @@ playfields:
 
 fast:
   net:
-    port: auto
+    port: com3
     controller: neuron
     io_loop:
       b_head:
@@ -28,9 +28,9 @@ fast:
       b_main_2:
         model: FP-I/O-0804
         order: 4
-
+        
   exp:
-    port: auto
+    port: com5
     boards: 
       pf:
         model: FP-EXP-0081
@@ -275,7 +275,101 @@ lights:
     number: pf-8-10
     tags: popflash
     
+  l_pop_ring_b_1:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-1-0 #+1
+      green:
+        number: pf-8-1-1 #+1
+      blue:
+        number: pf-8-1-2 #+1
+      white:
+        number: pf-8-2-1 #+2
 
+  l_pop_ring_b_2:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-2-2 #+1
+      green:
+        number: pf-8-2-0 #-2
+      blue:
+        number: pf-8-3-1 #+4
+      white:
+        number: pf-8-3-0 #-1
+
+  l_pop_ring_b_3:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-4-1 #+4
+      green:
+        number: pf-8-3-2 #-2
+      blue:
+        number: pf-8-4-0 #+1
+      white:
+        number: pf-8-4-2 #+2
+
+  l_pop_ring_b_4:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-5-0 #+1
+      green:
+        number: pf-8-5-1 #+1
+      blue:
+        number: pf-8-5-2 #+1
+      white:
+        number: pf-8-6-1 #+2
+
+  l_pop_ring_b_5:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-6-2 #+1
+      green:
+        number: pf-8-6-0 #-2
+      blue:
+        number: pf-8-7-1 #+4
+      white:
+        number: pf-8-7-0 #-1
+
+  l_pop_ring_b_6:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-8-1 #+4
+      green:
+        number: pf-8-7-2 #-2
+      blue:
+        number: pf-8-8-0 #+1
+      white:
+        number: pf-8-8-2 #+2
+
+  l_pop_ring_b_7:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-9-0 #+1
+      green:
+        number: pf-8-9-1 #+1
+      blue:
+        number: pf-8-9-2 #+1
+      white:
+        number: pf-8-10-1 #+2
+
+  l_pop_ring_b_8:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-10-2 #+1
+      green:
+        number: pf-8-10-0 #-2
+      blue:
+        number: pf-8-11-1 #+4
+      white:
+        number: pf-8-11-0 #-1
 
 
     
@@ -509,7 +603,7 @@ coils:
     default_pulse_ms: 11
     
   c_drop:
-    number: b_main_2
+    number: b_main_2-0
     default_pulse_ms: 11
     
 spinners:
