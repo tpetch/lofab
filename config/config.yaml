@@ -13,7 +13,7 @@ playfields:
 
 fast:
   net:
-    port: com3
+    port: auto
     controller: neuron
     io_loop:
       b_head:
@@ -28,9 +28,9 @@ fast:
       b_main_2:
         model: FP-I/O-0804
         order: 4
-        
+
   exp:
-    port: com5
+    port: auto
     boards: 
       pf:
         model: FP-EXP-0081
