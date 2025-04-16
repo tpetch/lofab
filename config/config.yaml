@@ -235,102 +235,47 @@ lights:
     number: pf-3-11
     tags: playfield
     
-    
   l_pop_flasher_1:
+    number: pf-8-1
     tags: popflash
-    channels:
-      red:
-        number: pf-8-1-0 #+1
-      green:
-        number: pf-8-1-1 #+1
-      blue:
-        number: pf-8-1-2 #+1
-      white:
-        number: pf-8-2-1 #+2
-
+  
   l_pop_flasher_2:
+    number: pf-8-2
     tags: popflash
-    channels:
-      red:
-        number: pf-8-2-2 #+1
-      green:
-        number: pf-8-2-0 #-2
-      blue:
-        number: pf-8-3-1 #+4
-      white:
-        number: pf-8-3-0 #-1
 
   l_pop_flasher_3:
+    number: pf-8-3
     tags: popflash
-    channels:
-      red:
-        number: pf-8-4-1 #+4
-      green:
-        number: pf-8-3-2 #-2
-      blue:
-        number: pf-8-4-0 #+1
-      white:
-        number: pf-8-4-2 #+2
 
   l_pop_flasher_4:
+    number: pf-8-4
     tags: popflash
-    channels:
-      red:
-        number: pf-8-5-0 #+1
-      green:
-        number: pf-8-5-1 #+1
-      blue:
-        number: pf-8-5-2 #+1
-      white:
-        number: pf-8-6-1 #+2
 
   l_pop_flasher_5:
+    number: pf-8-5
     tags: popflash
-    channels:
-      red:
-        number: pf-8-6-2 #+1
-      green:
-        number: pf-8-6-0 #-2
-      blue:
-        number: pf-8-7-1 #+4
-      white:
-        number: pf-8-7-0 #-1
 
   l_pop_flasher_6:
+    number: pf-8-6
     tags: popflash
-    channels:
-      red:
-        number: pf-8-8-1 #+4
-      green:
-        number: pf-8-7-2 #-2
-      blue:
-        number: pf-8-8-0 #+1
-      white:
-        number: pf-8-8-2 #+2
 
   l_pop_flasher_7:
+    number: pf-8-7
     tags: popflash
-    channels:
-      red:
-        number: pf-8-9-0 #+1
-      green:
-        number: pf-8-9-1 #+1
-      blue:
-        number: pf-8-9-2 #+1
-      white:
-        number: pf-8-10-1 #+2
 
   l_pop_flasher_8:
+    number: pf-8-8
     tags: popflash
-    channels:
-      red:
-        number: pf-8-10-2 #+1
-      green:
-        number: pf-8-10-0 #-2
-      blue:
-        number: pf-8-11-1 #+4
-      white:
-        number: pf-8-11-0 #-1
+
+  l_pop_flasher_9:
+    number: pf-8-9
+    tags: popflash
+
+  l_pop_flasher_10:
+    number: pf-8-10
+    tags: popflash
+    
+
 
 
     
