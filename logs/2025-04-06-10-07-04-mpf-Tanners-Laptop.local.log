@@ -1,0 +1,216 @@
+2025-04-06 10:07:04,686 : INFO : root : Loading config.
+2025-04-06 10:07:04,744 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/config_spec.mpf_cache
+2025-04-06 10:07:04,751 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-06 10:07:04,756 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-04-06 10:07:04,766 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-04-06 10:07:04,766 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml.
+2025-04-06 10:07:04,774 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/config/config.yaml
+2025-04-06 10:07:04,775 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/6ff7b030602f0995afddaebb699d5ec1.mpf_cache
+2025-04-06 10:07:04,900 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml.
+2025-04-06 10:07:04,901 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml
+2025-04-06 10:07:04,901 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/config/attract.yaml.
+2025-04-06 10:07:04,902 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/config/attract.yaml
+2025-04-06 10:07:04,902 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/5734f584a69cbb232024905ea29487b8.mpf_cache
+2025-04-06 10:07:04,903 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2025-04-06 10:07:04,904 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/base/config/base.yaml.
+2025-04-06 10:07:04,906 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/base/config/base.yaml
+2025-04-06 10:07:04,907 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f97c90855879603280fcc571f5c42639.mpf_cache
+2025-04-06 10:07:04,907 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/5734f584a69cbb232024905ea29487b8.mpf_cache
+2025-04-06 10:07:04,908 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/lane_rotate/config/lane_rotate.yaml.
+2025-04-06 10:07:04,909 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/lane_rotate/config/lane_rotate.yaml
+2025-04-06 10:07:04,909 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/1875c266911f801b691956fe9e9284d6.mpf_cache
+2025-04-06 10:07:04,909 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_qualify/config/mult_fleshy_qualify.yaml.
+2025-04-06 10:07:04,910 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_qualify/config/mult_fleshy_qualify.yaml
+2025-04-06 10:07:04,910 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/5336ce152edc820b26f3a51a9f95779b.mpf_cache
+2025-04-06 10:07:04,910 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy/config/mult_fleshy.yaml.
+2025-04-06 10:07:04,912 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy/config/mult_fleshy.yaml
+2025-04-06 10:07:04,912 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/584196ece55f676a535bfbda3a88171a.mpf_cache
+2025-04-06 10:07:04,913 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_super/config/mult_fleshy_super.yaml.
+2025-04-06 10:07:04,913 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_super/config/mult_fleshy_super.yaml
+2025-04-06 10:07:04,914 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/580ec13747cbd889de997403d41329e7.mpf_cache
+2025-04-06 10:07:04,914 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/start_ball_save/config/start_ball_save.yaml.
+2025-04-06 10:07:04,918 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/start_ball_save/config/start_ball_save.yaml
+2025-04-06 10:07:04,919 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/4b1e343fa9806c398ec7ee103dcfa7e2.mpf_cache
+2025-04-06 10:07:04,919 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/launch_shows/config/launch_shows.yaml.
+2025-04-06 10:07:04,920 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/launch_shows/config/launch_shows.yaml
+2025-04-06 10:07:04,920 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/66764f8b68b26fdba6c1f2bce3638479.mpf_cache
+2025-04-06 10:07:04,920 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/hurryup_tilt_qualify/config/hurryup_tilt_qualify.yaml.
+2025-04-06 10:07:04,921 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/hurryup_tilt_qualify/config/hurryup_tilt_qualify.yaml
+2025-04-06 10:07:04,921 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0c919395e2ce92a9f3b169ffcf017109.mpf_cache
+2025-04-06 10:07:04,922 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/hurryup_tilt/config/hurryup_tilt.yaml.
+2025-04-06 10:07:04,923 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/hurryup_tilt/config/hurryup_tilt.yaml
+2025-04-06 10:07:04,923 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/437d7d3e70b7081fed3bd3ee4c73d41b.mpf_cache
+2025-04-06 10:07:04,924 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_3_ball/config/mult_3_ball.yaml.
+2025-04-06 10:07:04,925 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_3_ball/config/mult_3_ball.yaml
+2025-04-06 10:07:04,925 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/da25988703320750b4162c9008d660a0.mpf_cache
+2025-04-06 10:07:04,927 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_3_ball_qualify/config/mult_3_ball_qualify.yaml.
+2025-04-06 10:07:04,928 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_3_ball_qualify/config/mult_3_ball_qualify.yaml
+2025-04-06 10:07:04,928 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/c3c7ba911a0619b65be5584a0c6df5cc.mpf_cache
+2025-04-06 10:07:04,929 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_front_lights.yaml.
+2025-04-06 10:07:04,930 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_front_lights.yaml
+2025-04-06 10:07:04,930 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a3ab7d74d06f7d14292ebc77e3ada161.mpf_cache
+2025-04-06 10:07:04,931 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_lcd.yaml.
+2025-04-06 10:07:04,931 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_lcd.yaml
+2025-04-06 10:07:04,931 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/2b5fdb8fd0e736387486af32f8df92fd.mpf_cache
+2025-04-06 10:07:04,931 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./red_knife_expand_reverse.yaml.
+2025-04-06 10:07:04,965 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./red_knife_expand_reverse.yaml
+2025-04-06 10:07:04,966 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/3dbc438e88423aa3ff742db2713b600f.mpf_cache
+2025-04-06 10:07:04,966 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_tilt.yaml.
+2025-04-06 10:07:04,967 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_tilt.yaml
+2025-04-06 10:07:04,967 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/154d071a3850556c6f3eae37bf41c8b6.mpf_cache
+2025-04-06 10:07:04,967 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./knife_breathe.yaml.
+2025-04-06 10:07:05,018 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./knife_breathe.yaml
+2025-04-06 10:07:05,021 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ab100dbe0e16472b56f0213f3842a00f.mpf_cache
+2025-04-06 10:07:05,021 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_stadium.yaml.
+2025-04-06 10:07:05,022 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./attract_stadium.yaml
+2025-04-06 10:07:05,022 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f03ad90ccd2c053e9e5d10795d01f4ba.mpf_cache
+2025-04-06 10:07:05,022 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./gi-start.yaml.
+2025-04-06 10:07:05,022 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./gi-start.yaml
+2025-04-06 10:07:05,023 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0f3c951d4c93079ae3fac6429c5bc2ee.mpf_cache
+2025-04-06 10:07:05,023 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./red_circle_expand.yaml.
+2025-04-06 10:07:05,052 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/attract/shows/./red_circle_expand.yaml
+2025-04-06 10:07:05,055 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/8bf004783a280ac33d17b88f37848116.mpf_cache
+2025-04-06 10:07:05,057 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/base/shows/./gi_on.yaml.
+2025-04-06 10:07:05,057 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/base/shows/./gi_on.yaml
+2025-04-06 10:07:05,057 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d5d50eaa09e055f3a827c6269a3aa165.mpf_cache
+2025-04-06 10:07:05,058 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/lane_rotate/shows/./lanes_complete.yaml.
+2025-04-06 10:07:05,059 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/lane_rotate/shows/./lanes_complete.yaml
+2025-04-06 10:07:05,059 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/db98bdefe8a072cec23a2527f4303b09.mpf_cache
+2025-04-06 10:07:05,060 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_qualify/shows/./fleshy_2.yaml.
+2025-04-06 10:07:05,062 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_qualify/shows/./fleshy_2.yaml
+2025-04-06 10:07:05,062 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/eefb91dd78a2b4d0f2b86f7f7cb501a3.mpf_cache
+2025-04-06 10:07:05,062 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_qualify/shows/./fleshy_3.yaml.
+2025-04-06 10:07:05,064 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_qualify/shows/./fleshy_3.yaml
+2025-04-06 10:07:05,064 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d32f8b43f49e3e57afbd189fbbccae80.mpf_cache
+2025-04-06 10:07:05,064 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_qualify/shows/./fleshy_1.yaml.
+2025-04-06 10:07:05,065 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_qualify/shows/./fleshy_1.yaml
+2025-04-06 10:07:05,065 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/08db62a1c5938674fa894d468364ed3e.mpf_cache
+2025-04-06 10:07:05,066 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy/shows/./mult_fleshy_start_show.yaml.
+2025-04-06 10:07:05,066 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy/shows/./mult_fleshy_start_show.yaml
+2025-04-06 10:07:05,066 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/98754ca8fa1663afefe3af8297a0d59a.mpf_cache
+2025-04-06 10:07:05,067 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy/shows/./fleshy_blink.yaml.
+2025-04-06 10:07:05,067 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy/shows/./fleshy_blink.yaml
+2025-04-06 10:07:05,067 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0b5d87cc943a75a2ef030b7892588c99.mpf_cache
+2025-04-06 10:07:05,068 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_super/shows/./super_blink.yaml.
+2025-04-06 10:07:05,068 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_super/shows/./super_blink.yaml
+2025-04-06 10:07:05,069 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/5545c5ff302318fa3a4687589808743d.mpf_cache
+2025-04-06 10:07:05,069 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_super/shows/./knife_breathe_super.yaml.
+2025-04-06 10:07:05,176 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_fleshy_super/shows/./knife_breathe_super.yaml
+2025-04-06 10:07:05,179 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/89af055c57b135455281acad4d6d7133.mpf_cache
+2025-04-06 10:07:05,179 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/launch_shows/shows/./launch_tilt.yaml.
+2025-04-06 10:07:05,180 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/launch_shows/shows/./launch_tilt.yaml
+2025-04-06 10:07:05,180 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/250153cb7d132f4134a2e9b694314568.mpf_cache
+2025-04-06 10:07:05,181 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/launch_shows/shows/./launch_lights.yaml.
+2025-04-06 10:07:05,181 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/launch_shows/shows/./launch_lights.yaml
+2025-04-06 10:07:05,181 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bbbe87a2f82c66174798be62d4e8058c.mpf_cache
+2025-04-06 10:07:05,182 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/hurryup_tilt_qualify/shows/./tilt_r_flash.yaml.
+2025-04-06 10:07:05,183 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/hurryup_tilt_qualify/shows/./tilt_r_flash.yaml
+2025-04-06 10:07:05,183 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/2f00c61e68427a4836dbfe64f1826615.mpf_cache
+2025-04-06 10:07:05,183 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/hurryup_tilt_qualify/shows/./tilt_l_flash.yaml.
+2025-04-06 10:07:05,183 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/hurryup_tilt_qualify/shows/./tilt_l_flash.yaml
+2025-04-06 10:07:05,184 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/fc2375d75a21213b7a8ae195deeda13f.mpf_cache
+2025-04-06 10:07:05,184 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/hurryup_tilt/shows/./tilt_gi.yaml.
+2025-04-06 10:07:05,185 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/hurryup_tilt/shows/./tilt_gi.yaml
+2025-04-06 10:07:05,185 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d5f9bfe8056108a5be40a39619bb3439.mpf_cache
+2025-04-06 10:07:05,185 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_3_ball/shows/./3_ball_pop.yaml.
+2025-04-06 10:07:05,187 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_3_ball/shows/./3_ball_pop.yaml
+2025-04-06 10:07:05,187 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/19163f2ade63f89c343f09937767f090.mpf_cache
+2025-04-06 10:07:05,188 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_3_ball/shows/./3_ball_jp.yaml.
+2025-04-06 10:07:05,188 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_3_ball/shows/./3_ball_jp.yaml
+2025-04-06 10:07:05,189 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/3d6042441f881be1a2f7349307e61edc.mpf_cache
+2025-04-06 10:07:05,189 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_3_ball_qualify/shows/./3_ball_qualify_1.yaml.
+2025-04-06 10:07:05,190 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/mult_3_ball_qualify/shows/./3_ball_qualify_1.yaml
+2025-04-06 10:07:05,190 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ec8975352144a60f813d3d7569bfc183.mpf_cache
+2025-04-06 10:07:05,190 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-04-06 10:07:05,190 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-04-06-10-07-04-mpf-Tanners-Laptop.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/Users/tannerpetch/Documents/GitHub/lofab/logs/2025-04-06-10-07-04-mpf-Tanners-Laptop.local.log'}
+2025-04-06 10:07:05,190 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf
+2025-04-06 10:07:05,190 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/lofab
+2025-04-06 10:07:05,190 : INFO : Machine : Platform: darwin
+2025-04-06 10:07:05,190 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+2025-04-06 10:07:05,190 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2025-04-06 10:07:05,191 : INFO : Machine : Initializing MPF...
+2025-04-06 10:07:05,305 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,316 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,316 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,316 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,316 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,377 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,377 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,377 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,378 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,378 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,378 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/tannerpetch/Documents/GitHub/lofab/logs/2025-04-06-10-07-04-mpf-Tanners-Laptop.local.log', 'prev_value': None, 'change': True}
+2025-04-06 10:07:05,378 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-04-06 10:07:05,393 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py:124>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/devices/shot.py", line 79, in validate_and_parse_config
+    config = super().validate_and_parse_config(config, is_mode_config, debug_prefix)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry mode:mult_3_ball_qualify:shots:r_3_ball:profile = "3_ball_qualify_profile" is not valid. Device "3_ball_qualify_profile" not found in "shot_profiles:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2025-04-06 10:07:05,397 : INFO : Machine : Starting the main run loop.
+2025-04-06 10:07:05,398 : INFO : Machine : Shutting down...
+2025-04-06 10:07:05,398 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-06 10:07:06,401 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/devices/shot.py", line 79, in validate_and_parse_config
+    config = super().validate_and_parse_config(config, is_mode_config, debug_prefix)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/core/config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry mode:mult_3_ball_qualify:shots:r_3_ball:profile = "3_ball_qualify_profile" is not valid. Device "3_ball_qualify_profile" not found in "shot_profiles:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2025-04-06 10:07:06,415 : INFO : root : MPF run loop ended.

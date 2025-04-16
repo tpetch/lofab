@@ -25,6 +25,9 @@ fast:
       b_main:
         model: FP-I/O-3208
         order: 3
+      b_main_2:
+        model: FP-I/O-0804
+        order: 4
         
   exp:
     port: com5
@@ -51,7 +54,8 @@ modes:
   - launch_shows
   - hurryup_tilt_qualify
   - hurryup_tilt
-
+  - mult_3_ball
+  - mult_3_ball_qualify
 
 
 
@@ -231,36 +235,103 @@ lights:
     number: pf-3-11
     tags: playfield
     
+    
   l_pop_flasher_1:
-    number: pf-8-1
     tags: popflash
+    channels:
+      red:
+        number: pf-8-1-0 #+1
+      green:
+        number: pf-8-1-1 #+1
+      blue:
+        number: pf-8-1-2 #+1
+      white:
+        number: pf-8-2-1 #+2
+
   l_pop_flasher_2:
-    number: pf-8-2
     tags: popflash
+    channels:
+      red:
+        number: pf-8-2-2 #+1
+      green:
+        number: pf-8-2-0 #-2
+      blue:
+        number: pf-8-3-1 #+4
+      white:
+        number: pf-8-3-0 #-1
+
   l_pop_flasher_3:
-    number: pf-8-3
     tags: popflash
+    channels:
+      red:
+        number: pf-8-4-1 #+4
+      green:
+        number: pf-8-3-2 #-2
+      blue:
+        number: pf-8-4-0 #+1
+      white:
+        number: pf-8-4-2 #+2
+
   l_pop_flasher_4:
-    number: pf-8-4
     tags: popflash
+    channels:
+      red:
+        number: pf-8-5-0 #+1
+      green:
+        number: pf-8-5-1 #+1
+      blue:
+        number: pf-8-5-2 #+1
+      white:
+        number: pf-8-6-1 #+2
+
   l_pop_flasher_5:
-    number: pf-8-5
     tags: popflash
+    channels:
+      red:
+        number: pf-8-6-2 #+1
+      green:
+        number: pf-8-6-0 #-2
+      blue:
+        number: pf-8-7-1 #+4
+      white:
+        number: pf-8-7-0 #-1
+
   l_pop_flasher_6:
-    number: pf-8-6
     tags: popflash
+    channels:
+      red:
+        number: pf-8-8-1 #+4
+      green:
+        number: pf-8-7-2 #-2
+      blue:
+        number: pf-8-8-0 #+1
+      white:
+        number: pf-8-8-2 #+2
+
   l_pop_flasher_7:
-    number: pf-8-7
     tags: popflash
+    channels:
+      red:
+        number: pf-8-9-0 #+1
+      green:
+        number: pf-8-9-1 #+1
+      blue:
+        number: pf-8-9-2 #+1
+      white:
+        number: pf-8-10-1 #+2
+
   l_pop_flasher_8:
-    number: pf-8-8
     tags: popflash
-  l_pop_flasher_9:
-    number: pf-8-9
-    tags: popflash
-  l_pop_flasher_10:
-    number: pf-8-10
-    tags: popflash
+    channels:
+      red:
+        number: pf-8-10-2 #+1
+      green:
+        number: pf-8-10-0 #-2
+      blue:
+        number: pf-8-11-1 #+4
+      white:
+        number: pf-8-11-0 #-1
+
 
     
   l_stadium_1:
@@ -402,9 +473,9 @@ switches:
   s_stationary_s:
     number: b_main-11
     tags: playfield_active
-  s_stationary_back:
+  s_drop:
     number: b_main-12
-    tags: playfield_active
+    
   s_sling_r:
     number: b_main-13
   s_vuk:
@@ -430,6 +501,10 @@ switches:
     type: 'NC'
   s_e:
     number: b_main-23
+    type: 'NC'
+    
+  s_ramp_middle:
+    number: b_main-26
     type: 'NC'
 
 
@@ -475,16 +550,21 @@ coils:
 
   c_pop:
     number: b_main-4
+    default_pulse_ms: 12
 
   c_sling_l:
     number: b_main-3
-    default_pulse_ms: 10
+    default_pulse_ms: 12
     default_pulse_power: 0.8
   c_sling_r:
     number: b_main-6
-    default_pulse_ms: 10
+    default_pulse_ms: 12
   c_vuk:
     number: b_main-5
+    default_pulse_ms: 11
+    
+  c_drop:
+    number: b_main_2
     default_pulse_ms: 11
     
 spinners:
@@ -510,6 +590,18 @@ flippers:
     main_coil: c_flipper_r
     activation_switch: s_flipper_r
     enable_events: ball_started
+    
+drop_targets:
+    d_drop:
+      switch: s_drop
+      
+drop_target_banks:
+
+    dt_drop:
+      drop_targets: d_drop
+      reset_coil: c_drop
+      reset_events: ball_started
+      reset_on_complete: 10s
 
     
 
@@ -550,6 +642,11 @@ player_vars:
   current_room:
     initial_value: "LIVING ROOM"
     value_type: str
+  house_completes:
+    initial_value: 0
+  3ballmultiplier:
+    initial_value: 1
+    value_type: int
 
 
    

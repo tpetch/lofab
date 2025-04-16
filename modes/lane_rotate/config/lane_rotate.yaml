@@ -54,9 +54,10 @@ shot_profiles:
 variable_player:
   rotate_group_hit_complete:
     score: 1000
+    house_completes: 1
     
 event_player:
-  rotate_group_hit_complete: enable_mystery
+  rotate_group_hit_complete{house_completes==2}: 3_ball_qualify_start
     
 
   

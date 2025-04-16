@@ -10,7 +10,7 @@ mode:
     
 shots:
   r_stationary_back_fleshy:
-    switch: s_stationary_back
+    switch: s_ramp_middle
     profile: sp_fleshy_super_jp
     restart_events: mode_mult_fleshy_super_started
 

@@ -1,0 +1,28 @@
+#config_version=6
+mode:
+  start_events: 3_ball_qualify_start
+  stop_events: 3_ball_qualify_stop
+
+shots:
+
+  r_3_ball:
+    switch: s_vuk
+    profile: 3_ball_qualify_profile
+    restart_events: mode_mult_3_ball_qualify_started
+    show_tokens:
+      light1: l_vuk_arrow_top
+      light2: l_vuk_arrow_bot
+
+      
+shot_profiles:
+  3_ball_qualify_profile:
+    states:
+      - name: light3balllit
+        show: "3_ball_qualify_1"
+        
+        
+    
+event_player:
+  r_3_ball_hit:
+    - mult_3_ball_start
+    - 3_ball_qualify_stop

@@ -1,0 +1,21 @@
+#show_version=6
+
+    - lights:
+       (led): pink-f100ms
+       (led2): red-f100ms
+       (led3): pink-f100ms
+      duration: 100ms
+    - lights:
+       (led): off
+       (led2): off
+       (led3): off
+      duration: 50ms
+    - lights:
+       (led): red-f100ms
+       (led2): pink-f100ms
+       (led3): red-f100ms
+      duration: 100ms
+    - lights:
+       (led): off
+       (led2): off
+       (led3): off

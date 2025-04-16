@@ -19,7 +19,6 @@ sound_player:
   r_sling_l_hit: sd_sling_2
   r_sling_r_hit: sd_sling_1
   r_pop_hit: sd_sling_3
-  ball_started{ball==1}: tart_music
   
 ball_saves:
   ball_save_pop:
@@ -140,7 +139,7 @@ shots:
       led2: l_circle_loop
       
   r_stationary_back:
-    switch: s_stationary_back
+    switch: s_drop
     profile: sp_base 
     show_tokens:
       led: l_knife

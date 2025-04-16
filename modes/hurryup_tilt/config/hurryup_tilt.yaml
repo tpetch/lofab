@@ -82,13 +82,7 @@ shots:
       led: l_arrow_loop
       led2: l_circle_loop
       
-  r_stationary_back_tilt::
-    switch: s_stationary_back
-    profile: sp_tilt
-    show_tokens:
-      led: l_knife
-      led2: l_circle_knife
-      led3: l_big_arrow_b
+
     
 shot_profiles:
   sp_tilt:

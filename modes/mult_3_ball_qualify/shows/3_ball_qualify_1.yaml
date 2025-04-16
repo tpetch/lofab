@@ -1,0 +1,14 @@
+#show_version=6
+
+    - lights:
+       (light1): red-f100ms
+       (light2): pink-f100
+      duration: 200ms
+    - lights:
+       (light1): pink-f100
+       (light2): off-f100
+      duration: 200ms
+    - lights:
+       (light1): off-f100
+       (light2): red-f100
+      duration: 200ms
