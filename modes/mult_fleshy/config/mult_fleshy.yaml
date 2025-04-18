@@ -102,5 +102,9 @@ shot_groups:
 event_player:
   fleshy_jackpot_group_jp_hit_complete:
     - mult_fleshy_super_begin
+  multiball_fleshy_multiball_started:
+    - stop_modes_during_multiball
+  multiball_fleshy_multiball_ended:
+    - start_modes_after_multiball
 
     

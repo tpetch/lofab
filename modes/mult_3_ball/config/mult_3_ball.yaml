@@ -79,6 +79,13 @@ variable_player:
     3ballmultiplier:
       int: 1
       action: set
+      
+event_player:
+
+  multiball_3_ball_multiball_started:
+    - stop_modes_during_multiball
+  multiball_3_ball_multiball_ended:
+    - start_modes_after_multiball
 
 
 

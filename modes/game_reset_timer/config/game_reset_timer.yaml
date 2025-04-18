@@ -1,0 +1,21 @@
+#config_version=6
+mode:
+  start_events: ball_started
+  stop_events: ball_will_end
+  
+timers:
+  game_reset:
+    start_value: 60
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - event: mode_game_reset_timer_started
+        action: start
+      - event: s_flipper_l_hit
+        action: reset
+      - event: s_flipper_r_hit
+        action: reset
+event_player:
+  timer_game_reset_complete:
+    - end_game

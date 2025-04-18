@@ -52,10 +52,9 @@ modes:
   - mult_fleshy_super
   - start_ball_save
   - launch_shows
-  - hurryup_tilt_qualify
-  - hurryup_tilt
   - mult_3_ball
   - mult_3_ball_qualify
+  - game_reset_timer
 
 
 

@@ -1,7 +1,7 @@
 #config_version=6
 mode:
-  start_events: fleshy_qualify_start, ball_started #{ball==1}
-  stop_events: fleshy_qualify_stop
+  start_events: fleshy_qualify_start, ball_started, start_modes_after_multiball
+  stop_events: fleshy_qualify_stop, stop_modes_during_multiball
 
 shots:
 
