@@ -2,7 +2,8 @@
 mode:
   start_events: mult_3_ball_start
   stop_events: mult_3_ball_stop, multiball_3_ball_multiball_ended
-    events_when_started: fleshy_qualify_stop
+  events_when_started: fleshy_qualify_stop
+  events_when_stopped: fleshy_qualify_start
   priority: 190
   
 multiballs:
@@ -53,12 +54,8 @@ shots:
       led2: l_circle_loop
   r_pop_fleshy:
     switch: s_pop
-    profile: sp_3_ball_pop
     restart_events: mult_flesh_jp_reset
-    show_tokens:
-      led: l_pop_flasher_1
-      led2: l_pop_flasher_3
-      led3: l_pop_flasher_5
+
 
 shot_profiles:
   sp_3_ball_jp:
@@ -66,11 +63,6 @@ shot_profiles:
       states:
       - name: 
         show: "3_ball_jp"
-  sp_3_ball_pop:
-      block: true
-      states:
-      - name: 
-        show: "3_ball_pop"
         
 variable_player:
   r_ramp_l_fleshy_sp_fleshy_jp_hit:

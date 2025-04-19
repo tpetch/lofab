@@ -234,7 +234,7 @@ lights:
     tags: playfield
     
     
-  l_pop_ring_b_1:
+  l_pop_flasher_1:
     tags: popflash
     channels:
       red:
@@ -246,7 +246,7 @@ lights:
       white:
         number: pf-8-2-1 #+2
 
-  l_pop_ring_b_2:
+  l_pop_flasher_2:
     tags: popflash
     channels:
       red:
@@ -258,7 +258,7 @@ lights:
       white:
         number: pf-8-3-0 #-1
 
-  l_pop_ring_b_3:
+  l_pop_flasher_3:
     tags: popflash
     channels:
       red:
@@ -270,7 +270,7 @@ lights:
       white:
         number: pf-8-4-2 #+2
 
-  l_pop_ring_b_4:
+  l_pop_flasher_4:
     tags: popflash
     channels:
       red:
@@ -282,7 +282,7 @@ lights:
       white:
         number: pf-8-6-1 #+2
 
-  l_pop_ring_b_5:
+  l_pop_flasher_5:
     tags: popflash
     channels:
       red:
@@ -294,7 +294,7 @@ lights:
       white:
         number: pf-8-7-0 #-1
 
-  l_pop_ring_b_6:
+  l_pop_flasher_6:
     tags: popflash
     channels:
       red:
@@ -306,7 +306,7 @@ lights:
       white:
         number: pf-8-8-2 #+2
 
-  l_pop_ring_b_7:
+  l_pop_flasher_7:
     tags: popflash
     channels:
       red:
@@ -318,7 +318,7 @@ lights:
       white:
         number: pf-8-10-1 #+2
 
-  l_pop_ring_b_8:
+  l_pop_flasher_8:
     tags: popflash
     channels:
       red:
