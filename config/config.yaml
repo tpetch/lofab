@@ -556,14 +556,14 @@ coils:
     default_pulse_power: 0.8
   c_sling_r:
     number: b_main-6
-    default_pulse_ms: 12
+    default_pulse_ms: 15
   c_vuk:
     number: b_main-5
     default_pulse_ms: 11
     
   c_drop:
     number: b_main_2-0
-    default_pulse_ms: 11
+    default_pulse_ms: 25
     
 spinners:
   spinner:
