@@ -702,3 +702,42 @@
 2025-04-19 13:49:20,867 : INFO : EventManager : Event: ======'mode_mult_fleshy_qualify_stopped'====== Args={}
 2025-04-19 13:49:20,867 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'mult_fleshy_qualify'}
 2025-04-19 13:49:21,007 : INFO : SwitchController : <<<<<<< 's_vuk' inactive >>>>>>>
+2025-04-19 14:53:26,169 : INFO : Machine : Shutting down...
+2025-04-19 14:53:26,169 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-19 14:53:26,179 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-04-19 14:53:26,189 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-04-19 14:53:26,189 : INFO : EventManager : Event: ======'mode_start_ball_save_will_stop'====== Args={}
+2025-04-19 14:53:26,189 : INFO : EventManager : Event: ======'mode_start_ball_save_stopping'====== Args={}
+2025-04-19 14:53:26,190 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-04-19 14:53:26,190 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-04-19 14:53:26,190 : INFO : EventManager : Event: ======'mode_mult_3_ball_will_stop'====== Args={}
+2025-04-19 14:53:26,190 : INFO : EventManager : Event: ======'mode_mult_3_ball_stopping'====== Args={}
+2025-04-19 14:53:26,190 : INFO : EventManager : Event: ======'mode_lane_rotate_will_stop'====== Args={}
+2025-04-19 14:53:26,190 : INFO : EventManager : Event: ======'mode_lane_rotate_stopping'====== Args={}
+2025-04-19 14:53:26,191 : INFO : Mode.lane_rotate : Stopped.
+2025-04-19 14:53:26,191 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 14:53:26,191 : INFO : EventManager : Event: ======'mode_lane_rotate_stopped'====== Args={}
+2025-04-19 14:53:26,191 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'lane_rotate'}
+2025-04-19 14:53:26,192 : INFO : Mode.mult_3_ball : Stopped.
+2025-04-19 14:53:26,192 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 14:53:26,192 : INFO : EventManager : Event: ======'fleshy_qualify_start'====== Args={}
+2025-04-19 14:53:26,192 : INFO : EventManager : Event: ======'mode_mult_3_ball_stopped'====== Args={}
+2025-04-19 14:53:26,192 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'mult_3_ball'}
+2025-04-19 14:53:26,192 : INFO : EventManager : Event: ======'mode_mult_fleshy_qualify_will_start'====== Args={}
+2025-04-19 14:53:26,195 : INFO : EventManager : Event: ======'mode_mult_fleshy_qualify_starting'====== Args={}
+2025-04-19 14:53:26,195 : INFO : EventManager : Event: ======'ball_save_3_ball_save_disabled'====== Args={}
+2025-04-19 14:53:26,195 : INFO : Mode.mult_fleshy_qualify : Will not start because machine is shutting down.
+2025-04-19 14:53:26,195 : INFO : Mode.base : Stopped.
+2025-04-19 14:53:26,195 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 14:53:26,195 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-04-19 14:53:26,195 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-04-19 14:53:26,195 : INFO : EventManager : Event: ======'ball_save_ball_save_pop_disabled'====== Args={}
+2025-04-19 14:53:26,196 : INFO : Mode.start_ball_save : Stopped.
+2025-04-19 14:53:26,196 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 14:53:26,196 : INFO : EventManager : Event: ======'mode_start_ball_save_stopped'====== Args={}
+2025-04-19 14:53:26,196 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'start_ball_save'}
+2025-04-19 14:53:26,196 : INFO : Mode.game : Stopped.
+2025-04-19 14:53:26,196 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 14:53:26,196 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-04-19 14:53:26,196 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-04-19 14:53:26,198 : INFO : root : MPF run loop ended.
