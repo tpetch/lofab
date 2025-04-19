@@ -1,0 +1,1238 @@
+2025-04-19 06:50:17,819 : INFO : root : Loading config.
+2025-04-19 06:50:17,853 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/config_spec.mpf_cache
+2025-04-19 06:50:17,854 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-19 06:50:17,854 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/6ff7b030602f0995afddaebb699d5ec1.mpf_cache
+2025-04-19 06:50:18,056 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/5734f584a69cbb232024905ea29487b8.mpf_cache
+2025-04-19 06:50:18,058 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bd1387dfa7de7ffc5bacad015019c743.mpf_cache
+2025-04-19 06:50:18,060 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f97c90855879603280fcc571f5c42639.mpf_cache
+2025-04-19 06:50:18,061 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/5734f584a69cbb232024905ea29487b8.mpf_cache
+2025-04-19 06:50:18,062 : WARNING : ConfigProcessor : Config file in cache changed: /Users/tannerpetch/Documents/GitHub/lofab/modes/lane_rotate/config/lane_rotate.yaml
+2025-04-19 06:50:18,062 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/modes/lane_rotate/config/lane_rotate.yaml.
+2025-04-19 06:50:18,065 : INFO : ConfigProcessor : Loading config: /Users/tannerpetch/Documents/GitHub/lofab/modes/lane_rotate/config/lane_rotate.yaml
+2025-04-19 06:50:18,067 : INFO : ConfigProcessor : Config file cache created: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/1875c266911f801b691956fe9e9284d6.mpf_cache
+2025-04-19 06:50:18,067 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/5336ce152edc820b26f3a51a9f95779b.mpf_cache
+2025-04-19 06:50:18,069 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/584196ece55f676a535bfbda3a88171a.mpf_cache
+2025-04-19 06:50:18,073 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/580ec13747cbd889de997403d41329e7.mpf_cache
+2025-04-19 06:50:18,075 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/4b1e343fa9806c398ec7ee103dcfa7e2.mpf_cache
+2025-04-19 06:50:18,077 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/66764f8b68b26fdba6c1f2bce3638479.mpf_cache
+2025-04-19 06:50:18,078 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/da25988703320750b4162c9008d660a0.mpf_cache
+2025-04-19 06:50:18,078 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/c3c7ba911a0619b65be5584a0c6df5cc.mpf_cache
+2025-04-19 06:50:18,078 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/9154f5307000602af503103d48882de0.mpf_cache
+2025-04-19 06:50:18,086 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/a3ab7d74d06f7d14292ebc77e3ada161.mpf_cache
+2025-04-19 06:50:18,088 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/2b5fdb8fd0e736387486af32f8df92fd.mpf_cache
+2025-04-19 06:50:18,091 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/3dbc438e88423aa3ff742db2713b600f.mpf_cache
+2025-04-19 06:50:18,098 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/154d071a3850556c6f3eae37bf41c8b6.mpf_cache
+2025-04-19 06:50:18,099 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ab100dbe0e16472b56f0213f3842a00f.mpf_cache
+2025-04-19 06:50:18,103 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/f03ad90ccd2c053e9e5d10795d01f4ba.mpf_cache
+2025-04-19 06:50:18,104 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0f3c951d4c93079ae3fac6429c5bc2ee.mpf_cache
+2025-04-19 06:50:18,104 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/8bf004783a280ac33d17b88f37848116.mpf_cache
+2025-04-19 06:50:18,106 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d5d50eaa09e055f3a827c6269a3aa165.mpf_cache
+2025-04-19 06:50:18,107 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/db98bdefe8a072cec23a2527f4303b09.mpf_cache
+2025-04-19 06:50:18,108 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/eefb91dd78a2b4d0f2b86f7f7cb501a3.mpf_cache
+2025-04-19 06:50:18,108 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/d32f8b43f49e3e57afbd189fbbccae80.mpf_cache
+2025-04-19 06:50:18,109 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/08db62a1c5938674fa894d468364ed3e.mpf_cache
+2025-04-19 06:50:18,109 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/98754ca8fa1663afefe3af8297a0d59a.mpf_cache
+2025-04-19 06:50:18,110 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/0b5d87cc943a75a2ef030b7892588c99.mpf_cache
+2025-04-19 06:50:18,111 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/5545c5ff302318fa3a4687589808743d.mpf_cache
+2025-04-19 06:50:18,111 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/89af055c57b135455281acad4d6d7133.mpf_cache
+2025-04-19 06:50:18,118 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/250153cb7d132f4134a2e9b694314568.mpf_cache
+2025-04-19 06:50:18,119 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/bbbe87a2f82c66174798be62d4e8058c.mpf_cache
+2025-04-19 06:50:18,124 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/19163f2ade63f89c343f09937767f090.mpf_cache
+2025-04-19 06:50:18,126 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/3d6042441f881be1a2f7349307e61edc.mpf_cache
+2025-04-19 06:50:18,130 : INFO : ConfigProcessor : Loading config from cache: /var/folders/l2/q8hj_6s91xnb2jxg1sqm0h7r0000gn/T/ec8975352144a60f813d3d7569bfc183.mpf_cache
+2025-04-19 06:50:18,132 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev4
+2025-04-19 06:50:18,132 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-04-19-06-50-17-mpf-Tanners-Laptop.home.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False, 'full_logfile_path': '/Users/tannerpetch/Documents/GitHub/lofab/logs/2025-04-19-06-50-17-mpf-Tanners-Laptop.home.local.log'}
+2025-04-19 06:50:18,132 : INFO : Machine : MPF path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf
+2025-04-19 06:50:18,132 : INFO : Machine : Machine path: /Users/tannerpetch/Documents/GitHub/lofab
+2025-04-19 06:50:18,132 : INFO : Machine : Platform: darwin
+2025-04-19 06:50:18,132 : INFO : Machine : Python executable location: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+2025-04-19 06:50:18,132 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2025-04-19 06:50:18,132 : INFO : Machine : Initializing MPF...
+2025-04-19 06:50:18,308 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,327 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,327 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4', 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,327 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev4, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,327 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,354 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-14.3-arm64-arm-64bit', 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,355 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,355 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '23.3.0', 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,355 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 23.3.0: Thu Dec 21 02:29:41 PST 2023; root:xnu-10002.81.5~11/RELEASE_ARM64_T8122', 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,355 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,355 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/tannerpetch/Documents/GitHub/lofab/logs/2025-04-19-06-50-17-mpf-Tanners-Laptop.home.local.log', 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,355 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-04-19 06:50:18,397 : INFO : EventManager : Event: ======'drop_target_bank_dt_drop_up'====== Args={}
+2025-04-19 06:50:18,398 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-04-19 06:50:18,402 : INFO : ball_device.bd_vuk : BCH: Initial count: 0
+2025-04-19 06:50:18,402 : INFO : ball_device.bd_vuk : State: idle
+2025-04-19 06:50:18,402 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2025-04-19 06:50:18,402 : INFO : ball_device.bd_trough : State: idle
+2025-04-19 06:50:18,422 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-04-19 06:50:18,640 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-04-19 06:50:18,643 : INFO : BallController : Initial balls found: 0
+2025-04-19 06:50:18,646 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,646 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp_complete'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_h'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp_middle'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_change_room'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_s'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_ramp_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_o'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_l'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,648 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,649 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_tilt_r'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,649 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,649 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_spinner'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,649 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_stationary_u'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,650 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_drop'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,650 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_e'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,650 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,650 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_vuk'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,650 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,651 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,651 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-04-19 06:50:18,652 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-04-19 06:50:18,652 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-04-19 06:50:18,652 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-04-19 06:50:18,652 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-04-19 06:50:18,652 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-04-19 06:50:18,653 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-04-19 06:50:18,653 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-04-19 06:50:18,653 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-04-19 06:50:18,653 : INFO : Mode.attract : Started. Priority: 10
+2025-04-19 06:50:18,653 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:50:18,653 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-04-19 06:50:18,654 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:18,654 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:18,654 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-04-19 06:50:18,655 : INFO : Machine : Starting the main run loop.
+2025-04-19 06:50:18,754 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:18,755 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:19,755 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:19,758 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:19,854 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:19,854 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:20,855 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:20,857 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:20,954 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:20,954 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:21,955 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:21,956 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:22,054 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:22,054 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:23,060 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:23,061 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:23,154 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:23,154 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:24,154 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:24,155 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:24,254 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:24,254 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:25,254 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:25,255 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:25,353 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:25,353 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:26,354 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:26,355 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:26,454 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:26,454 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:27,453 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:27,453 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:27,553 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:27,554 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:28,554 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:28,554 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:28,653 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:28,654 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:29,654 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:29,654 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:29,753 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:29,754 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:30,754 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:30,754 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:30,853 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:30,853 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:31,853 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:31,854 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:31,953 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:31,954 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:32,953 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:32,953 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:33,053 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:33,054 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:34,055 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:34,055 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:34,153 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:34,153 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:35,153 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:35,153 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:35,253 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:35,253 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:36,253 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:36,253 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:36,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:36,353 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:37,353 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:37,353 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:37,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:37,452 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:38,454 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:38,454 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:38,553 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:38,553 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:39,553 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:39,553 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:39,653 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:39,653 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:40,653 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:40,653 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:40,753 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:40,753 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:41,753 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:41,753 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:41,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:41,852 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:42,853 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:42,853 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:42,953 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:42,953 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:43,953 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:43,954 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:44,053 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:44,053 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:45,053 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:45,053 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:45,153 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:45,153 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:46,153 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:46,153 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:46,253 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:46,253 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:47,254 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:47,254 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:47,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:47,352 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:48,353 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:48,353 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:48,453 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:48,453 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:49,453 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:49,453 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:49,553 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:49,553 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:50,552 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:50,552 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:50,653 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:50,653 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:51,653 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:51,653 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:51,753 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:51,753 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:52,753 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:52,753 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:52,853 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:52,853 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:53,853 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:53,853 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:53,953 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:53,953 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:54,953 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:54,953 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:55,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:55,052 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:56,057 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:56,059 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:56,153 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:56,153 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:57,153 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:57,153 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:57,253 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:57,253 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:58,255 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:58,256 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:58,353 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:58,353 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:50:59,352 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:50:59,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:59,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:50:59,452 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:00,452 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:00,453 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:00,553 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:00,553 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:01,553 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:01,554 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:01,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:01,652 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:02,652 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:02,653 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:02,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:02,752 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:03,753 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:03,753 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:03,853 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:03,853 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:04,853 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:04,853 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:04,952 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:04,953 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:05,952 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:05,953 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:06,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:06,052 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:07,053 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:07,053 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:07,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:07,153 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:08,152 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:08,153 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:08,252 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:08,253 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:09,253 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:09,253 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:09,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:09,352 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:10,352 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:10,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:10,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:10,452 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:11,452 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:11,453 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:11,552 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:11,552 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:12,553 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:12,553 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:12,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:12,653 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:13,652 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:13,653 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:13,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:13,753 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:14,752 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:14,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:14,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:14,853 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:15,852 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:15,853 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:15,952 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:15,952 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:16,952 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:16,953 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:17,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:17,052 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:18,052 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:18,053 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:18,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:18,152 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:19,152 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:19,153 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:19,252 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:19,253 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:20,252 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:20,252 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:20,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:20,352 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:21,352 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:21,353 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:21,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:21,453 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:22,452 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:22,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:22,552 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:22,552 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:23,558 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:23,559 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:23,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:23,652 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:24,652 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:24,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:24,753 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:24,753 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:25,751 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:25,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:25,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:25,852 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:26,852 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:26,853 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:26,952 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:26,952 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:27,952 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:27,953 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:28,053 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:28,053 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:29,052 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:29,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:29,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:29,152 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:30,154 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:30,155 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:30,252 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:30,252 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:31,252 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:31,253 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:31,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:31,352 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:32,353 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:32,353 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:32,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:32,452 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:33,452 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:33,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:33,552 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:33,552 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:34,552 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:34,553 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:34,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:34,652 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:35,651 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:35,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:35,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:35,752 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:36,752 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:36,753 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:36,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:36,852 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:37,851 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:37,851 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:37,953 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:37,953 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:38,952 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:38,952 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:39,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:39,052 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:40,052 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:40,053 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:40,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:40,152 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:41,152 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:41,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:41,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:41,251 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:42,252 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:42,252 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:42,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:42,352 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:43,352 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:43,353 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:43,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:43,452 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:44,452 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:44,453 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:44,552 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:44,552 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:45,552 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:45,552 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:45,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:45,652 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:46,652 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:46,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:46,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:46,752 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:47,752 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:47,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:47,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:47,852 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:48,852 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:48,853 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:48,954 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:48,955 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:49,952 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:49,953 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:50,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:50,052 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:51,052 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:51,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:51,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:51,152 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:52,151 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:52,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:52,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:52,251 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:53,252 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:53,253 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:53,351 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:53,351 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:54,352 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:54,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:54,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:54,452 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:55,454 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:55,454 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:55,552 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:55,552 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:56,552 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:56,552 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:56,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:56,652 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:57,654 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:57,654 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:57,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:57,752 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:58,752 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:58,753 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:58,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:58,852 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:51:59,851 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:51:59,851 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:59,952 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:51:59,952 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:00,952 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:00,952 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:01,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:01,052 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:02,052 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:02,053 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:02,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:02,152 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:03,152 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:03,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:03,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:03,252 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:04,251 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:04,252 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:04,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:04,352 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:05,351 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:05,351 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:05,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:05,452 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:06,452 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:06,453 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:06,556 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:06,557 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:07,552 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:07,567 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:07,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:07,652 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:08,652 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:08,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:08,754 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:08,764 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:09,752 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:09,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:09,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:09,852 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:10,852 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:10,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:10,952 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:10,952 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:11,951 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:11,952 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:12,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:12,052 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:13,052 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:13,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:13,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:13,152 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:14,152 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:14,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:14,253 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:14,253 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:15,252 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:15,252 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:15,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:15,352 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:16,352 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:16,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:16,451 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:16,452 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:17,452 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:17,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:17,551 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:17,551 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:18,551 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:18,552 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:18,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:18,652 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:19,652 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:19,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:19,751 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:19,752 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:20,752 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:20,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:20,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:20,852 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:21,852 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:21,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:21,951 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:21,951 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:22,952 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:22,952 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:23,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:23,052 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:24,052 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:24,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:24,158 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:24,159 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:25,152 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:25,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:25,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:25,252 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:26,252 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:26,252 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:26,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:26,352 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:27,351 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:27,351 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:27,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:27,452 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:28,452 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:28,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:28,552 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:28,552 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:29,551 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:29,551 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:29,651 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:29,651 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:30,651 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:30,651 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:30,751 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:30,751 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:31,752 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:31,752 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:31,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:31,852 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:32,851 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:32,851 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:32,951 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:32,951 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:33,951 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:33,952 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:34,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:34,052 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:35,052 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:35,052 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:35,151 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:35,151 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:36,151 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:36,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:36,252 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:36,252 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:36,762 : INFO : BcpServer : New client connected.
+2025-04-19 06:52:37,251 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:37,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:37,351 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:37,351 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:38,351 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:38,352 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:38,451 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:38,451 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:39,451 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:39,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:39,551 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:39,551 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:40,551 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:40,551 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:40,651 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:40,652 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:41,651 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:41,652 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:41,751 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:41,751 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:42,751 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:42,751 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:42,851 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:42,852 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:43,852 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:43,852 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:43,951 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:43,951 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:44,951 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:44,951 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:45,053 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:45,055 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:46,051 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:46,051 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:46,151 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:46,151 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:47,151 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:47,151 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:47,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:47,251 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:48,251 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:48,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:48,351 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:48,351 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:49,350 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:49,350 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:49,451 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:49,451 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:50,451 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:50,452 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:50,551 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:50,551 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:51,551 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:51,551 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:51,651 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:51,651 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:52,651 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:52,651 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:52,751 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:52,751 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:53,751 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:53,751 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:53,851 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:53,851 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:54,851 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:54,851 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:54,951 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:54,951 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:55,240 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2025-04-19 06:52:55,348 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2025-04-19 06:52:55,349 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-04-19 06:52:55,349 : INFO : BallController : Known balls: 0
+2025-04-19 06:52:55,349 : INFO : BallController : bd_vuk contains 0 balls. Tags []
+2025-04-19 06:52:55,349 : INFO : BallController : bd_trough contains 0 balls. Tags ['trough', 'home', 'drain']
+2025-04-19 06:52:55,349 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2025-04-19 06:52:55,349 : WARNING : BallController : BallController denies game start. Not enough balls. 0 found. 1 required
+2025-04-19 06:52:55,349 : INFO : BallController : Triggering ball search.
+2025-04-19 06:52:55,951 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:55,951 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:56,051 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:56,051 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:57,051 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:57,051 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:57,151 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:57,151 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:58,151 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:58,152 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:58,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:58,251 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:52:59,005 : INFO : SwitchController : <<<<<<< 's_trough_1' active >>>>>>>
+2025-04-19 06:52:59,084 : INFO : SwitchController : <<<<<<< 's_trough_1' inactive >>>>>>>
+2025-04-19 06:52:59,251 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:52:59,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:59,351 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:52:59,351 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:00,351 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:00,351 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:00,451 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:00,452 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:01,451 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:01,451 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:01,550 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:01,550 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:02,502 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2025-04-19 06:53:02,551 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:02,551 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:02,651 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:02,651 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:02,681 : INFO : SwitchController : <<<<<<< 's_trough_4' inactive >>>>>>>
+2025-04-19 06:53:03,094 : INFO : SwitchController : <<<<<<< 's_trough_4' active >>>>>>>
+2025-04-19 06:53:03,597 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 1}
+2025-04-19 06:53:03,597 : INFO : ball_device.bd_trough : Received unexpected ball
+2025-04-19 06:53:03,597 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2025-04-19 06:53:03,598 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2025-04-19 06:53:03,598 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': None}
+2025-04-19 06:53:03,598 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-04-19 06:53:03,598 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2025-04-19 06:53:03,599 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2025-04-19 06:53:03,599 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2025-04-19 06:53:03,600 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 1
+2025-04-19 06:53:03,600 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2025-04-19 06:53:03,600 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2025-04-19 06:53:03,600 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2025-04-19 06:53:03,600 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-19 06:53:03,601 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2025-04-19 06:53:03,651 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:03,651 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:03,751 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:03,751 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:04,751 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:04,751 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:04,851 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:04,851 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:05,851 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:05,851 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:05,951 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:05,951 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:06,633 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2025-04-19 06:53:06,784 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2025-04-19 06:53:06,951 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:06,951 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:07,050 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:07,050 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:08,051 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:08,051 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:08,150 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:08,151 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:08,265 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2025-04-19 06:53:08,365 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2025-04-19 06:53:09,151 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:09,151 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:09,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:09,251 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:10,251 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:10,251 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:10,351 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:10,351 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:11,351 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:11,351 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:11,451 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:11,451 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:12,451 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:12,451 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:12,550 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:12,551 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:13,551 : INFO : coil.c_launch_light : Enabling Driver with power 1.0 (pulse_ms 10ms and pulse_power 1.0)
+2025-04-19 06:53:13,551 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:13,651 : INFO : coil.c_start_light : Disabling Driver
+2025-04-19 06:53:13,651 : INFO : coil.c_launch_light : Disabling Driver
+2025-04-19 06:53:13,702 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2025-04-19 06:53:13,865 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2025-04-19 06:53:13,865 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2025-04-19 06:53:13,866 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.1629581251181662}
+2025-04-19 06:53:13,866 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.1629581251181662}
+2025-04-19 06:53:13,867 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.1629581251181662}
+2025-04-19 06:53:13,867 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2025-04-19 06:53:13,867 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2025-04-19 06:53:13,868 : INFO : Mode.attract : Stopped.
+2025-04-19 06:53:13,868 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:13,869 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2025-04-19 06:53:13,869 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2025-04-19 06:53:13,869 : INFO : Mode.game : Started. Priority: 20
+2025-04-19 06:53:13,870 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:13,870 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.1629581251181662}
+2025-04-19 06:53:13,870 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2025-04-19 06:53:13,873 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2025-04-19 06:53:13,874 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('1f3bbeba-a28e-478d-b576-765e0d0459c1'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('5b566fae-e8e4-4fe0-9a36-7398f08ae851'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2025-04-19 06:53:13,874 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2025-04-19 06:53:13,874 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2025-04-19 06:53:13,874 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-19 06:53:13,875 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2025-04-19 06:53:13,875 : INFO : Mode.game : Player added successfully. Total players: 1
+2025-04-19 06:53:13,875 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-19 06:53:13,875 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-04-19 06:53:13,875 : INFO : EventManager : Event: ======'player_current_room'====== Args={'value': 'LIVING ROOM', 'prev_value': 'LIVING ROOM', 'change': False, 'player_num': 1}
+2025-04-19 06:53:13,875 : INFO : EventManager : Event: ======'player_house_completes'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-19 06:53:13,875 : INFO : EventManager : Event: ======'player_3ballmultiplier'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2025-04-19 06:53:13,875 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2025-04-19 06:53:13,876 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2025-04-19 06:53:13,879 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-19 06:53:13,885 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-19 06:53:13,885 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,886 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2025-04-19 06:53:13,886 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:13,887 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:13,887 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:13,887 : INFO : EventManager : Event: ======'player_shot_r_pop_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,887 : INFO : EventManager : Event: ======'player_shot_r_sling_l_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,887 : INFO : EventManager : Event: ======'player_shot_r_sling_r_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,887 : INFO : EventManager : Event: ======'player_shot_r_h_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,888 : INFO : EventManager : Event: ======'player_shot_r_o_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,888 : INFO : EventManager : Event: ======'player_shot_r_u_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,888 : INFO : EventManager : Event: ======'player_shot_r_s_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,888 : INFO : EventManager : Event: ======'player_shot_r_e_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,888 : INFO : EventManager : Event: ======'player_shot_r_ramp_r_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,888 : INFO : EventManager : Event: ======'player_shot_r_ramp_l_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,889 : INFO : EventManager : Event: ======'player_shot_r_vuk_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,889 : INFO : EventManager : Event: ======'player_shot_r_vuk_bank_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,889 : INFO : EventManager : Event: ======'player_shot_r_right_orbit_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,889 : INFO : EventManager : Event: ======'player_shot_r_stationary_back_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:13,891 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:13,891 : INFO : EventManager : Event: ======'waiting_for_launch_press'====== Args={}
+2025-04-19 06:53:13,891 : INFO : EventManager : Event: ======'mode_launch_shows_will_start'====== Args={}
+2025-04-19 06:53:13,892 : INFO : EventManager : Event: ======'mode_launch_shows_starting'====== Args={}
+2025-04-19 06:53:13,892 : INFO : Mode.launch_shows : Started. Priority: 200
+2025-04-19 06:53:13,892 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:13,892 : INFO : EventManager : Event: ======'mode_launch_shows_started'====== Args={}
+2025-04-19 06:53:13,893 : INFO : Mode.base : Started. Priority: 100
+2025-04-19 06:53:13,893 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:13,893 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:13,893 : INFO : EventManager : Event: ======'ball_save_ball_save_pop_enabled'====== Args={}
+2025-04-19 06:53:15,484 : INFO : SwitchController : <<<<<<< 's_launch' active >>>>>>>
+2025-04-19 06:53:15,484 : INFO : EventManager : Event: ======'e_launch_press'====== Args={}
+2025-04-19 06:53:15,484 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch'====== Args={'value': 1, 'prev_value': 0, 'change': 1}
+2025-04-19 06:53:15,485 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2025-04-19 06:53:15,485 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,486 : INFO : EventManager : Event: ======'mode_launch_shows_will_stop'====== Args={}
+2025-04-19 06:53:15,486 : INFO : EventManager : Event: ======'mode_launch_shows_stopping'====== Args={}
+2025-04-19 06:53:15,486 : INFO : EventManager : Event: ======'mode_start_ball_save_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,486 : INFO : EventManager : Event: ======'mode_start_ball_save_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,486 : INFO : EventManager : Event: ======'mode_mult_fleshy_qualify_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,486 : INFO : EventManager : Event: ======'player_shot_r_o_fleshy_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:15,487 : INFO : EventManager : Event: ======'player_shot_r_s_fleshy_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:15,487 : INFO : EventManager : Event: ======'fleshy_shots_complete'====== Args={'state': 'light1lit'}
+2025-04-19 06:53:15,487 : INFO : EventManager : Event: ======'fleshy_shots_light1lit_complete'====== Args={}
+2025-04-19 06:53:15,487 : INFO : EventManager : Event: ======'mode_mult_fleshy_qualify_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,487 : INFO : EventManager : Event: ======'mode_game_reset_timer_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,487 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 60, 'prev_value': 0, 'change': 60, 'player_num': 1}
+2025-04-19 06:53:15,488 : INFO : EventManager : Event: ======'mode_game_reset_timer_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,488 : INFO : EventManager : Event: ======'mode_lane_rotate_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,488 : INFO : EventManager : Event: ======'player_shot_r_h_rotate_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:15,488 : INFO : EventManager : Event: ======'player_shot_r_o_rotate_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:15,488 : INFO : EventManager : Event: ======'player_shot_r_u_rotate_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:15,488 : INFO : EventManager : Event: ======'player_shot_r_s_rotate_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:15,489 : INFO : EventManager : Event: ======'player_shot_r_e_rotate_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:15,489 : INFO : EventManager : Event: ======'rotate_group_complete'====== Args={'state': 'unlit'}
+2025-04-19 06:53:15,489 : INFO : EventManager : Event: ======'rotate_group_unlit_complete'====== Args={}
+2025-04-19 06:53:15,490 : INFO : EventManager : Event: ======'mode_lane_rotate_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,490 : INFO : EventManager : Event: ======'mode_mult_3_ball_qualify_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,490 : INFO : EventManager : Event: ======'player_shot_r_3_ball_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2025-04-19 06:53:15,490 : INFO : EventManager : Event: ======'mode_mult_3_ball_qualify_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,490 : INFO : drop_target_bank.dt_drop : All targets are already up. Will not reset bank.
+2025-04-19 06:53:15,491 : INFO : Mode.mult_3_ball_qualify : Started. Priority: 100
+2025-04-19 06:53:15,491 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:15,491 : INFO : EventManager : Event: ======'mode_mult_3_ball_qualify_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,491 : INFO : Mode.lane_rotate : Started. Priority: 100
+2025-04-19 06:53:15,491 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:15,491 : INFO : EventManager : Event: ======'mode_lane_rotate_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,491 : INFO : Mode.game_reset_timer : Started. Priority: 100
+2025-04-19 06:53:15,491 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:15,491 : INFO : EventManager : Event: ======'mode_game_reset_timer_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,491 : INFO : Timer.game_reset : Starting Timer.
+2025-04-19 06:53:15,491 : INFO : EventManager : Event: ======'timer_game_reset_started'====== Args={'ticks': 60, 'ticks_remaining': 60}
+2025-04-19 06:53:15,491 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 60, 'ticks_remaining': 60}
+2025-04-19 06:53:15,491 : INFO : Mode.mult_fleshy_qualify : Started. Priority: 100
+2025-04-19 06:53:15,491 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:15,491 : INFO : EventManager : Event: ======'mode_mult_fleshy_qualify_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,492 : INFO : Mode.start_ball_save : Started. Priority: 100
+2025-04-19 06:53:15,492 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:15,492 : INFO : EventManager : Event: ======'mode_start_ball_save_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2025-04-19 06:53:15,492 : INFO : EventManager : Event: ======'ball_save_ball_save_ball_save_enabled'====== Args={}
+2025-04-19 06:53:15,492 : INFO : Mode.launch_shows : Stopped.
+2025-04-19 06:53:15,492 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:15,492 : INFO : EventManager : Event: ======'mode_launch_shows_stopped'====== Args={}
+2025-04-19 06:53:15,492 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'launch_shows'}
+2025-04-19 06:53:15,492 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2025-04-19 06:53:15,492 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2025-04-19 06:53:15,492 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2025-04-19 06:53:15,492 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2025-04-19 06:53:15,492 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2025-04-19 06:53:15,493 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:15,493 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-04-19 06:53:15,493 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:15,493 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:15,493 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2025-04-19 06:53:15,493 : INFO : EventManager : Event: ======'ball_save_ball_save_ball_save_timer_start'====== Args={}
+2025-04-19 06:53:15,494 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:15,494 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:15,598 : INFO : SwitchController : <<<<<<< 's_launch' inactive >>>>>>>
+2025-04-19 06:53:16,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 59, 'prev_value': 60, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:16,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 59, 'ticks_remaining': 59}
+2025-04-19 06:53:16,494 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2025-04-19 06:53:16,494 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:16,495 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 1}
+2025-04-19 06:53:16,495 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:16,495 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:16,495 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 1}
+2025-04-19 06:53:16,495 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:16,495 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:17,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 58, 'prev_value': 59, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:17,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 58, 'ticks_remaining': 58}
+2025-04-19 06:53:17,496 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2025-04-19 06:53:17,496 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:17,497 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 2}
+2025-04-19 06:53:17,497 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:17,497 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:17,497 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 2}
+2025-04-19 06:53:17,498 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:17,498 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:18,492 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 57, 'prev_value': 58, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:18,493 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 57, 'ticks_remaining': 57}
+2025-04-19 06:53:18,498 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2025-04-19 06:53:18,499 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:18,500 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 3}
+2025-04-19 06:53:18,500 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:18,500 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:18,500 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 3}
+2025-04-19 06:53:18,501 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:18,501 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:19,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 56, 'prev_value': 57, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:19,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 56, 'ticks_remaining': 56}
+2025-04-19 06:53:19,503 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 4}
+2025-04-19 06:53:19,504 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:19,505 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 4}
+2025-04-19 06:53:19,505 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:19,505 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:19,505 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 4}
+2025-04-19 06:53:19,506 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:19,506 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:20,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 55, 'prev_value': 56, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:20,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 55, 'ticks_remaining': 55}
+2025-04-19 06:53:20,493 : INFO : EventManager : Event: ======'ball_save_ball_save_ball_save_hurry_up'====== Args={}
+2025-04-19 06:53:20,507 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 5}
+2025-04-19 06:53:20,508 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:20,508 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 5}
+2025-04-19 06:53:20,509 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:20,509 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:20,509 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 5}
+2025-04-19 06:53:20,509 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:20,509 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:21,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 54, 'prev_value': 55, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:21,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 54, 'ticks_remaining': 54}
+2025-04-19 06:53:21,511 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 6}
+2025-04-19 06:53:21,511 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:21,511 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 6}
+2025-04-19 06:53:21,512 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:21,512 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:21,512 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 6}
+2025-04-19 06:53:21,512 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:21,512 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:22,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 53, 'prev_value': 54, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:22,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 53, 'ticks_remaining': 53}
+2025-04-19 06:53:22,513 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 7}
+2025-04-19 06:53:22,514 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:22,514 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 7}
+2025-04-19 06:53:22,514 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:22,514 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:22,514 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 7}
+2025-04-19 06:53:22,515 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:22,515 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:23,492 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 52, 'prev_value': 53, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:23,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 52, 'ticks_remaining': 52}
+2025-04-19 06:53:23,517 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 8}
+2025-04-19 06:53:23,518 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:23,518 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 8}
+2025-04-19 06:53:23,518 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:23,518 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:23,518 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 8}
+2025-04-19 06:53:23,519 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:23,519 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:24,492 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 51, 'prev_value': 52, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:24,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 51, 'ticks_remaining': 51}
+2025-04-19 06:53:24,520 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 9}
+2025-04-19 06:53:24,521 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:24,521 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 9}
+2025-04-19 06:53:24,521 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:24,521 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:24,521 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 9}
+2025-04-19 06:53:24,521 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:24,521 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:25,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 50, 'prev_value': 51, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:25,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 50, 'ticks_remaining': 50}
+2025-04-19 06:53:25,493 : INFO : EventManager : Event: ======'ball_save_ball_save_ball_save_grace_period'====== Args={}
+2025-04-19 06:53:25,523 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 10}
+2025-04-19 06:53:25,523 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:25,523 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 10}
+2025-04-19 06:53:25,523 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:25,523 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:25,523 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 10}
+2025-04-19 06:53:25,524 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:25,524 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:26,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 49, 'prev_value': 50, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:26,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 49, 'ticks_remaining': 49}
+2025-04-19 06:53:26,525 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 11}
+2025-04-19 06:53:26,525 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:26,525 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 11}
+2025-04-19 06:53:26,526 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:26,526 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:26,526 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 11}
+2025-04-19 06:53:26,526 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:26,526 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:27,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 48, 'prev_value': 49, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:27,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 48, 'ticks_remaining': 48}
+2025-04-19 06:53:27,494 : INFO : EventManager : Event: ======'ball_save_ball_save_ball_save_disabled'====== Args={}
+2025-04-19 06:53:27,526 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 12}
+2025-04-19 06:53:27,527 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:27,527 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 12}
+2025-04-19 06:53:27,527 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:27,527 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:27,527 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 12}
+2025-04-19 06:53:27,527 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:27,527 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:28,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 47, 'prev_value': 48, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:28,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 47, 'ticks_remaining': 47}
+2025-04-19 06:53:28,528 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 13}
+2025-04-19 06:53:28,529 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:28,529 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 13}
+2025-04-19 06:53:28,530 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:28,530 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:28,530 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 13}
+2025-04-19 06:53:28,531 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:28,531 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:29,492 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 46, 'prev_value': 47, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:29,493 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 46, 'ticks_remaining': 46}
+2025-04-19 06:53:29,533 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 14}
+2025-04-19 06:53:29,533 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:29,534 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 14}
+2025-04-19 06:53:29,534 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:29,534 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:29,534 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 14}
+2025-04-19 06:53:29,535 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:29,535 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:30,492 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 45, 'prev_value': 46, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:30,493 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 45, 'ticks_remaining': 45}
+2025-04-19 06:53:30,536 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 15}
+2025-04-19 06:53:30,536 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:30,537 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 15}
+2025-04-19 06:53:30,537 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:30,537 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:30,537 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 15}
+2025-04-19 06:53:30,538 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:30,538 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:31,492 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 44, 'prev_value': 45, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:31,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 44, 'ticks_remaining': 44}
+2025-04-19 06:53:31,539 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 16}
+2025-04-19 06:53:31,540 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:31,540 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 16}
+2025-04-19 06:53:31,540 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:31,540 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:31,540 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 16}
+2025-04-19 06:53:31,540 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:31,540 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:32,492 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 43, 'prev_value': 44, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:32,493 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 43, 'ticks_remaining': 43}
+2025-04-19 06:53:32,541 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 17}
+2025-04-19 06:53:32,542 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:32,542 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 17}
+2025-04-19 06:53:32,542 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:32,542 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:32,542 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 17}
+2025-04-19 06:53:32,543 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:32,543 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:33,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 42, 'prev_value': 43, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:33,491 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 42, 'ticks_remaining': 42}
+2025-04-19 06:53:33,544 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 18}
+2025-04-19 06:53:33,545 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:33,545 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 18}
+2025-04-19 06:53:33,545 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:33,546 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:33,546 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 18}
+2025-04-19 06:53:33,546 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:33,546 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:34,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 41, 'prev_value': 42, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:34,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 41, 'ticks_remaining': 41}
+2025-04-19 06:53:34,547 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 19}
+2025-04-19 06:53:34,548 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:34,548 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 19}
+2025-04-19 06:53:34,548 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:34,549 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:34,549 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 19}
+2025-04-19 06:53:34,549 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:34,549 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:35,492 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 40, 'prev_value': 41, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:35,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 40, 'ticks_remaining': 40}
+2025-04-19 06:53:35,551 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 20}
+2025-04-19 06:53:35,551 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:35,551 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 20}
+2025-04-19 06:53:35,551 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:35,551 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:35,551 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 20}
+2025-04-19 06:53:35,552 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:35,552 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:36,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 39, 'prev_value': 40, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:36,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 39, 'ticks_remaining': 39}
+2025-04-19 06:53:36,552 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 21}
+2025-04-19 06:53:36,553 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:36,553 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 21}
+2025-04-19 06:53:36,553 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:36,553 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:36,553 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 21}
+2025-04-19 06:53:36,553 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:36,553 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:37,492 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 38, 'prev_value': 39, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:37,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 38, 'ticks_remaining': 38}
+2025-04-19 06:53:37,555 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 22}
+2025-04-19 06:53:37,555 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:37,555 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 22}
+2025-04-19 06:53:37,555 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:37,556 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:37,556 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 22}
+2025-04-19 06:53:37,556 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:37,556 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:38,496 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 37, 'prev_value': 38, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:38,496 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 37, 'ticks_remaining': 37}
+2025-04-19 06:53:38,556 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 23}
+2025-04-19 06:53:38,559 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:38,559 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 23}
+2025-04-19 06:53:38,560 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:38,560 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:38,560 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 23}
+2025-04-19 06:53:38,561 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:38,561 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:39,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 36, 'prev_value': 37, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:39,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 36, 'ticks_remaining': 36}
+2025-04-19 06:53:39,562 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 24}
+2025-04-19 06:53:39,563 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:39,563 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 24}
+2025-04-19 06:53:39,563 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:39,563 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:39,563 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 24}
+2025-04-19 06:53:39,564 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:39,564 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:40,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 35, 'prev_value': 36, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:40,491 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 35, 'ticks_remaining': 35}
+2025-04-19 06:53:40,565 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 25}
+2025-04-19 06:53:40,566 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:40,566 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 25}
+2025-04-19 06:53:40,566 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:40,566 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:40,566 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 25}
+2025-04-19 06:53:40,567 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:40,567 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:41,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 34, 'prev_value': 35, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:41,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 34, 'ticks_remaining': 34}
+2025-04-19 06:53:41,569 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 26}
+2025-04-19 06:53:41,569 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:41,569 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 26}
+2025-04-19 06:53:41,569 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:41,569 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:41,570 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 26}
+2025-04-19 06:53:41,570 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:41,570 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:42,491 : INFO : EventManager : Event: ======'player_game_reset_timer_game_reset_tick'====== Args={'value': 33, 'prev_value': 34, 'change': -1, 'player_num': 1}
+2025-04-19 06:53:42,492 : INFO : EventManager : Event: ======'timer_game_reset_tick'====== Args={'ticks': 33, 'ticks_remaining': 33}
+2025-04-19 06:53:42,571 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <playfield.playfield>, 'balls': 1, 'retry': True, 'num_attempts': 27}
+2025-04-19 06:53:42,572 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2025-04-19 06:53:42,572 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 27}
+2025-04-19 06:53:42,572 : INFO : ball_device.bd_trough : State: ejecting
+2025-04-19 06:53:42,573 : INFO : ball_device.bd_trough : Ejecting ball to <playfield.playfield>
+2025-04-19 06:53:42,573 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 27}
+2025-04-19 06:53:42,573 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2025-04-19 06:53:42,573 : INFO : coil.c_trough : Pulsing Driver for 20ms (1.0 pulse_power)
+2025-04-19 06:53:42,652 : INFO : Machine : Shutting down...
+2025-04-19 06:53:42,652 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-19 06:53:42,655 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2025-04-19 06:53:42,655 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2025-04-19 06:53:42,655 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2025-04-19 06:53:42,655 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2025-04-19 06:53:42,655 : INFO : EventManager : Event: ======'mode_start_ball_save_will_stop'====== Args={}
+2025-04-19 06:53:42,655 : INFO : EventManager : Event: ======'mode_start_ball_save_stopping'====== Args={}
+2025-04-19 06:53:42,655 : INFO : EventManager : Event: ======'mode_mult_fleshy_qualify_will_stop'====== Args={}
+2025-04-19 06:53:42,655 : INFO : EventManager : Event: ======'mode_mult_fleshy_qualify_stopping'====== Args={}
+2025-04-19 06:53:42,655 : INFO : EventManager : Event: ======'mode_game_reset_timer_will_stop'====== Args={}
+2025-04-19 06:53:42,655 : INFO : EventManager : Event: ======'mode_game_reset_timer_stopping'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'mode_lane_rotate_will_stop'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'mode_lane_rotate_stopping'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'mode_mult_3_ball_qualify_will_stop'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'mode_mult_3_ball_qualify_stopping'====== Args={}
+2025-04-19 06:53:42,656 : INFO : Mode.mult_3_ball_qualify : Stopped.
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'mode_mult_3_ball_qualify_stopped'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'mult_3_ball_qualify'}
+2025-04-19 06:53:42,656 : INFO : Mode.lane_rotate : Stopped.
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'mode_lane_rotate_stopped'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'lane_rotate'}
+2025-04-19 06:53:42,656 : INFO : Mode.game_reset_timer : Stopped.
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'mode_game_reset_timer_stopped'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game_reset_timer'}
+2025-04-19 06:53:42,656 : INFO : Timer.game_reset : Stopping Timer
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'timer_game_reset_stopped'====== Args={'ticks': 33, 'ticks_remaining': 33}
+2025-04-19 06:53:42,656 : INFO : Mode.mult_fleshy_qualify : Stopped.
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'mode_mult_fleshy_qualify_stopped'====== Args={}
+2025-04-19 06:53:42,656 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'mult_fleshy_qualify'}
+2025-04-19 06:53:42,657 : INFO : Mode.start_ball_save : Stopped.
+2025-04-19 06:53:42,657 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:42,657 : INFO : EventManager : Event: ======'mode_start_ball_save_stopped'====== Args={}
+2025-04-19 06:53:42,657 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'start_ball_save'}
+2025-04-19 06:53:42,657 : INFO : Mode.base : Stopped.
+2025-04-19 06:53:42,657 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:42,657 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2025-04-19 06:53:42,657 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2025-04-19 06:53:42,657 : INFO : EventManager : Event: ======'ball_save_ball_save_pop_disabled'====== Args={}
+2025-04-19 06:53:42,657 : INFO : Mode.game : Stopped.
+2025-04-19 06:53:42,657 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-19 06:53:42,657 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2025-04-19 06:53:42,657 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2025-04-19 06:53:42,667 : INFO : root : MPF run loop ended.

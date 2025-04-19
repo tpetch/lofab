@@ -73,9 +73,9 @@ shot_profiles:
         
 variable_player:
   r_ramp_l_fleshy_sp_fleshy_jp_hit:
-    3ballmultiplier: 1
-  r_right_orbit_3_ball:
-    #score: current_player.3ballmultiplier * 100
+    threeballmultiplier: 3
+  r_right_orbit_3_ball_hit:
+    score:  current_player.threeballmultiplier * 100 * current_player.balls_in_play
     3ballmultiplier:
       int: 1
       action: set

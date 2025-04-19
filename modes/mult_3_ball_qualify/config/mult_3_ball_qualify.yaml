@@ -1,7 +1,7 @@
 #config_version=6
 mode:
-  start_events: 3_ball_qualify_start, ball_started, start_modes_after_multiball
-  stop_events: 3_ball_qualify_stop, ball_ending, stop_modes_during_multiball
+  start_events: 3_ball_qualify_start
+  stop_events: 3_ball_qualify_stop
 
 shots:
 

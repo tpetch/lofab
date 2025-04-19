@@ -57,7 +57,7 @@ variable_player:
     house_completes: 1
     
 event_player:
-  rotate_group_hit_complete{house_completes==2}: 3_ball_qualify_start
+  player_house_completes{current_player.house_completes==1}: 3_ball_qualify_start
     
 
   

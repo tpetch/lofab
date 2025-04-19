@@ -1,0 +1,5 @@
+2025-04-19 06:50:30,779 : INFO : root : Loading config.
+2025-04-19 06:50:30,782 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-19 06:50:30,782 : INFO : ConfigProcessor : Loading config from file /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-04-19 06:50:30,788 : INFO : ConfigProcessor : Loading config: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-04-19 06:50:30,788 : INFO : ConfigProcessor : Loading config from file /Users/tannerpetch/Documents/GitHub/lofab/monitor/config/config.yaml.

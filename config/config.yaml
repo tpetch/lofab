@@ -643,7 +643,7 @@ player_vars:
     value_type: str
   house_completes:
     initial_value: 0
-  3ballmultiplier:
+  threeballmultiplier:
     initial_value: 1
     value_type: int
 
