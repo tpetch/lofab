@@ -2,6 +2,7 @@
 mode:
   start_events: mult_fleshy_start
   stop_events: mult_fleshy_stop, multiball_fleshy_multiball_ended
+  events_when_started: 3_ball_qualify_stop
   priority: 200
   
 multiballs:

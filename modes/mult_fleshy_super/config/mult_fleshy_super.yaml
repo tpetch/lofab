@@ -2,6 +2,7 @@
 mode:
   start_events: mult_fleshy_super_begin
   stop_events: mult_fleshy_super_end, multiball_fleshy_multiball_ended
+
   priority: 210
   
     

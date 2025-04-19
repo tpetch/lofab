@@ -2,7 +2,8 @@
 mode:
   start_events: mult_3_ball_start
   stop_events: mult_3_ball_stop, multiball_3_ball_multiball_ended
-  priority: 200
+    events_when_started: fleshy_qualify_stop
+  priority: 190
   
 multiballs:
   3_ball_multiball:
@@ -78,6 +79,10 @@ variable_player:
     score:  current_player.threeballmultiplier * 100 * current_player.balls_in_play
     3ballmultiplier:
       int: 1
+      action: set
+  mode_mult_3_ball_started:
+    house_completes:
+      int: 0
       action: set
       
 event_player:

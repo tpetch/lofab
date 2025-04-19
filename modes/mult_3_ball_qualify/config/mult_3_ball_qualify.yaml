@@ -1,7 +1,8 @@
 #config_version=6
 mode:
-  start_events: 3_ball_qualify_start
+  start_events: 3_ball_qualify_start, ball_started{current_player.house_completes==2}, mode_mult_fleshy_ended{current_player.house_completes==2}
   stop_events: 3_ball_qualify_stop
+  priority: 190
 
 shots:
 
