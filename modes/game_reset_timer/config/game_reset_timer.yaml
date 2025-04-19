@@ -25,4 +25,6 @@ timers:
         action: restart
 event_player:
   timer_game_reset_complete:
-    - end_game
+   - e_launch_press
+   - end_game
+    
