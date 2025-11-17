@@ -1,0 +1,97 @@
+#config_version=6
+
+switches:
+
+# Board 0 - HeD
+
+  s_tilt_l:
+    number: b_head-5
+  s_tilt_r:
+    number: b_head-7
+
+# Board 1 - Cabinet Board
+
+  s_flipper_l:
+    number: b_cabinet-3
+    tags: left_flipper
+  s_flipper_r:
+    number: b_cabinet-0
+    tags: right_flipper
+  s_launch:
+    number: b_cabinet-1
+    events_when_activated: e_launch_press
+    tags: launch
+  s_start:
+    number: b_cabinet-2
+    tags: start
+    type: 'NC'
+    
+    
+    
+    
+# Board 2 - Lower Mini PLayfield
+
+
+  s_trough_1:
+    number: b_main-0
+    type: 'NC'
+  s_trough_2:
+    number: b_main-1
+    type: 'NC'
+  s_trough_3:
+    number: b_main-2
+    type: 'NC'
+  s_trough_4:
+    number: b_main-3
+    type: 'NC'
+  s_sling_l:
+    number: b_main-4
+    
+  s_stationary_o:
+    number: b_main-8
+    tags: playfield_active
+  s_stationary_u:
+    number: b_main-9
+    tags: playfield_active
+  s_pop:
+    number: b_main-10
+    
+  s_change_room:
+    number: b_main-5
+
+  s_stationary_s:
+    number: b_main-11
+    tags: playfield_active
+  s_drop:
+    number: b_main-12
+    
+  s_sling_r:
+    number: b_main-13
+  s_vuk:
+    number: b_main-14
+    tags:
+    type: 'NC'
+    
+  s_ramp_l:
+    number: b_main-27
+    type: 'NC'
+  s_ramp_r:
+    number: b_main-28
+    type: 'NC'
+  s_ramp_complete:
+    number: b_main-29
+    type: 'NC'
+  s_spinner:
+    number: b_main-30
+    type: 'NC'
+    
+  s_h:
+    number: b_main-22
+    type: 'NC'
+  s_e:
+    number: b_main-23
+    type: 'NC'
+    
+  s_ramp_middle:
+    number: b_main-26
+    type: 'NC'

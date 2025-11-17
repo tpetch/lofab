@@ -1,0 +1,7 @@
+#config_version=6
+mode:
+  start_events: room_change_enabled
+  stop_events: room_change_disabled
+  priority: 200
+
+shots:

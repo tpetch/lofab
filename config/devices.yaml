@@ -1,0 +1,58 @@
+#config_version=6
+
+spinners:
+  spinner:
+    switch: s_spinner
+    active_ms: 500
+   
+flippers:
+
+  f_l:
+    main_coil: c_flipper_l
+    activation_switch: s_flipper_l
+    enable_events: ball_started
+
+    
+  f_r:
+    main_coil: c_flipper_r
+    activation_switch: s_flipper_r
+    enable_events: ball_started
+    
+drop_targets:
+    d_drop:
+      switch: s_drop
+      
+drop_target_banks:
+
+    dt_drop:
+      drop_targets: d_drop
+      reset_coil: c_drop
+      reset_events: ball_started
+      reset_on_complete: 10s
+
+ball_devices:
+
+  bd_vuk:
+    ball_switches: s_vuk
+    eject_coil: c_vuk
+    eject_timeouts: 1s
+    
+  bd_trough:
+    ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4
+    eject_coil: c_trough
+    eject_timeouts: 1s
+    tags: trough, home, drain
+    
+autofire_coils:
+    
+  ac_lsling:
+    coil: c_sling_l
+    switch: s_sling_l
+    
+  ac_rsling:
+    coil: c_sling_r
+    switch: s_sling_r
+    
+  ac_pop:
+    coil: c_pop
+    switch: s_pop

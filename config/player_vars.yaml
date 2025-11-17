@@ -1,0 +1,11 @@
+#config_version=6
+
+player_vars:
+  current_room:
+    initial_value: "LIVING ROOM"
+    value_type: str
+  house_completes:
+    initial_value: 0
+  threeballmultiplier:
+    initial_value: 1
+    value_type: int

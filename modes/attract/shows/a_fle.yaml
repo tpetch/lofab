@@ -1,0 +1,6 @@
+#show_version=6
+
+
+    - lights:
+       stadium: red-f1s
+      duration: 1500ms

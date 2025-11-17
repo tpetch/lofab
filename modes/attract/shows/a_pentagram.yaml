@@ -1,0 +1,42 @@
+#show_version=6
+
+
+    - lights:
+      l_penta_1: (color)-f400ms
+      l_penta_2: off
+      l_penta_3: off
+      l_penta_4: off
+      l_penta_5: off
+      duration: 300ms
+      
+    - lights:
+      l_penta_1: off
+      l_penta_2: (color)-f400ms
+      l_penta_3: off
+      l_penta_4: off
+      l_penta_5: off
+      duration: 300ms
+      
+    - lights:
+      l_penta_1: off
+      l_penta_2: off
+      l_penta_3: (color)-f400ms
+      l_penta_4: off
+      l_penta_5: off
+      duration: 300ms
+      
+    - lights:
+      l_penta_1: off
+      l_penta_2: off
+      l_penta_3: off
+      l_penta_4: (color)-f400ms
+      l_penta_5: off
+      duration: 300ms
+      
+    - lights:
+      l_penta_1: off
+      l_penta_2: off
+      l_penta_3: off
+      l_penta_4: off
+      l_penta_5: (color)-f400ms
+      duration: 300ms

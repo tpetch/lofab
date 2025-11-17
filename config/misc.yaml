@@ -1,0 +1,12 @@
+#config_version=6
+
+queue_relay_player:
+  ball_starting:
+    post: waiting_for_launch_press
+    wait_for: e_launch_press
+    
+timed_switches:
+  game_cancel:
+    switch_tags: start
+    time: 5s
+    events_when_active: end_game

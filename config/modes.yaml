@@ -1,0 +1,16 @@
+#config_version=6
+
+modes:
+
+  - base
+  - attract
+  - lane_rotate
+  - mult_fleshy_qualify
+  - mult_fleshy
+  - mult_fleshy_super
+  - start_ball_save
+  - launch_shows
+  - mult_3_ball
+  - mult_3_ball_qualify
+  - room_change_active
+  - room_change_qualify

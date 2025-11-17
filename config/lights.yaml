@@ -1,0 +1,348 @@
+#config_version=6
+
+lights:
+
+# Chain 1 - Rear Left
+
+  l_sling_r:
+    number: pf-1-1
+    tags: playfield, slings
+  l_target_r_hurryup_1:
+    number: pf-1-2
+    tags: playfield, r_hurryup, target_r, stationary
+  l_target_r_hurryup_2:
+    number: pf-1-3
+    tags: playfield, r_hurryup, target_r, stationary
+  l_target_r_hurryup_3:
+    number: pf-1-4
+    tags: playfield, r_hurryup, target_r, stationary
+  l_target_r:
+    number: pf-1-5
+    tags: playfield, target_r, stationary, square
+  l_big_arrow_b:
+    number: pf-1-6
+    tags: playfield, knife, stationary
+  l_big_arrow_t:
+    number: pf-1-7
+    tags: playfield, knife, stationary
+  l_gi_1:
+    number: pf-1-8
+    tags: gi, gi_back_r, gi_right
+  l_gi_2: 
+    number: pf-1-9
+    tags: gi, gi_back_r, gi_right
+  l_arrow_loop:
+    number: pf-1-10
+    tags: playfield, arrow, loop
+  l_circle_loop:
+    number: pf-1-11
+    tags: playfield, circle, loop
+  l_gi_3:
+    number: pf-1-12
+    tags: gi, gi_mid_r, gi_right
+  l_vuk_square_top:
+    number: pf-1-13
+    tags: playfield, square, vuk
+  l_vuk_arrow_top:
+    number: pf-1-14
+    tags: playfield, arrow, vuk
+  l_vuk_arrow_bot:
+    number: pf-1-15
+    tags: playfield, arrow, vuk
+  l_vuk_square_bot:
+    number: pf-1-16
+    tags: playfield, square, vuk
+  l_gi_4:
+    number: pf-1-17
+    tags: gi, gi_mid_r, gi_right
+  l_gi_5:
+    number: pf-1-18
+    tags: gi, gi_mid_r, gi_right
+  l_inlane_r:
+    number: pf-1-19
+    tags: playfield, square, inlane
+  l_gi_6:
+    number: pf-1-20
+    tags: gi, gi_apron, gi_right
+  l_gi_7:
+    number: pf-1-21
+    tags: gi, gi_apron, gi_right
+  l_apron_indicator_5:
+    number: pf-1-22
+  l_apron_indicator_4:
+    number: pf-1-23
+  l_apron_indicator_3:
+    number: pf-1-24
+  l_apron_indicator_2:
+    number: pf-1-25
+  l_apron_indicator_1:
+    number: pf-1-26
+  l_gi_8:
+    number: pf-1-27
+    tags: gi, gi_apron, gi_right
+  l_gi_9:
+    number: pf-1-28
+    tags: gi, gi_apron, gi_right
+    
+# Chain 2
+
+  l_target_mid_l:
+    number: pf-2-1
+    tags: playfield, target_l, stationary, square
+  l_knife:
+    number: pf-2-2
+    tags: playfield, knife, stationary
+  l_circle_knife:
+    number: pf-2-3
+    tags: playfield, circle, knife
+  l_circle_ramp_r:
+    number: pf-2-4
+    tags: playfield, circle, ramp, ramp_r
+  l_target_l_hurryup_1:
+    number: pf-2-5
+    tags: playfield, l_hurryup, target_mid_l, stationary
+  l_target_l_hurryup_2:
+    number: pf-2-6
+    tags: playfield, l_hurryup, target_mid_l, stationary
+  l_target_l_hurryup_3:
+    number: pf-2-7
+    tags: playfield, l_hurryup, target_mid_l, stationary
+  l_target_l:
+    number: pf-2-8
+    tags: playfield, target_l, stationary, square
+  l_arrow_ramp_l:
+    number: pf-2-9
+    tags: playfield, arrow, ramp, ramp_l
+  l_circle_ramp_l:
+    number: pf-2-10
+    tags: playfield, circle, ramp, ramp_l
+  l_gi_10:
+    number: pf-2-11
+    tags: gi, gi_l, gi_mid_l
+  l_gi_11:
+    number: pf-2-12
+    tags: gi, gi_l, gi_mid_l
+  l_gi_12:
+    number: pf-2-13
+    tags: gi, gi_l, gi_mid_l
+  l_gi_13:
+    number: pf-2-14
+    tags: gi, gi_l, gi_mid_l
+  l_gi_14:
+    number: pf-2-15
+    tags: gi, gi_l, gi_mid_l
+  l_arrow_ramp_r:
+    number: pf-2-16
+    tags: playfield, arrow, ramp, ramp_r
+  l_gi_15:
+    number: pf-2-17
+    tags: gi, gi_l, gi_back
+  l_gi_16:
+    number: pf-2-18
+    tags: gi, gi_back, gi_l
+  l_gi_17:
+    number: pf-2-19
+    tags: gi, gi_back, gi_l
+
+# Chain 3
+
+  l_sling_l:
+    number: pf-3-1
+    tags: playfield, slings
+  l_gi_18:
+    number: pf-3-2
+    tags: gi, gi_apron, gi_l
+  l_gi_19:
+    number: pf-3-3
+    tags: gi, gi_apron, gi_l
+  l_inlane_l:
+    number: pf-3-4
+    tags: playfield, square, inlane
+  l_gi_20:
+    number: pf-3-5
+    tags: gi, gi_apron, gi_l
+  l_penta_1:
+    number: pf-3-6
+  l_penta_2:
+    number: pf-3-7
+  l_penta_3:
+    number: pf-3-8
+  l_penta_4:
+    number: pf-3-9
+  l_penta_5:
+    number: pf-3-10
+  l_shoot_again:
+    number: pf-3-11
+    tags: playfield
+    
+    
+  l_pop_flasher_1:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-1-0 #+1
+      green:
+        number: pf-8-1-1 #+1
+      blue:
+        number: pf-8-1-2 #+1
+      white:
+        number: pf-8-2-1 #+2
+
+  l_pop_flasher_2:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-2-2 #+1
+      green:
+        number: pf-8-2-0 #-2
+      blue:
+        number: pf-8-3-1 #+4
+      white:
+        number: pf-8-3-0 #-1
+
+  l_pop_flasher_3:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-4-1 #+4
+      green:
+        number: pf-8-3-2 #-2
+      blue:
+        number: pf-8-4-0 #+1
+      white:
+        number: pf-8-4-2 #+2
+
+  l_pop_flasher_4:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-5-0 #+1
+      green:
+        number: pf-8-5-1 #+1
+      blue:
+        number: pf-8-5-2 #+1
+      white:
+        number: pf-8-6-1 #+2
+
+  l_pop_flasher_5:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-6-2 #+1
+      green:
+        number: pf-8-6-0 #-2
+      blue:
+        number: pf-8-7-1 #+4
+      white:
+        number: pf-8-7-0 #-1
+
+  l_pop_flasher_6:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-8-1 #+4
+      green:
+        number: pf-8-7-2 #-2
+      blue:
+        number: pf-8-8-0 #+1
+      white:
+        number: pf-8-8-2 #+2
+
+  l_pop_flasher_7:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-9-0 #+1
+      green:
+        number: pf-8-9-1 #+1
+      blue:
+        number: pf-8-9-2 #+1
+      white:
+        number: pf-8-10-1 #+2
+
+  l_pop_flasher_8:
+    tags: popflash
+    channels:
+      red:
+        number: pf-8-10-2 #+1
+      green:
+        number: pf-8-10-0 #-2
+      blue:
+        number: pf-8-11-1 #+4
+      white:
+        number: pf-8-11-0 #-1
+
+
+    
+  l_stadium_1:
+    number: pf-5-1
+    tags: stadium
+  l_stadium_2:
+    number: pf-5-2
+    tags: stadium
+  l_stadium_3:
+    number: pf-5-3
+    tags: stadium
+  l_stadium_4:
+    number: pf-5-4
+    tags: stadium
+  l_stadium_5:
+    number: pf-5-5
+    tags: stadium
+  l_stadium_6:
+    number: pf-5-6
+    tags: stadium
+  l_stadium_7:
+    number: pf-5-7
+    tags: stadium
+  l_stadium_8:
+    number: pf-5-8
+    tags: stadium
+  l_stadium_9:
+    number: pf-5-9
+    tags: stadium
+  l_stadium_10:
+    number: pf-5-10
+    tags: stadium
+  l_stadium_11:
+    number: pf-5-11
+    tags: stadium
+    
+  l_tilt_1:
+    number: neu-1-1
+    tags: tilt_light
+  l_tilt_2:
+    number: neu-1-2
+    tags: tilt_light
+  l_tilt_3:
+    number: neu-1-3
+    tags: tilt_light
+  l_tilt_4:
+    number: neu-1-4
+    tags: tilt_light
+  l_tilt_5:
+    number: neu-1-5
+    tags: tilt_light
+  l_tilt_6:
+    number: neu-1-6
+    tags: tilt_light
+  l_tilt_7:
+    number: neu-1-7
+    tags: tilt_light
+  l_tilt_8:
+    number: neu-1-8
+    tags: tilt_light
+  l_tilt_null:
+    number: neu-1-9
+  l_tilt_on_1:
+    number: neu-1-10
+    tags: tilt_light
+  l_tilt_on_2:
+    number: neu-1-11
+    tags: tilt_light
+  l_tilt_front_r:
+    number: neu-1-12
+    tags: tilt_light
+  l_tilt_front_l:
+    number: neu-1-13
+    tags: tilt_light
