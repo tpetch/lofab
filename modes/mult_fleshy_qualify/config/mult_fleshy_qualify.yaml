@@ -48,3 +48,7 @@ shot_groups:
 event_player:
   fleshy_shots_light3lit_complete:
     - mult_fleshy_lit_start
+
+variable_player:
+  fleshy_shots_light3lit_complete:
+    v_fleshy_qualify_started: 1

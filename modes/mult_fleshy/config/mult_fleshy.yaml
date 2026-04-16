@@ -7,13 +7,13 @@ mode:
   
 multiballs:
   fleshy_multiball:
-    ball_count: 2
+    ball_count: 4
     shoot_again: 0s
     start_events: mode_mult_fleshy_started
     
 ball_saves:
   ball_save:
-    active_time: 20s
+    active_time: 10s
     hurry_up_time: 3s
     timer_start_events: balldevice_bd_trough_ejecting_ball
     auto_launch: true
@@ -98,6 +98,8 @@ variable_player:
   r_vuk_fleshy_sp_fleshy_jp_hit:
     score: 2000
     v_fleshy_jp_qualify: 1
+  mode_mult_fleshy_ending:
+    v_fleshy_qualify_started: -3
 
         
 shot_groups:

@@ -2,7 +2,7 @@
 # in your mode
 mode:
   start_events: ball_started
-  stop_events: end_ball_save
+  stop_events: end_ball_save, ball_save_ball_save_ball_save_disabled
 ball_saves:
   ball_save_ball_save:
     active_time: 4s
