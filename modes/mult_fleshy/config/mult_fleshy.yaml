@@ -50,28 +50,28 @@ shots:
   r_ramp_r_fleshy:
     hit_events: ss_ramp_r_hit
     profile: sp_fleshy_jp
-    restart_events: mult_flesh_jp_reset
+    restart_events: mult_flesh_jp_reset, mode_mult_fleshy_started
     show_tokens:
       led: l_arrow_ramp_r
       led2: l_circle_ramp_r
   r_ramp_l_fleshy:
     hit_events: ss_ramp_l_hit
     profile: sp_fleshy_jp
-    restart_events: mult_flesh_jp_reset
+    restart_events: mult_flesh_jp_reset, mode_mult_fleshy_started
     show_tokens:
       led: l_arrow_ramp_l
       led2: l_circle_ramp_l
   r_right_orbit_fleshy:
     hit_events: ss_right_orbit_hit
     profile: sp_fleshy_jp
-    restart_events: mult_flesh_jp_reset
+    restart_events: mult_flesh_jp_reset, mode_mult_fleshy_started
     show_tokens:
       led: l_arrow_loop
       led2: l_circle_loop
   r_vuk_fleshy:
     switch: s_vuk
     profile: sp_fleshy_jp
-    restart_events: mult_flesh_jp_reset
+    restart_events: mult_flesh_jp_reset, mode_mult_fleshy_started
     show_tokens:
       led: l_vuk_arrow_bot
       led2: l_vuk_square_bot
@@ -88,12 +88,16 @@ shot_profiles:
 variable_player:
   r_ramp_l_fleshy_sp_fleshy_jp_hit:
     score: 2000
+    v_fleshy_jp_qualify: 1
   r_ramp_r_fleshy_sp_fleshy_jp_hit:
     score: 2000
+    v_fleshy_jp_qualify: 1
   r_right_orbit_fleshy_sp_fleshy_jp_hit:
     score: 2000
+    v_fleshy_jp_qualify: 1
   r_vuk_fleshy_sp_fleshy_jp_hit:
     score: 2000
+    v_fleshy_jp_qualify: 1
 
         
 shot_groups:

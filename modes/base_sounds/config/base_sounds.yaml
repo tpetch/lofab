@@ -100,6 +100,23 @@ sound_player:
     e_house_5:
       bus: effects
 
-  r_vuk_sound_hit:
+  ball_started:
     m_loop_enter-the-house:
       bus: music
+
+  ball_ended{ball==3}:
+    m_loop_enter-the-house:
+      bus: music
+      action: stop
+
+  mode_mult_fleshy_started:
+    m_loop_enter-the-house:
+      bus: music
+      action: stop
+    m_loop_the-backrooms:
+      bus: music
+      action: play
+  mode_mult_fleshy_ended:
+    m_loop_the-backrooms:
+      bus: music
+      action: stop

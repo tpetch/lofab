@@ -15,6 +15,9 @@ player_vars:
   v_switches_hit:
     initial_value: 0
 
+  v_fleshy_jp_qualify:
+    initial_value: 0
+
   threeballmultiplier:
     initial_value: 1
     value_type: int
