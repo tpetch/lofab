@@ -1,7 +1,7 @@
 #config_version=6
 mode:
-  start_events: fleshy_qualify_start, ball_started, mult_3_ball_ended, start_modes_after_multiball
-  stop_events: fleshy_qualify_stop, stop_modes_during_multiball
+  start_events: mult_fleshy_qualify_start, fleshy_modes_start{current_player.v_fleshy_qualify_started==1}, ball_started{current_player.v_fleshy_qualify_started==1}
+  stop_events: fleshy_qualify_stop, stop_modes_during_multiball, mult_fleshy_lit
   priority: 200
 
 shots:
@@ -9,7 +9,8 @@ shots:
   r_o_fleshy:
     switch: s_stationary_o
     profile: fleshy_profile
-    restart_events: mode_mult_fleshy_qualify_started
+    reset_events: reset_fleshy
+    persist_enable: true
     show_tokens:
       light1: l_target_l_hurryup_3
       light2: l_target_l_hurryup_2
@@ -17,7 +18,8 @@ shots:
   r_s_fleshy:
     switch: s_stationary_s
     profile: fleshy_profile
-    restart_events: mode_mult_fleshy_qualify_started
+    reset_events: reset_fleshy
+    persist_enable: true
     show_tokens:
       light1: l_target_r_hurryup_3
       light2: l_target_r_hurryup_2
@@ -26,6 +28,9 @@ shots:
 shot_profiles:
   fleshy_profile:
     states:
+      - name: unlit
+        show: "fleshy_0"
+        sync_ms: 250
       - name: light1lit
         show: "fleshy_1"
         sync_ms: 250
@@ -42,5 +47,4 @@ shot_groups:
     
 event_player:
   fleshy_shots_light3lit_complete:
-    - mult_fleshy_start
-    - fleshy_qualify_stop
+    - mult_fleshy_lit

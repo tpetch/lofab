@@ -5,15 +5,3 @@ mode:
   priority: 300
 
 shots:
-
-  
-  r_ramp_change_r:
-    hit_events: ss_ramp_r_hit
-    profile: sp_room_change
-    show_tokens:
-      led: l_circle_ramp_r
-  r_ramp_change_l:
-    hit_events: ss_ramp_l_hit
-    profile: sp_room_change
-    show_tokens:
-      led: l_circle_ramp_r

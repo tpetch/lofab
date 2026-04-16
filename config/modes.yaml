@@ -2,15 +2,36 @@
 
 modes:
 
-  - base
+
   - attract
-  - lane_rotate
+
+  - mult_fleshy_activate
+  - mult_fleshy_lit
   - mult_fleshy_qualify
   - mult_fleshy
   - mult_fleshy_super
+  
   - start_ball_save
-  - launch_shows
+  - base_launch_ball
+  
   - mult_3_ball
   - mult_3_ball_qualify
+  
   - room_change_active
   - room_change_qualify
+  
+  - base_randomroomstart
+  - base_sounds
+  - base_house_targets
+  - base
+  - base_gi_control
+
+  - misc_blood_slings
+
+  - room_basement_base
+  - room_basement_mode_qualify
+  - room_basement_mode_select
+  - room_basement_mode_1
+  - room_basement_mode_2
+
+  

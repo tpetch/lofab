@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://kg78a6862ib1"
+path="res://.godot/imported/HOFAB_DP_music_room entity 11_loop.wav-38f595608f8b5d09124224b0ec5d3170.sample"
+
+[deps]
+
+source_file="res://sounds/HOFAB_DP_music_room entity 11_loop.wav"
+dest_files=["res://.godot/imported/HOFAB_DP_music_room entity 11_loop.wav-38f595608f8b5d09124224b0ec5d3170.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,22 @@
+#config_version=6
+mode:
+  start_events: mult_fleshy_activate_start, fleshy_modes_start{current_player.v_fleshy_qualify_started==0}, ball_started{current_player.v_fleshy_qualify_started==0}
+  stop_events: fleshy_qualify_stop, stop_modes_during_multiball, mult_fleshy_lit
+  priority: 200
+
+shots:
+
+  r_pop_fleshy_qualify:
+    switch: s_pop
+    restart_events: mode_mult_fleshy_qualify_started
+        
+variable_player:
+  r_pop_fleshy_qualify_hit{current_player.v_fleshy_pop_hits<2 + (2 * current_player.v_fleshy_times_played)}:
+    v_fleshy_pop_hits: 1
+  mult_fleshy_qualify_start:
+    v_fleshy_qualify_started: 1
+
+event_player:
+  r_pop_fleshy_qualify_hit{current_player.v_fleshy_pop_hits==1 + (2 * current_player.v_fleshy_times_played)}:
+    - mult_fleshy_qualify_start
+    - fleshy_qualify_stop

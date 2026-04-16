@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgmh6pln0t665"
+path="res://.godot/imported/HOFAB_DP_music_Carrier Zero_05_Loop.wav-bdac704728c20acb129011142c3fd64a.sample"
+
+[deps]
+
+source_file="res://sounds/HOFAB_DP_music_Carrier Zero_05_Loop.wav"
+dest_files=["res://.godot/imported/HOFAB_DP_music_Carrier Zero_05_Loop.wav-bdac704728c20acb129011142c3fd64a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

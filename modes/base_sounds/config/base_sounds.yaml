@@ -1,0 +1,105 @@
+#config_version=6
+mode:
+  start_events: ball_starting, start_base_modes
+  stop_events: stop_base_modes
+  priority: 100
+
+shots:
+
+  r_pop_sound:
+   switch: s_pop
+
+  r_sling_l_sound:
+   switch: s_sling_l
+
+  r_sling_r_sound:
+   switch: s_sling_r
+   
+  r_h_sound:
+    switch: s_h
+
+  r_o_sound:
+    switch: s_stationary_o
+
+  r_u_sound:
+    switch: s_stationary_u
+
+  r_s_sound:
+    switch: s_stationary_s
+
+  r_e_sound:
+    switch: s_e
+
+  r_ramp_r_sound:
+    hit_events: ss_ramp_r_hit
+
+  r_ramp_l_sound:
+    hit_events: ss_ramp_l_hit
+
+  r_ramp_m_sound:
+    switch: s_ramp_middle
+      
+  r_vuk_sound:
+    switch: s_vuk
+
+  r_vuk_bank_sound:
+    hit_events: ss_vuk_bank_hit
+      
+  r_right_orbit_sound:
+    hit_events: ss_right_orbit_hit
+      
+  r_stationary_back_sound:
+    switch: s_drop
+
+shot_profiles:
+  sp_sound:
+      states:
+      - name: state_base
+        show: "off"
+      
+sequence_shots:
+    
+  ss_ramp_r_sound:
+    switch_sequence: s_ramp_r, s_ramp_complete
+    sequence_timeout: 2s
+  ss_ramp_l_sound:
+    switch_sequence: s_ramp_l, s_ramp_complete
+    sequence_timeout: 2s
+  ss_vuk_bank_sound:
+    switch_sequence: s_stationary_s, s_vuk
+    sequence_timeout: 2s
+  ss_right_orbit_sound:
+    switch_sequence: s_spinner, s_e
+    sequence_timeout: 5s
+
+  
+sound_player:
+  r_sling_l_hit:
+    e_random_sling_sound:
+      bus: effects
+  r_sling_r_hit:
+    e_random_sling_sound:
+      bus: effects
+  r_pop_hit:
+    e_random_sling_sound:
+      bus: effects
+
+  r_h_sound_hit:
+    e_house_1:
+      bus: effects
+  r_o_sound_hit:
+    e_house_2:
+      bus: effects
+  r_u_sound_hit:
+    e_house_3:
+      bus: effects
+  r_s_sound_hit:
+    e_house_4:
+      bus: effects
+  r_e_sound_hit:
+    e_house_5:
+      bus: effects
+
+  r_vuk_sound_hit:
+    m_loop_enter-the-house:
+      bus: music

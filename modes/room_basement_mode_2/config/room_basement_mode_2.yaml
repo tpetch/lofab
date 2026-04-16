@@ -1,0 +1,5 @@
+#config_version=6
+mode:
+  start_events: start_basement_modes{basement_mode_started==3}, start_basement_mode_2
+  stop_events: stop_basement_mode_2, stop_basement_modes
+  priority: 200

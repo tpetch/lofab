@@ -8,5 +8,5 @@ queue_relay_player:
 timed_switches:
   game_cancel:
     switch_tags: start
-    time: 5s
-    events_when_active: end_game
+    time: 2s
+    events_when_active: e_launch_press, end_game

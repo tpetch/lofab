@@ -1,0 +1,85 @@
+#config_version=6
+mode:
+  start_events: ball_starting
+  priority: 100
+
+achievements:
+  achievement_basement:
+    show_tokens:
+      lights: l_penta_3
+    show_when_enabled: achievement_enabled
+    show_when_started: achievement_started
+    show_when_completed: achievement_completed
+    start_events: start_room_basement
+    stop_events: stop_room_basement
+    enable_events: initialize_rooms
+    complete_events: complete_room_basement
+    reset_events: reset_rooms
+
+    achievement_stairs:
+    show_tokens:
+      lights: l_penta_4
+    show_when_enabled: achievement_enabled
+    show_when_started: achievement_started
+    show_when_completed: achievement_completed
+    start_events: start_room_stairs
+    stop_events: stop_room_stairs
+    enable_events: initialize_rooms
+    complete_events: complete_room_stairs
+    reset_events: reset_rooms
+  
+  achievement_kitchen:
+    show_tokens:
+      lights: l_penta_2
+    show_when_enabled: achievement_enabled
+    show_when_started: achievement_started
+    show_when_completed: achievement_completed
+    start_events: start_room_kitchen
+    stop_events: stop_room_kitchen
+    enable_events: initialize_rooms
+    complete_events: complete_room_kitchen
+    reset_events: reset_rooms
+
+  achievement_bedroom:
+    show_tokens:
+      lights: l_penta_1
+    show_when_enabled: achievement_enabled
+    show_when_started: achievement_started
+    show_when_completed: achievement_completed
+    start_events: start_room_bedroom
+    stop_events: stop_room_bedroom
+    enable_events: initialize_rooms
+    complete_events: complete_room_bedroom
+    reset_events: reset_rooms
+
+  achievement_blood_room:
+    show_tokens:
+      lights: l_penta_5
+    show_when_enabled: achievement_enabled
+    show_when_started: achievement_started
+    show_when_completed: achievement_completed
+    start_events: start_room_blood_room
+    stop_events: stop_room_blood_room
+    enable_events: initialize_rooms
+    complete_events: complete_room_blood_room
+    reset_events: reset_rooms
+
+achievement_groups:
+  room_achievements:    
+    achievements:
+      - achievement_basement
+      - achievement_stairs
+      - achievement_kitchen
+      - achievement_bedroom
+      - achievement_blood_room
+
+    auto_select: true
+    events_when_all_completed: select_tour_mansion
+    enable_while_no_achievement_started: false
+    show_when_enabled: on
+    select_random_achievement_events: sw_jet
+    allow_selection_change_while_disabled: true
+    disable_while_achievement_started: false
+    start_selected_events: balldevice_electric_chair_ball_enter, balldevice_swamp_kickout_ball_enter, award_mansion_from_bear
+    enable_events: light_chair
+    disable_events: unlight_chair

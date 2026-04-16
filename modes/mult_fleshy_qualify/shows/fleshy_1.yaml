@@ -2,15 +2,19 @@
 
     - lights:
        (light1): red-f250ms
+       (light2): red-f250ms
       duration: 250ms
     - lights:
        (light1): red-f250ms
+       (light2): off
       duration: 250ms
     - lights:
        (light1): red-f250ms
+       (light2): red-f250ms
       duration: 250ms
     - lights:
        (light1): red-f250ms
+       (light2): off
       duration: 250ms
     - lights:
        (light1): red-f250ms
@@ -21,3 +25,5 @@
     - lights:
        (light1): pink-f100ms
       duration: 100ms
+
+      

@@ -1,0 +1,21 @@
+mode_settings:
+    bonus_entries:
+        - entry: loops_completed
+          text: "Ranger Loops"
+          player_score_entry: ranger_loops_count
+          score: 10_000
+        - entry: songs_completed
+          text: "Songs Sung"
+          player_score_entry: total_songs
+          score: 5_000
+
+slide_player:
+    mode_bonus_started: bonus
+    bonus_start:
+        bonus:
+            action: update
+            tokens:
+                entry: initial
+    bonus_entry:
+        bonus:
+            action: update

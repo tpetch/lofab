@@ -1,0 +1,23 @@
+[gd_resource type="AudioStreamRandomizer" load_steps=7 format=3 uid="uid://blsoslkrvfosg"]
+
+[ext_resource type="AudioStream" uid="uid://dlr72kwi04v14" path="res://sounds/e_sling_1.wav" id="1_2sm24"]
+[ext_resource type="AudioStream" uid="uid://bienh0602be5s" path="res://sounds/e_sling_2.wav" id="2_ojlh8"]
+[ext_resource type="AudioStream" uid="uid://43pr2317js8y" path="res://sounds/e_sling_3.wav" id="3_no7u5"]
+[ext_resource type="AudioStream" uid="uid://c7qnud20dmmbq" path="res://sounds/e_sling_4.wav" id="4_5prnt"]
+[ext_resource type="AudioStream" uid="uid://chkine18m3vf3" path="res://sounds/e_sling_5.wav" id="5_me77h"]
+[ext_resource type="AudioStream" uid="uid://br2md8uii7yqw" path="res://sounds/e_sling_6.wav" id="6_l8vpe"]
+
+[resource]
+streams_count = 6
+stream_0/stream = ExtResource("1_2sm24")
+stream_0/weight = 1.0
+stream_1/stream = ExtResource("2_ojlh8")
+stream_1/weight = 1.0
+stream_2/stream = ExtResource("3_no7u5")
+stream_2/weight = 1.0
+stream_3/stream = ExtResource("4_5prnt")
+stream_3/weight = 1.0
+stream_4/stream = ExtResource("5_me77h")
+stream_4/weight = 1.0
+stream_5/stream = ExtResource("6_l8vpe")
+stream_5/weight = 1.0

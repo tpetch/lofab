@@ -1,0 +1,12 @@
+#config_version=6
+mode:
+  start_events: start_room_basement, ball_started{room_var==4}
+  stop_events: end_current_room, end_room_basement
+  events_when_started: start_basement_modes
+  events_when_stopped: stop_basement_gi, stop_basement_modes
+  priority: 500
+
+
+
+
+    

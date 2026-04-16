@@ -1,0 +1,4 @@
+#show_version=6
+
+  - lights:
+      l_gi_1: (gi_color_1)-f5000ms

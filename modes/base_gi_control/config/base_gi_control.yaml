@@ -1,0 +1,17 @@
+#config_version=6
+mode:
+  start_events: ball_starting, start_base_modes
+
+show_player:
+  mode_room_basement_base_started: 
+    gi_basic:
+      show_tokens:
+        gi_color_1: white
+        gi_color_2: ff63a9
+  stop_basement_gi:
+    gi_basic:
+      show_tokens:
+        gi_color_1: white
+        gi_color_2: ff63a9
+      action: stop
+    

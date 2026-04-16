@@ -2,7 +2,10 @@
 mode:
   start_events: ball_starting
   priority: 100
-  
+
+## Base mode to execute assorted non-room specific tasks that aren't complex enough to need individual modes.
+
+## Slide player TBD split off into separate mode.
 
 slide_player:
   mode_launch_shows_stopped: 
@@ -13,13 +16,8 @@ slide_player:
     base:
       action: remove
     
-sound_player:
+## Small ball save for if pop sends ball SDTM. Less necessary since addition of center post.
 
-  s_flipper_l_hit: sd_flipper
-  r_sling_l_hit: sd_sling_2
-  r_sling_r_hit: sd_sling_1
-  r_pop_hit: sd_sling_3
-  
 ball_saves:
   ball_save_pop:
     active_time: 2s
@@ -27,4 +25,129 @@ ball_saves:
     auto_launch: true
     balls_to_save: 1
     disable_events: mode_hurryup_tilt_started
+    
+## Unpause current room with one event.
   
+event_player:
+
+  start_room{room_var==1}: room_start_kitchen
+  start_room{room_var==2}: room_start_stairs
+  start_room{room_var==3}: room_start_bedroom
+  start_room{room_var==4}: room_start_basement
+  start_room{room_var==5}: room_start_bloodroom
+  
+## Non-mode specific shot definition so that generic shots don't need to be redefined every mode if not needed.
+
+shots:
+
+  r_pop:
+   switch: s_pop
+   profile: sp_base
+
+  r_sling_l:
+   switch: s_sling_l
+   profile: sp_base
+  r_sling_r:
+   switch: s_sling_r
+   profile: sp_base
+   
+  r_h:
+    switch: s_h
+    profile: sp_base 
+    show_tokens:
+      led: l_inlane_l
+  r_o:
+    switch: s_stationary_o
+    profile: sp_base
+    show_tokens:
+      led: l_target_l
+  r_u:
+    switch: s_stationary_u
+    profile: sp_base
+    show_tokens:
+      led: l_target_mid_l
+  r_s:
+    switch: s_stationary_s
+    profile: sp_base
+    show_tokens:
+      led: l_target_r
+  r_e:
+    switch: s_e
+    profile: sp_base 
+    show_tokens:
+      led: l_inlane_r
+
+  r_ramp_r:
+    hit_events: ss_ramp_r_hit
+    profile: sp_base
+    show_tokens:
+      led: l_arrow_ramp_r
+      led2: l_circle_ramp_r
+  r_ramp_l:
+    hit_events: ss_ramp_l_hit
+    profile: sp_base
+    show_tokens:
+      led: l_arrow_ramp_r
+      led2: l_circle_ramp_r
+  r_ramp_m:
+    switch: s_ramp_middle
+    profile: sp_base
+      
+  r_vuk:
+    switch: s_vuk
+    profile: sp_base
+    show_tokens:
+      led: l_vuk_arrow_bot
+      led2: l_vuk_square_bot
+  r_vuk_bank:
+    hit_events: ss_vuk_bank_hit
+    profile: sp_base
+    show_tokens:
+      led: l_vuk_arrow_top
+      led2: l_vuk_square_top
+      
+  r_right_orbit:
+    hit_events: ss_right_orbit_hit
+    profile: sp_base
+    show_tokens:
+      led: l_arrow_loop
+      led2: l_circle_loop
+      
+  r_stationary_back:
+    switch: s_drop
+    profile: sp_base 
+    show_tokens:
+      led: l_knife
+      led2: l_circle_knife
+      led3: l_big_arrow_b
+      
+shot_profiles:
+  sp_base:
+      states:
+      - name: state_base
+        show: "off"
+      
+sequence_shots:
+    
+  ss_ramp_r:
+    switch_sequence: s_ramp_r, s_ramp_complete
+    sequence_timeout: 2s
+  ss_ramp_l:
+    switch_sequence: s_ramp_l, s_ramp_complete
+    sequence_timeout: 2s
+  ss_vuk_bank:
+    switch_sequence: s_stationary_s, s_vuk
+    sequence_timeout: 2s
+  ss_right_orbit:
+    switch_sequence: s_spinner, s_e
+    sequence_timeout: 5s
+
+variable_player:
+  mult_fleshy_lit:
+    fleshy_qualify_started:
+      int: 2
+      action: set
+  mode_mult_fleshy_ended:
+    fleshy_qualify_started:
+      int: 0
+      action: set

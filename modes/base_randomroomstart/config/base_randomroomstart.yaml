@@ -1,0 +1,72 @@
+#config_version=6
+mode:
+  start_events: ball_will_start{ball==1}
+  stop_events: end_base_randomroomstart
+  priority: 1000
+  
+## This mode starts before the first ball to set the starting room randomly, not including the blood room.
+  
+random_event_player:
+  ball_starting{ball==1}:
+    events:
+      - random_room_start_kitchen
+      - random_room_start_stairs
+      - random_room_start_bedroom
+      - random_room_start_basement
+      
+variable_player:
+  random_room_start_kitchen:
+    room_var:
+      int: 1
+      action: set
+    current_room:
+      string: "KITCHEN"
+      action: set
+      
+  random_room_start_stairs:
+    room_var:   
+      int: 2
+      action: set
+    current_room:
+      string: "STAIRS"
+      action: set
+      
+  random_room_start_bedroom:
+    room_var:
+      int: 3
+      action: set
+    current_room:
+      string: "BEDROOM"
+      action: set
+      
+  random_room_start_basement:
+    room_var:
+      int: 4
+      action: set
+    current_room:
+      string: "BASEMENT"
+      action: set
+
+event_player:
+
+  random_room_start_kitchen:
+    - start_room_kitchen
+    - end_base_randomroomstart
+
+  random_room_start_stairs:
+    - start_room_stairs
+    - end_base_randomroomstart
+
+  random_room_start_bedroom:
+    - start_room_bedroom
+    - end_base_randomroomstart
+
+  random_room_start_basement:
+    - start_room_basement
+    - end_base_randomroomstart
+
+      
+
+    
+
+

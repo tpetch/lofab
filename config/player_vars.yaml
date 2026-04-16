@@ -1,11 +1,28 @@
 #config_version=6
 
 player_vars:
+  room_var:
+    initial_value: 0
+    value_type: int
   current_room:
-    initial_value: "LIVING ROOM"
+    initial_value: "BASEMENT"
     value_type: str
   house_completes:
     initial_value: 0
   threeballmultiplier:
     initial_value: 1
+    value_type: int
+
+  basement_mode_started:
+    initial_value: 0
+    value_type: int
+
+  v_fleshy_qualify_started:
+    initial_value: 0
+    value_type: int
+  v_fleshy_pop_hits:
+    initial_value: 0
+    value_type: int
+  v_fleshy_times_played:
+    initial_value: 0
     value_type: int

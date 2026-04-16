@@ -1,0 +1,38 @@
+#config_version=6
+mode:
+  start_events: start_basement_modes{basement_mode_started==0}
+  stop_events: stop_basement_qualify, stop_basement_modes
+  priority: 200
+
+shots:
+  r_basement_ramp_r:
+    hit_events: ss_basement_ramp_r_hit
+    profile: sp_basement_qualify
+    show_tokens:
+      led: l_arrow_ramp_r
+      led2: l_circle_ramp_r
+  r_basement_ramp_l:
+    hit_events: ss_basement_ramp_l_hit
+    profile: sp_basement_qualify
+    show_tokens:
+      led: l_arrow_ramp_r
+      led2: l_circle_ramp_r
+
+sequence_shots:
+  ss_basement_ramp_r:
+    switch_sequence: s_ramp_r, s_ramp_complete
+    sequence_timeout: 2s
+  ss_basement_ramp_l:
+    switch_sequence: s_ramp_l, s_ramp_complete
+    sequence_timeout: 2s
+
+
+shot_profiles:
+  sp_basement_qualify:
+    loop: true
+    state_names_to_not_rotate: hit
+    states:
+      - name: lit
+        show: "blood_lit"
+
+shows:

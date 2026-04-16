@@ -1,0 +1,63 @@
+#config_version=6
+mode:
+  start_events: start_mode_lane_rotate, ball_started, start_base_modes
+  stop_events: stop_mode_lane_rotate, ball_will_end, stop_base_modes
+
+shots:
+  r_h_rotate:
+    switch: s_h
+    profile: rotate_profile
+    show_tokens:
+      led: l_inlane_l
+  r_o_rotate:
+    switch: s_stationary_o
+    profile: rotate_profile
+    show_tokens:
+      led: l_target_l
+  r_u_rotate:
+    switch: s_stationary_u
+    profile: rotate_profile
+    show_tokens:
+      led: l_target_mid_l
+  r_s_rotate:
+    switch: s_stationary_s
+    profile: rotate_profile
+    show_tokens:
+      led: l_target_r
+  r_e_rotate:
+    switch: s_e
+    profile: rotate_profile
+    show_tokens:
+      led: l_inlane_r
+      
+show_player:
+  rotate_group_hit_complete: 
+    lanes_complete:
+      loops: 1
+
+
+shot_groups:
+  rotate_group:
+    shots: r_h_rotate, r_o_rotate, r_u_rotate, r_s_rotate, r_e_rotate
+    reset_events: rotate_group_hit_complete
+    #rotate_left_events: s_flipper_l_active
+    #rotate_right_events: s_flipper_r_active
+
+shot_profiles:
+  rotate_profile:
+    states:
+      - name: unlit
+        show: off
+      - name: hit
+        show: on
+
+variable_player:
+  rotate_group_hit_complete:
+    score: 1000
+    house_completes: 1
+    
+event_player:
+  rotate_group_hit_complete{current_player.house_completes==1}: 3_ball_qualify_start
+    
+
+  

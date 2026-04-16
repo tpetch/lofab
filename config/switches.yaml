@@ -44,6 +44,9 @@ switches:
   s_trough_4:
     number: b_main-3
     type: 'NC'
+  s_trough_5:
+    number: b_main-6
+    type: 'NC'
   s_sling_l:
     number: b_main-4
     
@@ -95,3 +98,11 @@ switches:
   s_ramp_middle:
     number: b_main-26
     type: 'NC'
+
+
+virtual_platform_start_active_switches:
+  - s_trough_1
+  - s_trough_2
+  - s_trough_3
+  - s_trough_4
+  - s_trough_5

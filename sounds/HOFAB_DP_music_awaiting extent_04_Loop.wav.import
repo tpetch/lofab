@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://criln3f1fgbho"
+path="res://.godot/imported/HOFAB_DP_music_awaiting extent_04_Loop.wav-1971a5356be0980879ac1295a3ee0f68.sample"
+
+[deps]
+
+source_file="res://sounds/HOFAB_DP_music_awaiting extent_04_Loop.wav"
+dest_files=["res://.godot/imported/HOFAB_DP_music_awaiting extent_04_Loop.wav-1971a5356be0980879ac1295a3ee0f68.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

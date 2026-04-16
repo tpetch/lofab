@@ -1,0 +1,152 @@
+#config_version=6
+mode:
+  start_events: ball_started
+  priority: 200
+
+shots:
+
+  r_blood_sling_l:
+    advance_events: r_blood_sling_l_hit, r_blood_sling_r_hit
+    switch: s_sling_l
+    profile: blood_sling_left
+    show_tokens:
+      light1: l_sling_l
+      light2: l_sling_r
+  r_blood_sling_r:
+    advance_events: r_blood_sling_l_hit, r_blood_sling_r_hit
+    switch: s_sling_r
+    profile: blood_sling_right
+    show_tokens:
+      light1: l_sling_r
+      light2: l_sling_l
+  r_blood_tracker:
+    advance_events: ss_sling_l_hit, ss_sling_r_hit
+    profile: blood_tracker
+    show_tokens:
+      b: l_apron_indicator_1
+      l: l_apron_indicator_2
+      o: l_apron_indicator_3
+      o2: l_apron_indicator_4
+      d: l_apron_indicator_5
+
+sequence_shots:
+    
+  ss_sling_l:
+    event_sequence: r_pop_hit, r_blood_sling_l_blood_sling_left_lit_hit
+    sequence_timeout: 5s
+  ss_sling_r:
+    event_sequence: r_pop_hit, r_blood_sling_r_blood_sling_right_lit_hit
+    sequence_timeout: 5s
+
+      
+shot_profiles:
+  blood_sling_left:
+    advance_on_hit: false
+    loop: true
+    state_names_to_not_rotate: hit
+    states:
+      - name: unlit
+        show: "off"
+      - name: lit
+        show: "blood_lit"
+
+  blood_sling_right:
+    advance_on_hit: false
+    loop: true
+    state_names_to_not_rotate: hit
+    states:
+      - name: lit
+        show: "blood_lit"
+      - name: unlit
+        show: "off"
+
+  blood_tracker:
+      advance_on_hit: false
+      state_names_to_not_rotate: hit
+      states:
+        - name: unlit
+          show: "off"
+        - name: b
+          show: "blood_tracker_b"
+        - name: l
+          show: "blood_tracker_l"
+        - name: o
+          show: "blood_tracker_o"
+        - name: o2
+          show: "blood_tracker_o2"
+        - name: d
+          show: "blood_tracker_d"
+        
+ 
+
+show_player:
+  ss_sling_l_hit: blood_hit
+  ss_sling_r_hit: blood_hit
+
+
+shows:
+  blood_lit:
+    
+    - lights:
+       (light1): crimson-f1000ms
+      duration: 1500ms
+    - lights:
+       (light1): darkred-f1000ms
+      duration: 1500ms
+
+  blood_hit:
+    
+    - lights:
+       (light1): crimson-f100ms
+       (light2): off
+      duration: 100ms
+    - lights:
+       (light1): pink-f100ms
+       (light2): off
+      duration: 100ms
+    - lights:
+       (light1): crimson-f100ms
+       (light2): off 
+      duration: 100ms
+    - lights:
+       (light1): pink-f100ms
+       (light2): off
+      duration: 100ms
+    - lights:
+       (light1): crimson-f100ms
+       (light2): off
+      duration: 100ms
+    - lights:
+       (light1): pink-f100ms
+       (light2): off
+      duration: 100ms
+
+  blood_tracker_b:
+    - lights:
+       (b): red
+
+  blood_tracker_l:
+    - lights:
+       (b): red
+       (l): red
+
+  blood_tracker_o:
+    - lights:
+       (b): red
+       (l): red
+       (o): red
+
+  blood_tracker_o2:
+    - lights:
+       (b): red
+       (l): red
+       (o): red
+       (o2): red
+
+  blood_tracker_d:
+    - lights:
+       (b): red
+       (l): red
+       (o): red
+       (o2): red
+       (d): red

@@ -83,6 +83,9 @@ lights:
   l_gi_9:
     number: pf-1-28
     tags: gi, gi_apron, gi_right
+  l_shoot_again:
+    number: pf-1-29
+    tags: playfield
     
 # Chain 2
 
@@ -171,9 +174,7 @@ lights:
     number: pf-3-9
   l_penta_5:
     number: pf-3-10
-  l_shoot_again:
-    number: pf-3-11
-    tags: playfield
+
     
     
   l_pop_flasher_1:
