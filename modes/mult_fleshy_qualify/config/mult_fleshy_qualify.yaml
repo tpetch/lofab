@@ -1,7 +1,7 @@
 #config_version=6
 mode:
   start_events: mult_fleshy_qualify_start, fleshy_modes_start{current_player.v_fleshy_qualify_started==1}, ball_started{current_player.v_fleshy_qualify_started==1}
-  stop_events: fleshy_qualify_stop, stop_modes_during_multiball, mult_fleshy_lit
+  stop_events: fleshy_qualify_stop, stop_modes_during_multiball, mult_fleshy_lit_start
   priority: 200
 
 shots:
@@ -47,4 +47,4 @@ shot_groups:
     
 event_player:
   fleshy_shots_light3lit_complete:
-    - mult_fleshy_lit
+    - mult_fleshy_lit_start

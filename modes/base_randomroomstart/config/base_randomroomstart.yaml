@@ -2,6 +2,7 @@
 mode:
   start_events: ball_will_start{ball==1}
   stop_events: end_base_randomroomstart
+  events_when_started: initialize_rooms
   priority: 1000
   
 ## This mode starts before the first ball to set the starting room randomly, not including the blood room.

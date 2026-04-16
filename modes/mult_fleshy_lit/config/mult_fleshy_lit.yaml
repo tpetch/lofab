@@ -1,5 +1,25 @@
 #config_version=6
 mode:
-  start_events: fleshy_modes_start{fleshy_qualify_started==1}, ball_started{fleshy_qualify_started==1}
-  stop_events: fleshy_qualify_stop, stop_modes_during_multiball, mult_fleshy_lit
+  start_events: mult_fleshy_lit_start, fleshy_modes_start{fleshy_qualify_started==1}, ball_started{fleshy_qualify_started==1}
+  stop_events: fleshy_qualify_stop, stop_modes_during_multiball, mult_fleshy_start
   priority: 200
+
+shots:
+  r_vuk_fleshy_lit:
+    switch: s_vuk
+    profile: fleshy_lit_profile
+    show_tokens:
+      light1: l_vuk_square_top
+
+shot_profiles:
+  fleshy_lit_profile:
+    states:
+      - name: flesh_lit
+        show: "fleshy_lit"
+        sync_ms: 250
+    block: true
+
+event_player:
+  r_vuk_fleshy_lit_hit:
+    - multiball_started
+    - mult_fleshy_start

@@ -1,7 +1,7 @@
 #show_version=6
 
     - lights:
-       (light1): adadad-f250ms
+       (light1): white-f250ms
       duration: 250ms
     - lights:
        (light1): off

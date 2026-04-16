@@ -7,15 +7,7 @@ mode:
 
 ## Slide player TBD split off into separate mode.
 
-slide_player:
-  mode_launch_shows_stopped: 
-    base:
-      priority: 100
-      action: queue_first
-  ball_ending:
-    base:
-      action: remove
-    
+
 ## Small ball save for if pop sends ball SDTM. Less necessary since addition of center post.
 
 ball_saves:
@@ -151,3 +143,16 @@ variable_player:
     fleshy_qualify_started:
       int: 0
       action: set
+
+slide_player:
+  e_launch_press: 
+    launch:
+      action: remove
+      priority: 200
+    base:
+      action: queue_first
+      priority: 100
+  ball_ending:
+    base:
+      action: remove
+

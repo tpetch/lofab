@@ -9,6 +9,12 @@ player_vars:
     value_type: str
   house_completes:
     initial_value: 0
+  v_house_completes_bonus:
+   initial_value: 0
+
+  v_switches_hit:
+    initial_value: 0
+
   threeballmultiplier:
     initial_value: 1
     value_type: int

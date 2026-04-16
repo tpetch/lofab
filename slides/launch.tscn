@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://cx8xwmvx03qme"]
+[gd_scene load_steps=6 format=3 uid="uid://cx8xwmvx03qme"]
 
 [ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_l7jqo"]
 [ext_resource type="Texture2D" uid="uid://fdxl8latq0i2" path="res://images/launch_bg.png" id="2_ih4hg"]
+[ext_resource type="FontFile" uid="uid://coqi38pnmm7dj" path="res://misc/headline-gothic-atf-round.otf" id="3_vatxt"]
+[ext_resource type="Theme" uid="uid://hkryf5lyxe6v" path="res://misc/headline_atf_text.tres" id="4_5l0c5"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="5_rotvn"]
 
 [node name="Launch" type="Control"]
 layout_mode = 3
@@ -12,3 +15,34 @@ script = ExtResource("1_l7jqo")
 position = Vector2(509.762, 300.75)
 scale = Vector2(0.2394, 0.2394)
 texture = ExtResource("2_ih4hg")
+
+[node name="ColorRect" type="ColorRect" parent="Sprite2D"]
+offset_left = -1486.0
+offset_top = -195.0
+offset_right = 1434.0
+offset_bottom = 140.0
+color = Color(0.960784, 0.592157, 0.6, 1)
+
+[node name="Label" type="Label" parent="Sprite2D/ColorRect"]
+layout_mode = 0
+offset_left = 200.445
+offset_top = 225.284
+offset_right = 2779.44
+offset_bottom = 525.284
+theme_override_colors/font_color = Color(0.360784, 0.0509804, 0.0392157, 1)
+theme_override_fonts/font = ExtResource("3_vatxt")
+theme_override_font_sizes/font_size = 300
+text = "PRESS LAUNCH TO START BALL"
+
+[node name="MPFVariable2" type="Label" parent="."]
+offset_left = 416.0
+offset_top = 242.0
+offset_right = 840.0
+offset_bottom = 362.0
+theme = ExtResource("4_5l0c5")
+theme_override_fonts/font = ExtResource("3_vatxt")
+theme_override_font_sizes/font_size = 60
+text = "PLAYER 1,"
+script = ExtResource("5_rotvn")
+variable_name = "number"
+template_string = "PLAYER %s,"

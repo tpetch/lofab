@@ -1,12 +1,15 @@
+#config_version=6
+
 mode_settings:
     bonus_entries:
-        - entry: loops_completed
-          text: "Ranger Loops"
-          player_score_entry: ranger_loops_count
-          score: 10_000
-        - entry: songs_completed
-          text: "Songs Sung"
-          player_score_entry: total_songs
+        - entry: b_switches_hit
+          text: "Switches Hit:"
+          player_score_entry: v_switches_hit
+          score: 100
+        - entry: b_house_completes
+          text: "H-O-U-S-E Completes:"
+          player_score_entry: v_house_completes_bonus
+          reset_player_score_entry: true
           score: 5_000
 
 slide_player:

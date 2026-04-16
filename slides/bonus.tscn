@@ -1,0 +1,161 @@
+[gd_scene load_steps=5 format=3 uid="uid://rua7lcfr35wl"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_kmkl0"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_conditional_children.gd" id="2_ep8rt"]
+[ext_resource type="FontFile" uid="uid://coqi38pnmm7dj" path="res://misc/headline-gothic-atf-round.otf" id="3_bt8r4"]
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="4_px1nu"]
+
+[node name="Bonus" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_kmkl0")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -1.0
+offset_right = 1027.0
+offset_bottom = 601.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -4.0
+offset_right = 209.0
+offset_bottom = 607.0
+color = Color(0.878431, 0.113725, 0.0901961, 1)
+
+[node name="MPFConditionalChildren" type="Node2D" parent="."]
+script = ExtResource("2_ep8rt")
+variable_type = 1
+variable_name = "entry"
+
+[node name="initial" type="Node2D" parent="MPFConditionalChildren"]
+
+[node name="MPFVariable" type="Label" parent="MPFConditionalChildren/initial"]
+offset_left = 64.0
+offset_top = 498.0
+offset_right = 464.0
+offset_bottom = 598.0
+rotation = 4.71239
+theme_override_colors/font_color = Color(0.380392, 0.0470588, 0.0509804, 1)
+theme_override_fonts/font = ExtResource("3_bt8r4")
+theme_override_font_sizes/font_size = 100
+text = "End of Ball 1"
+horizontal_alignment = 1
+script = ExtResource("4_px1nu")
+variable_name = "ball"
+template_string = "\"End of Ball %s\""
+
+[node name="__default__" type="Node2D" parent="MPFConditionalChildren"]
+
+[node name="MPFVariable" type="Label" parent="MPFConditionalChildren/__default__"]
+offset_left = 245.0
+offset_top = 54.0
+offset_right = 516.0
+offset_bottom = 105.0
+theme_override_fonts/font = ExtResource("3_bt8r4")
+theme_override_font_sizes/font_size = 50
+text = "Bonus Entry Text"
+script = ExtResource("4_px1nu")
+variable_type = 1
+variable_name = "text"
+
+[node name="MPFVariable2" type="Label" parent="MPFConditionalChildren/__default__"]
+offset_left = 245.0
+offset_top = 57.0
+offset_right = 999.0
+offset_bottom = 237.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_bt8r4")
+theme_override_font_sizes/font_size = 50
+text = "1,000,000,000"
+horizontal_alignment = 2
+script = ExtResource("4_px1nu")
+variable_type = 1
+variable_name = "score"
+comma_separate = true
+
+[node name="subtotal" type="Node2D" parent="MPFConditionalChildren"]
+position = Vector2(0, -50)
+
+[node name="MPFVariable2" type="Label" parent="MPFConditionalChildren/subtotal"]
+offset_left = 562.0
+offset_top = 331.0
+offset_right = 997.0
+offset_bottom = 511.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_bt8r4")
+theme_override_font_sizes/font_size = 50
+text = "1,000,000,000"
+horizontal_alignment = 2
+script = ExtResource("4_px1nu")
+variable_type = 1
+variable_name = "score"
+comma_separate = true
+
+[node name="Label" type="Label" parent="MPFConditionalChildren/subtotal"]
+offset_left = 243.0
+offset_top = 328.0
+offset_right = 514.0
+offset_bottom = 379.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_bt8r4")
+theme_override_font_sizes/font_size = 50
+text = "Bonus SUBTOTAL:"
+
+[node name="multiplier" type="Node2D" parent="MPFConditionalChildren"]
+position = Vector2(0, -50)
+
+[node name="MPFVariable2" type="Label" parent="MPFConditionalChildren/multiplier"]
+offset_left = 562.0
+offset_top = 383.0
+offset_right = 997.0
+offset_bottom = 434.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_bt8r4")
+theme_override_font_sizes/font_size = 50
+text = "3x"
+horizontal_alignment = 2
+script = ExtResource("4_px1nu")
+variable_type = 1
+variable_name = "score"
+template_string = "x%s"
+
+[node name="Label" type="Label" parent="MPFConditionalChildren/multiplier"]
+offset_left = 243.0
+offset_top = 380.0
+offset_right = 514.0
+offset_bottom = 431.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_bt8r4")
+theme_override_font_sizes/font_size = 50
+text = "Mult:"
+
+[node name="total" type="Node2D" parent="MPFConditionalChildren"]
+
+[node name="MPFVariable2" type="Label" parent="MPFConditionalChildren/total"]
+offset_left = 245.0
+offset_top = 442.0
+offset_right = 995.0
+offset_bottom = 622.0
+theme_override_colors/font_color = Color(1, 0.718103, 0.672699, 1)
+theme_override_fonts/font = ExtResource("3_bt8r4")
+theme_override_font_sizes/font_size = 160
+text = "1,000,000,000"
+horizontal_alignment = 2
+script = ExtResource("4_px1nu")
+variable_type = 1
+variable_name = "score"
+comma_separate = true
+
+[node name="Label" type="Label" parent="MPFConditionalChildren/total"]
+offset_left = 243.0
+offset_top = 384.0
+offset_right = 514.0
+offset_bottom = 435.0
+theme_override_colors/font_color = Color(1, 0.717647, 0.670588, 1)
+theme_override_fonts/font = ExtResource("3_bt8r4")
+theme_override_font_sizes/font_size = 50
+text = "Bonus TOTAL:"

@@ -1,0 +1,8 @@
+#show_version=6
+
+    - lights:
+       (light1): blue-f300ms
+      duration: 300ms
+    - lights:
+       (light1): pink-f150ms
+      duration: 150ms

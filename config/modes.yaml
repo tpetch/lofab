@@ -4,6 +4,7 @@ modes:
 
 
   - attract
+  - bonus
 
   - mult_fleshy_activate
   - mult_fleshy_lit
@@ -25,6 +26,7 @@ modes:
   - base_house_targets
   - base
   - base_gi_control
+  - base_shots_unlit
 
   - misc_blood_slings
 

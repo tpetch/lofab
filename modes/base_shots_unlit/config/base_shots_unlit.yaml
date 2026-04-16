@@ -1,0 +1,175 @@
+#config_version=6
+mode:
+
+  start_events: ball_started, start_base_modes
+  stop_events: stop_base_modes
+  priority: 100
+
+
+shots:
+
+  r_pop_unlit:
+   switch: s_pop
+   profile: sp_unlit
+
+  r_sling_l_unlit:
+   switch: s_sling_l
+   profile: sp_unlit
+  r_sling_r_unlit:
+   switch: s_sling_r
+   profile: sp_unlit
+   
+  r_h_unlit:
+    switch: s_h
+    profile: sp_unlit 
+    show_tokens:
+      led: l_inlane_l
+  r_o_unlit:
+    switch: s_stationary_o
+    profile: sp_unlit
+    show_tokens:
+      led: l_target_l
+  r_u_unlit:
+    switch: s_stationary_u
+    profile: sp_unlit
+    show_tokens:
+      led: l_target_mid_l
+  r_s_unlit:
+    switch: s_stationary_s
+    profile: sp_unlit
+    show_tokens:
+      led: l_target_r
+  r_e_unlit:
+    switch: s_e
+    profile: sp_unlit 
+    show_tokens:
+      led: l_inlane_r
+
+  r_ramp_r_unlit:
+    hit_events: ss_ramp_r_unlit_hit
+    profile: sp_unlit
+    show_tokens:
+      led: l_arrow_ramp_r
+      led2: l_circle_ramp_r
+  r_ramp_l_unlit:
+    hit_events: ss_ramp_l_unlit_hit
+    profile: sp_unlit
+    show_tokens:
+      led: l_arrow_ramp_r
+      led2: l_circle_ramp_r
+  r_ramp_m_unlit:
+    switch: s_ramp_middle
+    profile: sp_unlit
+      
+  r_vuk_unlit:
+    switch: s_vuk
+    profile: sp_unlit
+    show_tokens:
+      led: l_vuk_arrow_bot
+      led2: l_vuk_square_bot
+  r_vuk_bank_unlit:
+    hit_events: ss_vuk_bank_unlit_hit
+    profile: sp_unlit
+    show_tokens:
+      led: l_vuk_arrow_top
+      led2: l_vuk_square_top
+      
+  r_right_orbit_unlit:
+    hit_events: ss_right_orbit_unlit_hit
+    profile: sp_unlit
+    show_tokens:
+      led: l_arrow_loop
+      led2: l_circle_loop
+      
+  r_stationary_back_unlit:
+    switch: s_drop
+    profile: sp_unlit
+    show_tokens:
+      led: l_knife
+      led2: l_circle_knife
+      led3: l_big_arrow_b
+      
+shot_profiles:
+  sp_unlit:
+      states:
+      - name: state_unlit
+        show: "off"
+      
+sequence_shots:
+    
+  ss_ramp_r_unlit:
+    switch_sequence: s_ramp_r, s_ramp_complete
+    sequence_timeout: 2s
+  ss_ramp_l_unlit:
+    switch_sequence: s_ramp_l, s_ramp_complete
+    sequence_timeout: 2s
+  ss_vuk_bank_unlit :
+    switch_sequence: s_stationary_s, s_vuk
+    sequence_timeout: 2s
+  ss_right_orbit_unlit :
+    switch_sequence: s_spinner, s_e
+    sequence_timeout: 5s
+
+variable_player:
+  r_pop_unlit_hit:
+    v_switches_hit: 1
+  r_sling_l_unlit_hit:
+    v_switches_hit: 1
+  r_sling_r_unlit_hit:
+    v_switches_hit: 1
+  r_h_unlit_hit:
+    v_switches_hit: 1
+  r_o_unlit_hit:
+    v_switches_hit: 1
+  r_u_unlit_hit:
+    v_switches_hit: 1
+  r_s_unlit_hit:  
+    v_switches_hit: 1
+  r_e_unlit_hit:
+    v_switches_hit: 1
+  r_ramp_m_unlit_hit:
+    v_switches_hit: 1
+  r_vuk_unlit_hit:
+    v_switches_hit: 1
+  ss_ramp_r_unlit_hit:
+    v_switches_hit: 1
+  ss_ramp_l_unlit_hit:
+    v_switches_hit: 1
+  ss_vuk_bank_unlit_hit:
+    v_switches_hit: 1
+  ss_right_orbit_unlit_hit:
+    v_switches_hit: 1
+  s_spinner_unlit_hit:
+    v_switches_hit: 1
+
+show_player:
+  r_ramp_m_unlit_hit:
+    show_unlit_hit:
+      loops: 0 
+      show_tokens:
+        light1: l_knife
+  r_vuk_unlit_hit:
+    show_unlit_hit:
+      loops: 0
+      show_tokens:
+        light1: l_vuk_arrow_bot
+  ss_ramp_r_unlit_hit:
+    show_unlit_hit:
+      loops: 0
+      show_tokens:
+        light1: l_arrow_ramp_r
+  ss_ramp_l_unlit_hit:
+    show_unlit_hit:
+      loops: 0
+      show_tokens:
+        light1: l_arrow_ramp_l
+  ss_vuk_bank_unlit_hit:
+    show_unlit_hit:
+      loops: 0
+      show_tokens:
+        light1: l_vuk_arrow_top
+  ss_right_orbit_unlit_hit:
+    show_unlit_hit:
+      loops: 0
+      show_tokens:
+        light1: l_arrow_loop

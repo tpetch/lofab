@@ -55,9 +55,12 @@ variable_player:
   rotate_group_hit_complete:
     score: 1000
     house_completes: 1
+    v_house_completes_bonus: 1
+
+
     
 event_player:
-  rotate_group_hit_complete{current_player.house_completes==1}: 3_ball_qualify_start
+  rotate_group_hit_complete{current_player.house_completes==1}: no_event
     
 
   
