@@ -116,4 +116,4 @@ sound_player:
   mode_mult_fleshy_ended:
     m_loop_enter-the-house:
       bus: music
-      action: play
+      action: replace
