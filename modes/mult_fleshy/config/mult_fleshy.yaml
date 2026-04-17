@@ -7,7 +7,7 @@ mode:
   
 multiballs:
   fleshy_multiball:
-    ball_count: 4
+    ball_count: 3
     shoot_again: 0s
     start_events: mode_mult_fleshy_started
     
@@ -62,7 +62,8 @@ shots:
       led: l_arrow_ramp_l
       led2: l_circle_ramp_l
   r_right_orbit_fleshy:
-    hit_events: ss_right_orbit_hit
+    #hit_events: ss_right_orbit_hit
+    switch: s_spinner
     profile: sp_fleshy_jp
     restart_events: mult_flesh_jp_reset, mode_mult_fleshy_started
     show_tokens:
@@ -113,5 +114,11 @@ event_player:
     - stop_modes_during_multiball
   multiball_fleshy_multiball_ended:
     - start_modes_after_multiball
+
+slide_player:
+  mode_mult_fleshy_started:
+    mult_fleshy_start_slide:
+      priority: 1000
+      expire: 5s
 
     

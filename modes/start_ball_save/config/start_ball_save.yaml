@@ -10,7 +10,7 @@ ball_saves:
     grace_period: 1s
     timer_start_events: balldevice_bd_trough_ejecting_ball
     auto_launch: true
-    balls_to_save: 1
+    balls_to_save: 0
 show_player:
   ball_save_ball_save_ball_save_timer_start:
     flash_color:

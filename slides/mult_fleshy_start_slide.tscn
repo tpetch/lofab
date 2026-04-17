@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=3 uid="uid://di40x1du7ljtq"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_7otp5"]
+[ext_resource type="Texture2D" uid="uid://draq52e5f1rth" path="res://images/fleshy_image.png" id="2_b3rwc"]
+[ext_resource type="FontFile" uid="uid://coqi38pnmm7dj" path="res://misc/headline-gothic-atf-round.otf" id="3_iv101"]
+
+[node name="FleshyMultiballStart" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_7otp5")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -13.0
+offset_top = 3.0
+offset_right = 1047.0
+offset_bottom = 631.0
+color = Color(0.188235, 0.188235, 0.188235, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(415.049, 304)
+rotation = 1.57952
+scale = Vector2(0.478482, 0.478482)
+texture = ExtResource("2_b3rwc")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 966.049
+offset_top = 151.0
+offset_right = 1270.05
+offset_bottom = 336.0
+rotation = 1.5708
+theme_override_colors/font_color = Color(0.862745, 0.262745, 0.317647, 1)
+theme_override_fonts/font = ExtResource("3_iv101")
+theme_override_font_sizes/font_size = 90
+text = "FLESHY
+MULTIBALL!"
+horizontal_alignment = 1

@@ -3,7 +3,9 @@
 [sub_resource type="AudioEffectCompressor" id="AudioEffectCompressor_5hc2l"]
 resource_name = "Compressor"
 threshold = -8.0
+ratio = 2.0
 release_ms = 200.0
+mix = 0.9
 sidechain = &"effects"
 
 [resource]
