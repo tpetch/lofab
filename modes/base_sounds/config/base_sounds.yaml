@@ -110,13 +110,10 @@ sound_player:
       action: stop
 
   mode_mult_fleshy_started:
-    m_loop_enter-the-house:
-      bus: music
-      action: stop
     m_loop_the-backrooms:
       bus: music
       action: play
   mode_mult_fleshy_ended:
-    m_loop_the-backrooms:
+    m_loop_enter-the-house:
       bus: music
-      action: stop
+      action: play

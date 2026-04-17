@@ -5,7 +5,7 @@ mode:
 
 shots:
   r_h_rotate:
-    switch: s_h
+    switch: s_ramp_complete
     profile: rotate_profile
     show_tokens:
       led: l_inlane_l
