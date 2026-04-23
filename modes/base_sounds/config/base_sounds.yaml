@@ -2,7 +2,7 @@
 mode:
   start_events: ball_starting, start_base_modes
   stop_events: stop_base_modes
-  priority: 100
+  priority: 3000
 
 shots:
 
@@ -114,10 +114,10 @@ sound_player:
   ss_right_orbit_hit:
     e_orbit:
       bus: effects
-  ss_ramp_r_hit:
+  ss_ramp_r_sound_hit:
     e_ramp_r:
       bus: effects
-  ss_ramp_l_hit:
+  ss_ramp_l_sound_hit:
     e_ramp_l:
       bus: effects
   r_ramp_m_hit:
