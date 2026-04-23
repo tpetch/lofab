@@ -35,7 +35,7 @@ coils:
     
   c_trough:
     number: b_main-0
-    default_pulse_ms: 22
+    default_pulse_ms: 27
     default_pulse_power: 1
 
   c_pop:
@@ -44,14 +44,14 @@ coils:
 
   c_sling_l:
     number: b_main-3
-    default_pulse_ms: 11
+    default_pulse_ms: 7
     default_pulse_power: 1
   c_sling_r:
     number: b_main-6
     default_pulse_ms: 17
   c_vuk:
     number: b_main-5
-    default_pulse_ms: 14
+    default_pulse_ms: 12
     
   c_drop:
     number: b_main_2-0

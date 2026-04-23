@@ -108,6 +108,23 @@ sound_player:
     m_loop_enter-the-house:
       bus: music
       action: stop
+  ss_right_orbit_hit:
+    e_orbit:
+      bus: effects
+  s_ramp_r_hit:
+    e_ramp_r:
+      bus: effects
+  s_ramp_l_hit:
+    e_ramp_l:
+      bus: effects
+  r_ramp_m_hit:
+    e_ramp_m:
+      bus: effects
+  s_ramp_complete_hit:
+     e_ramp_complete:
+       bus: effect
+
+
 
   mode_mult_fleshy_started:
     m_loop_the-backrooms:
@@ -117,3 +134,14 @@ sound_player:
     m_loop_enter-the-house:
       bus: music
       action: replace
+
+  rotate_group_hit_complete:
+    e_house_complete:
+      bus: effects
+  
+  ss_sling_l_hit:
+    e_blood_hit:
+      bus: effects
+  ss_sling_r_hit:
+    e_blood_hit:
+      bus: effects
