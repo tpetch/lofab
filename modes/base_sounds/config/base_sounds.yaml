@@ -117,15 +117,19 @@ sound_player:
   ss_ramp_r_sound_hit:
     e_ramp_r:
       bus: effects
+      action: replace
   ss_ramp_l_sound_hit:
     e_ramp_l:
       bus: effects
+      action: replace
   r_ramp_m_hit:
     e_ramp_m:
       bus: effects
-  balldevice_bd_vuk_ejecting_ball:
-     e_ramp_complete:
-       bus: effect
+      action: replace
+  r_vuk_sound_hit:
+    e_vuk:
+      bus: effects
+      action: replace
 
 
 
@@ -141,6 +145,7 @@ sound_player:
   rotate_group_hit_complete:
     e_house_complete:
       bus: effects
+      action: replace
   
   ss_sling_l_hit:
     e_blood_hit:

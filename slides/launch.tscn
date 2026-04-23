@@ -35,6 +35,7 @@ theme_override_font_sizes/font_size = 300
 text = "PRESS LAUNCH TO START BALL"
 
 [node name="MPFVariable2" type="Label" parent="."]
+layout_mode = 0
 offset_left = 416.0
 offset_top = 242.0
 offset_right = 840.0
@@ -42,7 +43,6 @@ offset_bottom = 362.0
 theme = ExtResource("4_5l0c5")
 theme_override_fonts/font = ExtResource("3_vatxt")
 theme_override_font_sizes/font_size = 60
-text = "PLAYER 1,"
 script = ExtResource("5_rotvn")
 variable_name = "number"
 template_string = "PLAYER %s,"
