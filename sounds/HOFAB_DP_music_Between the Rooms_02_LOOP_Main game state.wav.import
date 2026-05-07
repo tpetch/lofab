@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://boopun5nw0wd8"
+path="res://.godot/imported/HOFAB_DP_music_Between the Rooms_02_LOOP_Main game state.wav-30928fad076e05a25d42f492ef0614d7.sample"
+
+[deps]
+
+source_file="res://sounds/HOFAB_DP_music_Between the Rooms_02_LOOP_Main game state.wav"
+dest_files=["res://.godot/imported/HOFAB_DP_music_Between the Rooms_02_LOOP_Main game state.wav-30928fad076e05a25d42f492ef0614d7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
