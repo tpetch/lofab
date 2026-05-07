@@ -25,8 +25,7 @@ shots:
     show_tokens:
       led: l_target_r
   r_e_rotate:
-    #switch: s_e
-    switch: s_spinner
+    switch: s_e
     profile: rotate_profile
     show_tokens:
       led: l_inlane_r
