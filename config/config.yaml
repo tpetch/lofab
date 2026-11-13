@@ -33,8 +33,10 @@ fast:
     boards: 
       pf:
         model: FP-EXP-0081
+        ignore_led_errors: true
       neu:
         model: FP-EXP-2000
+        ignore_led_errors: true
         
 config:
 
